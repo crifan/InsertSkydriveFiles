@@ -1,0 +1,31 @@
+【已解决】file后面跟冒号和三个斜杠的本地文件的地址的具体含义
+
+【问题】
+在WLW中拖入本地图片文件，然后调试过程中，选中对应图片，看到获得的对应的html源码中，图片地址是这样的：
+href="file:///C:/Users/CLi/AppData/Local/Temp/WindowsLiveWriter1627300719/supfiles52F410/wangdan-se-436963[2].jpg">
+即使一个file加上一个冒号，再跟着三个斜杠的形式。
+想要搞懂这种写法的确切含义。
+
+【解决过程】
+1.搜“C# file colon three slash”找到这里：
+http://bytes.com/topic/html-css/answers/154018-href-file-c-temp-target-_blank-c-temp-does-not-work-ie-anymore
+提到了说是file protocol，所以猜测估计是和http和ftp等价的某种file协议。
+
+2.那就是和C#无关，那就去搜“file protocol colon three slash”，然后找到：
+http://www.urbandictionary.com/define.php?term=protocol%20section&defid=4118180
+解释说：
+“The file (colon) // (slashes required) URL is good for accessing individual files. It has the ability to access the machine you're using, or one you're connected to, just by typing the path, in which you do file (colon) // then another slash (making 3), then in which you type a folder name, another slash, a folder inside that, and so on, until the file name. Hit enter, and the file is accessed.
+ ”
+总之，就是用file:///加上对应文件的地址，打开对应的本地电脑（或者你所连接到的电脑的 ->估计指的是像windows中映射出来其他网络邻居中某个计算机为某个网盘的情况）中对应的文件。
+
+3.试了试，在Win7的资源管理器中，直接输入：
+file:///C:/Users/CLi/AppData/Local/Temp/WindowsLiveWriter1627300719/supfiles52F410/wangdan-se-436963[2].jpg
+是可以打开此图片的。
+
+【总结】
+用file:///+文件的地址，其实就等价于文件的地址,
+即：
+file:///C:/Users/CLi/AppData/Local/Temp/WindowsLiveWriter1627300719/supfiles52F410/wangdan-se-436963[2].jpg
+其实就等价于;
+C:/Users/CLi/AppData/Local/Temp/WindowsLiveWriter1627300719/supfiles52F410/wangdan-se-436963[2].jpg
+使得（此处Html源码中所允许的地址，对应的WLW程序）可以访问对应的文件而已。

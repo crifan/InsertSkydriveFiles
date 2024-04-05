@@ -1,0 +1,95 @@
+${permaLink}=the permanent link of the file, ${name}= the name of the file
+--------------------------------------------------------------------------------
+enable or disable the preview for which kind of file
+--------------------------------------------------------------------------------
+
+
+This plug-in is for Window Live Writer, was created by Crifan. 
+Current version is v2.0.
+Its function is to enable blog writer to insert files from skydrive, such as photo, audio, ....
+Support Login mode and unlogin mode. 
+While in login mode, also can create folder, upload files, find & upload & replace for local pictures drag-in from PC into Windows Live Writer.
+For more info please goto: http://www.crifan.com
+
+----------------------------------------Usage-----------------------------------
+WLW == Windows Live Writer
+
+---Common Functions---
+Before you can use these common functions, you login in Login mode or Initialize in un-login mode, 
+then files on skydrive will show on "Browser Files on Skydrive".
+
+[Insert Selected]
+2. Browser and select files
+3. Click "Insert Selected" to insert your selected files into WLW.
+(1) For single selected file, double-click it also means to insert it to 
+(2) Support : Ctrl + mouse click to select multiple files; Shift + mouse click to select a range of multiple files.
+(3) if Settings -> Insert -> "Enable to insert all child files under selected folder" is enaled, then support insert all child files under single selected folder.
+4. This plugin will quit, and will insert the permanent links of your selected files into WLW.
+Note: 
+Normally, you should not select any content in Window Live Writer before using this plugin to insert selected files' permanent links into it,
+otherwise the inserted files string will overwrite your selected content.
+
+[Refresh Folder]
+1. Select a folder
+2. Click "Refresh Folder" to refresh it.
+Note: 
+Normally this function is used when you have done some action on skydrive via other method,
+such as delete files in webbrowser, then in current plugin, you can do this refresh to see the latest result.
+
+---Functions Depend on Mode---
+Login Mode:
+[Login]
+1. Click Login tab
+2. Input your live ID and password
+3. Click "Login" to login skydrive, then your files and folders will be listed under "Browser Files on Skydrive".
+
+after login, then you can use following functions:
+[Create Folder]
+1. Select parent folder on "Browser Files on Skydrive"
+2. Input the name of folder to create in "Folder Name" under "Create Folder"
+3. Click "Create"
+4. The newly created folder will auto show out under your selected parent folder if sucessful.
+Error message will show in "Information" if any error.
+
+[Upload File]
+1. Click "Select Files" to choose files to upload.
+Support select multiple files once.
+2. The selected files will show in "Files to upload"
+3. Select parent folder on "Browser Files on Skydrive"
+4. Click "Upload File(s)" button to upload the files into that parent folder on skydrive.
+5. The uploaded files will show out under the your selected parent folder if successful.
+Error message will show in "Information" if any error.
+
+[Find+Upload+Replace Local Picture]
+1. Before open this plugin, in Windows Live Writer, you should have already drag-and-drop some pictures from local computer.
+and have already selected them.(such as Ctrl+A)
+2. Open this plugin, login skydrive, then select parent folder on "Browser Files on Skydrive"
+3. Then click "Find Local Pictures" to find the local pictures you have already drag-in from local PC into windows live writer.
+4. The found pictures will list in "Found Local Pictures"
+5. Click "Upload and Replace Local Pictures", then will auto upload these pictures into your selected folder and replace that local file address, which is in your selected content, with the newly uploaded files permanent link.
+and this plugin will auto closed, return back to Windows Live Writer.
+
+Un-Login Mode:
+[Initialize]
+1. Click Un-Login
+2. Input the skydrive folder URl in "Skydrive Folder URL".
+3. Click "Initialize", the will found all public shared files on the related foder under "Browser Files on Skydrive"
+
+----------------------------------------FAQ-------------------------------------
+1.how can I found my skydrive URL
+(1) use your name and password to login to skydrive:
+https://skydrive.live.com/
+(2) click any file or folder in skydrive, it will jump to a new page
+you will see the url in browser is something like this:
+https://skydrive.live.com/?cid=9a8b8bf501a38a36&id=9A8B8BF501A38A36%21597
+(3) then your skydrive's main url is:
+https://skydrive.live.com/?cid=9A8B8BF501A38A36
+[4] also, for any file or skydrive, its url is:
+https://skydrive.live.com/?cid=9A8B8BF501A38A36&id=xxx
+in which, xxx is got by right click it->share->got link->
+will got something like:
+https://skydrive.live.com/redir.aspx?cid=9a8b8bf501a38a36&resid=9A8B8BF501A38A36!597
+then xxx is the resid:
+9A8B8BF501A38A36!597
+the corresponding file or folder's url is:
+https://skydrive.live.com/?cid=9A8B8BF501A38A36&id=9A8B8BF501A38A36!597

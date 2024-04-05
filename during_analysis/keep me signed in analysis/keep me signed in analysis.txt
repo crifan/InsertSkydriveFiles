@@ -1,0 +1,201 @@
+keep me signed in analysis
+
+
+--------------------------------------------------------------------
+normal login:
+https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=11&ct=1331168165&rver=6.1.6206.0&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fskydrive.live.com%2F&lc=1033&id=250206&mkt=en-US&cbcxt=sky&bk=1331168167
+
+req post:
+login=crifan2003@hotmail.com&passwd=xxx&type=11&LoginOptions=3&NewUser=1&MEST=&PPSX=Pas&PPFT=Cup3qxWyphruPhI7d*FR7MTY2qDoXoI8tF10haKMZHBxOMW8BnUFeA15pD0N6HspCgZ2s6RxvCQHM4FNDFkljexHltsImiJJQyodgg8CJzAvRIssVG0Dk3sPc%21KMjtZ1RxQaCRfyq6wHEBCbKITUCCBn2pTYIYS9DTM1HXSpxwW2*M8iqMdij3ir9bHiu5Wyk2AyzyMdgw6XPXkFpHGE3JveCntvojs4cTEMysX3rfUrIY3pWUlJvTj*SeDY*E1mrg%24%24&idsbho=1&PwdPad=&sso=&i1=&i2=1&i3=11733&i4=&i12=1&i13=&i14=155&i15=524&i16=1180&i17=
+
+resp:
+Key	Value
+Response	HTTP/1.1 302 Found
+Cache-Control	no-cache
+Pragma	no-cache
+Content-Length	0
+Content-Type	text/html; charset=utf-8
+Expires	Thu, 08 Mar 2012 00:55:19 GMT
+Location	https://skydrive.live.com/
+Server	Microsoft-IIS/7.5
+P3P	CP="DSP CUR OTPi IND OTRi ONL FIN"
+X-XSS-Protection	0
+X-Content-Type-Options	nosniff
+Set-Cookie	MSPOK= ; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=login.live.com;path=/;HTTPOnly= ;version=1
+Set-Cookie	PPAuth=CtH4cZiSZ3CDZnJu!jI7IOVjWppeZ4C!daYtQWW5W8mMTr7KFGkvLGh4*ZTEGaNkerWGtc17*ysIRiGiDoARB6odJfM2!qmZ0PtWyAuR3Xd*4lLmXG*NODAYNtFeSh5JHUYTblOFefd1poY3jNO*AbIxZmF2sX2bQKUIFTw2gfkreZ4mijatUmsnpiO8xsVe17JEtWPwW*OnBJeJwQxYUSyBPdH0lZVui4cQ81nMVB1hcqRUVSL*Zvc4yFwy6sI!7RCtE6qDh1PW2CiV9PvGW3ZdAZeSRF7gOcpccA2K8ieK; domain=login.live.com;secure= ;path=/;HTTPOnly= ;version=1
+Set-Cookie	PPLState=1; domain=.live.com;path=/;version=1
+Set-Cookie	MSPShared=1; expires=Wed, 30-Dec-2037 16:00:00 GMT;domain=login.live.com;path=/;HTTPOnly= ;version=1
+Set-Cookie	MSPPre= ;domain=login.live.com;path=/;Expires=Thu, 30-Oct-1980 16:00:00 GMT
+Set-Cookie	MSPCID= ; HTTPOnly= ; domain=login.live.com;path=/;Expires=Thu, 30-Oct-1980 16:00:00 GMT
+Set-Cookie	WLOpt=act=[1];domain=login.live.com;path=/;Expires=Wed, 30-Dec-2037 16:00:00 GMT
+Set-Cookie	RPSTAuth=EwDoARAnAAAUWkziSC7RbDJKS1VkhugDegv7L0eAAB6VSiIF2qSTJlRH96wSdMwASW0JD8UvHR3muo2DTKsoP1CdC8GmVdlo5E+O3OoCDuSFtiBuZzBrIf/Mc742g0Vqlb48K+HN6dH5B410IOJe8/tY0QCdY9PBVww94s17+4OEoZPhtws3l0i/DR9oi7PY0hr8CuN5nIY8n3xwuSFZA2YAAAiQFicHexSoLTgB/sWGwVJm+fthkmck9sxsClQqi2U9B5zpNzDQvuUTMHpX2NIcPd2MO+fYxtIm+WbzNPihmv39Mi8jyirA3SsgBYICzd/T0bu1UOFOCNA2W0Ru+HLtwpt6xoY25c/BsSx5jeMmPHE3HMOB34enA8V7+51A0FX74vsMCwjssrxzIAOnMibZZsjIpSC4PsGuFAPxer4rZx6Esu9xj0j98sVanfWqk6SR6yqzrvRBN1r3TjpKCZJz1ipvoV1PJEvqMGD6bYl2cNSHMn3dqd91CvpDOi0LtOK84cevxucDs2bFpxII7TZuPhlrNzbGWj8X4bA4GbBsq0UuZKNKnq/PP3Y0CjBIztgk7twn8IHgZeQXiBxXp2qfApZupbGlDIhgP/rSbeWrSvLIa0dnsk6Io6bzqW4+CM3Lyq0zZwE=; domain=.live.com;path=/;HTTPOnly= ;version=1
+Set-Cookie	RPSTAuthTime=1331168179; domain=login.live.com;path=/;HTTPOnly= ;version=1
+Set-Cookie	MSPAuth=2NhsfqfF8DZmGSaix3SZST6J4PH*Rupqi!PENdG15zt*!z7olToxeqkknQo1KNklweYDF!kt1s5midOkqRnWM5dzBPFXeqv0C5Uf5CEdfmmW0QtmGLFRqrUMiHSX1Qr7jN; domain=.live.com;path=/;HTTPOnly= ;version=1
+Set-Cookie	MSPProf=2bTXgRUGDDU7LuzFkcqS2XTsOXr!VMp1TKTV33AjjcUzQuFQdnem0il5r9WOlB1uk6FWgkcNmJNw8ZhjNtue6qEgsc24FUUcdT5ic6vaiNBkvBMGEte8aV!DCabInCjd3ob9q63RYR!F!HRyCakexhWY5hK3IAh2HxT2fNbfSDRe4IjnAWCo0ZrGNtaVUXMbw!; domain=.live.com;path=/;HTTPOnly= ;version=1
+Set-Cookie	MSNPPAuth=CjxLbaYqrozYiX!LhJz!AGmzvuy!GLe0uKXI2AxmwiAWoS71SrF8yhgZeInboY*RHMfHpM538xyPCqD003Nt5QSEcJdetxRlmgjdpmXcB2!I0jaBMpYyYVYXx!xCWgnKX*59X*cWRqQTcvz7oAvgiHCxj5jf3UpnnzbwUyPSjcNd3Y2ZlriAaPsCXTt9mVLxk5V1At**plXlEG3GOU08uy1QZrk2JtzXw0Jd1zji!1rOYoN2VtBFL!IEvxz0PGI25!McLYrxiEuBwfbd6ZrJClHUbRnVB3OCJzb73TPpcLCQ9mKj2rIBrvvLhCJwJJonVi0qBUKbZA4l2absyBIIIVWL*JlWem596Lc9acR0aHLwzMLbjvDdQIZsKKhJNwIpHX*82z0hRivEbKvcx!5Hn9RBtunKZrBOLIJrkpL6epkOST2mu5l6LEOZKYU2P3nT2pXIk!0pz3DweoCf*g2oOBZTKE7wcLsN2g1ikgGjg6ObcEANND6xaHIZddRTZSWYTg$$; domain=.live.com;path=/;HTTPOnly= ;version=1
+Set-Cookie	MH=MSFT; domain=.live.com;path=/;version=1
+Set-Cookie	MHW=; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=.live.com;path=/;version=1
+Set-Cookie	MHList=; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=.live.com;path=/;version=1
+Set-Cookie	NAP=V=1.9&E=c07&C=A5NnsMpxGTxj8al9WbRaQ6rmhLSyX4xwcG8JS_VGfVJ5zr5gI0Qp6Q&W=1;domain=.live.com;path=/
+Set-Cookie	ANON=A=DE389D4D076BF47BCAE4DC05FFFFFFFF&E=c61&W=1;domain=.live.com;path=/
+Set-Cookie	MSPVis=$9;domain=login.live.com;path=/
+Set-Cookie	pres=; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=.live.com;path=/;version=1
+Set-Cookie	LOpt=0; domain=login.live.com;path=/;version=1
+Set-Cookie	WLSSC=EgBnAQMAAAAEgAAACoAAkRigOFiLMhwRbHxQw6sI4Y6D1dGg0dn5O6J5oOLyxw6s5f7n4ZxiCCQjpXapcMsy4pxrMG9vUsCcNNir4+esVNWtvJ1x2VqYs/hAjsmoTauNV1QcFuReTueV+a4vK7Pz+Jn5PQQzN3IK9Wgnx0SwCWdksDi31pF6b1fK+Hg6cyXWAFwA1gD9vwYA7Vazl7MDWE+zA1hPECcAAAoQoAAAFwBjcmlmYW4yMDAzQGhvdG1haWwuY29tAE8AABZjcmlmYW4yMDAzQGhvdG1haWwuY29tAAAACkNOAAYyMTM1OTIAAAZlCAQCAAB3F21AAARDAAR0aWFuAAR3YW5nBMgAAUkAAAAAAAAAAAAAAaOKNpqLi/UAALMDWE+zeGpPAAAAAAAAAAAAAAAADgA1OC4yNDAuMjM2LjE5AAUAAAAAAAAAAAAAAAABBAABAAABAAABAAAAAAAAAAA=; domain=.live.com;secure= ;path=/;HTTPOnly= ;version=1
+Set-Cookie	MSPSoftVis=@72198325083833620@:@; domain=login.live.com;path=/;version=1
+PPServer	PPV: 30 H: BAYIDSLGN1O27 V: 0
+Date	Thu, 08 Mar 2012 00:56:19 GMT
+Connection	close
+
+cookies:
+Direction	Key	Value	Expires	Domain	Path	Secure	HTTP only
+Sent	wl_preperf	req=131&com=131&cache=128					
+Sent	xid	47f27c93-f1ba-4e48-a7b2-4d5ffd5bf5dc&&BAYxxxxxxC521&104					
+Sent	xidseq	1					
+Sent	cookie4	 wla42=					
+Sent	wlidperf	throughput=8&latency=358&FR=L&ST=1331168178834					
+Sent	WLOpt	act=[1]					
+Sent	MSPShared	1					
+Sent	MSPRequ	lt=1331168167&co=1&id=250206					
+Sent	MSPOK	$uuid-ee8465f6-0a40-4b0b-93bf-f01df35a5e7f					
+Sent	CkTst	G1331168167034					
+Received	MSPOK		Thu, 30-Oct-1980 16:00:00 GMT	login.live.com	/	No	Yes
+Received	PPAuth	CtH4cZiSZ3CDZnJu!jI7IOVjWppeZ4C!daYtQWW5W8mMTr7KFGkvLGh4*ZTEGaNkerWGtc17*ysIRiGiDoARB6odJfM2!qmZ0PtWyAuR3Xd*4lLmXG*NODAYNtFeSh5JHUYTblOFefd1poY3jNO*AbIxZmF2sX2bQKUIFTw2gfkreZ4mijatUmsnpiO8xsVe17JEtWPwW*OnBJeJwQxYUSyBPdH0lZVui4cQ81nMVB1hcqRUVSL*Zvc4yFwy6sI!7RCtE6qDh1PW2CiV9PvGW3ZdAZeSRF7gOcpccA2K8ieK	At end of session	login.live.com	/	Yes	Yes
+Received	PPLState	1	At end of session	.live.com	/	No	No
+Received	MSPShared	1	Wed, 30-Dec-2037 16:00:00 GMT	login.live.com	/	No	Yes
+Received	MSPPre		Thu, 30-Oct-1980 16:00:00 GMT	login.live.com	/	No	No
+Received	MSPCID		Thu, 30-Oct-1980 16:00:00 GMT	login.live.com	/	No	Yes
+Received	WLOpt	act=[1]	Wed, 30-Dec-2037 16:00:00 GMT	login.live.com	/	No	No
+Received	RPSTAuth	EwDoARAnAAAUWkziSC7RbDJKS1VkhugDegv7L0eAAB6VSiIF2qSTJlRH96wSdMwASW0JD8UvHR3muo2DTKsoP1CdC8GmVdlo5E+O3OoCDuSFtiBuZzBrIf/Mc742g0Vqlb48K+HN6dH5B410IOJe8/tY0QCdY9PBVww94s17+4OEoZPhtws3l0i/DR9oi7PY0hr8CuN5nIY8n3xwuSFZA2YAAAiQFicHexSoLTgB/sWGwVJm+fthkmck9sxsClQqi2U9B5zpNzDQvuUTMHpX2NIcPd2MO+fYxtIm+WbzNPihmv39Mi8jyirA3SsgBYICzd/T0bu1UOFOCNA2W0Ru+HLtwpt6xoY25c/BsSx5jeMmPHE3HMOB34enA8V7+51A0FX74vsMCwjssrxzIAOnMibZZsjIpSC4PsGuFAPxer4rZx6Esu9xj0j98sVanfWqk6SR6yqzrvRBN1r3TjpKCZJz1ipvoV1PJEvqMGD6bYl2cNSHMn3dqd91CvpDOi0LtOK84cevxucDs2bFpxII7TZuPhlrNzbGWj8X4bA4GbBsq0UuZKNKnq/PP3Y0CjBIztgk7twn8IHgZeQXiBxXp2qfApZupbGlDIhgP/rSbeWrSvLIa0dnsk6Io6bzqW4+CM3Lyq0zZwE=	At end of session	.live.com	/	No	Yes
+Received	RPSTAuthTime	1331168179	At end of session	login.live.com	/	No	Yes
+Received	MSPAuth	2NhsfqfF8DZmGSaix3SZST6J4PH*Rupqi!PENdG15zt*!z7olToxeqkknQo1KNklweYDF!kt1s5midOkqRnWM5dzBPFXeqv0C5Uf5CEdfmmW0QtmGLFRqrUMiHSX1Qr7jN	At end of session	.live.com	/	No	Yes
+Received	MSPProf	2bTXgRUGDDU7LuzFkcqS2XTsOXr!VMp1TKTV33AjjcUzQuFQdnem0il5r9WOlB1uk6FWgkcNmJNw8ZhjNtue6qEgsc24FUUcdT5ic6vaiNBkvBMGEte8aV!DCabInCjd3ob9q63RYR!F!HRyCakexhWY5hK3IAh2HxT2fNbfSDRe4IjnAWCo0ZrGNtaVUXMbw!	At end of session	.live.com	/	No	Yes
+Received	MSNPPAuth	CjxLbaYqrozYiX!LhJz!AGmzvuy!GLe0uKXI2AxmwiAWoS71SrF8yhgZeInboY*RHMfHpM538xyPCqD003Nt5QSEcJdetxRlmgjdpmXcB2!I0jaBMpYyYVYXx!xCWgnKX*59X*cWRqQTcvz7oAvgiHCxj5jf3UpnnzbwUyPSjcNd3Y2ZlriAaPsCXTt9mVLxk5V1At**plXlEG3GOU08uy1QZrk2JtzXw0Jd1zji!1rOYoN2VtBFL!IEvxz0PGI25!McLYrxiEuBwfbd6ZrJClHUbRnVB3OCJzb73TPpcLCQ9mKj2rIBrvvLhCJwJJonVi0qBUKbZA4l2absyBIIIVWL*JlWem596Lc9acR0aHLwzMLbjvDdQIZsKKhJNwIpHX*82z0hRivEbKvcx!5Hn9RBtunKZrBOLIJrkpL6epkOST2mu5l6LEOZKYU2P3nT2pXIk!0pz3DweoCf*g2oOBZTKE7wcLsN2g1ikgGjg6ObcEANND6xaHIZddRTZSWYTg$$	At end of session	.live.com	/	No	Yes
+Received	MH	MSFT	At end of session	.live.com	/	No	No
+Received	cookie24	MHW=	Thu, 30-Oct-1980 16:00:00 GMT	.live.com	/	No	No
+Received	cookie25	MHList=	Thu, 30-Oct-1980 16:00:00 GMT	.live.com	/	No	No
+Received	NAP	V=1.9&E=c07&C=A5NnsMpxGTxj8al9WbRaQ6rmhLSyX4xwcG8JS_VGfVJ5zr5gI0Qp6Q&W=1	At end of session	.live.com	/	No	No
+Received	ANON	A=DE389D4D076BF47BCAE4DC05FFFFFFFF&E=c61&W=1	At end of session	.live.com	/	No	No
+Received	MSPVis	$9	At end of session	login.live.com	/	No	No
+Received	cookie29	pres=	Thu, 30-Oct-1980 16:00:00 GMT	.live.com	/	No	No
+Received	LOpt	0	At end of session	login.live.com	/	No	No
+Received	WLSSC	EgBnAQMAAAAEgAAACoAAkRigOFiLMhwRbHxQw6sI4Y6D1dGg0dn5O6J5oOLyxw6s5f7n4ZxiCCQjpXapcMsy4pxrMG9vUsCcNNir4+esVNWtvJ1x2VqYs/hAjsmoTauNV1QcFuReTueV+a4vK7Pz+Jn5PQQzN3IK9Wgnx0SwCWdksDi31pF6b1fK+Hg6cyXWAFwA1gD9vwYA7Vazl7MDWE+zA1hPECcAAAoQoAAAFwBjcmlmYW4yMDAzQGhvdG1haWwuY29tAE8AABZjcmlmYW4yMDAzQGhvdG1haWwuY29tAAAACkNOAAYyMTM1OTIAAAZlCAQCAAB3F21AAARDAAR0aWFuAAR3YW5nBMgAAUkAAAAAAAAAAAAAAaOKNpqLi/UAALMDWE+zeGpPAAAAAAAAAAAAAAAADgA1OC4yNDAuMjM2LjE5AAUAAAAAAAAAAAAAAAABBAABAAABAAABAAAAAAAAAAA=	At end of session	.live.com	/	Yes	Yes
+Received	MSPSoftVis	@72198325083833620@:@	At end of session	login.live.com	/	No	No
+
+
+
+--------------------------------------------------------------------
+
+access:
+https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=11&ct=1330570220&rver=6.1.6206.0&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fskydrive.live.com%2F&lc=1033&id=250206&mkt=en-US&cbcxt=sky&bk=1330570221
+
+req :
+Key	Value
+Request	POST /ppsecure/post.srf?wa=wsignin1.0&rpsnv=11&ct=1330570220&rver=6.1.6206.0&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fskydrive.live.com%2F&lc=1033&id=250206&mkt=en-US&cbcxt=sky&bk=1330570221 HTTP/1.1
+Accept	text/html, application/xhtml+xml, */*
+Referer	https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=11&ct=1330570220&rver=6.1.6206.0&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fskydrive.live.com%2F&lc=1033&id=250206&mkt=en-US&cbcxt=sky
+Accept-Language	en-US
+User-Agent	Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
+Content-Type	application/x-www-form-urlencoded
+Accept-Encoding	gzip, deflate
+Host	login.live.com
+Content-Length	500
+DNT	1
+Connection	Keep-Alive
+Cache-Control	no-cache
+Cookie	wla42=cHJveHktYmF5LnB2dC1jb250YWN0cy5tc24uY29tfGJ5MioxLDlBOEI4QkY1MDFBMzhBMzYsMSwwLDA=; wlidperf=throughput=12&latency=249&FR=L&ST=1330570793354; wlp=A|eyJV-t:a*F+jqBQ._; MUID=1EDC194521B4619339501A4C25B46177; HIC=9a8b8bf501a38a36|10|112|; xid=cd164d4a-3c91-45ba-8ca7-4546eefcc149&&BL2xxxxxxC619&97; xidseq=8; E=P:htWcMGzFzog=:BkRygCdeBUN1qVF5CAbwpPboc6DUNcBBWKpaqI7InGA=:F; wlv=A|_-d:s*uV/VBw.2+1+0+3; SAToken=; SLVersion=4.0.50401; SLSupportedAgent=true; BP=l=SDX.Skydrive&FR=&ST=&p=0; mkt=ep=en-US; LN=x6fbr1330569796732%260ca1%2611; wl_preperf=req=131&com=131&cache=67; MSPShared=1; idsbho=7.250.4232.0$7.250.4232.0$9.0.8112.16421$6.1.1.0.7601(Service Pack 1); MSPRequ=lt=1330570221&co=1&id=250206; MSPOK=$uuid-bf5875ef-1199-4af6-aede-c01ad0e9aa1c; CkTst=G1330570222409
+
+req post:
+login=crifan2003@hotmail.com&passwd=XXXXXXXXX&KMSI=1&type=11&LoginOptions=1&NewUser=1&MEST=&PPSX=Pa&PPFT=Cjn6Qxi7biOoiWGoM**p2RjSIhn6bSRiXyP4jjPuqY0n3WcwWLXzIhJMwsAreoaIr1q%21U0O5yp1rZGy4TtAAvRHqrENgIu0TDTVUDnsyzT7FDHI4JWNyEKiKDSinm8VWfQUE69WkFy49E9oX*othDdgWrzKlA6ig5e696xOHSvrnAljAa81xPitklAWC2ordnO8tprnQIdRoUWyufdHeGfWrNq0U4CJwXvC71QMrLYXrT7cJeXqM3nm1%21aAc*e608A%24%24&idsbho=1&PwdPad=&sso=&SysDIDToken=ThisIsASysDIDDummyToken&i1=&i2=1&i3=570887&i4=&i12=1&i13=1&i14=508&i15=3461&i16=2025&i17=
+
+resp :
+Key	Value
+Response	HTTP/1.1 200 OK
+Cache-Control	no-cache
+Pragma	no-cache
+Content-Length	2503
+Content-Type	text/html; charset=utf-8
+Expires	Thu, 01 Mar 2012 02:58:54 GMT
+Server	Microsoft-IIS/7.5
+P3P	CP="DSP CUR OTPi IND OTRi ONL FIN"
+X-XSS-Protection	0
+X-Content-Type-Options	nosniff
+Set-Cookie	MSPOK= ; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=login.live.com;path=/;HTTPOnly= ;version=1
+Set-Cookie	PPAuth=CsvWcWQGjCbR95tlHW1H!Z7xjD37hoFry78r1x0wX7al6sFAcPg7tshxiVEZ7Ek2bikmUH70rsbxdWfCGq*HPzolBP0HjQXXWFlqDo6bTVgSwgLhQbqpfpY1RvHYqjIFQ36LbYavg6xRBGBASwKhHFxfEAEE5mfkhwz19yinySXpszNnCF44RI6jMWNdikkeFIwyFVEBXeBqSkdODuECs7EFJaasa5d!Z3lISCgRmrJo1xMBcoCP3rAijZF1tNwC3P6y6AbHIA4jTZmP4P*xx5UYR!yv5fcmwyOh*jl20UYO; expires=Wed, 30-Dec-2037 16:00:00 GMT;domain=login.live.com;secure= ;path=/;HTTPOnly= ;version=1
+Set-Cookie	PPLState=1; expires=Wed, 30-Dec-2037 16:00:00 GMT;domain=.live.com;path=/;version=1
+Set-Cookie	MSPShared= ; HTTPOnly= ; domain=login.live.com;path=/;Expires=Thu, 30-Oct-1980 16:00:00 GMT
+Set-Cookie	MSPPre=crifan2003@hotmail.com|9a8b8bf501a38a36||;domain=login.live.com;path=/;Expires=Wed, 30-Dec-2037 16:00:00 GMT
+Set-Cookie	MSPCID=9a8b8bf501a38a36; HTTPOnly= ; domain=login.live.com;path=/;Expires=Wed, 30-Dec-2037 16:00:00 GMT
+Set-Cookie	WLOpt=credtype=1&act=[1];domain=login.live.com;path=/;Expires=Wed, 30-Dec-2037 16:00:00 GMT
+Set-Cookie	RPSTAuth=EwDoARAnAAAUWkziSC7RbDJKS1VkhugDegv7L0eAAPMLRlkoqW5aB4Abr/IDoVqWx1CtvzeGGwjrZh3hX5j7Vwk/SCww9+Sdfc92trzRghCx3/UpW86q2Ghx64kjehEf6J1breNmC2SUtM9pv3bvEgOUfduO/a2b4n7QPvnMID7u22NzfUjYLIyaFFzdf7OZxki9GO/Egrtu4oIW6E5QA2YAAAiXx8E8kVMvOzgBvkzIAGSEEBck2k5Lr+6Bd2GU1GPLYT7Bd7U5aZxdtuq+D7CPXyeOBo+B97BuqXFIkFQn1nutiuCSQsQ+0mI/4vDOj6bX++dW+8mK8PYmDmMLVxzKaw9qp2DqHvxMSRbhqXBWHM+yEGS3ZvUeyb/2BdqAFt9c4HU5Ky/OHEX3xtESgI/ICcXfrKNa6lAmg0iFR0ixP6yhewEQ1GLS62p5xYC5GEzF4jZNf/EyFMv7HvAyu+oe/KdwauWG3t2/9aBBeGnCevsu1JtGCusK/Mi8nzcI+HOGNpr0yo4QVFSz8jJucd/z+SGDG8Q5VOAuj5DERGboA8AJwyE6xrdAzABXdrnINqtcWhL8kjLcuBezxP3NmDYcHn5ONlBMaS41vpLBvv5sN3FLH3X2JBed7oK65nlMRKlRzSPqZwE=; expires=Wed, 30-Dec-2037 16:00:00 GMT;domain=.live.com;path=/;HTTPOnly= ;version=1
+Set-Cookie	RPSTAuthTime=1330570794; expires=Wed, 30-Dec-2037 16:00:00 GMT;domain=login.live.com;path=/;HTTPOnly= ;version=1
+Set-Cookie	MSPAuth=2hAikb1epDgcNJicv1tYAOiEvMR!zrLiNihOAMjvKBVjop3nHOy!0YNXJSW5LgT65TDiA8hhblAmj7xZ6S3z5tZi*pybF7uotHi1BWVdhAoye6NmsZhkls5GKVYUenmqEY; expires=Wed, 30-Dec-2037 16:00:00 GMT;domain=.live.com;path=/;HTTPOnly= ;version=1
+Set-Cookie	MSPProf=2yUV3LOlhDRaldUifWu0i9UAOY4tkHl0eGZFdJ4CmfoDLjDZR*Rdroh5XCu4WoUREukko2HWnomfF6PYehRKiLBskb2gRrdFj4McyH1RnW9juJLYXpHyya5Wgng6pNg4gJ1vgEKGB3UnorSbiDwPEY5Ur5ZyMXGVevkQ!eIPHp4lDWGtW9HS7hlGjwRFhKqMax; expires=Wed, 30-Dec-2037 16:00:00 GMT;domain=.live.com;path=/;HTTPOnly= ;version=1
+Set-Cookie	MSNPPAuth=CoogzsLTuyYy1tn0dv8hL*BdtYhDYo891MlcyxYDN1ruX4QDMu63F32bno!WERy*TuGhrjAp2w31SmcfPRwX6U8C75rRKvguePD2URsolyC7E4i!ZX2Cw0DNJArbr1dASGcSLIoFTnGoXNIbgX60Gug473kdhs2!Wj5PVJQIc9InCyC1zu9xSJKLyjpoSkuWuNXXYZssgAlGWPRBL7pctWt3Hl2v*6WtL4AT6ixhdQmDCiZH3Wv0zwNyRKM8wdCIkCyRlfFd25qUp8F6idOT2X9ERj5X!SZHzBN1CJA73lWujRHHR0sIQvSuQxITDmy5CFKK9kkgLl1scOrCrDxOJnSVSimNWSEgw2IHurELXTPYdM77VzSA5ETfHHLFNYAssXu4g67cldkwBjZ4I2voeTkKQQVtiW4qgZPF18gnFZyV!ZiPPmkWokxKV7oNWj7ChoVLklS1Yr*DI5PJz4mDELGuDIjZ9JqqpSGH60BSD!kTaiRSUPlWs12hmOEHLzSbfQ$$; expires=Wed, 30-Dec-2037 16:00:00 GMT;domain=.live.com;path=/;HTTPOnly= ;version=1
+Set-Cookie	MH=MSFT; expires=Wed, 30-Dec-2037 16:00:00 GMT;domain=.live.com;path=/;version=1
+Set-Cookie	MHW=; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=.live.com;path=/;version=1
+Set-Cookie	MHList=; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=.live.com;path=/;version=1
+Set-Cookie	NAP=V=1.9&E=c00&C=ZwUNDTc_wYUjN_mYqDhV6HQDyr7MKlqtGFjzctsRPbT9ET2fatiBRw&W=1;domain=.live.com;path=/;Expires=Sat, 09-Jun-2012 09:59:54 GMT
+Set-Cookie	ANON=A=DE389D4D076BF47BCAE4DC05FFFFFFFF&E=c5a&W=1;domain=.live.com;path=/;Expires=Mon, 17-Sep-2012 09:59:54 GMT
+Set-Cookie	MSPVis=$9;domain=login.live.com;path=/;Expires=Wed, 30-Dec-2037 16:00:00 GMT
+Set-Cookie	pres=; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=.live.com;path=/;version=1
+Set-Cookie	LOpt=3; domain=login.live.com;path=/;version=1
+Set-Cookie	WLSSC=EgBnAQMAAAAEgAAACoAA6fEEZ/cB1Ff0EqyiNxHUNWFRKm2C5ubgMwXSR60FN8eQTacpduhwJzwbOKbTv/KGXAbelp537m+dGLKovNNvDOxF4Reg9B6ISxINNZcLf8oCP7prFxRq79x3HXS83lpD1rDG7EWX455EjK2LC5JlR4M7HLa70mLXiOdJPhcQ/EvWAFwA1gD9vwYA7VazlyrmTk8q5k5PECcAAAoToAAAFwBjcmlmYW4yMDAzQGhvdG1haWwuY29tAE8AABZjcmlmYW4yMDAzQGhvdG1haWwuY29tAAAACUNOAAYyMTM1OTIAAAZlCAQCAAB3F21AAARDAAR0aWFuAAR3YW5nBMgAAUkAAAAAAAAAAAAAAaOKNpqLi/UAACrmTk8qW2FPAAAAAAAAAAAAAAAADgA1OC4yNDAuMjM2LjE5AAUAAAAAAAAAAAAAAAABBAABAAABAAABAAAAAAAAAAA=; domain=.live.com;secure= ;path=/;HTTPOnly= ;version=1
+Set-Cookie	MSPSoftVis=@72198325083833620@:@; expires=Wed, 30-Dec-2037 16:00:00 GMT;domain=login.live.com;path=/;version=1
+PPServer	PPV: 30 H: BAYIDSLGN1K59 V: 0
+Date	Thu, 01 Mar 2012 02:59:53 GMT
+Connection	close
+
+
+resp body:
+<html><head><script type="xml" id="BHOAction"><BHOAction><save><username>crifan2003@hotmail.com</username><ststoken><![CDATA[<AuthInfo><UserName>crifan2003@hotmail.com</UserName><UserPUID>0006BFFD97B356ED</UserPUID><AuthState>0x48803</AuthState><CredProperties><CID>9a8b8bf501a38a36</CID><IsWinLiveUser>true</IsWinLiveUser><MainBrandID>MSFT</MainBrandID><AssociatedForStrongAuth>0</AssociatedForStrongAuth><BrandIDList></BrandIDList></CredProperties><AuthToken>&lt;EncryptedData xmlns=&quot;http://www.w3.org/2001/04/xmlenc#&quot; Id=&quot;BinaryDAToken0&quot; Type=&quot;http://www.w3.org/2001/04/xmlenc#Element&quot;&gt;&lt;EncryptionMethod Algorithm=&quot;http://www.w3.org/2001/04/xmlenc#tripledes-cbc&quot;&gt;&lt;/EncryptionMethod&gt;&lt;ds:KeyInfo xmlns:ds=&quot;http://www.w3.org/2000/09/xmldsig#&quot;&gt;&lt;ds:KeyName&gt;http://Passport.NET/STS&lt;/ds:KeyName&gt;&lt;/ds:KeyInfo&gt;&lt;CipherData&gt;&lt;CipherValue&gt;Ch9uGzg1+6zO9Vl1jJESC4h/Tj+XCGqBT2a8D060x16Fv+mhGSQ+BElaMIKK+hp6e8xpsIb3m751Yfy//nZmFQGOpEYOmFUkBynRx0v30UQ3/vGnSCWwmxYsV09FO03t1tKMQ2OwIYfCI0FWS4zVVzDExFS+Nlcattom8LyX6tD30dwEPBJIrFZ6HvRpE/dW5e36ZIvoY1N/tAyaMjkldo4F+x3jXazcdeh/RZHngmoL4h93q7csdpfv/YSOYOSJPTr7XJ+KP6Dd5GByiDMOd85P6wIwgYPPiy+QbDW5aeGYdyXExPV+0SRe+OhXA0golmS3reZNZrDBDtL6RGXdTetaiz+mYyLvBbtDIiCIQvvZE9SxerubH+NY1BGq/Vfgud/CYMfD6diRUPa5egWVQi0rQfb246ls/xKqRQ1wgKlMLt4EcnhtnW0kXTkd+PQS/XHtz2usMCVfcL2D3AGG6KNAiIF6xsXbiFjXSm1Z8fs2gJOb2d3XOLRvCrauPt0P1pyQ+o24+z1eruPBNJg0hs/Mph7U0EWG1gtoaVSw9ToBbBh/q3Nr5+IhRubxZsVkX7jW9QlB44dAzYEObn573tK0UerWzSWUNUJHzggn2wZ/&lt;/CipherValue&gt;&lt;/CipherData&gt;&lt;/EncryptedData&gt;</AuthToken><SessionKey>fI1IVXGkM4aYwr3u1YK09Sl2mkLA6aJr</SessionKey></AuthInfo>]]></ststoken><extProperty><![CDATA[ANON=@fmt|A=DE389D4D076BF47BCAE4DC05FFFFFFFF&E=c5a&W=1|bing.com;atdmt.com|Mon, 17-Sep-2012 09:59:54 GMT]]></extProperty><extProperty><![CDATA[NAP=@fmt|V=1.9&E=c00&C=ZwUNDTc_wYUjN_mYqDhV6HQDyr7MKlqtGFjzctsRPbT9ET2fatiBRw&W=1|bing.com;atdmt.com|Sat, 09-Jun-2012 09:59:54 GMT]]></extProperty><extProperty><![CDATA[Notifications=]]></extProperty><extProperty><![CDATA[MessengerStatus=-1]]></extProperty><extProperty><![CDATA[CID=9a8b8bf501a38a36]]></extProperty><extProperty><![CDATA[LastUsedCredType=1]]></extProperty><extProperty><![CDATA[WebCredType=1]]></extProperty></save></BHOAction></script><script type="text/javascript">function rd(){window.location.replace("https://skydrive.live.com/");}function OnBack(){}</script></head><body onload="javascript:rd();"></body></html>
+
+
+
+
+cookies:
+Direction	Key	Value	Expires	Domain	Path	Secure	HTTP only
+Sent	wla42	cHJveHktYmF5LnB2dC1jb250YWN0cy5tc24uY29tfGJ5MioxLDlBOEI4QkY1MDFBMzhBMzYsMSwwLDA=					
+Sent	wlidperf	throughput=12&latency=249&FR=L&ST=1330570793354					
+Sent	wlp	A|eyJV-t:a*F+jqBQ._					
+Sent	MUID	1EDC194521B4619339501A4C25B46177					
+Sent	HIC	9a8b8bf501a38a36|10|112|					
+Sent	xid	cd164d4a-3c91-45ba-8ca7-4546eefcc149&&BL2xxxxxxC619&97					
+Sent	xidseq	8					
+Sent	E	P:htWcMGzFzog=:BkRygCdeBUN1qVF5CAbwpPboc6DUNcBBWKpaqI7InGA=:F					
+Sent	wlv	A|_-d:s*uV/VBw.2+1+0+3					
+Sent	cookie10	 SAToken=					
+Sent	SLVersion	4.0.50401					
+Sent	SLSupportedAgent	true					
+Sent	BP	l=SDX.Skydrive&FR=&ST=&p=0					
+Sent	mkt	ep=en-US					
+Sent	LN	x6fbr1330569796732%260ca1%2611					
+Sent	wl_preperf	req=131&com=131&cache=67					
+Sent	MSPShared	1					
+Sent	idsbho	7.250.4232.0$7.250.4232.0$9.0.8112.16421$6.1.1.0.7601(Service Pack 1)					
+Sent	MSPRequ	lt=1330570221&co=1&id=250206					
+Sent	MSPOK	$uuid-bf5875ef-1199-4af6-aede-c01ad0e9aa1c					
+Sent	CkTst	G1330570222409					
+Received	MSPOK		Thu, 30-Oct-1980 16:00:00 GMT	login.live.com	/	No	Yes
+Received	PPAuth	CsvWcWQGjCbR95tlHW1H!Z7xjD37hoFry78r1x0wX7al6sFAcPg7tshxiVEZ7Ek2bikmUH70rsbxdWfCGq*HPzolBP0HjQXXWFlqDo6bTVgSwgLhQbqpfpY1RvHYqjIFQ36LbYavg6xRBGBASwKhHFxfEAEE5mfkhwz19yinySXpszNnCF44RI6jMWNdikkeFIwyFVEBXeBqSkdODuECs7EFJaasa5d!Z3lISCgRmrJo1xMBcoCP3rAijZF1tNwC3P6y6AbHIA4jTZmP4P*xx5UYR!yv5fcmwyOh*jl20UYO	Wed, 30-Dec-2037 16:00:00 GMT	login.live.com	/	Yes	Yes
+Received	PPLState	1	Wed, 30-Dec-2037 16:00:00 GMT	.live.com	/	No	No
+Received	MSPShared		Thu, 30-Oct-1980 16:00:00 GMT	login.live.com	/	No	Yes
+Received	MSPPre	crifan2003@hotmail.com|9a8b8bf501a38a36||	Wed, 30-Dec-2037 16:00:00 GMT	login.live.com	/	No	No
+Received	MSPCID	9a8b8bf501a38a36	Wed, 30-Dec-2037 16:00:00 GMT	login.live.com	/	No	Yes
+Received	WLOpt	credtype=1&act=[1]	Wed, 30-Dec-2037 16:00:00 GMT	login.live.com	/	No	No
+Received	RPSTAuth	EwDoARAnAAAUWkziSC7RbDJKS1VkhugDegv7L0eAAPMLRlkoqW5aB4Abr/IDoVqWx1CtvzeGGwjrZh3hX5j7Vwk/SCww9+Sdfc92trzRghCx3/UpW86q2Ghx64kjehEf6J1breNmC2SUtM9pv3bvEgOUfduO/a2b4n7QPvnMID7u22NzfUjYLIyaFFzdf7OZxki9GO/Egrtu4oIW6E5QA2YAAAiXx8E8kVMvOzgBvkzIAGSEEBck2k5Lr+6Bd2GU1GPLYT7Bd7U5aZxdtuq+D7CPXyeOBo+B97BuqXFIkFQn1nutiuCSQsQ+0mI/4vDOj6bX++dW+8mK8PYmDmMLVxzKaw9qp2DqHvxMSRbhqXBWHM+yEGS3ZvUeyb/2BdqAFt9c4HU5Ky/OHEX3xtESgI/ICcXfrKNa6lAmg0iFR0ixP6yhewEQ1GLS62p5xYC5GEzF4jZNf/EyFMv7HvAyu+oe/KdwauWG3t2/9aBBeGnCevsu1JtGCusK/Mi8nzcI+HOGNpr0yo4QVFSz8jJucd/z+SGDG8Q5VOAuj5DERGboA8AJwyE6xrdAzABXdrnINqtcWhL8kjLcuBezxP3NmDYcHn5ONlBMaS41vpLBvv5sN3FLH3X2JBed7oK65nlMRKlRzSPqZwE=	Wed, 30-Dec-2037 16:00:00 GMT	.live.com	/	No	Yes
+Received	RPSTAuthTime	1330570794	Wed, 30-Dec-2037 16:00:00 GMT	login.live.com	/	No	Yes
+Received	MSPAuth	2hAikb1epDgcNJicv1tYAOiEvMR!zrLiNihOAMjvKBVjop3nHOy!0YNXJSW5LgT65TDiA8hhblAmj7xZ6S3z5tZi*pybF7uotHi1BWVdhAoye6NmsZhkls5GKVYUenmqEY	Wed, 30-Dec-2037 16:00:00 GMT	.live.com	/	No	Yes
+Received	MSPProf	2yUV3LOlhDRaldUifWu0i9UAOY4tkHl0eGZFdJ4CmfoDLjDZR*Rdroh5XCu4WoUREukko2HWnomfF6PYehRKiLBskb2gRrdFj4McyH1RnW9juJLYXpHyya5Wgng6pNg4gJ1vgEKGB3UnorSbiDwPEY5Ur5ZyMXGVevkQ!eIPHp4lDWGtW9HS7hlGjwRFhKqMax	Wed, 30-Dec-2037 16:00:00 GMT	.live.com	/	No	Yes
+Received	MSNPPAuth	CoogzsLTuyYy1tn0dv8hL*BdtYhDYo891MlcyxYDN1ruX4QDMu63F32bno!WERy*TuGhrjAp2w31SmcfPRwX6U8C75rRKvguePD2URsolyC7E4i!ZX2Cw0DNJArbr1dASGcSLIoFTnGoXNIbgX60Gug473kdhs2!Wj5PVJQIc9InCyC1zu9xSJKLyjpoSkuWuNXXYZssgAlGWPRBL7pctWt3Hl2v*6WtL4AT6ixhdQmDCiZH3Wv0zwNyRKM8wdCIkCyRlfFd25qUp8F6idOT2X9ERj5X!SZHzBN1CJA73lWujRHHR0sIQvSuQxITDmy5CFKK9kkgLl1scOrCrDxOJnSVSimNWSEgw2IHurELXTPYdM77VzSA5ETfHHLFNYAssXu4g67cldkwBjZ4I2voeTkKQQVtiW4qgZPF18gnFZyV!ZiPPmkWokxKV7oNWj7ChoVLklS1Yr*DI5PJz4mDELGuDIjZ9JqqpSGH60BSD!kTaiRSUPlWs12hmOEHLzSbfQ$$	Wed, 30-Dec-2037 16:00:00 GMT	.live.com	/	No	Yes
+Received	MH	MSFT	Wed, 30-Dec-2037 16:00:00 GMT	.live.com	/	No	No
+Received	cookie35	MHW=	Thu, 30-Oct-1980 16:00:00 GMT	.live.com	/	No	No
+Received	cookie36	MHList=	Thu, 30-Oct-1980 16:00:00 GMT	.live.com	/	No	No
+Received	NAP	V=1.9&E=c00&C=ZwUNDTc_wYUjN_mYqDhV6HQDyr7MKlqtGFjzctsRPbT9ET2fatiBRw&W=1	Sat, 09-Jun-2012 09:59:54 GMT	.live.com	/	No	No
+Received	ANON	A=DE389D4D076BF47BCAE4DC05FFFFFFFF&E=c5a&W=1	Mon, 17-Sep-2012 09:59:54 GMT	.live.com	/	No	No
+Received	MSPVis	$9	Wed, 30-Dec-2037 16:00:00 GMT	login.live.com	/	No	No
+Received	cookie40	pres=	Thu, 30-Oct-1980 16:00:00 GMT	.live.com	/	No	No
+Received	LOpt	3	At end of session	login.live.com	/	No	No
+Received	WLSSC	EgBnAQMAAAAEgAAACoAA6fEEZ/cB1Ff0EqyiNxHUNWFRKm2C5ubgMwXSR60FN8eQTacpduhwJzwbOKbTv/KGXAbelp537m+dGLKovNNvDOxF4Reg9B6ISxINNZcLf8oCP7prFxRq79x3HXS83lpD1rDG7EWX455EjK2LC5JlR4M7HLa70mLXiOdJPhcQ/EvWAFwA1gD9vwYA7VazlyrmTk8q5k5PECcAAAoToAAAFwBjcmlmYW4yMDAzQGhvdG1haWwuY29tAE8AABZjcmlmYW4yMDAzQGhvdG1haWwuY29tAAAACUNOAAYyMTM1OTIAAAZlCAQCAAB3F21AAARDAAR0aWFuAAR3YW5nBMgAAUkAAAAAAAAAAAAAAaOKNpqLi/UAACrmTk8qW2FPAAAAAAAAAAAAAAAADgA1OC4yNDAuMjM2LjE5AAUAAAAAAAAAAAAAAAABBAABAAABAAABAAAAAAAAAAA=	At end of session	.live.com	/	Yes	Yes
+Received	MSPSoftVis	@72198325083833620@:@	Wed, 30-Dec-2037 16:00:00 GMT	login.live.com	/	No	No
+

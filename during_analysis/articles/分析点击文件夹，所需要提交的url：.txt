@@ -1,0 +1,299 @@
+分析点击文件夹，所需要提交的url：
+
+https://skydrive.live.com/API/2/GetItems?id=9a8b8bf501a38a36%21536&cid=9a8b8bf501a38a36&group=0&qt=&ft=&sb=1&sr=0&d=1&lid=9A8B8BF501A38A36!536&caller=9A8B8BF501A38A36&path=0&si=0&ps=100&pi=5&m=en-US&rset=web&lct=1&v=634653426359300000
+
+req：
+Key	Value
+Request	GET /API/2/GetItems?id=9a8b8bf501a38a36%21536&cid=9a8b8bf501a38a36&group=0&qt=&ft=&sb=1&sr=0&d=1&lid=9A8B8BF501A38A36!536&caller=9A8B8BF501A38A36&path=0&si=0&ps=100&pi=5&m=en-US&rset=web&lct=1&v=634653426359300000 HTTP/1.1
+Canary	ofqkE7U49Mymjx2ptBaNFiYitXkOgidkN7AEalkkXYs=6
+Accept	application/json
+Appid	1141147648
+X-Skyapioriginid	0.6154515881480111
+X-Requested-With	XMLHttpRequest
+Referer	https://skydrive.live.com/#cid=9A8B8BF501A38A36&id=9A8B8BF501A38A36%21536
+Accept-Language	en-US
+Accept-Encoding	gzip, deflate
+User-Agent	Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
+Host	skydrive.live.com
+DNT	1
+Connection	Keep-Alive
+
+resp：
+Key	Value
+Response	HTTP/1.1 200 OK
+Cache-Control	public, max-age=2592000
+Transfer-Encoding	chunked
+Content-Type	text/html; charset=utf-8
+Expires	Fri, 23 Mar 2012 00:35:35 GMT
+Server	Microsoft-IIS/7.5
+X-AspNet-Version	4.0.30319
+Set-Cookie	RPSMaybe=; expires=Thu, 30-Oct-1980 16:00:00 GMT; path=/
+Set-Cookie	E=P:PqhKaBm/zog=:qSM9qH0k208olaQsFWN1ZseG1SWJ7zicQ2jt0rUdKV0=:F; domain=.live.com; path=/
+Set-Cookie	xidseq=8; domain=.live.com; path=/
+Set-Cookie	LD=; domain=.live.com; expires=Tue, 21-Feb-2012 23:55:35 GMT; path=/
+Set-Cookie	wla42=cHJveHktYmF5LnB2dC1jb250YWN0cy5tc24uY29tfGJ5MioxLDlBOEI4QkY1MDFBMzhBMzYsMSwwLDA=; domain=.live.com; expires=Wed, 29-Feb-2012 01:35:35 GMT; path=/
+X-MSNServer	BAC617
+Date	Wed, 22 Feb 2012 01:35:34 GMT
+
+resp body：
+{
+    "items": [{
+        "commands": "af,-1,ce,1,cm,2,cxls,2,cf,2,con,2,cppt,2,cdoc,2,defc,1,de,2,dl,1,em,1,mc,1,mv,1,sh,1,pm,1,rn,1,up,2",
+        "commentCount": 0,
+        "creationDate": 634624541405100000,
+        "creatorCid": "9A8B8BF501A38A36",
+        "creatorName": "tian wang",
+        "displayCreationDate": "1\/18\/2012",
+        "displayModifiedDate": "2\/20\/2012",
+        "displayQuotaRemaining": "24.9 GB",
+        "displayQuotaTotal": "25 GB",
+        "displaySize": "13,925 KB",
+        "folder": {
+            "category": 0,
+            "childCount": 3,
+            "children": [{
+                "commands": "af,-1,cm,2,cxls,2,cf,2,con,2,cppt,2,cdoc,2,defc,1,de,2,dl,1,dpg,1,em,1,mc,1,mv,1,op,1,sh,1,pm,1,rn,1,up,2",
+                "commentCount": 0,
+                "creationDate": 634624541926800000,
+                "creatorCid": "9A8B8BF501A38A36",
+                "creatorName": "tian wang",
+                "displayCreationDate": "1\/18\/2012",
+                "displayModifiedDate": "2\/13\/2012",
+                "displaySize": "519 KB",
+                "folder": {
+                    "covers": [{
+                        "baseUrl": "https:\/\/by",
+                        "id": "9A8B8BF501A38A36!657",
+                        "thumbnails": [{
+                            "height": 404,
+                            "name": "scaledLargest",
+                            "url": "files.storage.live.com\/y1p1InKsvT9uPCE1srE689CaDmkYT8x9urFSY6fPn-aAaXnDYMWSIxe4_LEvWQgS-T0UTvvD4ksByI\/BOC%20%E6%94%AF%E4%BB%98%E5%A4%B1%E8%B4%A5.jpg?psid=1",
+                            "width": 656
+                        }, {
+                            "height": 128,
+                            "name": "height128",
+                            "url": "files.storage.live.com\/y1p1InKsvT9uPCE1srE689CaOdFdFTNL_l3iWhoLnxn2ipHU4_o4xZdMSwgb-SSUjqJATcVh2a0tSo\/BOC%20%E6%94%AF%E4%BB%98%E5%A4%B1%E8%B4%A5.jpg?psid=1",
+                            "width": 207
+                        }, {
+                            "height": 140,
+                            "name": "width228",
+                            "url": "2.storage.live.com\/items\/9A8B8BF501A38A36!657:ConstantWidth228\/BOC%20%E6%94%AF%E4%BB%98%E5%A4%B1%E8%B4%A5.jpg?psid=1&ck=0&ex=720",
+                            "width": 228
+                        }, {
+                            "height": 404,
+                            "name": "scaled1024",
+                            "url": "2.storage.live.com\/items\/9A8B8BF501A38A36!657:Scaled1024\/BOC%20%E6%94%AF%E4%BB%98%E5%A4%B1%E8%B4%A5.jpg?psid=1&ck=0&ex=720",
+                            "width": 656
+                        }]
+                    }],
+                    "hasSubfolders": 1,
+                    "totalCount": 2
+                },
+                "group": 0,
+                "iconType": "NonEmptyDocumentFolder",
+                "id": "9A8B8BF501A38A36!537",
+                "lastModifierCid": "9A8B8BF501A38A36",
+                "lastModifierName": "tian wang",
+                "modifiedDate": 634647371281230000,
+                "name": "life",
+                "ownerCid": "9A8B8BF501A38A36",
+                "ownerDCid": "-7310595685695124938",
+                "ownerName": "tian wang",
+                "parentId": "9A8B8BF501A38A36!536",
+                "sharingLevel": "Everyone (public)",
+                "sharingLevelValue": 0,
+                "size": "531367",
+                "urls": {
+                    "viewInBrowser": "https:\/\/skydrive.live.com\/redir.aspx?cid=9a8b8bf501a38a36&page=view&resid=9A8B8BF501A38A36!537&parid=9A8B8BF501A38A36!536"
+                },
+                "userRole": 0
+            }, {
+                "commands": "af,-1,cm,2,cxls,2,cf,2,con,2,cppt,2,cdoc,2,defc,1,de,2,dl,1,em,1,mc,1,mv,1,sh,1,pm,1,rn,1,up,2",
+                "commentCount": 0,
+                "creationDate": 634625336391600000,
+                "creatorCid": "9A8B8BF501A38A36",
+                "creatorName": "tian wang",
+                "displayCreationDate": "1\/19\/2012",
+                "displayModifiedDate": "2\/15\/2012",
+                "displaySize": "359 KB",
+                "folder": {
+                    "hasSubfolders": 1,
+                    "totalCount": 3
+                },
+                "group": 0,
+                "iconType": "NonEmptyDocumentFolder",
+                "id": "9A8B8BF501A38A36!586",
+                "lastModifierCid": "9A8B8BF501A38A36",
+                "lastModifierName": "tian wang",
+                "modifiedDate": 634649019199400000,
+                "name": "rec_music",
+                "ownerCid": "9A8B8BF501A38A36",
+                "ownerDCid": "-7310595685695124938",
+                "ownerName": "tian wang",
+                "parentId": "9A8B8BF501A38A36!536",
+                "sharingLevel": "Everyone (public)",
+                "sharingLevelValue": 0,
+                "size": "367191",
+                "urls": {
+                    "viewInBrowser": "https:\/\/skydrive.live.com\/redir.aspx?cid=9a8b8bf501a38a36&page=view&resid=9A8B8BF501A38A36!586&parid=9A8B8BF501A38A36!536"
+                },
+                "userRole": 0
+            }, {
+                "commands": "af,-1,cm,2,cxls,2,cf,2,con,2,cppt,2,cdoc,2,defc,1,de,2,dl,1,em,1,mc,1,mv,1,sh,1,pm,1,rn,1,up,2",
+                "commentCount": 0,
+                "creationDate": 634624541062800000,
+                "creatorCid": "9A8B8BF501A38A36",
+                "creatorName": "tian wang",
+                "displayCreationDate": "1\/18\/2012",
+                "displayModifiedDate": "2\/20\/2012",
+                "displaySize": "13,047 KB",
+                "folder": {
+                    "hasSubfolders": 1,
+                    "totalCount": 9
+                },
+                "group": 0,
+                "iconType": "NonEmptyDocumentFolder",
+                "id": "9A8B8BF501A38A36!535",
+                "lastModifierCid": "9A8B8BF501A38A36",
+                "lastModifierName": "tian wang",
+                "modifiedDate": 634653426359300000,
+                "name": "tech",
+                "ownerCid": "9A8B8BF501A38A36",
+                "ownerDCid": "-7310595685695124938",
+                "ownerName": "tian wang",
+                "parentId": "9A8B8BF501A38A36!536",
+                "sharingLevel": "Everyone (public)",
+                "sharingLevelValue": 0,
+                "size": "13360027",
+                "urls": {
+                    "viewInBrowser": "https:\/\/skydrive.live.com\/redir.aspx?cid=9a8b8bf501a38a36&page=view&resid=9A8B8BF501A38A36!535&parid=9A8B8BF501A38A36!536"
+                },
+                "userRole": 0
+            }],
+            "documentCount": 0,
+            "folderCount": 3,
+            "hasSubfolders": 1,
+            "photoCount": 0,
+            "startIndex": 0,
+            "totalCount": 3
+        },
+        "group": 0,
+        "iconType": "NonEmptyDocumentFolder",
+        "id": "9A8B8BF501A38A36!536",
+        "lastModifierCid": "9A8B8BF501A38A36",
+        "lastModifierName": "tian wang",
+        "modifiedDate": 634653426359300000,
+        "name": "pic",
+        "ownerCid": "9A8B8BF501A38A36",
+        "ownerDCid": "-7310595685695124938",
+        "ownerName": "tian wang",
+        "parentId": "root",
+        "quotaRemaining": 26753716334,
+        "quotaStatus": 0,
+        "quotaTotal": 26843545600,
+        "sharingLevel": "Everyone (public)",
+        "sharingLevelValue": 0,
+        "size": "14258585",
+        "urls": {
+            "viewInBrowser": "https:\/\/skydrive.live.com\/redir.aspx?cid=9a8b8bf501a38a36&page=view&resid=9A8B8BF501A38A36!536&parid=9A8B8BF501A38A36!466"
+        },
+        "userRole": 0
+    }],
+    "lastVersion": "16.2,6",
+    "originId": "0.6154515881480111"
+}
+
+
+
+
+分析地址：
+https://skydrive.live.com/API/2/GetItems?
+id=9a8b8bf501a38a36%21536 是文件夹的resid，quote后的
+&cid=9a8b8bf501a38a36 是用户的cid
+&group=0 一直是0
+&qt=
+&ft=
+&sb=1 待求证
+&sr=0
+&d=1 待求证
+&lid=9A8B8BF501A38A36!536  原始的文件夹的resid
+&caller=9A8B8BF501A38A36 用户自己的cid
+&path=0
+&si=0
+&ps=100
+&pi=5
+&m=en-US
+&rset=web
+&lct=1
+&v=634653426359300000
+
+
+
+
+IE9 root url:
+https://skydrive.live.com/API/2/GetItems?id=root&cid=9a8b8bf501a38a36&group=0&qt=&ft=&sb=1&sr=0&d=1&lid=&caller=9A8B8BF501A38A36&path=0&si=0&ps=100&pi=5&m=en-US&rset=web&lct=1&v=0.505720279216769
+
+code gen url:
+https://skydrive.live.com/API/2/GetItems?id=root&cid=9a8b8bf501a38a36&group=0&qt=&ft=&sb=1&sr=0&d=1&lid=&caller=9A8B8BF501A38A36&path=0&si=0&ps=100&pi=5&m=en-US&rset=web&lct=1&v=0.201923336462082
+
+code headers:
+{Accept-Language: en-US
+User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
+Accept-Encoding: gzip,deflate
+Accept: application/json
+Canary: daw2NvT8puoXmDrCYTUtxCjVfWuUM/+0WIETlOJ+dSk=8
+Appid: 1141147648
+X-Skyapioriginid: 0.201923336462082
+X-Requested-With: XMLHttpRequest
+Referer: https://skydrive.live.com/#cid=9A8B8BF501A38A36
+
+}
+
+
+
+get root IE9:
+Key	Value
+Cookie	wla42=cHJveHktYmF5LnB2dC1jb250YWN0cy5tc24uY29tfGJ5MioxLDlBOEI4QkY1MDFBMzhBMzYsMSwwLDA=; wlidperf=latency=225&throughput=11; wlp=A|eyJV-t:a*M5DpBQ._; SAToken=IIDIWSRJPELRAQALZHRQVEBAPDNCPEBRTMBLUWCMYHPJ; MUID=1EDC194521B4619339501A4C25B46177; HIC=9a8b8bf501a38a36|12|112|; wl_preperf=req=87&com=87&cache=87; xid=48663df0-6c0d-42a0-8f85-3022ac911886&NK4bB&SN2xxxxxxC639&86; xidseq=13; PPLState=1; RPSTAuth=EwDoARAnAAAUWkziSC7RbDJKS1VkhugDegv7L0eAAKeA4HBbgO0o7SBGtcOcRzzveU96SzUMeLuPRu0P3TnVA+EpO8GiHLcAkBh5qzsxVQzNCNDRklAWg0P7fl4++GZHVhcxgQKm0SibbG5gv7NOC1Az3fNi/f6rtS/Rzo6d2/TT0X3H7ZhJDuvdia/gsRSeg9dH1dQ0GC25D66tAIsqA2YAAAhzcrA0iop5YzgBF+z4Eg8FoJxxMPPpzRuXyhvs3LHBe8eD8D4uz113ePL260V2Lha2yOHJY5RnxjqzN692iuCT0OUM3o0PRpbAP3Weh8hA2fQXocZ8WzZJWLCbQ+RS9rdFCnvGwwTrWlbfzlon93BgzbS9O51oI9aBFm6WRiJB4jxLJe65kmzHBdMdMjK1PDnhl6hgbvv4sblTmGv1eHVNLuGa88AGGWBGmcf9WUtyl7sazeCRQrT8u3BrxkWWtraguwfoyRDFTYx2GdfyxsG0Ab25IEGIgnP66ggAhehtJ1mPIgf64k4RawKr+AerCurcKaq3zrKgaZ8iGDRDNeTmjlAaAArPlQLPvgJ/MgkpdmDcS586e/Tvrr3jrBN5g1+tfOwp6sYXaYXyJqgNkV4TWmABB5IvcE+IaaSs4AvZYRdzZwE=; MSPAuth=2rgmFkt8DDBxI*exTxFwGTDR*g9Y0l8fuecp819cr6XOfIQCli6fkP2MD94j9gWpR!0pVo1y5aXMoJgLK8yIp!YFXC03wH2447h5Rgts8EbX2gUvc5Nm0o8zl6ooqcJWVf; MSPProf=2LuaL9I0zDy*9NlaLF26yDxWcqkr4CU9NGmb1QTzCt3BKYKFJFOuOdbCWQpRwREDR4JqSMJY9uFKxVY8u8Om*drMFrUpX4qcIb8OEAlxXpqcIhm!!2SIiFjnwZfLVjCux*4jCTF8UXGwMVQOEBU8rDocH0SRWXOpnDRz*596AuYAlewZNLB7jAQ1jCTCtTjJ0n; MSNPPAuth=ChUu!BqMComkrbGK5YWVqX3j5Y3eEIZsp6J6QCNecHOefUj3wqtQfu03v1SMydGsKvWIWYF347PGfCy4seqLxQTtyBFMQLfFnwzhYD48568wXvhNq7isvQK3tG*5wNZ3nsccd2rhCs6AtweB4OeqVvvo7rd8SpM554I9LfVlx1uQZjFFAcMzVcfbsb18bEXIgLXBay2sB19n*0Hhlgdx1SSN93QfEvb6zNsZsxLpIuYmkuOTs!wa8jhYJClvQ3Uv!L!H56NFXcq9WsKfyz64EBos9OdroJ0dLhUrkHu*lePLJc6jptmKUbv4uLyciwVw9ybntEeOX!VNh6Xil5csquFwczkcx0LdEwwgQEeRRvJZW*9m!tLh8fRwyC!TaB18m!ZsuEv9bEZvDeg2b4j2bdbI!kNHjDeaqIb9JLOyVPM1y0dwCV0oZH3tvO98l*3aQvgoOMLQyQhAi4wtnqrrdWT6YBCGUqf26k0DZGzSohE4SNoFdvz*6SL0zus!LIzDSg$$; MH=MSFT; NAP=V=1.9&E=bf8&C=lNNXMCKMhiZayrLA4yqswSNUIsoo_0eIASePrzswe-ZM-XEO0vkPdg&W=1; ANON=A=DE389D4D076BF47BCAE4DC05FFFFFFFF&E=c52&W=1; WLSSC=EgBnAQMAAAAEgAAACoAA2mxPmvC2m1m9nsgpYiISacEkPEqn6OMYTEJoG9ua9QImpJk2dYh8bUNGdgBKvsrD7B43RpO9jpITad7C89Sstcrn+cMtxMYkjsCjCuGm3EDy90sZLYK7+QsEigiTXEyNRcWVCREfyFDHWV9aUp9Bj2RomSmkRbAgGZNDEVgtkWXWAFwA1gD9vwYA7Vazl/FTRE/xU0RPECcAAAoQoAAAFwBjcmlmYW4yMDAzQGhvdG1haWwuY29tAE8AABZjcmlmYW4yMDAzQGhvdG1haWwuY29tAAAACUNOAAYyMTM1OTIAAAZlCAQCAAB3F21AAARDAAR0aWFuAAR3YW5nBMgAAUkAAAAAAAAAAAAAAaOKNpqLi/UAAPFTRE/xyFZPAAAAAAAAAAAAAAAADgA1OC4yNDAuMjM2LjE5AAUAAAAAAAAAAAAAAAABBAABAAABAAABAAAAAAAAAAA=; E=P:dNHwPSi/zog=:3rJigScWxAsDw3ME5uJifBjr6qCRs5AWmSTN8QqR2PA=:F; wls=A|eyJV-t:a*nS; wlv=A|eyJV-d:s*ctHKBw.2+1+0+3; SLVersion=4.0.50401; SLSupportedAgent=true; BP=FR=&ST=&l=SDX.Skydrive&p=0; pres=9a8b8bf501a38a36=1; wlxS=WebIM=1; LN=x6fbr1329885333542%26b9d3%2611; mkt=ep=en-US; LD=48663df0-6c0d-42a0-8f85-3022ac911886_003b9d3e3ba_15346_1329880647356=N4686172~~~L|N4686186~~~L|E4686190~ReadWrite.Content.Folder~ResourceID:root~SSEntry:None~ViewMethod:Browse~DataSource:SkyDrive|E4686193~ClickedSelected.Command.SkyDrive~SkyCmnd:DV~ClickLoc:CB&48663df0-6c0d-42a0-8f85-3022ac911886_003b9d3e3ba_15346_1329885333606=L0
+
+resp:
+Key	Value
+Response	HTTP/1.1 200 OK
+Cache-Control	no-cache, no-store
+Pragma	no-cache
+Transfer-Encoding	chunked
+Content-Type	text/html; charset=utf-8
+Expires	-1
+Server	Microsoft-IIS/7.5
+X-AspNet-Version	4.0.30319
+Set-Cookie	RPSMaybe=; expires=Thu, 30-Oct-1980 16:00:00 GMT; path=/
+Set-Cookie	E=P:/GrnjjK/zog=:cqPeBIxppZxI4Jl+pDOdUCdnStFEBsYyio6jqguO8o4=:F; domain=.live.com; path=/
+Set-Cookie	xidseq=14; domain=.live.com; path=/
+Set-Cookie	LD=; domain=.live.com; expires=Wed, 22-Feb-2012 02:55:37 GMT; path=/
+Set-Cookie	wla42=cHJveHktYmF5LnB2dC1jb250YWN0cy5tc24uY29tfGJ5MioxLDlBOEI4QkY1MDFBMzhBMzYsMSwwLDA=; domain=.live.com; expires=Wed, 29-Feb-2012 04:35:37 GMT; path=/
+X-MSNServer	BLC523
+Date	Wed, 22 Feb 2012 04:35:36 GMT
+
+
+code resp error:
+{Pragma: no-cache
+Cache-Control: no-cache, no-store
+Content-Type: text/html; charset=utf-8
+Expires: -1
+Set-Cookie: xid=704390d9-4a06-4ffd-9e2f-8fa294a186b5&&SN2xxxxxxC507&86; domain=.live.com; path=/,xidseq=1; domain=.live.com; path=/,LD=; domain=.live.com; expires=Wed, 22-Feb-2012 03:01:04 GMT; path=/
+Server: Microsoft-IIS/7.5
+X-AspNet-Version: 4.0.30319
+X-MSNServer: SNC507
+Date: Wed, 22 Feb 2012 04:41:04 GMT
+Content-Length: 1916
+
+}
+
+
+
+
+https://skydrive.live.com/API/2/GetItems?id=9a8b8bf501a38a36%21504&cid=9a8b8bf501a38a36&group=0&qt=&ft=&sb=1&sr=0&d=1&lid=9A8B8BF501A38A36!504&caller=9A8B8BF501A38A36&path=0&si=0&ps=100&pi=5&m=en-US&rset=web&lct=1&v=634649018652230000
+
+https://skydrive.live.com/API/2/GetItems?id=9a8b8bf501a38a36%21504&cid=9a8b8bf501a38a36&group=0&qt=&ft=&sb=1&sr=0&d=1&lid=9A8B8BF501A38A36!504&caller=9A8B8BF501A38A36&path=0&si=0&ps=100&pi=5&m=en-US&rset=web&lct=1&v=0.350441602687557
+
+
+

@@ -1,0 +1,17 @@
+g:\Documents\Visual Studio 2008\Projects\HttpRequestTest\HttpRequestTest\obj\Debug\ResolveAssemblyReference.cache
+g:\Documents\Visual Studio 2008\Projects\HttpRequestTest\HttpRequestTest\obj\Debug\HttpRequestTest.frmMain.resources
+g:\Documents\Visual Studio 2008\Projects\HttpRequestTest\HttpRequestTest\obj\Debug\HttpRequestTest.csproj.GenerateResource.Cache
+g:\Documents\Visual Studio 2008\Projects\HttpRequestTest\HttpRequestTest\bin\Debug\HttpRequestTest.dll
+g:\Documents\Visual Studio 2008\Projects\HttpRequestTest\HttpRequestTest\bin\Debug\HttpRequestTest.pdb
+g:\Documents\Visual Studio 2008\Projects\HttpRequestTest\HttpRequestTest\bin\Debug\WindowsLive.Writer.Api.dll
+g:\Documents\Visual Studio 2008\Projects\HttpRequestTest\HttpRequestTest\bin\Debug\WindowsLive.Writer.Interop.SHDocVw.dll
+g:\Documents\Visual Studio 2008\Projects\HttpRequestTest\HttpRequestTest\bin\Debug\WindowsLive.Writer.CoreServices.dll
+g:\Documents\Visual Studio 2008\Projects\HttpRequestTest\HttpRequestTest\bin\Debug\WindowsLive.Writer.Interop.Mshtml.dll
+g:\Documents\Visual Studio 2008\Projects\HttpRequestTest\HttpRequestTest\bin\Debug\WindowsLive.Writer.HtmlParser.dll
+g:\Documents\Visual Studio 2008\Projects\HttpRequestTest\HttpRequestTest\bin\Debug\WindowsLive.Writer.Controls.dll
+g:\Documents\Visual Studio 2008\Projects\HttpRequestTest\HttpRequestTest\bin\Debug\WindowsLive.Writer.Interop.dll
+g:\Documents\Visual Studio 2008\Projects\HttpRequestTest\HttpRequestTest\bin\Debug\WindowsLive.Writer.Mshtml.dll
+g:\Documents\Visual Studio 2008\Projects\HttpRequestTest\HttpRequestTest\bin\Debug\WindowsLive.Writer.BrowserControl.dll
+g:\Documents\Visual Studio 2008\Projects\HttpRequestTest\HttpRequestTest\bin\Debug\WindowsLive.Writer.Localization.dll
+g:\Documents\Visual Studio 2008\Projects\HttpRequestTest\HttpRequestTest\obj\Debug\HttpRequestTest.dll
+g:\Documents\Visual Studio 2008\Projects\HttpRequestTest\HttpRequestTest\obj\Debug\HttpRequestTest.pdb

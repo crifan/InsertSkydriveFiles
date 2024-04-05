@@ -1,0 +1,54 @@
+<html>
+    
+    <head>
+        <script type="xml" id="BHOAction">
+< BHOAction >
+    < save > 
+    < username > crifan2003@hotmail.com < /username>
+    <ststoken>
+        <![CDATA[
+            <AuthInfo>
+                <UserName>crifan2003@hotmail.com</UserName>
+                <UserPUID>0006BFFD97B356ED</UserPUID>
+                <AuthState>0x48803</AuthState>
+                <CredProperties>
+                    <CID>9a8b8bf501a38a36</CID>
+                    <IsWinLiveUser>true</IsWinLiveUser>
+                    <MainBrandID>MSFT</MainBrandID>
+                    <AssociatedForStrongAuth>0</AssociatedForStrongAuth>
+                    <BrandIDList></BrandIDList>
+                </CredProperties>
+                <AuthToken>
+                <EncryptedData xmlns="http://www.w3.org/2001/04/xmlenc#" Id="BinaryDAToken0" Type="http://www.w3.org/2001/04/xmlenc#Element">
+                    <EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"></EncryptionMethod>
+                    <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:KeyName>http://Passport.NET/STS</ds:KeyName></ds:KeyInfo>
+                    <CipherData>
+                        <CipherValue>Ch9uGzg1+6zO9Vl1jJESC4h/Tj+XCGqBT2a8D060x16Fv+mhGSQ+BElaMIKK+hp6e8xpsIb3m751Yfy//nZmFQGOpEYOmFUkBynRx0v30UQ3/vGnSCWwmxYsV09FO03t1tKMQ2OwIYfCI0FWS4zVVzDExFS+Nlcattom8LyX6tD30dwEPBJIrFZ6HvRpE/dW5e36ZIvoY1N/tAyaMjkldo4F+x3jXazcdeh/RZHngmoL4h93q7csdpfv/YSOYOSJPTr7XJ+KP6Dd5GByiDMOd85P6wIwgYPPiy+QbDW5aeGYdyXExPV+0SRe+OhXA0golmS3reZNZrDBDtL6RGXdTetaiz+mYyLvBbtDIiCIQvvZE9SxerubH+NY1BGq/Vfgud/CYMfD6diRUPa5egWVQi0rQfb246ls/xKqRQ1wgKlMLt4EcnhtnW0kXTkd+PQS/XHtz2usMCVfcL2D3AGG6KNAiIF6xsXbiFjXSm1Z8fs2gJOb2d3XOLRvCrauPt0P1pyQ+o24+z1eruPBNJg0hs/Mph7U0EWG1gtoaVSw9ToBbBh/q3Nr5+IhRubxZsVkX7jW9QlB44dAzYEObn573tK0UerWzSWUNUJHzggn2wZ/</CipherValue>
+                    </CipherData>
+                </EncryptedData>
+                </AuthToken>
+                <SessionKey>fI1IVXGkM4aYwr3u1YK09Sl2mkLA6aJr</SessionKey>
+            </AuthInfo>
+        ]]>
+    </ststoken > 
+    < extProperty > < ![CDATA[ANON = @fmt | A = DE389D4D076BF47BCAE4DC05FFFFFFFF & E = c5a & W = 1 | bing.com; atdmt.com | Mon, 17 - Sep - 2012 09: 59: 54 GMT]] > < /extProperty>
+    <extProperty><![CDATA[NAP=@fmt|V=1.9&E=c00&C=ZwUNDTc_wYUjN_mYqDhV6HQDyr7MKlqtGFjzctsRPbT9ET2fatiBRw&W=1|bing.com;atdmt.com|Sat, 09-Jun-2012 09:59:54 GMT]]></extProperty >
+    < extProperty > < ![CDATA[Notifications = ]] > < /extProperty>
+    <extProperty><![CDATA[MessengerStatus=-1]]></extProperty > 
+    < extProperty > < ![CDATA[CID = 9a8b8bf501a38a36]] > < /extProperty>
+    <extProperty><![CDATA[LastUsedCredType=1]]></extProperty > 
+    < extProperty > < ![CDATA[WebCredType = 1]] > < /extProperty>
+    </save >
+< /BHOAction>
+        </script>
+        <script type="text/javascript">
+            function rd() {
+                window.location.replace("https://skydrive.live.com/");
+            }
+            function OnBack() {}
+        </script>
+    </head>
+    
+    <body onload="javascript:rd();"></body>
+
+</html>

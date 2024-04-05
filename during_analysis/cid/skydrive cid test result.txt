@@ -1,0 +1,97 @@
+skydrive cid test result:
+mine:
+https://skydrive.live.com/?cid=9A8B8BF501A38A36
+add support for isPdf
+
+has test:
+(1)
+https://skydrive.live.com/?cid=93EF48FBA9855E34
+
+(2)
+https://skydrive.live.com/?cid=1AC7F628D0ACA8D9
+add support for isSpecialFolder
+
+(3)
+https://skydrive.live.com/?cid=11B4C5CBBE7800C3
+support contain isSpaces 
+returned no valid child items for 11B4C5CBBE7800C3!159
+
+(4)
+https://skydrive.live.com/?cid=25533FA377DCBC3B
+
+(5)
+https://skydrive.live.com/?cid=13238254E3AC757D
+
+(6)
+https://skydrive.live.com/?cid=155FD1264C4B9EC5
+need signin
+
+(7)
+https://skydrive.live.com/?cid=2B4D2866D0D00313
+
+(8)
+https://skydrive.live.com/?cid=5C05045C4437A073
+need signin
+
+(9)
+https://skydrive.live.com/?cid=A3C13AD86BB7F31C
+
+(10)
+https://skydrive.live.com/?cid=21CD27002D717EBD
+need signin
+
+(11)
+https://skydrive.live.com/?cid=947ED5120D41280B
+
+(12)
+https://skydrive.live.com/?cid=C4A7D9B58092B0B2
+need signin
+
+(13)
+https://skydrive.live.com/?cid=4854DEE2595EC37
+need signin
+
+(14)
+https://skydrive.live.com/?cid=3D91BEABAB429836
+
+(15)
+https://skydrive.live.com/?cid=DC52CEB66F312E4F
+
+(16)
+https://skydrive.live.com/?cid=3FCF7A958A3E2A86
+need signin
+
+(17)
+https://skydrive.live.com/?cid=93DF3017DEAFFCFA
+
+(18)
+https://skydrive.live.com/?cid=E411413458B6D14E
+
+(19)
+https://skydrive.live.com/?cid=D082ECA9C781D5F5
+
+(20)
+https://skydrive.live.com/?cid=D51E1AE14D87F093
+
+(21)
+https://skydrive.live.com/?cid=F6A39B151EA8A263
+
+(22)
+https://skydrive.live.com/?cid=BC0582222B297FB4
+
+(23)
+https://skydrive.live.com/?cid=7463CC77517C72C4
+
+(24)
+https://skydrive.live.com/?cid=EE397428DC8CEA5D
+
+(25)
+https://skydrive.live.com/?cid=1E5B6F681CE155D7
+
+(26)
+https://skydrive.live.com/?cid=50AACAB7B94FDCFC
+
+(27)
+https://skydrive.live.com/?cid=EA54F112CA205262
+....
+has test many others

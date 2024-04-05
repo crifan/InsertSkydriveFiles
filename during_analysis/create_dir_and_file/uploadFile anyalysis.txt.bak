@@ -1,0 +1,299 @@
+tian","canary":"4nmGlALUIR0mQpUDAkhBLRNX3AaWM2vkMc6H4cH6ySk\\u003d7","sharingBaseUrl":"https\\u003a\\u002f\\u002fskydrive.live.com\\u002fredir.aspx","domain":"skydrive.live.com","hcid":"9A8B8BF501A38A36","imgBaseUrl":"https\\u003a\\u002f\\u002fsecure.wlxrs.com\\u002f\\u0024live.controls.images\\u002f","baseApiUrl":"\\u002fAPI\\u002f2\\u002f","foldersImgBaseUrl":"https\\u003a\\u002f\\u002fsecure.
+
+drive.live.com\\u002f\\u003fcid\\u003d\\u007bcid\\u007d\\u0026sc\\u003dphotos","fullSyncInterval":"86400000","deltaSyncInterval":"3600000","fullSyncDelay":"5000","deltaSyncDelay":"5000","isLastNameFirst":1,"initOnPageLoad":1},"hcid":"9a8b8bf501a38a36","domain":"live.com","Preload":{"View":"Common.Wac"},"Themes":{"baseUrl":"https\\u003a\\u002f\\u002fsecure.wlxrs.com\\u002f3I0jsTMxB-PrkoPZ9WZuXMHOGl7c4\\u0021e\\u0021y7Ehx-iuaNQxb2Fq2RvSWD8H98fTmdnXumjJ2LQ49wciD6FZSdGyMGDqGg-krICwWbGVbvj20wc\\u002f","current":"base","version":"16.2.3028","url":"https\\u003a\\u002f\\u002fsecure.wlxrs.com\\u002f
+
+
+
+Key	Value
+X-Http-Method-Override	BITS_POST
+
+Key	Value
+BITS-Packet-Type	Create-Session
+
+Key	Value
+BITS-Supported-Protocols	{7df0354d-249b-430f-820d-3d2a9bef4931}
+
+(
+Key	Value
+BITS-Supported-Protocols	{7df0354d-249b-430f-820d-3d2a9bef4931}
+)
+
+Key	Value
+Application	LiveFolders
+
+Key	Value
+Accept	application/wls-response-headers+json
+
+Key	Value
+Overwrite	false
+
+
+Key	Value
+X-PhotoSizeConstraint	2048x2048
+
+Key	Value
+X-RequestStats	upType=sl,dragDrop=false
+
+
+{"StatusCode":"201","StatusDescription":"Created","P3P":"CP=\"BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo\"","X-MSNSERVER":"BY2____4011916","Set-Cookie":"RPSMaybe=; path=\/; domain=.live.com; expires=Thu, 30-Oct-1980 16:00:00 GMT;","BITS-Packet-Type":"Ack","BITS-Protocol":"{7df0354d-249b-430f-820d-3d2a9bef4931}","BITS-Session-Id":"1msYsEmjy8y1t7ZTdfRA_FQ4qBgCamNjjb-UQ7jMRoc5o","Accept-Encoding":"Identity"}
+
+
+https://skydrive.live.com/choosefolder.aspx?cid=9A8B8BF501A38A36&ref=5
+
+
+
+https://secure.wlxrs.com/yXOO7XgAoAcXX2pR3MugqA/Bucket4.js
+contains:
+d.push("BITS-Packet-Type");c.push("Create-Session");d.push("BITS-Supported-Protocols");c.push("{7df0354d-249b-430f-820d-3d2a9bef4931}");
+
+
+https://skydrive.live.com/
+response contains:
+.queue('https\\x3a\\x2f\\x2fsecure.wlxrs.com\\x2fN8DxlmPPxuqhwvEoLQ8qrw\\x2fBucket1.js',10).queue('https\\x3a\\x2f\\x2fsecure.wlxrs.com\\x2fuq\\x21a6o4oRo0iO2jkHdwMVg\\x2fjs\\x2fContactPicker.js',10).queue('https\\x3a\\x2f\\x2fsecure.wlxrs.com\\x2fN8DxlmPPxuqhwvEoLQ8qrw\\x2fBucket2a.js',20).queue('https\\x3a\\x2f\\x2fsecure.wlxrs.com\\x2fN8DxlmPPxuqhwvEoLQ8qrw\\x2fBucket2b.js',20).queue('https\\x3a\\x2f\\x2fsecure.wlxrs.com\\x2fN8DxlmPPxuqhwvEoLQ8qrw\\x2fBucket2c.js',20,[],[]).queue('https\\x3a\\x2f\\x2fsecure.wlxrs.com\\x2fN8DxlmPPxuqhwvEoLQ8qrw\\x2fBucket3.js',20,[],[]).queue('https\\x3a\\x2f\\x2fsecure.wlxrs.com\\x2fN8DxlmPPxuqhwvEoLQ8qrw\\x2fBucket4.js',20,[],[])
+
+N8DxlmPPxuqhwvEoLQ8qrw is we want
+yXOO7XgAoAcXX2pR3MugqA
+
+{.queue('https\x3a\x2f\x2fsecure.wlxrs.com\x2f_D\x2fWG-zSkBlt5ewNKOiCEVRMw\x2fjquery-min.js').queue('https\x3a\x2f\x2fsecure.wlxrs.com\x2fWG-zSkBlt5ewNKOiCEVRMw\x2fwlive.js').queue('https\x3a\x2f\x2fsecure.wlxrs.com\x2f8JrkS0stRLyu4Q8Lvnc4vXKo0RLKajfRQoySzVPVrLtQUB1YlCb9bEV1fpAHKzZ9AekF0UkIsiFYHU8jpeOuko3v9awJpLjPLSL\x21CqYi1LjwbkDrpu4-mg-FXFTreogOadG-iu6igYXmJ9iUk8uCVGB6J3VtF5x3v23HuSh2Ss0\x2fFiles.js',0).queue('https\x3a\x2f\x2fsecure.wlxrs.com\x2fyXOO7XgAoAcXX2pR3MugqA\x2fBucket1.js',10).queue('https\x3a\x2f\x2fsecure.wlxrs.com\x2fpP6z\x21PrAf-PhTsLKoaW69w\x2fjs\x2fContactPicker.js',10).queue('https\x3a\x2f\x2fsecure.wlxrs.com\x2fyXOO7XgAoAcXX2pR3MugqA\x2fBucket2a.js',20).queue('https\x3a\x2f\x2fsecure.wlxrs.com\x2fyXOO7XgAoAcXX2pR3MugqA\x2fBucket2b.js',20).queue('https\x3a\x2f\x2fsecure.wlxrs.com\x2fyXOO7XgAoAcXX2pR3MugqA\x2fBucket2c.js',20,[],[]).queue('https\x3a\x2f\x2fsecure.wlxrs.com\x2fyXOO7XgAoAcXX2pR3MugqA\x2fBucket3.js',20,[],[]).queue('https\x3a\x2f\x2fsecure.wlxrs.com\x2fyXOO7XgAoAcXX2pR3MugqA\x2fBucket4.js',20,[],[])}
+
+
+Key	Value
+Request	GET /yXOO7XgAoAcXX2pR3MugqA/Bucket4.js HTTP/1.1
+Accept	application/javascript, */*;q=0.8
+Referer	https://skydrive.live.com/?lc=1033
+Accept-Language	en-US
+User-Agent	Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
+Accept-Encoding	gzip, deflate
+Host	secure.wlxrs.com
+
+
+
+
+
+
+during debug, cookies:
++		[0]	{xid=ac25fd5a-fd06-4e8d-a7a9-92d8e5cadee7&NK4bB&SN2xxxxxxC633&71}	object {System.Net.Cookie}
++		[1]	{xidseq=3}	object {System.Net.Cookie}
++		[2]	{LD=}	object {System.Net.Cookie}
++		[3]	{wla42=}	object {System.Net.Cookie}
++		[4]	{wl_preperf=req=131&com=131&cache=101}	object {System.Net.Cookie}
++		[5]	{$Version=1; MSPRequ=lt=1328590548&co=1&id=250206; $Path=/}	object {System.Net.Cookie}
++		[6]	{$Version=1; MSPOK=$uuid-88685738-474f-4bf2-9055-4e2db0a4ad92; $Path=/}	object {System.Net.Cookie}
++		[7]	{CkTst=G1328619349017}	object {System.Net.Cookie}
++		[8]	{wlidperf=throughput=1&latency=2059&FR=L&ST=1328619349766}	object {System.Net.Cookie}
++		[9]	{$Version=1; PPLState=1; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[10]	{MSPPre=}	object {System.Net.Cookie}
++		[11]	{MSPCID=}	object {System.Net.Cookie}
++		[12]	{$Version=1; RPSTAuth=EwDwARAnAAAUWkziSC7RbDJKS1VkhugDegv7L0eAADB50+QEwgx8PaTIMLr24z29BLJkzgQOyeGn+eSYOEXvBXc9KpTVeHhodjLw9UdQITeRAmrXDhuIC5OONEjpUGMjh0Yw+dvmZRhT5M9bDgE1MkBuozOWCapGSpIlCqHtygudByNBKGmTFL6h2W6ZyHWHAHVgdQ+qIWP8V1cnnnUsA2YAAAi7jXIBiPxg8UAB4vHrrMT5HHQWma5cka6HO8hCsQOL+MrBt4g6i5RHMXrkiPKBcgPfzfjgOLMskihfi6YEDRvYYjsIA6LG7T86xoaAO68zArHrclqh4Hz4bGPRkwMb4li70BBhu723E74FsTlVUqN6ckBu41VdBdpDFJgdyM+wExGYfb1CntCMfMY0r9BY30KBaM3FhlPBOjy3GQLIzKZI8L7m7aHVa0HJk0r44npKb3f062qYhKAlDU786P6RRkxtywmUEGVDiIbsHg5MKXikQy/8sG1iC3Oopm5tiNdxN1IlVAjNJ9VEj76OuGlxmCt2n7bb1yiNpY67CGfRDya4F75Zml63ymmrSKvzhB+wm6adAEhSLW+MTDyDdpaCR2tjWJfeaUxvQtsKEOiJ9D1+hOoE5+u3HE24eoJczs4yQ6LhGOBL7BQd+slnAQ==; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[13]	{$Version=1; MSPAuth=2aEWJHpIBDH6LN5kN*uJs5THPx8*No8neg5MoJqCCAlZUiliIEHHuFUWqMVI3jWSIlB!BkE6X0Jd6X5dxowtcG3NNVdLH0tYPlNfBwxSg8NhaW7W5zhGCZjOREeZ77tkSE; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[14]	{$Version=1; MSPProf=2sSeJx4z0DcLa*xbSYhF1WEnCfSjefINCymlJH4SxW1sJAyHbN9yazUPr8sjulSN0A93mrDt7rq8AalLAxkQDlcp!565oYgoQGHc*1C3jQ1AN6EqFtY8i88DCxdggccWXfl2cbLFOkfR1iRfOATVtnYK0rwp5ORETSM79BYtz3p!r*Hj8jr9oPQJX4nt1kAS71; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[15]	{$Version=1; MSNPPAuth=CnZq3fWBVZgA7eY0tlvGoy2GACbAvBasSb0NyH0DoZDsIqXyGS5Ts2jlxYCBULNiYZWfIT1q4StEOiPwdvZc65IpdH7bA874fUAJVvCIIT9B7ibzkEAL!piSF8h15zAhsqvVAEvBN*ZFk0581a583iIDlCZsC2qs45STVg58UyDqHa1X4U9k2d!cmeuZC91aj4DLkvxx9m*7L!qlaeinxgU2zaZhBP1rBOkUFHuFX*NroPmfRyghpG6Gf!JmzU4SfRFZlLh1*GdZLo*fQuhh!AaeryOA9YvMdSx6Pk!hp*KVBInhKUX!yG6AAt9ivDcCHiFyvyefjmcDLzgatpyCdAuGY4yRy0sqRIEmaaR0YsA0t53I*J6otF7k3ImlJpISr1UmPGDomeKZtlekFaj*TaBJ1U0ZlRadi8vZICG5Lq3g4ypTfMZKVmTZfLsu0YTCprq5!vYv1ImvNvYtAQzFeiJuS1E!sdTpgGmoSIBb2YQHeWkmTKfw!LrjhMlNQcDAYw$$; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[16]	{$Version=1; MH=MSFT; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[17]	{$Version=1; MHW=; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[18]	{$Version=1; MHList=; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[19]	{NAP=V=1.9&E=be9&C=9zrTFy527z-uwQE1_yFr8xNjc_pvuMyS_pZyB7luf0xcQ2WO61d9uQ&W=1}	object {System.Net.Cookie}
++		[20]	{ANON=A=DE389D4D076BF47BCAE4DC05FFFFFFFF&E=c43&W=1}	object {System.Net.Cookie}
++		[21]	{MSPVis=$9}	object {System.Net.Cookie}
++		[22]	{$Version=1; pres=; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[23]	{$Version=1; WLSSC=EgBnAQMAAAAEgAAACoAA/CIy7CZHOlUTdcDLq+DTJX/Mx07AGnKavTeBRtSzrh0VxgEt4vc2XKfIvY5fESU3MF13nso1N5DF2/cN+hFUKLiLg0M+W6jJpElGYVPHz2XvSagz5IDhu2nB4xRTSRbhQVWI9fjl1O+TAWpwB4jBvLcJYLXTFmBi1gVLFiQOvaDWAFwA1gD9vwYA7Vazl9euME/XrjBPECcAAAoQoAAAFwBjcmlmYW4yMDAzQGhvdG1haWwuY29tAE8AABZjcmlmYW4yMDAzQGhvdG1haWwuY29tAAAACUNOAAYyMTM1OTIAAAZlCAQCAAB3F21AAARDAAR0aWFuAAR3YW5nBMgAAUkAAAAAAAAAAAAAAaOKNpqLi/UAANeuME/XI0NPAAAAAAAAAAAAAAAADgA1OC4yNDAuMjM2LjE5AAUAAAAAAAAAAAAAAAABBAABAAABAAABAAAAAAAAAAA=; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[24]	{RPSMaybe=}	object {System.Net.Cookie}
++		[25]	{E=P:3pad5muzzog=:4aYrG0PYkU5E72RHNiUv/h+BnjSGbHrUsfW+RWCV6AM=:F}	object {System.Net.Cookie}
++		[26]	{wlp=A|eyJV-t:a*1/jVBQ._}	object {System.Net.Cookie}
++		[27]	{wls=A|eyJV-t:a*n}	object {System.Net.Cookie}
++		[28]	{wlv=A|eyJV-d:s*Vyy3Bw.2+1+0+3}	object {System.Net.Cookie}
++		[29]	{SAToken=}	object {System.Net.Cookie}
+
+
+
+compare to IE9 cookies:
+Direction	Key	Value	Expires	Domain	Path	Secure	HTTP only
+Sent	wla42	cHJveHktYmF5LnB2dC1jb250YWN0cy5tc24uY29tfGJ5MioxLDlBOEI4QkY1MDFBMzhBMzYsMSwwLDA=					
+Sent	wlidperf	latency=1298&throughput=2					
+Sent	wlp	A|eyJV-t:a*97LQBQ._					
+Sent	MUID	30F10EFE68C76D26347A0C4F69C46D13					
+Sent	HIC	9a8b8bf501a38a36|11|108|					
+Sent	xid	8bed21d9-f9c5-48d2-9124-7864b152f587&NK4bB&SN2xxxxxxC619&71					
+Sent	xidseq	43					
+Sent	wl_preperf	req=87&com=87&cache=87					
+Sent	MH	MSFT					
+Sent	NAP	V=1.9&E=be9&C=aqeTjo2V9h413wT43G0oYxpd9ve65kZgDkZ0opjxQM0tljlKoBv3hw&W=1					
+Sent	ANON	A=DE389D4D076BF47BCAE4DC05FFFFFFFF&E=c43&W=1					
+Sent	E	P:dp6XrWqzzog=:lSdXTMigHz8KluTaqkk32Q8t9M7vhMCzq2DByoWQK9o=:F					
+Sent	wls	A|eyJV-t:a*nS					
+Sent	wlv	A|eyJV-d:s*2Pi2Bw.2+1+0+3					
+Sent	SAToken	GBBAGZLCUCCOPMBCJVDEBQJBINJGFKVZDYMTGFZMHNLJ					
+Sent	SLVersion	4.0.50401					
+Sent	SLSupportedAgent	true					
+Sent	BP	FR=&ST=&l=SDX.Skydrive&p=0					
+Sent	pres	9a8b8bf501a38a36=1					
+Sent	wlxS	WebIM=1&wpc=1					
+Sent	mkt	ep=en-US					
+Sent	LN	x6fbr1328580820247%26617e%2600					
+Sent	PPLState	1					
+Sent	RPSTAuth	EwDwARAnAAAUWkziSC7RbDJKS1VkhugDegv7L0eAAGA6t1nW5xlXMss5L6YKAS7xg+2q1c1gCczBsG25TxmYbRTAHRgCUs7Am4gFUJHsKeHSFViU6PHd2AkmGVoySzM28a//0OapYIxc0ttEhF0CiQy/reLsnM8U8mjrBGY3BaZH1aOyh/JLoPgFMJi/3Ap+Mge9gBUwZoEEzFuR0Et+A2YAAAiCyqFWO8yvokABt3JAWb1e2yCcTsEbhWE8AJbYjSByRwXc8Holbtba14xnUo5L98Lr11O/qqdbHOG0a+l0tozle12aqQ7I9f1HmieYcsRF76sf+4UoBll7polBFLbKpO94Ub7j1vpfW6liSLk1UIkmZVF2gJQ+bUf/yj71ZKALYz/3sPtmpJzCtKQKjdcnbc6p6g6gRwN10Ru7bKTI+eAesb5mFlmCvV54kyO2FrjqYdZLQrY1oqSoBCxaT2Z9ZnX8krP6RccflepFI5j4uEcP9F2SOzRhZxS8GyQZdZWh28emW4QfHnsKS/L6OCdfTY8saCD97RRrwOyXi41va3KszEU7qA2aEVvqgV/n49xxu6gpAo0UBKRs5Ma1wod8LyhUq164Hsl3DlkXIXpNdN88+m/rDtyG9/J2X9EfCNENB/qbtH/MDwIQhW9nAQ==					
+Sent	MSPAuth	2rP9QfOrHD76m86PAoS4FI08ZboEPR1Ye2YhordBbBHpEaLBWWagNA6kXEJSieSuOtDh5Hv!vu66Op7Ac*cppo6d2Mmqad099m7r9KLIqZpS0pBrp4elpfQ9aIO2pnCGZh					
+Sent	MSPProf	2hQEQNCEKDkWZHE3sjujGGoj02jIhi7jejB39feFK9gYTqVcXEhDZQ0OA48cJfmMPpzTy5pdhLiCuG1VP20Kzp4xUIGYC8Tza!VVZVwFGHuGkqpdSPxrYxxal49NTxRl9SZWmrQhtdfJmskMuJWTb0IhBKW9TClrq5IvTL8ego1phpTMDjdEJsuQkh8foedO0o					
+Sent	MSNPPAuth	CqZfOcYEiFIHOVyvWc2mVdx9JMnXkvLWHfaK7zRG9IT169QIVCqwvtKQNBOjyyTy5SQK7WkuOr5N11ecfzFpheb7WMYlAXHFsXSiexLHTrdcV847SshJBncgfBbbGrugD2szRDfCf58yZGWc16OhebR0dVp9hmIVOCFHNYMEQOwLjczu9939zarA1uf6PF7*h6ARt96rKNRtC2DKPjdZgjZg9FksEtbUymxgQHLVEVZy2z1DNlcGLu*eHQzDWAdoAb8VULtuLDEcJPqqbsrbMmqiyQ1IOgoDoASYTCzdZPhpYxNoF8UL5E2mLkysoobYXLoaPKjiSQ5qSw8IfbfyX7VyAQOPrB7fNTE9d!UnstKyUzwXKBBVTWcZDj0impr4TeVQEdmnMucNyXauPpeZLdsMfSVle7AHcxa45Q7JZaeGAP76nZBv4zA562ZuG8GX98QGqqH0auiDLkfo44R8osEfxdRUiQg!atC!!G4QIcnxArge8mSZofbs5Urthikjtg$$					
+Sent	WLSSC	EgBnAQMAAAAEgAAACoAAFz7S/OLs/1ei4A+UuBwgz8B0pgBgglIb2aAe0X4dmZSubWsTUCcztyJOT2CFOEKSRJ1njmS2DKDk+VoP6SuBOaV9dgLCUv/AZ5FAb0cqL5a1+uyuSS3q8GpPLaIkIm8zGWj+LgOhAD6CGH2qIpgxJrQqSxF5h6BLB8hYz+9zVDTWAFwA1gD9vwYA7Vazl8OIME/DiDBPECcAAAoQoAAAFwBjcmlmYW4yMDAzQGhvdG1haWwuY29tAE8AABZjcmlmYW4yMDAzQGhvdG1haWwuY29tAAAACUNOAAYyMTM1OTIAAAZlCAQCAAB3F21AAARDAAR0aWFuAAR3YW5nBMgAAUkAAAAAAAAAAAAAAaOKNpqLi/UAAMOIME/D/UJPAAAAAAAAAAAAAAAADgA1OC4yNDAuMjM2LjE5AAUAAAAAAAAYANgr7J8BBAABAAABAAABAAAAAAAAAAA=					
+Received	cookie29	RPSMaybe=	Thu, 30-Oct-1980 16:00:00 GMT	.live.com	/	No	No
+
+
+
+
+for wla42:
+/API/2/GetGroups?cid=9A8B8BF501A38A36&v=0.1072658797761844
+already got the wla42's value:
+wla42	cHJveHktYmF5LnB2dC1jb250YWN0cy5tc24uY29tfGJ5MioxLDlBOEI4QkY1MDFBMzhBMzYsMSwwLDA=
+
+
+
+for HIC:
+https://secure.wlxrs.com/WG-zSkBlt5ewNKOiCEVRMw/wlive.js
+$f.cancelEvent(c)}};u.bind("click",R);c(d).bind("unload",N);if(!d.$HIC)return;var b=[],v
+
+new Z(w,q,p,v);else if(db)b[b.length]=new cb(F,G,o);var g=$HIC.c;if(g&&g.length>0){b[b.length]=new j("cid-"+g,"profile",true)
+
+var K="HIC";function ab(){var d=window.location.host.split("."),f="."+d[d.length-2]+".com",c=new Date,b=$HIC;c.setDate(c.getDate()+b.e)
+
+after https://skydrive.live.com/handlers/resourcespreload.mvc?bicild=&view=Common.Wac
+it is:
+https://by2msg3010711.gateway.messenger.live.com/xmlProxy.htm?vn=9.090515.0&domain=live.com
+its send cookie contain:
+Direction	Key	Value	Expires	Domain	Path	Secure	HTTP only
+Sent	HIC	9a8b8bf501a38a36|0|0|
+
+
+
+for MUID:
+
+https://c.live.com/c.gif?DI=15346&wlxid=e814349b-f079-49f9-87b5-1c4de9f61f27&reqid=003310705da&csiperf=ANON%3DDE389D4D076BF47BCAE4DC05FFFFFFFF%26NL%3D1389%26TP%3D0%26CL%3DBAYxxxxxxC534%26MA%3Den-US%26B%3D16.2.3028%26TR%3D0%252AL%252ASetView-Init%253ASDX.Skydrive%252AFiles.default.F.A%26PLT%3D1841%26IR%3D1%26EX%3D0%26PCT%3D131%26PCD%3D131%26L.h%3D707%26L.bc%3D975%26L.ac%3D1044%26L.sjs%3D1247%26L.f%3D1401%26L.ttg%3D1839%26C.req%3D1053%26C.resp%3D730%26C.navType%3D0%26C.redirectCount%3D1&r=0.8091951992577993
+
+response cookie contains:
+Key	Value
+Set-Cookie	MUID=0A38C5B7B84D6F743CAAC748BC4D6F07&TUID=1; domain=.live.com; expires=Thu, 06-Feb-2014 05:06:13 GMT; path=/;
+
+
+https://c.live.com/c.gif
+?
+DI=15346
+&wlxid=e814349b-f079-49f9-87b5-1c4de9f61f27
+&reqid=003310705da
+&csiperf=ANON%3DDE389D4D076BF47BCAE4DC05FFFFFFFF%26NL%3D1389%26TP%3D0%26CL%3DBAYxxxxxxC534%26MA%3Den-US%26B%3D16.2.3028%26TR%3D0%252AL%252ASetView-Init%253ASDX.Skydrive%252AFiles.default.F.A%26PLT%3D1841%26IR%3D1%26EX%3D0%26PCT%3D131%26PCD%3D131%26L.h%3D707%26L.bc%3D975%26L.ac%3D1044%26L.sjs%3D1247%26L.f%3D1401%26L.ttg%3D1839%26C.req%3D1053%26C.resp%3D730%26C.navType%3D0%26C.redirectCount%3D1
+&r=0.8091951992577993
+
+main response contain:
+"CSIPerf":{"enabled":1,"page":{"landingPageName":"","timeStamp":""},"IDSS":{"enabled":1},"WLXFD":{"enabled":1},"Trace":{"enabled":1}},
+
+
+decoded csiperf:
+"ANON=DE389D4D076BF47BCAE4DC05FFFFFFFF&NL=1389&TP=0&CL=BAYxxxxxxC534&MA=en-US&B=16.2.3028&TR=0%2AL%2ASetView-Init%3ASDX.Skydrive%2AFiles.default.F.A&PLT=1841&IR=1&EX=0&PCT=131&PCD=131&L.h=707&L.bc=975&L.ac=1044&L.sjs=1247&L.f=1401&L.ttg=1839&C.req=1053&C.resp=730&C.navType=0&C.redirectCount=1"
+
+ANON=DE389D4D076BF47BCAE4DC05FFFFFFFF
+&NL=1389
+&TP=0
+&CL=BAYxxxxxxC534
+&MA=en-US&B=16.2.3028
+&TR=0%2AL%2ASetView-Init%3ASDX.Skydrive%2AFiles.default.F.A
+&PLT=1841
+&IR=1
+&EX=0
+&PCT=131
+&PCD=131
+&L.h=707
+&L.bc=975
+&L.ac=1044
+&L.sjs=1247
+&L.f=1401
+&L.ttg=1839
+&C.req=1053
+&C.resp=730
+&C.navType=0
+&C.redirectCount=1
+
+
+for SAToken:
+https://skydrive.live.com/CookieToss?v=3
+response body:
+document.cookie="SAToken="+encodeURIComponent(a.t)+";domain="+a.d+";path=/;expires="+b.toUTCString();
+
+IE9 capted:
+Direction	Key	Value	Expires	Domain	Path	Secure	HTTP only
+Sent	SAToken	FBZDRBFHFPRTXAOFUBPFBVSZZZGWXMDVIPKMEVAJZOHJ					
+
+
+
+seems still need to continue login after get skydrive.com html:
+
+IE9:
+https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=11&ct=1328591170&rver=6.1.6206.0&wp=MBI_SSL&wreply=https%3a%2f%2fauth.bay.livefilestore.com%2fstorageservice%2fpassport%2flogin.aspx%3fcid%3d-7310595685695124938%26cru%3dhttps%253a%252f%252fskydrive.live.com%252fCookieToss%253fv%253d3&lc=1033&id=250915
+
+Chrome:
+https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=11&ct=1328600661&rver=6.1.6206.0&wp=MBI_SSL&wreply=https%3a%2f%2fauth.sn2.livefilestore.com%2fstorageservice%2fpassport%2flogin.aspx%3fcid%3d-7310595685695124938%26cru%3dhttps%253a%252f%252fskydrive.live.com%252fCookieToss%253fv%253d3&lc=2052&id=250915
+
+this url can extracted from main response of skydrive.com:
+<script type="text/javascript">var cookieToss={s:'https\\u003a\\u002f\\u002flogin.live.com\\u002flogin.srf\\u003fwa\\u003dwsignin1.0\\u0026rpsnv\\u003d11\\u0026ct\\u003d1328237383\\u0026rver\\u003d6.1.6206.0\\u0026wp\\u003dMBI_SSL\\u0026wreply\\u003dhttps\\u00253a\\u00252f\\u00252fauth.bay.livefilestore.com\\u00252fstorageservice\\u00252fpassport\\u00252flogin.aspx\\u00253fcid\\u00253d-7310595685695124938\\u002526cru\\u00253dhttps\\u0025253a\\u0025252f\\u0025252fskydrive.live.com\\u0025252fCookieToss\\u0025253fv\\u0025253d3\\u0026lc\\u003d2052\\u0026id\\u003d250915',d:'.live.com',t:'KRRDKTZIFMHDDRUYVTNVSXBNYNLNCCYYPJOTASTZEVDJ'};</script><iframe id="cookieToss" style="display:none" src="https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=11&ct=1328237383&rver=6.1.6206.0&wp=MBI_SSL&wreply=https%3a%2f%2fauth.bay.livefilestore.com%2fstorageservice%2fpassport%2flogin.aspx%3fcid%3d-7310595685695124938%26cru%3dhttps%253a%252f%252fskydrive.live.com%252fCookieToss%253fv%253d3&lc=2052&id=250915"></iframe>
+
+->
+https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=11&ct=1328237383&rver=6.1.6206.0&wp=MBI_SSL&wreply=https%3a%2f%2fauth.bay.livefilestore.com%2fstorageservice%2fpassport%2flogin.aspx%3fcid%3d-7310595685695124938%26cru%3dhttps%253a%252f%252fskydrive.live.com%252fCookieToss%253fv%253d3&lc=2052&id=250915
+
+code get decoed CookieToss URL:
+"https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=11&ct=1328603302&rver=6.1.6206.0&wp=MBI_SSL&wreply=https%3a%2f%2fauth.blu.livefilestore.com%2fstorageservice%2fpassport%2flogin.aspx%3fcid%3d-7310595685695124938%26cru%3dhttps%253a%252f%252fskydrive.live.com%252fCookieToss%253fv%253d3&lc=2052&id=250915"
+
+
+
+
+IE9:
+Key	Value
+Request	GET /login.srf?wa=wsignin1.0&rpsnv=11&ct=1328591170&rver=6.1.6206.0&wp=MBI_SSL&wreply=https%3a%2f%2fauth.bay.livefilestore.com%2fstorageservice%2fpassport%2flogin.aspx%3fcid%3d-7310595685695124938%26cru%3dhttps%253a%252f%252fskydrive.live.com%252fCookieToss%253fv%253d3&lc=1033&id=250915 HTTP/1.1
+Accept	text/html, application/xhtml+xml, */*
+Referer	https://skydrive.live.com/
+Accept-Language	en-US
+User-Agent	Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
+Accept-Encoding	gzip, deflate
+Host	login.live.com
+DNT	1
+Connection	Keep-Alive
+Cookie	MSPShared=1; WLOpt=RDCache=@hotmai.com:4; MSPRequ=lt=1328591110&co=1&id=250206; CkTst=G1328591113753; PPAuth=CpeUeNRBuVMcoSGQOZkHDR*pK7VLA!1aJYBuA7x!ADEJBDG3XhJLVPYk*X66NQVqSLWK9lzffMqPefsx5IzvMBWj56qDvpumP73mDnYuOId82hRuQySor6X84tqZ2N0yQq84GEvSa48jl5JH0KiSBH7zN4Di1eD1Sh4N3KoKd5L!e*6wrpXiM99KmPYVs*oTZJeN7cKOn93La9ndB2BHbWeWV*H6PiBIP8iIohGRnWUFbiefW1F5JtLIM8ZfkkDjLZRm8J6HlhViAjeGD*UE33RJ7jmSyJyoxixPRrx3vWKO; RPSTAuthTime=1328591170; MSPVis=$9; LOpt=0; MSPSoftVis=@72198325083833620@:@; xid=e814349b-f079-49f9-87b5-1c4de9f61f27&NK4bB&BAYxxxxxxC534&71; xidseq=3; wla42=; wl_preperf=req=131&com=131&cache=127; wlidperf=throughput=2&latency=1389&FR=L&ST=1328591169828; PPLState=1; RPSTAuth=EwDwARAnAAAUWkziSC7RbDJKS1VkhugDegv7L0eAABMJ0S9DShSpBJnH07/KTXjhr0fpfaay+9a23QV1T+Ey3g6phHroSCWXRiDbXZTqShmEiHOSLupCf3AlGHOMZEcwQ+kQJcOCYPLRFxbJmNgkwtN9DSEeULGqofpnlIHkG8eU8nUPSjS6uZfZY63GHQQVv//zlLCWQdlFHucZsKRQA2YAAAiE+4UW5E/miUAB8El+Fbj1HveqIZis7z41mm5MW9grGPuCNPQBeLdyS7kq6USXNbLUj203W+aU+QhEC3L+7qt3ILwHAWNyrvnN3iwBIKvNAtiZGBDRvzW5OsDvscEYyjQH3UobQpDBX1Vyx/ndZNgOl5zFw26UNMS+YGMhZZoyeykLeSpSbgqmT1AZBM0CdylsTJwVQ7zD7kMBoL79KQN0CRN1d6umTOdfkcJiuMCYxQZv1quzaX08VfRgz2+K9O/PO3Q/seGpmw88YiK+EXF61UBq014jo7oDtNI8V57td/8LXNLQ7RBdgozjIByYRpT2d8pk8EGLOF4ekhIh4yKLZKoVJZOvHYh3jnSuxRyugwEze4mxp6RbSlWXA3SwMy1d4xBrpfn1x16oxqrpZ9X0hjp2QSU0uV/J+dsZTtejNwQne+swbhAlZoFnAQ==; MSPAuth=2V65vO3VWDHYVFGhlvs4vfzuzGs!MTXajn0l4i8GS09cU0S6UROYVUwcOb8kM7rDbquLvOh3upJP8zExUj5iz2FCuh*8cQzt0sj06mxRZIcDQJ3H0q*8yd65EhZ0tv6v4f; MSPProf=25DJrH*DODmuPmqzu!XuDdIscoE0imJ7Zajq1e!WHqtY!aFGbQVN4Q1dSplbMMRZyaKAH5C34iCYtJgYEbNiu8ypxyzEuRsCzrWvTUeeD*GSZvSSjJ7XKoOwb2jU*IMPvPcD0pE6lU8F*2ZgAuiQgunlS7463bH5Z0LAFP1x7lCok04BHJ5BL43pZPmul996*3; MSNPPAuth=CoA3DJiRzU39f8WaOWfTFSJKw8SsYVGEifjKoyMX01nOK!Fgo667RFQkATZNRXDjO5LdTqxFsZixtPpKG8V5!Uc7Fa*WTLXvK1*jZ4nWfSYBmgeS8f2H8zTZGwulh95wMDSFxIUhahGNXmJ9DpEEbhFulXxD1yFTt2AIvm4TLAIZCaZ3GRNbaAw9K0lO8eFaI7p07x*yjDql1CDbOaQTCE1Utby*qoYR1evpB!jLLlXBwftKoojQVnx94VQOaeUedwp0izeYqF*wJx8qt!xxh1Z!Uv!sT2v!c97oyHwYsaddIe9vBWEu3Ejz6yvT1yIRN!WfHVC!WNNFjHBlIfQRketELhUatQxPX3KHL7abOAErPnBg34TnB2TJajKdz!Le5ubR63Dv1fkxy5I*1MK2xz9jMwC8JAM8sN3cYnmSsNotOcbDqsKIUY70OgitjziQtZB5N45t4OTuvDFhLZOyg*qZTvGCFw95jlpLMRuwDLAK5dUdRRRVG8IHFR4eN4KIUw$$; MH=MSFT; NAP=V=1.9&E=be9&C=mf66Rd1VVtDG3h4HSb2I3URTPckpqHzGqb1N_g2T_P403z8NvKhw5g&W=1; ANON=A=DE389D4D076BF47BCAE4DC05FFFFFFFF&E=c43&W=1; WLSSC=EgBnAQMAAAAEgAAACoAAbul6hzd8ePNzOlKDGg/EoVgsrj0KudJ9Q+xFP0c8PSwfA/oFrugl9ViVwlxx5E4EzhWihHrPLjO9XjjdLIhQR7gikzsmHCziJfEdETVCLrkGbKGUAlxjtIvpHUgpoyl9UA1D7vHPrVqCJ6R1wxddRk50WbYdqNm7aLAnhf6Fp+HWAFwA1gD9vwYA7Vazl0KxME9CsTBPECcAAAoQoAAAFwBjcmlmYW4yMDAzQGhvdG1haWwuY29tAE8AABZjcmlmYW4yMDAzQGhvdG1haWwuY29tAAAACUNOAAYyMTM1OTIAAAZlCAQCAAB3F21AAARDAAR0aWFuAAR3YW5nBMgAAUkAAAAAAAAAAAAAAaOKNpqLi/UAAEKxME9CJkNPAAAAAAAAAAAAAAAADgA1OC4yNDAuMjM2LjE5AAUAAAAAAAAAAAAAAAABBAQBAAABAAABAAAAAAAAAAA=; E=P:HttbV22zzog=:VbyvVsi20IdzkUDijQk+b7mrMpnJCPxjaoVSyoR85uc=:F; wlp=A|eyJV-t:a*QvvVBQ._; wls=A|eyJV-t:a*n; wlv=A|eyJV-d:s*wi63Bw.2+1+0+3; SAToken=
+
+
+
+<html><head><noscript>JavaScript required to sign in<meta http-equiv="Refresh" content="0; URL=https://login.live.com/jsDisabled.srf?mkt=EN-US&lc=1033"/></noscript><title>Continue</title><script type="text/javascript">function OnBack(){}function DoSubmit(){var subt=false;if(!subt){subt=true;document.fmHF.submit();}}</script></head><body onload="javascript:DoSubmit();"><form name="fmHF" id="fmHF" action="https://auth.bay.livefilestore.com/storageservice/passport/login.aspx?cid=-7310595685695124938&cru=https%3a%2f%2fskydrive.live.com%2fCookieToss%3fv%3d3&wa=wsignin1.0" method="post" target="_self"><input type="hidden" name="NAP" id="NAP" value="V%3D1.9%26E%3Dbe9%26C%3Dmf66Rd1VVtDG3h4HSb2I3URTPckpqHzGqb1N_g2T_P403z8NvKhw5g%26W%3D1"><input type="hidden" name="ANON" id="ANON" value="A%3DDE389D4D076BF47BCAE4DC05FFFFFFFF%26E%3Dc43%26W%3D1"><input type="hidden" name="t" id="t" value="EgBnAQMAAAAEgAAACoAAep8J4EsZvzcGam/C5siPrVo6qop5thzUNajWAISMvw09MGZrp+JZpzqj+gHETQljl4WYB0sTmpQPWlo8ZE0To5LwIWDpAeLBv4pvJdEMk10yCHBx6qgQaX3vpnIE3a1QZ8ynQbxwU8e6BPhfkJA7CYcJlNC2n/O5G0lB28Anm7bWAFwA1gD9vwYA7Vazl0CxME9AsTBPI9QDAAoQIAAAFwBjcmlmYW4yMDAzQGhvdG1haWwuY29tAE8AABZjcmlmYW4yMDAzQGhvdG1haWwuY29tAAAACUNOAAYyMTM1OTIAAAZlCAQCAAB3F21AAARDAAR0aWFuAAR3YW5nBMgAAUkAAAAAAAAAAAAAAaOKNpqLi/UAAEKxME9CJkNPAAAAAAAAAAAAAAAADgA1OC4yNDAuMjM2LjE5AAUAAAAAAAAAAAAAAAABBAABAAABAAABAAAAAAAAAAA="></form></body></html>
+
+
+
+
+removed manully added cookies, the code generated cookies:
++		[0]	{xid=73950cd2-1aa9-4c67-b147-ac034fd14847&NK4bB&BAYxxxxxxC620&71}	object {System.Net.Cookie}
++		[1]	{xidseq=3}	object {System.Net.Cookie}
++		[2]	{LD=}	object {System.Net.Cookie}
++		[3]	{wla42=YnkyKjEsOUE4QjhCRjUwMUEzOEEzNiwwLCww}	object {System.Net.Cookie}
++		[4]	{$Version=1; MSPRequ=lt=1328619487&co=1&id=250206; $Path=/}	object {System.Net.Cookie}
++		[5]	{$Version=1; MSPOK=$uuid-dcd5c617-66c3-4d91-a3d2-14be6db85b6d; $Path=/}	object {System.Net.Cookie}
++		[6]	{$Version=1; PPLState=1; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[7]	{MSPPre=}	object {System.Net.Cookie}
++		[8]	{MSPCID=}	object {System.Net.Cookie}
++		[9]	{$Version=1; RPSTAuth=EwDoARAnAAAUWkziSC7RbDJKS1VkhugDegv7L0eAAH3VFVlO8+Sak1kqoCRD8ateKi/S4jdniJ+OK1kImyybPu82KE0KJDg7cWiZWlDzAQY+SpgbnNrLgIRyol0Sdtaxmn/KbNcNdj3lYraLaJSxQEWE/TVoxNuPu4SSpods4IM2W9clZKxTFKws/WQyNuyt2Z2n5L05tJghwG5+Y2miA2YAAAiJwTEdjnX6DjgBEaMz+dQBVzZZbCgtPLqiip54KjcnAZS8B/JW9K0R36VulDpkRiblbEKzoBx1O0jOsJqavcY4sNkxuduPTbswfBqqICdrAosl68PitMY4ccAb5Oqg4QNVV/5f8ANBF4E2r0D5f11oCPgEgH8Ph4m8j91ahaU4EtgCpKuuVvE72bJpH7Tm1lbZpvjMr0WEnGgt9dI8EF1RRoVNXMBdv8Gy86bny1FnnJQBL3MrqnHgpgIkFpVp2/tMjgXylhRdomNy8y2MWWiHE/dBGzJxIImu9AIH/LvWLaUQD6rCQKUwt49y8GJtQGbtpl/Khb8pRFfT1wDtydhX3tp8tsqTkPX50xNh8fl02tE4ee5xjAcqoEk7YSl6ECGj0StkuV+6nNdVZZosb64n5nb2HHaulRLJjvrSIkI1CO7HZgE=; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[10]	{$Version=1; MSPAuth=27XasPvuXD5!mbAe6FQ2oA2CJPQaD051UdEPcBIfvG*fFUJX52gAh7wAUa4VO00brweTlpCEu54F*WeQDXbVZOMdJdVDk8*MbNIjXjb0RugiJbNTtkJNqr3lcip2psmHkq; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[11]	{$Version=1; MSPProf=2hW!!VW1pD!esSFE*FP7qIuA1RscevcsCtlr7BP9BsxLlDSKV*jnJM3Y5U9qiDXKKw07srdv7THd8JVyUPGQRIuXTiI6MxnoJIbe8nzAxb25e0iMJDOTBXR9X8HF4m4lD5lqSs2u6sasZ03Bjug77LtkugqDyV5tjR7Hb7rp1r3gkM8opcDKzqwdnbcyMFrrEL; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[12]	{$Version=1; MSNPPAuth=CpryiNEmtOdFAV0EbAycIr0iqwkNa3yuPLWBXEN*Vx9eskrhd3c0q7RRf1qbd7lA5RlMMa3Au4IkJIn0sATV*wokdSGRXV3UvUQTlvZBXq0exoffCYdZhtX!bzqU!lZ683mK8sdkrWK4zG87AN4*u9Q2OqFq!sJyrGxF6jzLKKswCFCbAL0r3BR6cfn3HxuX2LtkW8DdUGU8T1hf9I9sZRxmq2ZaJ6Z3GjfELItbqlozrYX1x05gvk0mTrdBO7L7bABC5KxdW07DdQwdgWoNBa3d4jOqOA4eEkWiHIf9czUAbLvoJL9PtTcAjfykPjwyunKxZPQxAcd8yjCC1ebRcIzkEJtmI9w*nH0mPPSKXmEHKi2RgLNkzqJdJdUtbtBEjW0Iy4qBKp8e!XLmiRExfBJq7GPDzvxY6zSjsSgOnhMRuNdeKB78vgUmDqbb6OTbwBGQ1A9QXYgjUG7tSav1Dj72wwO!OJzfMmJcVido5A!oprxJE*2Sr1yxf4zLvKpm9w$$; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[13]	{$Version=1; MH=MSFT; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[14]	{$Version=1; MHW=; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[15]	{$Version=1; MHList=; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[16]	{NAP=V=1.9&E=be9&C=BWplQ2PlDtdyWNgO67IQZOS2Mm4eBhRA3hH6KnjjvaZBfIebF26kKA&W=1}	object {System.Net.Cookie}
++		[17]	{ANON=A=DE389D4D076BF47BCAE4DC05FFFFFFFF&E=c43&W=1}	object {System.Net.Cookie}
++		[18]	{MSPVis=$9}	object {System.Net.Cookie}
++		[19]	{$Version=1; pres=; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[20]	{$Version=1; WLSSC=EgBmAQMAAAAEgAAACoAAi+9By75DYCdANX7P/8xHv8kkXAVM8BcfAFrIDfmzVjEUtrjmq9gLVtntUXyRXRcq8qXKsk99JR01N4MriwSDUX5GyUffLPnLP9KluMKE8I2XX+C9GJNr9IFVVTBpwusX2wqC652HqHvYX3OZQ1erdoFMxUQeMKdjT13FN0gxjsvVAFwA1QD9vwYA7Vazl+YfMU/mHzFPECcAAAoQoAAAFwBjcmlmYW4yMDAzQGhvdG1haWwuY29tAE8AABZjcmlmYW4yMDAzQGhvdG1haWwuY29tAAAACUNOAAYyMTM1OTIAAAZlCAQCAAB3F21AAARDAAR0aWFuAAR3YW5nBMgAAUkAAAAAAAAAAAAAAaOKNpqLi/UAAOYfMU/mlENPAAAAAAAAAAAAAAAADQAxMTQuMjE3LjcuNzkABQAAAAAAAAAAAAAAAAEEAAEAAAEAAAEAAAAAAAAAAA==; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[21]	{RPSMaybe=}	object {System.Net.Cookie}
++		[22]	{E=P:rXZgS6+zzog=:9pxvUqTzmQlmtu+YGh94cCol7+yeQG5czii/NV1cxKk=:F}	object {System.Net.Cookie}
++		[23]	{wlp=A|eyJV-t:a*6WnWBQ._}	object {System.Net.Cookie}
++		[24]	{wls=A|eyJV-t:a*n}	object {System.Net.Cookie}
++		[25]	{wlv=A|eyJV-d:s*aZ23Bw.2+1+0+3}	object {System.Net.Cookie}
++		[26]	{SAToken=GWXFKHCFXWCVJNCBDCKMIAFSDJTKCETEXCKBSWFXEUWJ}	object {System.Net.Cookie}
+
+
+
+IE9:
+https://auth.bay.livefilestore.com/storageservice/passport/login.aspx?cid=-7310595685695124938&cru=https%3a%2f%2fskydrive.live.com%2fCookieToss%3fv%3d3&wa=wsignin1.0
+post data:
+NAP=V%253D1.9%2526E%253Dbe9%2526C%253DGvqBmIrLgk0pfPHMc-g5RUCNzhQZdXcPW4fK9U9MlEumH9AyIRKjWQ%2526W%253D1&ANON=A%253DDE389D4D076BF47BCAE4DC05FFFFFFFF%2526E%253Dc43%2526W%253D1&t=EgBmAQMAAAAEgAAACoAAjglFzGnBejZmOF7EVl2hNM4EAWaDW6rCxpLkUMSxiq%2FIuEPQ%2F8pPLzPwz%2FeWxMrfdECUMjlHvgbBCYNlLk3MO28L4g4T9g1bJTdxwVPVAtx0KT%2FilKyctI9eQe5a5Yu6FdszNqyLsYd2fgHNqiCZ8I%2BJBmsVfRgxH7au7XLZKgLVAFwA1QD9vwYA7Vazl0MXMU9DFzFPI9QDAAoQIAAAFwBjcmlmYW4yMDAzQGhvdG1haWwuY29tAE8AABZjcmlmYW4yMDAzQGhvdG1haWwuY29tAAAACUNOAAYyMTM1OTIAAAZlCAQCAAB3F21AAARDAAR0aWFuAAR3YW5nBMgAAUkAAAAAAAAAAAAAAaOKNpqLi%2FUAAEYXMU9GjENPAAAAAAAAAAAAAAAADQAxMTQuMjE3LjcuNzkABQAAAAAAAAAAAAAAAAEEAAEAAAEAAAEAAAAAAAAAAA%3D%3D

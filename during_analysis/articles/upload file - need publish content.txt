@@ -1,0 +1,244 @@
+
+
+1。skydriveServiceClient的试用
+添加和引用了HgCo.WindowsLive.SkyDriveServiceClient.dll（旧版本是HgCo.WindowsLive.SkyDriveWebClient.dll及其所引用HtmlAgilityPack.dll）
+然后去测试对应的LogOn函数，结果都失败了。
+错误结果如下：
+SkyDriveServiceClient.v2.0.2b ：超时错误
+SkyDriveServiceClient.v2.0.1b ：超时错误
+SkyDriveServiceClient.v2.0.0b ：超时错误
+SkyDriveWebClient.0.8.0.a     ：未将对象引用设置到对象的实例
+SkyDriveWebClient.v0.8.6      ：未将对象引用设置到对象的实例
+SkyDriveWebClient.v0.8.10     ：未将对象引用设置到对象的实例
+
+其中2.0.2b，是当前的最新的版本。
+上述结果意味着，对于我这里来说，该库函数，都无法使用。
+因此还得我自己去写对应的函数，以实现自己需要的功能。
+
+2.关于MBI和MBI_SSL的测试
+后来又去测试了，对于自己的已实现的登陆代码部分。
+在刚登陆完成后，就去测试MBI或者MBI_SSL，看看上传文件和创建文件夹部分，是否成功。
+具体过程和结果如下：
+对于访问
+https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=11&ct=1328070682&rver=6.1.6206.0&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fskydrive.live.com%2F&lc=2052&id=250206&mkt=zh-CN&cbcxt=sky&bk=1328070683
+提交对应的POST的request之后，获得对应的带有验证信息的cookie后，
+再去访问：
+https://skydrive.live.com/API/2/AddFolder?lct=1
+去创建文件夹，是可以成功创建文件夹的。
+但是对于访问类似这样的地址：
+https://cid-9a8b8bf501a38a36.users.storage.live.com/users/0x9A8B8BF501A38A36/LiveFolders/InsertSkydriveFile_v2012-01-30-home.7z
+去上传文件的话，始终是失败的，错误还是那个BadContextToken+MBI_SSL。
+
+3.
+对于前面的访问login.live.com/ppsecure/post.srf给的地址中是wp=MBI_SSL_SHARED
+自己试着改成对应的wp=MBI_SSL或者wp=MBI
+然后在获得返回的包含认证信息的cookie之后，即可就去上传文件，结果还是失败。
+但是无论改成MBI_SSL还是MBI，都还是可以创建文件夹的。
+
+4.后来结合前面的内容，又多了点理解。
+那就是，首先，虽然出现BadContextToken+MBI_SSL的错误，但是此ticket未过期，那是肯定的，
+因为如果过期了，那创建文件夹也会失败才对，但是实际是可以的，
+加上对应的获得认证的信息前后，都是秒或分钟级别的，所以不存在token或者ticket过期问题。
+其次，之所以能够创建文件夹，那是因为根据前面的别人的代码：
+{"spaces.live.com", "MBI"},              /* Authentication for the Windows Live Spaces */
+{"storage.live.com", "MBI"},             /* Storage REST API */
+猜得，前面一直访问的login.live.com和最后创建文件夹的skydrive.live.com，应该都是使用MBI的policy，
+而上传文件访问的地址是cid-xxx.users.storage.live.com，此domain要求的应该是MBI_SSL，
+所以用之前获得的MBI的policy，去访问users.storage.live.com，是无法成功的，然后人家返回的错误内容告诉你要求的
+policy="MBI_SSL"
+因此，接下来的事情，就是如何去获得对应的针对users.storage.live.com的MBI_SSL的policy了。
+
+5.刚又注意到，其实上传文件的地址
+cid-xxx.users.storage.live.com
+是属于{"storage.live.com", "MBI"}中的，即应该就是MBI的policy，而之前访问
+login.live.com/ppsecure/post.srf
+而获得的policy，好像是MBI_SSL，至少最开始默认的是MBI_SSL_SHARED，所以，上面理解的也许是错了。
+实际应该是storage.live.com的是MBI，而别的是MBI_SSL。
+
+6.刚又从
+http://www.copypastecode.com/45352/
+看到：
+spRSTParams[0].wzServiceTarget  = messengerclear.live.com
+spRSTParams[0].wzServicePolicy  = MBI_KEY_OLD
+spRSTParams[1].wzServiceTarget  = msn.com
+spRSTParams[1].wzServicePolicy  = LBI
+spRSTParams[2].wzServiceTarget  = messengersecure.live.com
+spRSTParams[2].wzServicePolicy  = MBI_SSL
+spRSTParams[3].wzServiceTarget  = contacts.msn.com
+spRSTParams[3].wzServicePolicy  = MBI
+spRSTParams[4].wzServiceTarget  = storage.msn.com
+spRSTParams[4].wzServicePolicy  = MBI
+spRSTParams[5].wzServiceTarget  = sup.live.com
+spRSTParams[5].wzServicePolicy  = MBI
+spRSTParams[6].wzServiceTarget  = skydrive.live.com
+spRSTParams[6].wzServicePolicy  = MBI
+spRSTParams[7].wzServiceTarget  = auth.bay.livefilestore.com
+spRSTParams[7].wzServicePolicy  = MBI
+spRSTParams[8].wzServiceTarget  = spaces.live.com
+spRSTParams[8].wzServicePolicy  = MBI
+spRSTParams[9].wzServiceTarget  = directory.services.live.com
+spRSTParams[9].wzServicePolicy  = MBI
+spRSTParams[10].wzServiceTarget  = mail.live.com
+spRSTParams[10].wzServicePolicy  = MBI
+所以，确定skydrive.live.com是MBI的Policy了，所以，现在是要搞清楚如何获得对应的MBI的policy，
+然后再去上传文件。
+
+7.关于如何获得MBI的Policy，通过简单的该最开始传递给login.live.com/ppsecure/post.srf的地址中改为MBI的方法，是不行了。
+其他还有何办法，就得再去找资料了。
+
+8.微软关于Live SDK，有个在线交互式的网页供浏览参考代码，很是好用：
+http://isdk.dev.live.com/
+
+9.刚根据
+http://msdn.microsoft.com/en-us/library/hh243646
+去访问我自己的地址：
+https://apis.live.net/v5.0/9a8b8bf501a38a36/
+可以得到对应返回的内容：
+"{
+   "id": "9a8b8bf501a38a36", 
+   "name": "tian wang", 
+   "first_name": "tian", 
+   "last_name": "wang", 
+   "gender": "male", 
+   "locale": "en_US"
+}"
+
+10.
+参考这里:
+http://msdn.microsoft.com/en-us/windowslive/hh278363
+去尝试登陆试试。
+
+11.前后对于LiveConnect的API试了一些，
+也看了很多相关资料，但是最后的最后，决定放弃使用这套api，
+主要原因在于，
+其支持的三种方式使用这套LiveConnect的API，
+有REST，C#，Javascript。
+对于REST不熟悉，没概念，看了REST简单的介绍后，还是无法短期内搞定。
+而对于Javascript，则不适用我这里的C#项目。
+对于C#，原以为可以参考微软的代码，以及前面的SkydriveClient的代码，大不了自己一点点实现，
+完成对应的认证，然后再使用对应的skydrive的file的操作部分的api，去实现文件的上传。
+但是，可恶的是，C#的参考代码，单独是最开始的login的部分，即实现用户名和密码的认证部分，
+都不是普通的我所熟悉的http的部分，而是需要什么微软自己的特殊配置文件，而且还涉及silverlight之类的东西，
+而且是网页的界面形式的东西，太繁杂，太不适合简单的通过C#代码，通过访问对应的服务器或者提交对应的http请求，而实现对应的认证，获得对应的token认证信息之类的。
+而且还要搞懂Oauth认证：
+http://msdn.microsoft.com/en-us/library/hh243647.aspx
+结果发现也是需要搞懂太多概念，关键还是其用于网页部分的实现，
+而不是C#代码方便操作的。
+要方便的实现LiveConnect认证就是极其繁杂的事情，然后再去文件操作其实我倒觉得不是什么大问题，毕竟只是调用对应的函数实现功能而已。
+总之，想要通过LiveConnect的API，用C#代码实现认证以及后续的skydrive中的文件的操作，对于我来说，无法短期内完成。
+所以，暂时放弃此条路。
+忘了说了，参考官网代码，去模拟oauth登陆过程，结果发现，还是跳转到：
+https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=11&checkda=1&ct=1329578527&rver=6.1.6208.0&wp=MBI_SSL&wreply=https:%2F%2Foauth.live.com%2Fauthorize%3Fclient_id%3D0000000000000001%26scope%3Dwl.skydrive%26response_type%3Dtoken%26auth_redirect%3Dtrue&lc=1033&id=276649&popupui=1
+去登陆而已，其过程，和我之前所模拟的，没啥两样，说白了，还是绕了几部，又回到我自己之前已经走过的路了。
+实在很没意思。所以确定要放弃这条路了。
+
+12.还是回到原先的模拟网页登陆的复杂过程吧。
+因为这条路，虽然足够复杂，但是自己也已经走了95%了，从开始的skydrive的url跳转，
+到后来给定用户名和密码，实现可以登陆skydrive，到后来的都可以创建文件夹了。
+只是最后的这一关键步骤，上传文件，遇到问题了，但是核心的所需要的包含认证信息的cookie，也都已经完整的都有了。
+只是没搞懂如何去拿着这有效的认证信息，实现往
+cid-9a8b8bf501a38a36.users.storage.live.com
+上面传文件了。
+
+13。突然想到了，之前某处：
+
+提及的，好像是cookie的有效性，即domain的问题：
+即domain为.live.com的cookie，对于skydrive.live.com来说，也是无效的。
+所以就去尝试了，把对应获得的所有的.live.com的cookie的domain，
+都改为我这里的，当前为创建文件而访问的网址的domain：
+cid-9a8b8bf501a38a36.users.storage.live.com
+结果就可以成功创建文件了。
+
+
+对应返回的内容是：
+{"StatusCode":"201","StatusDescription":"Created","P3P":"CP=\"BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo\"","X-MSNSERVER":"BY2____4011206","Set-Cookie":"RPSMaybe=; path=\/; domain=.live.com; expires=Thu, 30-Oct-1980 16:00:00 GMT;","BITS-Packet-Type":"Ack","BITS-Protocol":"{7df0354d-249b-430f-820d-3d2a9bef4931}","BITS-Session-Id":"1mXcwHgrcMSBuBGkm9lpjV8umhz4At5JEGhY-AAOvE9Pk","Accept-Encoding":"Identity"}
+
+对应的IE9抓取的相关信息是：
+{"StatusCode":"201","StatusDescription":"Created","P3P":"CP=\"BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo\"","X-MSNSERVER":"BY2____4011319","Set-Cookie":"RPSMaybe=; path=\/; domain=.live.com; expires=Thu, 30-Oct-1980 16:00:00 GMT;","BITS-Packet-Type":"Ack","BITS-Protocol":"{7df0354d-249b-430f-820d-3d2a9bef4931}","BITS-Session-Id":"1mYYyP0Q2O60VwPP2Wj_4VAOLSN_EBGiwi2npYWdt6NPY","Accept-Encoding":"Identity"}
+
+
+后来又去测试了一下，把domain改为.users.storage.live.com，结果也是可以的，返回内容为：
+{"StatusCode":"201","StatusDescription":"Created","P3P":"CP=\"BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo\"","X-MSNSERVER":"BY2____4012011","Set-Cookie":"RPSMaybe=; path=\/; domain=.live.com; expires=Thu, 30-Oct-1980 16:00:00 GMT;","BITS-Packet-Type":"Ack","BITS-Protocol":"{7df0354d-249b-430f-820d-3d2a9bef4931}","BITS-Session-Id":"1m6l37JZnJM59obyGKKpUrkMfoo7JMVbd61sdi2BW-K08","Accept-Encoding":"Identity"}
+
+对应的，又去试了试，把domain改为.storage.live.com，结果就是返回对应的401无授权的错误，没有权限上传文件。
+这也是和预想的是一致的。
+
+之前是在提交：
+https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=11&ct=1328070682&rver=6.1.6206.0&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fskydrive.live.com%2F&lc=2052&id=250206&mkt=zh-CN&cbcxt=sky&bk=1328070683
+之前，把wp=MBI_SSL_SHARED改为了wp=MBI的，
+此处试了，去掉更改，直接使用wp=MBI_SSL_SHARED，结果也还是可以的成功创建文件的。
+
+
+【后记】
+那现在就去找找，到底是哪里去设置的对应的这些原先domain为.live.com的cookie，变成domain为
+.users.storage.live.com
+或
+cid-9a8b8bf501a38a36.users.storage.live.com
+的。
+
+好像是这里，访问：
+https://cid-9a8b8bf501a38a36.users.storage.live.com/clientaccesspolicy.xml
+获得的返回内容是：
+<?xml version="1.0" encoding="utf-8"?>
+<access-policy>
+    <cross-domain-access>
+        <policy>
+            <allow-from http-request-headers="*">
+                <domain uri="http://*.skydrive.live.com" />
+                <domain uri="http://*.photos.live.com" />
+                <domain uri="http://*.pmese.com" />
+                <domain uri="http://*.vz.kin.com" />
+                <domain uri="http://*.vf.kin.com" />
+                <domain uri="http://msc.wlxrs.com"/>
+                <domain uri="https://*.skydrive.live.com" />
+                <domain uri="https://*.photos.live.com" />
+                <domain uri="https://*.pmese.com" />
+                <domain uri="https://*.vz.kin.com" />
+                <domain uri="https://*.vf.kin.com" />
+                <domain uri="https://skydrive.live.com" />
+                <domain uri="https://skydrive-df.live.com" />
+                <domain uri="https://secure.wlxrs.com" />
+                <domain uri="https://mail.live.com"/>
+                <domain uri="https://*.mail.live.com"/>
+                <domain uri="https://msc.wlxrs.com"/>
+            </allow-from>
+            <grant-to>
+                <resource path="/" include-subpaths="true" />
+            </grant-to>
+        </policy>
+      <policy>
+        <allow-from http-request-headers="GET,POST">
+          <domain uri="http://*.phx.gbl"/>
+          <domain uri="http://*.dns.microsoft.com"/>
+          <domain uri="http://*.redmond.corp.microsoft.com"/>
+        </allow-from>
+        <grant-to>
+          <resource path="/counters" include-subpaths="false"/>
+          <resource path="/@:prev/counters" include-subpaths="false"/>
+          <resource path="/@:last/counters" include-subpaths="false"/>
+        </grant-to>
+      </policy>
+    </cross-domain-access>
+</access-policy>
+个人猜测是，对于想要访问
+cid-9a8b8bf501a38a36.users.storage.live.com的http的请求来说，
+那么其他domain的地址，比如skydrive.live.com来说，都是属于cross-domain-access跨域名访问，那么上述列表中的，都是允许的。
+然后对应的cookie，估计在提交之前，只要是上述地址中的cookie，也都被添加过来了。
+而其实对于http的请求，cookie提交的时候，其实也并没有添加对应的domain的值，只是提交了对应的
+key和value而已。
+而对于此处C#代码，提过cookieContainer来添加的cookie，在去getResponse的时候，对应dcookie，肯定是底层代码管理的，
+即如果发现不是当前domain的cookie，即如果发现添加进来的cookie的domain不是cid-9a8b8bf501a38a36.users.storage.live.com或.users.storage.live.com，
+那么就是加了也是白加，在提交http请求的那一刻，是不会提交给服务器的，所以，之前虽然cookie的name和value都是对了，但是由于domain不对，所以被过滤掉了，所以才无法创建文件的。
+
+
+【总结】
+【关于模拟网页过程的经验和教训】
+1.抓取网页分析所看到的结果中，对于cookie，往往会忽视掉被对应的某个javascript脚本所修改。
+而这些javascript脚本，一旦操作了对应的cookie，包括创建一个新的cookie，改了已有cookie的值，
+使某些cookie失效掉，尤其是改了某些cookie的domain，使得cookie对于原先的domain变的无效了，而对新的domain则有效了。
+这类的动作，如果没有注意到，则可能会完全摸不着头脑，搞不懂这些cookie的值的来龙去脉，而无法完全模拟网页的操作。
+2.对于模拟访问某些网页，可能要提交很多query string，即url中个那么多&name=value形式的值，和post data中的众多参数和值，
+有些是关键的，有些是无所谓的。
+对于哪些是关键的，哪些是无所谓的，除了需要自己一点点尝试之外，另外一个需要提醒的是，切莫把太多时间，用于分析每一个值是如何获得的，
+而要先去分析一下，哪些是可能重要的，哪些是可能无所谓的，尽量在分析了自己认为重要的之后，就开始去用代码尝试，是否可以获得对应的需要的结果。
+这样可以在第一时间，用最短的时间，获得我们所需要的结果，而不用再浪费时间，去计算其他的一些值了。

@@ -1,0 +1,48 @@
+【已解决】C#窗口关闭后保留配置参数
+【背景】
+一个C#的DLL库的项目，其中有几个参数，数量不多，需要支持用户自己修改和保存新配置。
+之前的做法是，手动在代码里面赋值对应的配置参数，每次启动配置窗体的时候，去赋值。
+但是当关闭配置窗体的时候，用户新修改参数无法有效的保存。
+现在希望可以保存用户修改的配置参数。而且是希望不依赖外部配置文件，比如xml，ini等文件，就可以实现用户参数配置的修改和保存的。
+（因为看到别的某dll，即WLW的代码高亮插件WindowsLiveWriter.SourceCode.dll，也就是不需要额外配置文件，就可以实现支持Option中的参数的修改和保存的。）
+
+【解决过程】
+1.网上找了一下。
+参考这里
+http://topic.csdn.net/t/20060820/16/4962549.html
+有提到ConfigurationManager，然后搜了下ConfigurationManager，好像是通过xml来实现的，即也是需要生成文件的，所以不是我所想要的。
+
+2.看到
+http://zhidao.baidu.com/question/160012829.html
+提到了，用config文件，数据库，文件（比如xml，ini等），注册表，都可以。
+只是知道了大概方法，但是还是所以，感觉用那个application configuration file，还是不够好，因为其会生成对应的配置文件的。
+
+3.
+期间，也曾考虑过，会不会WindowsLiveWriter.SourceCode.dll是通过添加注册表项来实现配置参数的保存的，然后去：
+HKEY_CURRENT_USER\Software\Microsoft\Windows Live\Writer
+中找了半天，好像也没找到对应的注册表项。
+
+4.
+http://developer.51cto.com/art/200909/148805.htm
+提到Settings
+去折腾了一下，是可以的。
+详细解释，参考：
+Windows Forms User Settings in C#
+http://www.codeproject.com/Articles/15013/Windows-Forms-User-Settings-in-C
+
+其中需要注意的是，每个setting置设置，都需要设置为user，而不能是Application，因为后者是程序代码中不能修改保存新的值的。
+另外，根据原作者的提示，新建setting项后，也要记得输入默认的配置，否则运行时候会出错的。
+
+【后记】
+http://zhidao.baidu.com/question/160012829.html
+中说到Settings所自动生成的.config需要手动拷贝，我这里是不需要的，应该是集成到程序里面的。
+不过刚测试了一下，去修改了下配置，保存后，dll文件本身是不会变化的，那应该是对应的配置文件，是放在别处的了，而不是集成在dll本身的。
+估计就是：
+http://developer.51cto.com/art/200909/148805.htm
+中提到的：
+“当设置scope为User时他的配置放在 C:\Documents and Settings\LocalService\Local Settings\Application Data\在这个目录下或子目录user.config 配置文件中。”
+但是后来又发现了对应的app.config在C#项目中是编译后不拷贝的，所以，还是没搞懂，配置文件是如何存储的，放在哪里的。
+
+【总结】
+通过程序的Properties->Settings去实现用户参数的修改和保存，是可以实现依赖外部xml等配置文件就可以实现的。
+不过需要注意的是，此处参数不能太多，否则也不易管理。参数太多，应该还是用ConfigurationManager去通过xml实现比较好。

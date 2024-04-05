@@ -1,0 +1,41 @@
+
+
+第一次获得MSNPPAuth的结果是：
+{$Version=1; MSNPPAuth=ClbSCCzSC9HTVH6f0ROoG0Sejds2HCsMgynfEVHicPJ*uNemoXDXQKOScpiT01H0a13N725jKqhllA1ClEOBLmATXT0NrY2KFV1h3W9j61qNsbUzhk8ok3h3kSmiLKIaBK0!YJf60Fvg4aY30Cznuibi1p8695wY5IHfzcJa3xOn*iOf2WU0ZW90y4H2JrjzctYz9GymGKMQqRwyRIchYdjeOg1p2CwGx*fdR0ms0iZZ9MbicnINDt7Rdg7LmZK!kBtxF3qsFzxSQWAq01BdJ!WavdiVUt6R2tJz8f9LhCXFyXdOKerkAJRcdcCLnm0yfknR165kwvlcwxIx8N9AhZn96uNp*C9CXp*zYL6ICZwRx83aubwvgCaixZ*e*94CvbcVn*YRA1jW39g5cXe334kDn6kDh2ZrIkaq5F!bwLVix5sCD!3jnAbLZHJB65jH0DW6865YZfRrgcUI9eh8akpxZnHKasuScKq6YmoBJ5TXsQQiX7C2pAP4RBYp49m6ag$$; $Path=/; $Domain=.live.com}
+
+
+
+解析出来的cookie值：
+-		parsedCk	{MSNPPAuth=}	System.Net.Cookie
+		Comment	""	string
++		CommentUri	null	System.Uri
+		Discard	false	bool
+		Domain	".live.com"	string
+		Expired	true	bool
++		Expires	{2012/2/1 15:32:50}	System.DateTime
+		HttpOnly	false	bool
+		Name	"MSNPPAuth"	string
+		Path	"/"	string
+		Port	""	string
+		Secure	true	bool
++		TimeStamp	{2012/2/11 23:33:01}	System.DateTime
+		Value	""	string
+		Version	0	int
+
+        
+原先已经有的值：
+-		[15]	{$Version=1; MSNPPAuth=CrbNJpmk0mmr6kk7iSXMM5g3tkABClGQ39wppH1oJsH5pZaQoeG7y6l3aA51Lz7Sb1E5UQgvwcJJHccSJV!Pqd10stHe7Gsh5oWz6g4GDWBVDUqifg2g9x0m35jFtPvBlgTh78gvhoACgC*YT2*iFTpPjtLdVcbSEeHClYlKPddr0iy5ErIqwjaTqJ9AE4Ndm0pWJ7vfUrS4Ucks0E4eTKukCh3anW10M*vbU*b88TfnGqE424UedTbDsL6ZlpTtmU9cfMY*R!eT2fBX7s2k4JuxXg3AwO7Y!pvYeCoI2DaRny2JBFbOz7fctiAckhAtHDRmZEAWTO5nPnVH7XTwN!E3ut68WnB9EU1jVzTE3MLoXfcrqDic3adcCmmD5QWS6jPH5D8!S2yViHCQttqGNW54lPyQUwgg9wezBK6rLsstn5W!vDoGROEF93DGEmwEs3Ta7gAE*8JXha6df32FCwStI2tiU9qSa0o*xSejrkSM*rDv6vmj!NupY6BTnMkWcA$$; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
+		Comment	""	string
++		CommentUri	null	System.Uri
+		Discard	false	bool
+		Domain	".live.com"	string
+		Expired	false	bool
++		Expires	{0001/1/1 0:00:00}	System.DateTime
+		HttpOnly	true	bool
+		Name	"MSNPPAuth"	string
+		Path	"/"	string
+		Port	""	string
+		Secure	false	bool
++		TimeStamp	{2012/2/11 23:32:49}	System.DateTime
+		Value	"CrbNJpmk0mmr6kk7iSXMM5g3tkABClGQ39wppH1oJsH5pZaQoeG7y6l3aA51Lz7Sb1E5UQgvwcJJHccSJV!Pqd10stHe7Gsh5oWz6g4GDWBVDUqifg2g9x0m35jFtPvBlgTh78gvhoACgC*YT2*iFTpPjtLdVcbSEeHClYlKPddr0iy5ErIqwjaTqJ9AE4Ndm0pWJ7vfUrS4Ucks0E4eTKukCh3anW10M*vbU*b88TfnGqE424UedTbDsL6ZlpTtmU9cfMY*R!eT2fBX7s2k4JuxXg3AwO7Y!pvYeCoI2DaRny2JBFbOz7fctiAckhAtHDRmZEAWTO5nPnVH7XTwN!E3ut68WnB9EU1jVzTE3MLoXfcrqDic3adcCmmD5QWS6jPH5D8!S2yViHCQttqGNW54lPyQUwgg9wezBK6rLsstn5W!vDoGROEF93DGEmwEs3Ta7gAE*8JXha6df32FCwStI2tiU9qSa0o*xSejrkSM*rDv6vmj!NupY6BTnMkWcA$$"	string
+		Version	1	int

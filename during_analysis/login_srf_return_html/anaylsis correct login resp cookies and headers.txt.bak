@@ -1,0 +1,81 @@
+【经验记录】C#中，库函数有bug，会将http所返回的响应中的头信息中的Set-Cookie值，解析错误
+
+访问一个页面：
+https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=11&ct=1328070682&rver=6.1.6206.0&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fskydrive.live.com%2F&lc=2052&id=250206&mkt=zh-CN&cbcxt=sky&bk=1328070683
+在提交http的request之前，保证给定了正常的参数，包括query string，post data，cookie。
+但是返回的http的response中的cookie的内容，却比预期的19个少了4个，只有15个。
+
+而后来经过漫长的调试和找不同的原因，最后终于定位出来根本原因了。
+原来是cookie解析有误。
+因为，本来正常返回的http的response中的header中，是已经包含了对应的cookie信息的：
+对应的resp.Headers的内容是：
++		Headers	{Pragma: no-cache
+X-XSS-Protection: 0
+X-Content-Type-Options: nosniff
+Content-Length: 0
+Cache-Control: no-cache
+Content-Type: text/html; charset=utf-8
+Expires: Wed, 08 Feb 2012 02:52:33 GMT
+Location: https://skydrive.live.com/
+P3P: CP="DSP CUR OTPi IND OTRi ONL FIN"
+Set-Cookie: MSPOK= ; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=login.live.com;path=/;HTTPOnly= ;version=1,PPAuth=Cja808bYonzVO3KonB5EwwkUNUaYw98P2hjnLB9y8pr9h9Tsx*jKxrKVUnI!nXkKbtUlUUnlHNRaqrU8!M*HBCkvqHuKxJUSkwF19YP3LMlf9IXsswbaIUou7zkgKjedVA2TOPrjUQvm1uCnBalsJW2nGYwuH!Slft5CvckWOYBVjSHQ1mru5qsswteo5v1sYd0GWzCMkiSi1VivakswAFUJ3WFUwAUHAJx0irhcFu!dwBfcHnVWeJ4Gx*18h6bU5nPeS*KNKeG1GDdPtTTCSo13G99nmYiBxTd5JxM6YENn; domain=login.live.com;secure= ;path=/;HTTPOnly= ;version=1,PPLState=1; domain=.live.com;path=/;version=1,MSPShared=1; expires=Wed, 30-Dec-2037 16:00:00 GMT;domain=login.live.com;path=/;HTTPOnly= ;version=1,MSPPre= ;domain=login.live.com;path=/;Expires=Thu, 30-Oct-1980 16:00:00 GMT,MSPCID= ; HTTPOnly= ; domain=login.live.com;path=/;Expires=Thu, 30-Oct-1980 16:00:00 GMT,RPSTAuth=EwDoARAnAAAUWkziSC7RbDJKS1VkhugDegv7L0eAAFrInAJNsz9Sxq6GPY9D00+eEASLqcrUghXAL11J/UAxwY+F4oYqq/z0OPdLGjJ6XpnnoYUFtueq39qhCyLeBWPdReLCBz4wG+sXVJnmqAkoOiLQSErvS+LuLqvj+R6jjeNjLTLm52D26yvgXVycNNqivYGsMIbWyWpXCQew5yeFA2YAAAjRbGr2rhssrjgBrfkR5GUohPotag24NPPjdrzpi/l6oYPtjvZis7bbLiEJD1uhHfuQpOZNKiGdqo7BelgwG/WGJ64TWuxEOezIz7l5hJaPL7Z3xPJwLzu1xVfziuNYcjEsz0iMd/amUMmihZD51IJIp/AQban1KrtZWt4xI6x1/IsvLREW1dlTiK5UaPrV4pA7nn2Ey9QiZwSb14BIZ3TyP+WTrfcXlWp86E3c/Ncyl1WeBfp9Mh/y9LbDu7dNnyXi/kImdtEXdscocw5ZWim1t6YnKP5u/PRKjlc14tJinZn3kVNyifuQWjK74px80g9q6HXaMbm8IIOKWenCVFUeVZzQLZ7Csg4+yQ8mG3AGuB8b1ZNTj2LZCbg3ePctDaJXudwEDDpmU8axUgjEbirbLFOlFHLuEduqcSfSipy8t/czZwE=; domain=.live.com;path=/;HTTPOnly= ;version=1,RPSTAuthTime=1328669613; domain=login.live.com;path=/;HTTPOnly= ;version=1,MSPAuth=2RwfS6Kr1DlivQ*eEVHc2swO26FsD6gqT7HbJEKDZEpLTeSfWMX5NRA!!pYLvNhIJIG3vHwo!6xJCJfxB5dtEjYLoQ8i81wns1919xfqTDX1jVTzj1Sb1sOv*tAqkcu13B; domain=.live.com;path=/;HTTPOnly= ;version=1,MSPProf=2yT9iH68OD0ArMlCOQsy8aKYLpAiShgiuiShP2Jv3k7iLX2qT5oqoKtLGMVki1aU4BFdM4hAsOwud0BZxbsv3KD0MoQ1O*19i!2yHsvnOaXndtB5zmRDdYlDY0OUw!EIHqkFJbzyaO!GEV06mmTw5ey71YsLm2L5lsr4ZsMyovJMa!6wobQ22nweBrzne!NRVq; domain=.live.com;path=/;HTTPOnly= ;version=1,MSNPPAuth=CjaThQW55QKnQHY7hOZC6D1f4TyJEAPJlhQGU4tVkxikgN!GDtduGqBzF4KRMB!v8PqjnSAnc86xGiU*Y8Le5MqMkjCFASRc19*s!DyBaccAqVRHnSUrnL91!lPn3c!imMPAMY0zJxnl8YJLsbG5Rlms8!AvCO7gKjx9gkhUiwSaWJJiBaJ9dUk6Z1lVSavDD7z6CDlRyiVENHeuAGqOGtG9YKh6rvA2oo2rnGLoNnTTl6DiBj!Whv09jrj78cmosnQNcZPEoxEP74aePPJm*m6IBWUVJAe1BV2g65YEg5q88HvKYn!bN2ZO*tOSlHPYb9XqnbzaEEvwVGTuz*B4Np3n7IYRaKtKRds0s7pyi0BboxLEuOwbxdKa9TQZsTR25jQkUxLs1D35DFVDARl9O*1zFN2xPNYZo2d925ZkerfeXU6v8f!ZB58o6tHAu8AODdfC0C!JGr8TltO!OGxxr27BY4OV0RD!G1dXB5TPhD*JOLj13ei7PqDxDU0fTueS*g$$; domain=.live.com;path=/;HTTPOnly= ;version=1,MH=MSFT; domain=.live.com;path=/;version=1,MHW=; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=.live.com;path=/;version=1,MHList=; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=.live.com;path=/;version=1,NAP=V=1.9&E=bea&C=UOKQ7liM885CXgAjD1s_8FldtnSd1bhUC5xITh_hGem02c_hHR0MaA&W=1;domain=.live.com;path=/,ANON=A=DE389D4D076BF47BCAE4DC05FFFFFFFF&E=c44&W=1;domain=.live.com;path=/,MSPVis=$9;domain=login.live.com;path=/,pres=; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=.live.com;path=/;version=1,LOpt=0; domain=login.live.com;path=/;version=1,WLSSC=EgBnAQMAAAAEgAAACoAAVW/4CvmtDBNYVeRO1K6VBuWSiz3VHxafnXMW9bhGKqWKXaEJ+WFO6tBc0grTbWBxGeJxhmfQIcyKuobIZQ755dC252ORoicHRvxIgq2jP3sD5zo8Y2en9yPcrBxnPGmuWo0u8j4LtkIq6rFMhGWFeaMkBgxM+u4y2DD8rW/tlw/WAFwA1gD9vwYA7Vazl63jMU+t4zFPECcAAAoQoAAAFwBjcmlmYW4yMDAzQGhvdG1haWwuY29tAE8AABZjcmlmYW4yMDAzQGhvdG1haWwuY29tAAAACUNOAAYyMTM1OTIAAAZlCAQCAAB3F21AAARDAAR0aWFuAAR3YW5nBMgAAUkAAAAAAAAAAAAAAaOKNpqLi/UAAK3jMU+tWERPAAAAAAAAAAAAAAAADgA1OC4yNDAuMjM2LjE5AAUAAAAAAAAAAAAAAAABBAABAAABAAABAAAAAAAAAAA=; domain=.live.com;secure= ;path=/;HTTPOnly= ;version=1,MSPSoftVis=@72198325083833620@:@; domain=login.live.com;path=/;version=1
+Server: Microsoft-IIS/7.5
+PPServer: PPV: 30 H: BAYIDSLGN1I40 V: 0
+Date: Wed, 08 Feb 2012 02:53:32 GMT
+Connection: close
+
+}	System.Net.WebHeaderCollection
+
+其中的cookie，经过自己手动拆分，可以得到：
+MSPOK= ; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=login.live.com;path=/;HTTPOnly= ;version=1,
+PPAuth=Cja808bYonzVO3KonB5EwwkUNUaYw98P2hjnLB9y8pr9h9Tsx*jKxrKVUnI!nXkKbtUlUUnlHNRaqrU8!M*HBCkvqHuKxJUSkwF19YP3LMlf9IXsswbaIUou7zkgKjedVA2TOPrjUQvm1uCnBalsJW2nGYwuH!Slft5CvckWOYBVjSHQ1mru5qsswteo5v1sYd0GWzCMkiSi1VivakswAFUJ3WFUwAUHAJx0irhcFu!dwBfcHnVWeJ4Gx*18h6bU5nPeS*KNKeG1GDdPtTTCSo13G99nmYiBxTd5JxM6YENn; domain=login.live.com;secure= ;path=/;HTTPOnly= ;version=1,
+PPLState=1; domain=.live.com;path=/;version=1,
+MSPShared=1; expires=Wed, 30-Dec-2037 16:00:00 GMT;domain=login.live.com;path=/;HTTPOnly= ;version=1,
+MSPPre= ;domain=login.live.com;path=/;Expires=Thu, 30-Oct-1980 16:00:00 GMT,MSPCID= ; HTTPOnly= ; domain=login.live.com;path=/;Expires=Thu, 30-Oct-1980 16:00:00 GMT,
+RPSTAuth=EwDoARAnAAAUWkziSC7RbDJKS1VkhugDegv7L0eAAFrInAJNsz9Sxq6GPY9D00+eEASLqcrUghXAL11J/UAxwY+F4oYqq/z0OPdLGjJ6XpnnoYUFtueq39qhCyLeBWPdReLCBz4wG+sXVJnmqAkoOiLQSErvS+LuLqvj+R6jjeNjLTLm52D26yvgXVycNNqivYGsMIbWyWpXCQew5yeFA2YAAAjRbGr2rhssrjgBrfkR5GUohPotag24NPPjdrzpi/l6oYPtjvZis7bbLiEJD1uhHfuQpOZNKiGdqo7BelgwG/WGJ64TWuxEOezIz7l5hJaPL7Z3xPJwLzu1xVfziuNYcjEsz0iMd/amUMmihZD51IJIp/AQban1KrtZWt4xI6x1/IsvLREW1dlTiK5UaPrV4pA7nn2Ey9QiZwSb14BIZ3TyP+WTrfcXlWp86E3c/Ncyl1WeBfp9Mh/y9LbDu7dNnyXi/kImdtEXdscocw5ZWim1t6YnKP5u/PRKjlc14tJinZn3kVNyifuQWjK74px80g9q6HXaMbm8IIOKWenCVFUeVZzQLZ7Csg4+yQ8mG3AGuB8b1ZNTj2LZCbg3ePctDaJXudwEDDpmU8axUgjEbirbLFOlFHLuEduqcSfSipy8t/czZwE=; domain=.live.com;path=/;HTTPOnly= ;version=1,
+RPSTAuthTime=1328669613; domain=login.live.com;path=/;HTTPOnly= ;version=1,
+MSPAuth=2RwfS6Kr1DlivQ*eEVHc2swO26FsD6gqT7HbJEKDZEpLTeSfWMX5NRA!!pYLvNhIJIG3vHwo!6xJCJfxB5dtEjYLoQ8i81wns1919xfqTDX1jVTzj1Sb1sOv*tAqkcu13B; domain=.live.com;path=/;HTTPOnly= ;version=1,
+MSPProf=2yT9iH68OD0ArMlCOQsy8aKYLpAiShgiuiShP2Jv3k7iLX2qT5oqoKtLGMVki1aU4BFdM4hAsOwud0BZxbsv3KD0MoQ1O*19i!2yHsvnOaXndtB5zmRDdYlDY0OUw!EIHqkFJbzyaO!GEV06mmTw5ey71YsLm2L5lsr4ZsMyovJMa!6wobQ22nweBrzne!NRVq; domain=.live.com;path=/;HTTPOnly= ;version=1,
+MSNPPAuth=CjaThQW55QKnQHY7hOZC6D1f4TyJEAPJlhQGU4tVkxikgN!GDtduGqBzF4KRMB!v8PqjnSAnc86xGiU*Y8Le5MqMkjCFASRc19*s!DyBaccAqVRHnSUrnL91!lPn3c!imMPAMY0zJxnl8YJLsbG5Rlms8!AvCO7gKjx9gkhUiwSaWJJiBaJ9dUk6Z1lVSavDD7z6CDlRyiVENHeuAGqOGtG9YKh6rvA2oo2rnGLoNnTTl6DiBj!Whv09jrj78cmosnQNcZPEoxEP74aePPJm*m6IBWUVJAe1BV2g65YEg5q88HvKYn!bN2ZO*tOSlHPYb9XqnbzaEEvwVGTuz*B4Np3n7IYRaKtKRds0s7pyi0BboxLEuOwbxdKa9TQZsTR25jQkUxLs1D35DFVDARl9O*1zFN2xPNYZo2d925ZkerfeXU6v8f!ZB58o6tHAu8AODdfC0C!JGr8TltO!OGxxr27BY4OV0RD!G1dXB5TPhD*JOLj13ei7PqDxDU0fTueS*g$$; domain=.live.com;path=/;HTTPOnly= ;version=1,
+MH=MSFT; domain=.live.com;path=/;version=1,
+MHW=; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=.live.com;path=/;version=1,
+MHList=; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=.live.com;path=/;version=1,
+NAP=V=1.9&E=bea&C=UOKQ7liM885CXgAjD1s_8FldtnSd1bhUC5xITh_hGem02c_hHR0MaA&W=1;domain=.live.com;path=/,
+ANON=A=DE389D4D076BF47BCAE4DC05FFFFFFFF&E=c44&W=1;domain=.live.com;path=/,MSPVis=$9;domain=login.live.com;path=/,
+pres=; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=.live.com;path=/;version=1,
+LOpt=0; domain=login.live.com;path=/;version=1,
+WLSSC=EgBnAQMAAAAEgAAACoAAVW/4CvmtDBNYVeRO1K6VBuWSiz3VHxafnXMW9bhGKqWKXaEJ+WFO6tBc0grTbWBxGeJxhmfQIcyKuobIZQ755dC252ORoicHRvxIgq2jP3sD5zo8Y2en9yPcrBxnPGmuWo0u8j4LtkIq6rFMhGWFeaMkBgxM+u4y2DD8rW/tlw/WAFwA1gD9vwYA7Vazl63jMU+t4zFPECcAAAoQoAAAFwBjcmlmYW4yMDAzQGhvdG1haWwuY29tAE8AABZjcmlmYW4yMDAzQGhvdG1haWwuY29tAAAACUNOAAYyMTM1OTIAAAZlCAQCAAB3F21AAARDAAR0aWFuAAR3YW5nBMgAAUkAAAAAAAAAAAAAAaOKNpqLi/UAAK3jMU+tWERPAAAAAAAAAAAAAAAADgA1OC4yNDAuMjM2LjE5AAUAAAAAAAAAAAAAAAABBAABAAABAAABAAAAAAAAAAA=; domain=.live.com;secure= ;path=/;HTTPOnly= ;version=1,
+MSPSoftVis=@72198325083833620@:@; domain=login.live.com;path=/;version=1
+
+一共是19的cookie，和IE9和Chrom中所抓取的信息，是一致的。
+而此处的C#代码：
+resp = (HttpWebResponse)req.GetResponse();
+updateCurrentCookies(resp.Cookies);
+调试过程中，所得到的resp.Cookies只有15个，漏掉了4个：
+
+
+对于Cookie解析错误的问题，之前也遇到的。
+之前是，库函数对于解析返回的header中的cookie内容：
+MSPRequ=lt=1328083341&co=1&id=250206; path=/;version=1,MSPOK=$uuid-4ae12297-0bf0-4d5a-823e-4c5c7b4eed90; domain=login.live.com;path=/;version=1
+其很明显是2个cookie，但是却被解析成1个了。
+而当时发现问题后，也找到了对应的原因，那就是user-Agent有误。
+当时的User-Agent是：
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.7 (KHTML, like Gecko) Chrome/16.0.912.77 Safari/535.7
+后来改为其他的，比如：
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.3; .NET4.0C; .NET4.0E
+Mozilla/5.0 (compatible; MSIE 9.0;)
+Mozilla/5.0 (compatible; MSIE 8.0;)
+Mozilla/4.0 (compatible; MSIE 8.0;)
+就不会导致cookie解析出错了。
+
+但是，此处的问题是，已经尝试了所有的，上述所说述的，之前可以正确解析的user-agent的，
+此处，还是会导致上面将本来是19个cookie，解析成15个。
+
+而此处之所以记录这个问题，是因为这个库函数的bug，没有获得对应的cookie，
+从而导致后面的程序执行错误，浪费了我非常多的时间。
+所以在此记录下来，希望以后要注意这个事情。
+
+【经验总结】
+所以，总结起来，感觉还是C#(.NET)的http response的库函数有问题。
+会http的response中的header所包含的Set-cookie的信息，解析错误。
+会丢失一部分cookie。

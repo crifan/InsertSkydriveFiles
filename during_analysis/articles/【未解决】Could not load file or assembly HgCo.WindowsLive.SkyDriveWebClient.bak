@@ -1,0 +1,66 @@
+【已解决】Could not load file or assembly HgCo.WindowsLive.SkyDriveWebClient
+
+【背景】
+想要通过C#实现模拟登陆skydrive，并且创建文件夹和上传文件。
+目前自己已经实现了登陆skydrive，也可以创建文件夹了。
+但是对于上传文件，模拟过程中，遇到fault="BadContextToken", policy="MBI_SSL",的问题而无法解决。
+然后看到网上有人已经实现了对应的库：
+http://skydriveapiclient.codeplex.com/
+下载已发布的dll库，并添加到当前C#项目中后，在拷贝并修改了对应的sample code后，编辑就没通过。
+经过尝试，把默认的当前的项目所用.NET 2.0改为3.5，源码编译这一步才可以识别对应的HgCo.WindowsLive.SkyDriveWebClient。
+但是调试运行的时候，出错：
+ex	{"Could not load file or assembly 'HgCo.WindowsLive.SkyDriveWebClient, Version=0.8.10.27408, Culture=neutral, PublicKeyToken=956852a28dcd1e2b' or one of its dependencies. The system cannot find the file specified.":"HgCo.WindowsLive.SkyDriveWebClient, Version=0.8.10.27408, Culture=neutral, PublicKeyToken=956852a28dcd1e2b"}	System.Exception {System.IO.FileNotFoundException}
+
+【解决过程】
+1.参考：
+http://blog.csdn.net/ghj1976/article/details/6009804
+把对应的的temp下面的LiveWriter的相关缓存都删了，问题依旧。
+2.
+参考：
+http://blog.crowe.co.nz/archive/2007/11/05/Could-not-load-file-or-assembly-name-or-one-of.aspx
+去把自己的项目的编译属性中的Any CPU改为x64，因为我的系统式X64的，怀疑此dll库默认发布是针对x86的，所以无法载入。
+但是结果还是不行。
+3.后来去下载了
+SkyDrive .Net API Client  
+的源码，然后自己去重新编译对应的库，并且也设置为x64，然后自己的项目也设置x64，然后编译出来的库，拿到我的项目中，无法运行，显示是
+其他一些所引用的库，比如system.Web等是针对其他平台的，所以只好作罢。
+4.看到
+http://forums.asp.net/t/956018.aspx/1
+中最后一人提到，其最后是用了.NET 3.5解决了此问题。
+我此处去将自己的项目设置为3.5 ，问题依旧。
+把源码项目设置为3.5，然后重新编译出来的库，也还是不能用，问题依旧。
+5.需要特别说明一下的是，对于下载的源码项目，其sample code是可以和自己的库匹配使用的，即使可以调试和运行的（只是没有得到我要的模拟登陆skydrive的结果而已）。
+6.突然看到，出错原因中有“or one of its dependencies”，所以想到，会不会是库的依赖问题。
+因为原先源码编译出来的dll库HgCo.WindowsLive.SkyDriveWebClient.dll的同目录下，还有个其所依赖的HTML解析的库HtmlAgilityPack.dll，
+是不是由于此被依赖的库没有导入，添加引用，而导致报错的，所以试了试，同时把此两个库都同时添加导入，添加引用。结果是问题依旧。
+7.突然想到了，可能是没把对应的HgCo.WindowsLive.SkyDriveWebClient.dll拷贝到对应的Live Writer的plugin目录下所导致的。
+因为我当前自己的C#项目，是dll类库，无法单独调试的，对应是设置了debug的application为Windows Live Writer，并且设置了项目属性中的build events的post events为：
+XCOPY /D /Y /R "$(TargetPath)" "C:\Program Files (x86)\Windows Live\Writer\Plugins"，即把项目生成的dll拷贝到对应文件夹下。
+而此处对于刚刚引用的HgCo.WindowsLive.SkyDriveWebClient.dll，只是添加了引用，但是项目调试所允许的Writer程序的对应文件夹下面，并不存在此dll库，所以启动项目调试所允许的writer，会找不到对应的HgCo.WindowsLive.SkyDriveWebClient.dll。
+
+【问题原因总结】
+即，当前一个dll类库的C#项目（InsertSkydriveFiles），添加了对应的某个别的dll库（HgCo.WindowsLive.SkyDriveWebClient.dll）的引用后，编译都是正常的，但是调试运行过程中却出现Could not load file or assembly的错误，其原因在于，此dll类库的C#项目的调试，是通过调用别的一个应用程序(Windows Live Writer）而实现的。去启动该应用程序(Windows Live Writer）去调试当前C#项目（InsertSkydriveFiles），却没有把对应刚引用的别的dll库文件（HgCo.WindowsLive.SkyDriveWebClient.dll）拷贝到该应用程序所能找到的位置(Windows Live Writer的plugin目录）。
+所以才报找不到对应的assembly的错误的。
+
+【解决办法】
+1.笨办法：
+每次手动拷贝对应的所引用的库（HgCo.WindowsLive.SkyDriveWebClient.dll）到对应的位置（Windows Live Writer的plugin目录）
+2.比较smart的方法：
+添加对应build的post event去自动拷贝对应类库到对应目录。
+具体步骤是：
+右击当前C#项目->Propertis->Build Events-> Post build event command line中，添加对应的拷贝代码。
+我这里的情况是，原先已经存在了对应的一个命令：
+XCOPY /D /Y /R "$(TargetPath)" "C:\Program Files (x86)\Windows Live\Writer\Plugins"
+其含义是把$(TargetPath)=生成的target=生成的WindowsLiveWriter.InsertSkydriveFiles.dll，拷贝到目录C:\Program Files (x86)\Windows Live\Writer\Plugins中去。
+此处，照葫芦画瓢，再添加如下命令：
+XCOPY /D /Y /R "$(ProjectDir)ref\skydriveapiclient-68942\trunk\src\SkyDriveServiceClient\bin\Debug\HgCo.WindowsLive.SkyDriveServiceClient.dll" "C:\Program Files (x86)\Windows Live\Writer\Plugins"
+其中：
+（1）$(ProjectDir)的值是：D:\tmp\tmp_dev_root\wlw\InsertSkydriveFile_v2.0_2012-02-17-office\InsertSkydriveFile\
+注：其他相关的可供使用的变量，可以在同一设置页面中的Edit post build... -> Macros中找到，比如：$(ProjectName)，$(ProjectPath)等。
+（2）对应的HgCo.WindowsLive.SkyDriveWebClient.dll是当在当前项目所在路径下面的：ref\skydriveapiclient-68942\trunk\src\SkyDriveServiceClient\bin\Debug目录中。
+
+其他人如遇到此类问题，看懂原因后，请自行照葫芦画瓢添加对应拷贝命令即可。
+
+【总结】
+1.以后遇到此类问题，除了善用网络之外，还需要脑子清晰，思路清晰，否则不容易排查找到问题根本原因。
+2.还是要清楚项目编译前后所涉及的事情的内在逻辑，才能找到原因所在。

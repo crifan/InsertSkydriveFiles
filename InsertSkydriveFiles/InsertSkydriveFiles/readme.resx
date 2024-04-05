@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="rtbAbout.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="rtbAbout.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="rtbAbout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 19</value>
+  </data>
+  <data name="rtbAbout.ScrollBars" type="System.Windows.Forms.RichTextBoxScrollBars, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="rtbAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>476, 124</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="rtbAbout.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rtbAbout.Text" xml:space="preserve">
+    <value>This plug-in is for Window Live Writer, was created by Crifan. 
+Its function is to enable blog writer to insert files from skydrive, such as photo, audio, ....
+More info please refer:
+http://www.crifan.com</value>
+  </data>
+  <data name="&gt;&gt;rtbAbout.Name" xml:space="preserve">
+    <value>rtbAbout</value>
+  </data>
+  <data name="&gt;&gt;rtbAbout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rtbAbout.Parent" xml:space="preserve">
+    <value>grpAbout</value>
+  </data>
+  <data name="&gt;&gt;rtbAbout.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="grpAbout.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt, style=Bold</value>
+  </data>
+  <data name="grpAbout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="grpAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>482, 146</value>
+  </data>
+  <data name="grpAbout.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="grpAbout.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="&gt;&gt;grpAbout.Name" xml:space="preserve">
+    <value>grpAbout</value>
+  </data>
+  <data name="&gt;&gt;grpAbout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpAbout.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpAbout.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rtbUsage.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="rtbUsage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="rtbUsage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 19</value>
+  </data>
+  <data name="rtbUsage.ScrollBars" type="System.Windows.Forms.RichTextBoxScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="rtbUsage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>476, 252</value>
+  </data>
+  <data name="rtbUsage.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rtbUsage.Text" xml:space="preserve">
+    <value>1.input your skydrive URL, should be like:
+https://skydrive.live.com/?cid=9A8B8BF501A38A36
+or:
+https://skydrive.live.com/?cid=9a8b8bf501a38a36&amp;id=9A8B8BF501A38A36%21597
+in which:
+9A8B8BF501A38A36 is your id of skydrive.
+9A8B8BF501A38A36%21597 is id of resource (file or folder)   id of a folder in your skydrive.
+[2] change the default setting as you need.
+3. click "Initialize" button to open your skydrive url
+then you can see the fetched files and folders in "Browser Files on Skydrive".
+4. Browser files as you want,
+then select any single file by click it,
+or select multiple files by click while pressing CTRL,
+5. Click "Insert Selected File(s)" to insert the selected files(audios, photos, documents, ...)
+
+[FAQ]
+1.how can I found my skydrive URL
+(1) use your name and password to login to skydrive:
+https://skydrive.live.com/
+(2) click any file or folder in skydrive, it will jump to a new page
+you will see the url in browser is something like this:
+https://skydrive.live.com/?cid=9a8b8bf501a38a36&amp;id=9A8B8BF501A38A36%21597
+(3) then your skydrive's main url is:
+https://skydrive.live.com/?cid=9A8B8BF501A38A36
+[4] also, for any file or skydrive, its url is:
+https://skydrive.live.com/?cid=9A8B8BF501A38A36&amp;id=xxx
+in which, xxx is got by right click it-&gt;share-&gt;got link-&gt;
+will got something like:
+https://skydrive.live.com/redir.aspx?cid=9a8b8bf501a38a36&amp;resid=9A8B8BF501A38A36!597
+then xxx is the resid:
+9A8B8BF501A38A36!597
+the correponding file or folder's url is:
+https://skydrive.live.com/?cid=9A8B8BF501A38A36&amp;id=9A8B8BF501A38A36!597</value>
+  </data>
+  <data name="&gt;&gt;rtbUsage.Name" xml:space="preserve">
+    <value>rtbUsage</value>
+  </data>
+  <data name="&gt;&gt;rtbUsage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rtbUsage.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;rtbUsage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt, style=Bold</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 164</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>482, 274</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Usage</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>499, 450</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAMAEBAQAAEABAAoAQAANgAAABAQAAABAAgAaAUAAF4BAAAgIAAAAQAgAKgQAADGBgAAKAAAABAA
+        AAAgAAAAAQAEAAAAAACAAAAAEgsAABILAAAQAAAAEAAAAHnX8wC0eBAAwX4GALWVSADPlCAA3rFhAOrD
+        eACQn5EApLqmAJrV3ADtzZAA7NajANLr7wD369MA9PXsAP7+/QD////////////////////////+26VV
+        7//+plRCIRd5z/tlVEQXcyX/+2VUQ4dEI+/5plWJhERKz+nqiZZVRF3/+QAJpmVatN//zLuqZVtEv///
+        /dqmplXv////vd22Xf/////aqqpv//////7bu9////////7e/////////////wAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAEAAAACAA
+        AAABAAgAAAAAAAABAAASCwAAEgsAAAABAAAAAQAA/vz5AP78+wD+/PsA/vz7AP78+wD+/PsA//38AP/9
+        /AD+/fkA/v35AP38+AD9/PgA/f33AP389wD8/PcA/vv1AP79+QD//fwA//38AP/9/AD//fwA//38AP/9
+        /AD//fwA//76AP768AD78NgA/PTlAP38+gD+/PoA/vz6AP38+AD+/fkA//38AP/9/AD//fwA//79AP/+
+        /QD//f0A/vjuAPvz3gD33aYA+N6nAPfaoQD25sYA/v38AP79+wD+/foA/vz7AP/9/AD//fwA//79AP/+
+        /gD+/v4A+fHdAPTTkQDy0Y4A8s+JAPLPigDz0pEA6MV5AP799wD+/PsA/vz7AP78+wD//fwA//38AP/+
+        /QD+/v4A/P79APTfsQD36c0A+evSAPnrzwDy1qAA6r1qAOS4ZgD258UA/v78AP/+/QD//fwA//79AP/+
+        /QD//v0A/fv2APXt2gD17NcA7s2UAOzGgwDsw30A7NKXAOTAcgDgrE0A47NYAPny4AD//v0A//38APf9
+        /QDN8fwAxu/0AN7UrgDw0p4A7cySAO7JjADqwHoA5bhpAN6rSwDnz5sA1ZsjANefLQDt16wA//79APv+
+        /QCR0/gAfNT6AHvV7QBz3PEAodXGAODFiQDqwHsA5rlvAOGuVwDbpEIA4cOLAO7XpQDHjiUA69vEAP//
+        /gDs+vwAotr0AO706QDcwYgAw7mKAJLSygCK390Ayrh8AN+sUQDbpUMA2J8tANSaIgDjuF8A8OXQAPv9
+        +wD+//8A8v39AK3PxwDuxoIA5rpyAN+uXQDUpFEAqrWKAITV2wC2sXsA1JsnANGUGgDMjRUAyokSAN3J
+        iADI7fkA/f//APr//QDv1JkA7sV8AOa5aQDeqlMA1Z03AM6UJQC3mkwAhbzCAKGohQDGjB4AxIMMAMF9
+        BACulVgA5Pj9AP///wD9//4A8tWcAOzBcgDmt2EA3qpMANWcLADMkBYAx4cNALuEHACOnI0AgaCmALKE
+        LgC5dQQAw6N9APv//gD///8A/v//APr05gDtyooA57trAN+tUADWnjAAyo0WAMKABwC8eQEAt3UEAKV/
+        NwCAkZEAhJGSAK7W5wDW8/0A/v//AP///wD///8A////AP/+/QD9+vIA+vLjAPPlygDr1q8A4saWANiz
+        eADPpGEA0Kt0AOjp4gDx/P4A/P//AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////APDx8vP09fb3+Pn6+/z9/v/g4eLj5OXm5+jp
+        6uvs7e7v0NHS09TV1tfY2drb3N3e38DBwsPExcbHyMnKy8zNzs+wsbKztLW2t7i5uru8vb6/oKGio6Sl
+        pqeoqaqrrK2ur5CRkpOUlZaXmJmam5ydnp+AgYKDhIWGh4iJiouMjY6PcHFyc3R1dnd4eXp7fH1+f2Bh
+        YmNkZWZnaGlqa2xtbm9QUVJTVFVWV1hZWltcXV5fQEFCQ0RFRkdISUpLTE1OTzAxMjM0NTY3ODk6Ozw9
+        Pj8gISIjJCUmJygpKissLS4vEBESExQVFhcYGRobHB0eHwABAgMEBQYHCAkKCwwNDg8AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAACAA
+        AABAAAAAAQAgAAAAAAAAEAAAEgsAABILAAAAAAAAAAAAAP/+/v///v7///7+///+/v///v7///7+///+
+        /v///v7///7+///+/v///v7///7+///+/v///v7///7+///+/v///v7///7+///+/v///v7///7+///+
+        /v///v7///7+///+/v///v7///7+///+/v///v7///7+///+/v///v7///7+///+/v///v7///7+///+
+        /v///v7///7+///+/v///v7///7+///+/v///v7///7+///+/v///v7///7+///+/v///v7///7+///+
+        /v///v7///7+///+/v///v7///7+///+/v///v7///7+///+/v///v7///7+///+/v///v7///7+///+
+        /v///v7///7+///+/v///v7///7+///+/v///v7///7+///+/v///v7///7+///+/v///v7///7+///+
+        /v///v7///7+///+/v///v7///7+///+/v///v7///7+///+/v///v7///7+///+/v///v7///7+///+
+        /v///v7///7+///+/v///v7///7+///+/v///v7///7+///+/v///v7///7+///+/v///v7///7+///+
+        /v///v7///7+///+/v///v7///7+///+/v///v7///7+///+/v///v7///7+///+/v///v7///7+///+
+        /v///v7///7+///+/v///v7///7+///+/v///v7///7+///+/v///v7///7+///+/v///v7///7+///+
+        /v///v7///7+///+/v///v7//Pbs//bs3P/05Mf/6dWv/+bZuf/18+7/+v7+///+/v///v7///7+///+
+        /v///v7///7+///+/v///v7///7+///+/v///v7///7+///+/v///v7//fv2//367v/68t7/9urO//Xj
+        vf/t1aL/58aJ/921bP/TpFH/yZM2/8KKKf+3eA//t3UL/7NxBf+ybwb/sm8G/692H//DuJX/4PT1/9/4
+        /v/o+/3/9f39//r+/v///v7///7+///+/v///v7///7+//379v/1473/78+W/+vGg//nvG7/4rJf/96q
+        TP/apDz/05os/86SHP/GiRL/xYMK/717A/+9egH/unYC/7ZyAf+2cgH/s3EF/7F1Ev+mgT3/io19/3OU
+        rv9xqNT/gsn2/5XZ+P+56vv/7Pz+///+/v///v7///7+///+/v/+/fv/7tiq/+m8Z//ou2j/6Lpi/+Oy
+        Wf/grlT/26dC/9ifM//SmSP/zpEW/8mLEf/Fgwr/wYAG/716Af+9egH/unYC/7d4D/+mgT3/iZSM/2Oe
+        zf9um73/j5F+/5t4Sf+6vK7/4vn9/9f0/P/c9f3/+v7+///+/v///v7/+v7+//nv1v/rwXL/68J0/+q8
+        bP/numX/5bRc/+CuVP/bp0L/2J8z/9KZI//OkRb/yI0Q/8WEDf/Fgwr/wYAG/717A/+3gSf/mJN3/2an
+        0/9mp9P/mJN3/7eBJ/+3dQv/tnIB/5xnLf/4+PP/+v7+//r+/v///v7///7+///+/v///v7/8t64//PH
+        dP/sxHz/7sFt/+i7aP/ltFz/4K5U/9ymRf/YnzP/0pkj/8+SGv/Ljhb/yYsR/8WEDf+/hRj/so5I/4Ko
+        sf9ltOv/haWq/7KOSP+/gBP/vXoB/716Af+6dgL/nVAE/93bz//6/v7///7+///+/v///v7///7+//r+
+        /v/m2bn/9Ml2/+zEfP/ww3b/57xu/+S1ZP/drFT/2qVM/9efOf/Tmiz/0JQi/8+SGv/Ljhb/woop/6Ke
+        c/97vtT/c7/m/5ujjP/AkDb/xYcV/8WEDf/BgAb/wX0D/716Af+pYwb/xsKs//r+/v///v7///7+///+
+        /v/6/v7/9f39/+njxv/0yXb/68aD//DDdv/nu3L/5LVk/+GuWv/apUz/1aBB/9OeNP/Tmiz/ypUu/72Z
+        TP+Vsp7/e9fl/3zH1/+up3f/ypUu/8uOFv/JixH/xokS/8WEDf/Ffwr/wX0D/7d1C/+Ruab/pub6//X9
+        /f///v7///7+///+/v/s/P7/yeTX/9rDhf/tyoX/7MR8/+e7cv/lt2n/4rJf/92sVP/apUz/055B/8+c
+        RP+zpG7/isbB/3/f8f+ByM3/uqtx/9OeNP/Slhz/z5Ia/86OE//OjhP/xYcV/8WEDf/Fgwr/zo4T/8nk
+        1/+V2fj/xO37///+/v///v7///7+/+L5/f9mwu7/rtXO//HMhf/sw4L/6b95/+O3cP/ktWT/3axc/9in
+        V//Opl//pbST/4Le4v975vn/isbB/8qsb//WpD7/154q/9abJP/UmR7/0pYc/86RFv/Ljhb/yYsR/8+S
+        Gv/gs0r/+/ry//T8+v/T7/n/+v7+///+/v/8/fv/1/T8/3PB7f/i+f3/6/fv/+bZuf/gvnz/17Zi/921
+        bP/Xr27/vrWG/47Lw/+J6Pn/fObv/5vGr//QsW7/3axU/9unQv/apDz/16E1/9eeKv/WmyT/0pYc/9GU
+        Fv/Okhz/47JM//Divv///v7///7+//r+/v/6/v7///7+//z9+//i+P3/c7/m/8Tt+//1/f3/9f39/+nj
+        xv/Ksnn/w7iV/5bFt/971+X/e+b5/3fg5v+wyaf/3Llz/+KyX//jsln/4a5a/92sVP/bp0L/2aI1/9mi
+        Nf/Xnir/154q/+i6Yv/y3bT/+vLe/9zGqv/4+PP///7+///+/v///v7///7+//X9/f+V2fj/YL74/6bm
+        +v+u6/3/oN/l/3zH1/9z2O7/e+b5/3jo+P+F19X/yMmd/+PBfP/nvG7/57ty/+O3cP/ktWT/4a5a/96q
+        TP/cpkX/2qQ8/9WgQf/nxon/+e/W//ry3v/drFT/r24U/9zGqv///v7///7+///+/v/+/fv//P37/9z1
+        /f9yxfb/Rbf4/1bI+f9p2Pv/adj7/2nY+/971+X/rtC4/97Ll//rxoP/7ceG/+3Hhv/sw4L/6b95/+e6
+        bv/isl//4K5U/+CuVP/YnTP/yqxv//367v/t1aL/1qQ+/86RFv/FhxX/16pk///+/v///v7///7+//79
+        +////v7/+v7+/+j7/f+56vv/ldn4/4no+f+g3+X/vcur/97Ll//rzpP/78+Y//LVof/z1Zr/7cqN/+3H
+        hv/sxHz/57ty/+W3af/ktWT/5bRc/9ifM//fx57/5s6Y/9GUFv/SmSP/1psk/9KZI//TpFH///7+///+
+        /v///v7//v37//79+////v7///7+//r+/v/1/f3/9f39//T8+v/p48b/8teq//LXqv/y1aH/5MCA/+7K
+        iv/uzZH/7sqK/+zDgv/pvnj/57xu/+e6bv/pvGf/0540//ntzP/dtWz/1psk/9ehNf/apDz/2aI1/+O6
+        Yv///v7///7+///+/v/+/fv//v37///+/v///v7///7+///+/v///v7///7+//z9+//68uL/7969/+nV
+        r//t38H/8t64/+3Hhv/uyor/68aD/+zEfP/pvnj/6b95/+O6Yv/tyoX/+e3M/9akPv/apDz/3qpM/96q
+        TP/eqkz/7NSb///+/v///v7///7+//79+//+/fv///7+///+/v///v7///7+///+/v///v7///7+///+
+        /v///v7///7+//j48//9+u7/8t20/+3Kjf/tyoX/7ceG/+3Hhv/rxoP/686T//r15f/jwXz/4q1K/+Cu
+        VP/jsln/5bRc/+vBcv/69eX///7+///+/v///v7//v37//79+//+/fv//v37//79+//+/fv///7+///+
+        /v///v7///7+///+/v/6/v7/9urO//LVof/7+/b/+vLe//Tkx//1473/9eO9//rt0//9+u7/7NSb/+W0
+        XP/oumL/6rxs/+e8bv/rwXL/+O7R//79+////v7///7+///+/v/+/fv//v37//79+//+/fv//v37///+
+        /v///v7///7+///+/v///v7///7+//r+/v/68t7/7MR8/+/Plv/458j/+vLi//r15f/68uL/+OfI/+7K
+        iv/uwW3/68J0/+/Jff/rwnT/06RR//nv1v/+/fv//v37///+/v///v7///7+//79+//+/fv//v37//79
+        +//+/fv///7+///+/v///v7///7+///+/v///v7///7+//399//t1aL/8cyF//HMhf/yzor/8s6K/+3K
+        hf/vyX3/78l9//HMhf/yzor/8s6K//PHdP/XtmL//Prv//79+//+/fv//v37//79+//+/fv//v37//79
+        +//+/fv//v37//79+////v7///7+///+/v///v7///7+///+/v///v7///7+//v03//12Z7/89Wa//TV
+        lf/005H/9NOR//TTkf/005H/89Wa//TVlf/z1Zr/9Ml2/+bOmP/+/fv//v37//79+//+/fv//v37//79
+        +//+/fv//v37//79+//+/fv//v37///+/v///v7//v37///+/v///v7///7+///+/v///v7//v37//z2
+        7P/67dP/+e3M//rnvf/12Z7/992j//fdo//12qL/+dyi//Xaov/sxHz/+e/W///+/v/+/fv//v37//79
+        +//+/fv//v37//38+f/+/fv//v37//79+//+/fv//v37//79+//+/fv//v37///+/v///v7///7+///+
+        /v/+/fv//v37//79+//+/fv//f33//fis//33aP/+uCq//rgqv/54Kz/89Wa//Tkx//+/fv//v37//79
+        +//+/fv//v37//79+//+/fv//fz5//79+//+/fv//v37//79+//+/fv//v37//79+//+/fv//v37//79
+        +//+/fv//v37//79+//+/fv//v37//79+//+/fv//f33//nv1v/6573/+ue9//rowv/68uL//fz5//79
+        +//+/fv//v37//79+//+/fv//fz5//399//9/Pn//v37//79+//+/fv//v37//79+//+/fv//v37//79
+        +//+/fv//v37//79+//+/fv//v37//79+//+/fv//v37//79+//+/fv//v37//v68v/7+vL//fv2//38
+        +f/9/Pn//fz5//38+f/9/Pn//fz5//38+f/9/Pn//fv2//38+f/+/fv//v37//79+//+/fv//v37//79
+        +//+/fv//v37//79+//+/fv//v37//79+//+/fv//v37//79+//+/fv//v37//79+//+/fv//fz5//38
+        +f/9/Pn//fz5//399//9/ff//f33//38+f/9/Pn//f33//379v/9+/b//fz5//38+f/+/fv//v37//79
+        +//+/fv//v37//79+//+/fv//v37//79+//+/fv//v37//79+//+/fv//v37//38+f/9/ff//fv2//39
+        9//9/ff//fz5//38+f/9/ff//f33//399//7+/b//f33//399//7+/b//fv2//379v8AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Readme</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmReadme</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

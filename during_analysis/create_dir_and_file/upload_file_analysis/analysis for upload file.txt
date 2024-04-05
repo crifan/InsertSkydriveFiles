@@ -1,0 +1,657 @@
+
+
+Code:
+-		m_list	Count = 35	System.Collections.ArrayList
++		[0]	{xid=47fab13b-28f4-49c9-8238-1a25a70f2d8f&NK4bB&SN2xxxxxxC540&73}	object {System.Net.Cookie}
++		[1]	{xidseq=3}	object {System.Net.Cookie}
++		[2]	{LD=}	object {System.Net.Cookie}
++		[3]	{wla42=}	object {System.Net.Cookie}
++		[4]	{$Version=1; MSPRequ=lt=1328782365&co=1&id=250206; $Path=/}	object {System.Net.Cookie}
++		[5]	{$Version=1; MSPOK=; $Path=/}	object {System.Net.Cookie}
++		[6]	{$Version=1; PPAuth=CuWIp4sy!igdlSAIdP2KGndHkm07OreV6I6*X754AujRy!FTXKg7XpEap23PQ*OiuWnwc3taxjR16g6GYoPKRfiyKeWUjBcuXBQlPTkbDSQXZqK5eUZkQ6zHXwGYCg31B611*5fBpdl33JRsdrZWR*aHSgjUrOcpd*92E5D805bdT8DXkn5Hx7vgUSprAtKB2iob84N*Bu7MiYBPtR5knx*qwxX9ltfDbV8cFpvJ1IaU8o5i40On8GR4Q71nE5L!Qp4H899urBs*N3XW4UGSbArfQJWC!7Y0yW2v0QD9aUbD; $Path=/; $Domain=login.live.com}	object {System.Net.Cookie}
++		[7]	{$Version=1; PPLState=1; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[8]	{$Version=1; MSPShared=1; $Path=/; $Domain=login.live.com}	object {System.Net.Cookie}
++		[9]	{MSPPre=}	object {System.Net.Cookie}
++		[10]	{MSPCID=}	object {System.Net.Cookie}
++		[11]	{$Version=1; RPSTAuth=EwDoARAnAAAUWkziSC7RbDJKS1VkhugDegv7L0eAAFsdvcuS9spZyWbaYm7z5ZEKmFSWhP5eYLnx0Z90qfbALbZZpzn+DLDkt0PJe4nOSzOUz0JIbydZPKFE+oXI3ftsf7Y52P70qmcgKif6/9klglTtx+ruSVpBpGnC1Fq/ZF5kdAIMI9R+NH9LIBK0felnhnFGIWbugoPQzQQkDFwpA2YAAAgzADoCaPXElDgB6ZxkK2Rkr+9xDiAMi7XfjAlCbfaQvoJzW2SzwVQi9FzWFpyIvCVsMz1OmmQlzU1Yh4FRshdCDx5T0qy/au8UbINnR3/l1seXXwKjDOVPRpQcLJZkDPuo8KdVGYVAWuLZHEf+ZzTLBeG//G6guXFzO4tV049KI30X7nvDWDUnLUefOVsVazPNt+Iy5O6S4r5YTsa/OQRU0OzmGQlbs1wkQu1t3vuVfEcGlt+sItPxBt3mmot/e1a5ZBPkVERd45r6ucJvIsctNIKb6OOvTM/VtW3l7aKRHm2A2QYYC+lq1UeWQCUyJhLbmY+ooUTzrUzEx+X5kLlWvdqlos4jAIQQ409oPXaAgvKzpRHITFk5CUgN47CdMzMyn1WJjBcwwZ1xfX9RHO+ISgJNiLD1AfrRlidUOahAbbrMZwE=; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[12]	{$Version=1; RPSTAuthTime=1328782369; $Path=/; $Domain=login.live.com}	object {System.Net.Cookie}
++		[13]	{$Version=1; MSPAuth=2vQY73gAqDq27PKrY*XGsW4My2UUhAdNvsMnMd4xnPBU!fCgdLNeQLerhyk8PCr5gGbW8XMephlekA9C!B7!PzUhoSVtoSq0OIqD4kwTGXLVrag45ZPqk!pPS!5bpB2l70; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[14]	{$Version=1; MSPProf=2!Z4!fltPDdmT4vSMvBaXuYHWnnB5onM8un1xLTsTuekf040bxBH4choMZAvovkVnFw8cWOrTzBrtIScLhZND7SUQcXLkxgrpczXykhw3XUYzUHDxzVxhk6ud3Rf6G9lEMRBuqXlZv4gaKItwL85wS48W0DMkm*w35pCjGOPq49BZOty6n7lmEJjddoxXBuM2O; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[15]	{$Version=1; MSNPPAuth=Cvi00zud9BXaVBQ0igiM!ygIYXwceG7EuFoY8q*yheGXGYk2IMLgVk4ZDJZd6SNT7pWTsDweLHayJQYwp2HAeh6EpjR5pGDrDeRpiMb9bT3f*eTde7SoZeonbj8U5d1hammE3AKvMkQlEahU2n1kp4wBrQTcFgAPIKbwQrmOWjuFNjyN4QgPHk*Nd8wZaMCUZcvLaAcThcXyGupBiOmpSTc5avtxiA7YhquR1FwuiNVPY!wfnDlZdFT66bP0y6syFdArTFhauWYgaA8XLlneterqgZE*vz5MEXyFmZbaGmv0wLAnvhmVCF9!SQ71XePxd*BO2BjG3T94afrtCl*NRFW*dqzlLU4800UvfTnmOZacqf!I!KUGqp6J1mUwRUE2TVDlEqIQkexjORIIbYVjcMyDs7zAR9xqhP*26NLrqjLeeVRk9snGGrpBKEks*hdr0RrbBaDK1dCse4cjfL*JYY4nwqkNrOzcckQkqbdRSFvZS6gkZAoj7uTogUIF1HuuYw$$; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[16]	{$Version=1; MH=MSFT; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[17]	{$Version=1; MHW=; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[18]	{$Version=1; MHList=; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[19]	{NAP=V=1.9&E=beb&C=LNTyyIx3dKOMDo-8m_61XqsIqJNYxa4y2cqJrhQgCG3IQJdqaqNbQw&W=1}	object {System.Net.Cookie}
++		[20]	{ANON=A=DE389D4D076BF47BCAE4DC05FFFFFFFF&E=c45&W=1}	object {System.Net.Cookie}
++		[21]	{$Version=1; MSPVis=$9; $Path=/; $Domain=login.live.com}	object {System.Net.Cookie}
++		[22]	{$Version=1; pres=; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[23]	{$Version=1; LOpt=0; $Path=/; $Domain=login.live.com}	object {System.Net.Cookie}
++		[24]	{$Version=1; WLSSC=EgBnAQMAAAAEgAAACoAA6zV8bxLRyyA6UJr/mQ0JzlUmjMppNgcSt3RM0suAoCWOKpBcXdsRmCyONdWL1GUohCmPXE5Z9GFVNc68tJyb9KNmOVWEwsjKhUhXb2WxjysLmUhhywBtV8NhhIrEw8dH9lzwZCQFQWuFz9Igr/yBtTw3wZxSOazT3GlNjZwBQGDWAFwA1gD9vwYA7VazlyGcM08hnDNPECcAAAoQoAAAFwBjcmlmYW4yMDAzQGhvdG1haWwuY29tAE8AABZjcmlmYW4yMDAzQGhvdG1haWwuY29tAAAACUNOAAYyMTM1OTIAAAZlCAQCAAB3F21AAARDAAR0aWFuAAR3YW5nBMgAAUkAAAAAAAAAAAAAAaOKNpqLi/UAACGcM08hEUZPAAAAAAAAAAAAAAAADgA1OC4yNDAuMjM2LjE5AAUAAAAAAAAAAAAAAAABBAABAAABAAABAAAAAAAAAAA=; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[25]	{$Version=1; MSPSoftVis=@72198325083833620@:@; $Path=/; $Domain=login.live.com}	object {System.Net.Cookie}
++		[26]	{RPSMaybe=}	object {System.Net.Cookie}
++		[27]	{E=P:RTJthyq1zog=:s2PsXG+7r8eomlhLt2owO1kPSH/d86w58Q8b2+hFfIw=:F}	object {System.Net.Cookie}
++		[28]	{wlp=A|eyJV-t:a*IebYBQ._}	object {System.Net.Cookie}
++		[29]	{wls=A|eyJV-t:a*n}	object {System.Net.Cookie}
++		[30]	{wlv=A|eyJV-d:s*oRm6Bw.2+1+0+3}	object {System.Net.Cookie}
++		[31]	{SAToken=TAGOVBSCGXQTWRXMLBPCTFEAQFHDWAXQDEYWZFXGKCNJ}	object {System.Net.Cookie}
++		[32]	{$Version=1; MSPBack=1328782369; $Path=/; $Domain=login.live.com}	object {System.Net.Cookie}
++		[33]	{WLSRDAuth=FAAaARQL3KgEDBNbW84gMYrDN0fBab7xkQNmAAAEgAAACHMP1SG4XK7d2AAkBPf9sf/7zHnAb9CwUaeANIUEHyR5Qh34t33WpV2r/dfyqNF9YxQ6lNzTidVPiW4xx6JVRunc9zhsOdBePKAt3dhPXy7zw4n6wK7BWHj7ZZs0JPfsMhk5wsd/yK5mlXYaEED8bYGyLCUjo9x3DMp8wX3ZcYRNbEr%2ByYIWIzpM2Rnqoa/651zhQFgZ0higoBf7uOlrswToykLieoZrZTaQx5KrId3rCCRni3f%2BcOhUQP/3Dx8IQtX2RJv9eu6HmMmG4fs41cAw/91lrhfZ3/d5Z9U%2BE7/iPmYUAIwz72aGs1qTbP0TCmSn%2BrTkqv0d}	object {System.Net.Cookie}
++		[34]	{WLSRDSecAuth=FAAaARQL3KgEDBNbW84gMYrDN0fBab7xkQNmAAAEgAAACKehhtreuLGL2ACmbgd9ep0tDZS5jfo/pG1ATolUlrNIc9Lrvrfdo0D9hDDBsO4H9lFbwgErvK700A8fdtghhOfoTy8RRNMausnBkhz4ZS0IS4WE0br%2BDmReDSW0Kc2mZoXx53FwqFiLZrDGZgpfJR/b0bdNl7WhKT439xErZp9RhFOjWDqgD721hOYjxNg2NT61cM96sx%2Be7sCQFkSrWF5/sd//qxiAZxF%2BQN6viZ14EzTO458x4COAF8lUR2MlDuJPd%2BMCVxYPfTBUGEzRiHBiLOdSJzi9W/LMN7gsZkQOTT4UAANkiL8SftMRpIPf%2BgPJLlqbTwxO}	object {System.Net.Cookie}
+
+
+IE9:
+
+Direction	Key	Value	Expires	Domain	Path	Secure	HTTP only
+Sent	xid	2e5ce6d0-c95f-4cff-a972-d4d4289d0ce7&NK4bB&BL2xxxxxxC509&73					
+Sent	xidseq	5					
+Sent	wla42	cHJveHktYmF5LnB2dC1jb250YWN0cy5tc24uY29tfGJ5MioxLDlBOEI4QkY1MDFBMzhBMzYsMSwwLDA=					
+Sent	wl_preperf	req=87&com=87&cache=87					
+Sent	wlidperf	latency=258&throughput=12					
+Sent	PPLState	1					
+Sent	RPSTAuth	EwDoARAnAAAUWkziSC7RbDJKS1VkhugDegv7L0eAABgsVnMtHPpBOfrFrxh7a60Px4HpE8esR4ORCoTioutYeH1sZCna+/cAU5Cz5F0ySjeWqParMjUU7V8M9PNiASvFe56Yr2KP88RaQPXWrN8/+HdDxxHiIc1qso+8goZ7KOgKwM4w2ePOSSOtCSJ3fBnW2VanAdIdg+WxN08Cb5YtA2YAAAj50Ms611k1+jgBJ+1VcE2aCqpbt2Dsgaluhbsr9G8JhHcFdLrvq0xfIVFL7QETqRQSR0CwdDzYhWhi64Gi8Ne6ywgsoEu6NvxptZN6jPH9ixsZRkmGuBc2XM+WIwXS4Adbh/+c831pGZypflmOdOEbf2f2ElmVqlJz/tVIJP2TYV9hQSAVT7WQZp+ajzw1cs+jtUp1PSY5HlBRe0VTscd5X2bsoFrqMZu6ufWRamE/1duthBIAw0VLvBijqQ0Pf7tFh2PWExfw7dPOJSizc0hfMjh9DoiKyi3fXHzAxD0F/XAFd4z4cfnKbt3akPPaV5VYrQigdM90ZEe+BfxmiPMn6jr8koQQfXi2RUkXvFEQW8vkQKHud6IPggTKTFutOjlofGZxfY9g+/pWRzOoLVdARts/vYH3AlAm9KY0Nn6AZl3VZwE=					
+Sent	MSPAuth	2Jh08pNNeD1uvnm0FToiOf92S3ggF4xOQ8lmJKg4TjGND1wPI6zbapdq5QtDjSD7iQ0gUhvNyPLHhiiljJTJAYOjIuW3rjUEq0EZmoK248APqGNscjfVsRyOHpJygnWWjo					
+Sent	MSPProf	2jf9EHjgHDozQXJ8wrNUiz3!CMBlGlYgmdeHWskWT*yEFzm9POnl!ThdJnRaIni0waUKD!FYXAmL!eyu!2LWPrfvif1MGPHXMRlTIdiVwzY48!5L95vnREqlcFq6*!ngL2316DXtIRFcC4Wa8NUKOTsLHNAIL*X!04vBHy8e*y8kC9K2ChqAtWWsrmkty5MeT7					
+Sent	MSNPPAuth	CkCCvVIrVDMZfKiNIj9zufeqmOhHDIT9qt9CXqxPsLfvUoV2YEEjCCasM3m9W7K3v79x83nriAKVeFJ6HHVarutkhPGXqaJRV5TeZXJqHyOlbHM6YAj0vDO5annNcf!zXlKXyjv*auoZoyttDOnzLpdgGyF3tBFItdOIA!*T3UhQz!4dvzM8bBMVwpZGgBiirSdG7GRJedrr8sfi65K7mSY4*!yP*nzEk0NKsMZw8x3wMSzqjA!hKkgZjAP3TzC8K!t!vdoYBsLCss*6juayvIV1dkF5qYlMUUddRTU7Ni3UUPV5mqu0FL9mivoNARDMhf0vS6oYOay30uCxOhskexdzaYsYoBeozQfOgu67O3uN7hyPzPj!qvatv7NO06aXdN1mg1XLq6ubE46wDQ4rsTFkQ1GgimSSQSkm2DvFYc6pkiq!QKJrBQHXIqU7x4Nlld8GRX30WHlVFI1io*NN5QXqsK9gvNjNFZQk7aZ8QBiOIC78jRGL5lLsJ8QpgaE75g$$					
+Sent	MH	MSFT					
+Sent	NAP	V=1.9&E=beb&C=XC26K3PldK2omn-AK6JSKww5IduiCFngBbcxS5r2CTR6w-KziWBeSA&W=1					
+Sent	ANON	A=DE389D4D076BF47BCAE4DC05FFFFFFFF&E=c45&W=1					
+Sent	WLSSC	EgBnAQMAAAAEgAAACoAA2Wg4XYGcPzjaXkEGXdNBEWCMMiAu6nQ+ZSzXoJLZ019Q8wewiDTDfg97OIT4+N5hs5gBd+JaVpFL766JDuEW+ePFgde44dG7JqxjF5pI2N81eyUGSQzqrrew6HuickQkInydG9CKxY6XZ4XFxBo4XEHppWU3ZIKNiaTs4puXZ5vWAFwA1gD9vwYA7Vazl8ibM0/ImzNPECcAAAoQoAAAFwBjcmlmYW4yMDAzQGhvdG1haWwuY29tAE8AABZjcmlmYW4yMDAzQGhvdG1haWwuY29tAAAACUNOAAYyMTM1OTIAAAZlCAQCAAB3F21AAARDAAR0aWFuAAR3YW5nBMgAAUkAAAAAAAAAAAAAAaOKNpqLi/UAAMibM0/IEEZPAAAAAAAAAAAAAAAADgA1OC4yNDAuMjM2LjE5AAUAAAAAAAAAAAAAAAABBAABAAABAAABAAAAAAAAAAA=					
+Sent	E	P:JGVuUSq1zog=:PXJ9aN2YNpqDLLLnxr+n/MyTFk+rEepdHse7/pwkcS8=:F					
+Sent	wlp	A|eyJV-t:a*yeXYBQ._					
+Sent	wls	A|eyJV-t:a*nS					
+Sent	wlv	A|eyJV-d:s*SRm6Bw.2+1+0+3					
+Sent	SAToken	WQEQENRZGNJDYINRYMCCKFCLBPELHPTGFXFVGNIDQKAJ					
+Sent	SLVersion	4.0.50401					
+Sent	SLSupportedAgent	true					
+Sent	BP	FR=&ST=&l=SDX.Skydrive					
+Sent	MUID	30F10EFE68C76D26347A0C4F69C46D13					
+Sent	pres	9a8b8bf501a38a36=1					
+Sent	LD	2e5ce6d0-c95f-4cff-a972-d4d4289d0ce7_0038e37824d_15346_1328782282522=E7021~ClickedSelected.Messaging.IMStart~IMMode:Full					
+Sent	wlxS	WebIM=1					
+Sent	HIC	9a8b8bf501a38a36|4|108|					
+
+
+not equal:
+LD
+wla42
+
+
+IE9 not contains:
+MSPRequ
+MSPOK
+PPAuth
+MSPShared
+MSPPre
+MSPCID
+RPSTAuthTime
+MHW
+MHList
+MSPSoftVis
+RPSMaybe
+MSPBack
+WLSRDAuth
+WLSRDSecAuth
+
+chrome captured:
+$Static.stall();var $Config={"BSI":{"enabled":1,"xid":"0270d8ea-6a73-472b-a678-4fc2db6bc661","pn":"Files.default.F.A","rid":"003c900e117","biciPrevious":"0270d8ea-6a73-472b-a678-4fc2db6bc661_003c900e117_15217","BICI":{"fid":"c900","urlHash":"x6fbr","beaconUrl":"\u002f\u002fc.live.com\u002fc.gif\u003fDI\u003d15217\u0026wlxid\u003d0270d8ea-6a73-472b-a678-4fc2db6bc661\u0026reqid\u003d003c900e117","enableLD":1,"enableGlinkExtra":1,"enableGlinkCall":1},"SBSPLT":{"rt":"634643809640192962","render":0,"enabled":0},"CSIPerf":{"enabled":1,"page":{"landingPageName":"","timeStamp":""},"IDSS":{"enabled":1},"WLXFD":{"enabled":1},"Trace":{"enabled":1}},"Watson":{"enabled":1,"sr":100},"ignoreWindowOnload":1},"build":"16.2.3029","mkt":"zh-CN","mmn":"SN2xxxxxxC501","di":15217,"prop":"SDX.Skydrive","sd":".live.com","hn":"skydrive.live.com","isSecure":1,"WebIM":{"delay":3000,"u":"https\u003a\u002f\u002fsecure.wlxrs.com\u002fm73y8x\u0021gEszfhcj-1vP08g\u002f","uf":"loader.cxp.js",
+
+from request header:
+LD=0270d8ea-6a73-472b-a678-4fc2db6bc661_003c900e117_15217_1328784164860=E5492~ClickedSelected.Messaging.IMStart~IMMode:Full;
+
+copied request headers from Chrome:
+POST /users/0x9A8B8BF501A38A36/LiveFolders/video.png HTTP/1.1
+
+Host: cid-9a8b8bf501a38a36.users.storage.live.com
+
+Connection: keep-alive
+
+Content-Length: 14
+
+x-photosizeconstraint: 2048x2048
+
+Origin: https://skydrive.live.com
+
+bits-packet-type: Create-Session
+
+x-requeststats: upType=sl,dragDrop=false
+
+overwrite: false
+
+application: LiveFolders
+
+x-http-method-override: BITS_POST
+
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.46 Safari/535.11
+
+Content-Type: application/x-www-form-urlencoded
+
+accept: application/wls-response-headers+json
+
+bits-supported-protocols: {7df0354d-249b-430f-820d-3d2a9bef4931}
+
+Referer: https://skydrive.live.com/
+
+Accept-Encoding: gzip,deflate,sdch
+
+Accept-Language: zh-CN,zh;q=0.8
+
+Accept-Charset: GBK,utf-8;q=0.7,*;q=0.3
+
+Cookie: PPLState=1; RPSTAuth=EwDoARAnAAAUWkziSC7RbDJKS1VkhugDegv7L0eAAPImuQBJd8fnJKwkChzlCMx8FI5S5MIG63Y5FRg7lywX8lwYRjYmDFBo7EbfMazzNDXYtc3Jx9hQqczwapV0CY0Pnh+Qv4kU8w+EAIc/BcA99TIYYkWjhjGgdO0q00EzzzXpzXbjDOgX5SGEatz8OFNE2fIyOMnukdOUM1YMUSKhA2YAAAiYFuXJJW/JpDgBNt6K/NS9mcPx0Mr2y/55tuSUeF4/msEhA0ivz/eM8WE8r6Ii4YLvhh+245vqlsiDGFDqnYgonxKnz8EVt2xaHlGehZpBJVI7sbvOJON8HMTGsO4d8GGYniEVzcd4o/fY3tVhuGO/1zqh+26dwWow+Oeqs3ydauGcDoRBVrwoxu6qrpWJdrjQicSXLlYR7dglAx32iNXtKpfLfIVYyNhFRDagtSqLnUXI/7hpL78DHZIxgj3oGQVqnvces0+F+5l7W80fXksviwz7PI9x+YrZSZzAsPLzxk+yFlCoIESUvaUJWpgqZfSjHc9QmNpmlVjc5qkeZjQQNaX9CS7XF0DFUrDhl7veBFwCfdgFjRuFPt0VI4NzCB6ZL8fO8BLJ8f3FO4aYmZdgeuBsS6r1SoFAVlW3dIhSP1JAZwE=; MSPAuth=21WgQRGNXD2KuMCt6ZHbq3OoUmhLtN89nH6OBiHcM0DNYYpRrLVYQK*d70d5fq16EwMWEn3RjXxkjxPb9fArYSQIlGArjdHWMeOhj3kepese5etwTOGQpgArU9MjQwx8QK; MSPProf=2UaSDMPEyDbOH*aIhszcuYwmXMUpEF46z4zqwMzVANUJkrbYx662tt01nMGuv3zJTe7CFIlo4lr54Fndi1WjhA2I4978ctey!tWW2PsuSuS!oEWcO7HRaSOgb4jN4mfA7SnsicoidYHMlSd52rJ0w01wDHZ3GPjrWfV9kK9zck62qP8Rm*zpxMnkX4ywm3ohRU; MSNPPAuth=Cmobm6lx8ndGCKgVUJDLLWjivEmWhPGpnIvs1cAceDOBtihq0nRz2S1k!rxkcE6OwLrme*60YUAFpQ02MS4*avULlrtZgI8vmTKG2Fv0xV6aWIddVuPkP192AKvr5*UzWBgR686nWnSyMULDi6H6**brqDOO9jsUOG56MxTAfiJ*wY5vjQ!9W6dDmGSGNvPBxgBUQd!e1za*PTGsAHeuyJCBDgon5hClu4Dw0W1bDyribHqSTY0JfHPksGmfeJXFA!eHT710X3kq7f9w*X0a4Pek!TSrYS0eFZqxl3KjP3AEwb9saRbCPdcStpWEbipCrfVYpPgyQHiVQHeQ6upR0A*PBz4cnisS7vnQvHhGtc68Aonhjx4XGUMiNXKFz8gRNNB7uMnioLbUik!49QEwamHyGntxVuk821MAFAP*CxTmnGXRx*Qu73VxTNm60hEYrGew9aF0JgmOGlBenj!2HW5NrZ5M04KxRMQIUFhy5EoidQ*I8Q3PvyYE*1774UzDjQ$$; MH=MSFT; NAP=V=1.9&E=beb&C=Bgj2n-Aj5YqVNJWdswLSfXzBURrbl00uag3gHgQSyy1xkfmFJH1AIg&W=1; ANON=A=DE389D4D076BF47BCAE4DC05FFFFFFFF&E=c45&W=1; WLSSC=EgBnAQMAAAAEgAAACoAADLhertSE8QY2Y49w4oJFpbYjf5O7KLfyvH67d/xHQm8frnh4qWBk12lC7njNMhayASQWAk/7cVwi4hMISsjdHw7HYI9wMobUvoKTFiQrWulOMX36gmIybhqeH4fPAbObJFCAYvBS0nTUG1k7Zu0582x8V87VvBUNUQMHqgDKgV3WAFwA1gD9vwYA7VazlySjM08kozNPECcAAAoQoAAAFwBjcmlmYW4yMDAzQGhvdG1haWwuY29tAE8AABZjcmlmYW4yMDAzQGhvdG1haWwuY29tAAAACUNOAAYyMTM1OTIAAAZlCAQCAAB3F21AAARDAAR0aWFuAAR3YW5nBMgAAUkAAAAAAAAAAAAAAaOKNpqLi/UAACSjM08kGEZPAAAAAAAAAAAAAAAADgA1OC4yNDAuMjM2LjE5AAUAAAAAAAAAAAAAAAABBAgBAAABAAABAAAAAAAAAAA=; xid=0270d8ea-6a73-472b-a678-4fc2db6bc661&NK4bB&SN2xxxxxxC501&73; wlp=A|eyJV-t:a*JO3YBQ._; wlv=A|eyJV-d:s*pCC6Bw.2+1+0+3; SLVersion=4.0.50401; SLSupportedAgent=true; wls=A|eyJV-t:a*nS; BP=FR=&ST=&l=SDX.Skydrive; SAToken=RRBYHVGQUYAFCDUMWVZXHGSFVJNTFJUZNDVXGPRBLWEJ; MUID=146D3DD912C967BC23B43ED816C96711; 
+LD=0270d8ea-6a73-472b-a678-4fc2db6bc661_003c900e117_15217_1328784164860=E5492~ClickedSelected.Messaging.IMStart~IMMode:Full;
+ pres=9a8b8bf501a38a36=4; E=P:qrwKtS61zog=:U4BrevuPi9DWUIEOOBID+BfKrZ4xGKPiUM3NNzxod6Q=:F; wlidperf=latency=301&throughput=4; HIC=9a8b8bf501a38a36|3|108|; wlxS=WebIM=1&wpc=1; xidseq=6; wla42=cHJveHktYmF5LnB2dC1jb250YWN0cy5tc24uY29tfGJ5MioxLDlBOEI4QkY1MDFBMzhBMzYsMSwwLDA=
+
+
+
+--------------------------------------------------------------------------------
+second time capture analysis:
+
+for:
+https://cid-9a8b8bf501a38a36.users.storage.live.com/users/0x9A8B8BF501A38A36/LiveFolders/21020114-suzhou-hefei-bus.mht
+
+IE9 cookie, sent:
+Direction	Key	Value	Expires	Domain	Path	Secure	HTTP only
+Sent	xid	2e26842c-bac3-4cd1-8091-b4384b3a10bb&NK4bB&SN2xxxxxxC630&74					
+Sent	xidseq	4					
+Sent	wla42	cHJveHktYmF5LnB2dC1jb250YWN0cy5tc24uY29tfGJ5MioxLDlBOEI4QkY1MDFBMzhBMzYsMSwwLDA=					
+Sent	wl_preperf	req=87&com=87&cache=87					
+Sent	wlidperf	latency=360&throughput=8					
+Sent	PPLState	1					
+Sent	RPSTAuth	EwDwARAnAAAUWkziSC7RbDJKS1VkhugDegv7L0eAALBnVrlHNs/xfjk8JsjO4XS+6+ZUGbljNaSWSsGPRl0oI+Ie0XvDaV6ZyCdKLYBY1VnxJ2FcB5ufxzRgFbitvR7Qhet+mt65Az8jcfqZ4eomsZnVxZ/jgU2wv05z1ndDzbLNtcDGuUhnNl4IVFFTh03jNn5mwQpWbisBlSjDQhgdA2YAAAh5a/GecWGePkABwGQA9qlqHQBjKRzNEKOLUbnL99PgahToxRES4TbLjch5fJB0aXHZnHrujs24gpAHGnvDDx5lrDreruRATRSZuUsSiVSQH/8Ob1Pua7vOwLnWtbyf5WBJ+wReiHJ2ObsNapXe3xKzo4LMgkUiRxTbpg3/MvWUrQwyqp4RS6nW5wItWJQk+LHxS3fGhP+Arn7tehIqhzz0cLyq6d/TZCQAtFGLJUEAnlcQS1MsrV/+Oyes/w9Fft65kjiTeDlhdmGbhFa1hftmJp3HjSniKXIi9TLckr6aBvnmw27nBvAqCCNzKtWd2DCMuOBqoOfXSywffyJK9y2DPiu8ub6WFj7ipxR9kw23yunv1krXoe9L4KXZ3alobgvxHvARqxVxs9WQ2ULatoVYqveykAGFl/BJqFI7mEvGA0GyJAsSLPdxVzFnAQ==					
+Sent	MSPAuth	2uVRMxvYWDi7n6ZNISJ0Wei4eRBpymUS3nXUlSWa56KBh3NOXLZhk0mBB1U8zh1*knxkNd2Suk*7zyZJrvRDtLMRZvBpX1YP4SY7AkO7BreBlMyR*PnRlMEMqzyF1BCtAV					
+Sent	MSPProf	2g1pFfMkrDwLc8J80P1PU7Kh9GxYSpUCivEp4T4pZ*bVzqu*qlt!jrCTPEl0KPAzMETmozTugb3Gd*e8b6RrsgUNwUJ1f9fneAy5YhDJo*jrf5RpPKdxk6N0VBa9fV*XlSHzd730gU7G2GC7dCHQkH91fudnF0pmDZ9Ke!URIpYtc7lbPlXI2!!9V2hZpgIrfx					
+Sent	MSNPPAuth	CqLbRiwzC97R!!D542zzjzZ4ZW4soF!nZnfth9XxncL7OAKQX8AgQ6UAJsU9ygklNAcAMOdktPcG!SvxVnbW08ug0uYvV9fldgCCk63jWfsdoEEgOm2Bp3FO1qMKCBPLStQiLtjOVKqLQsmcJxZJ1TxX1FAoKKkftG7Z8YHls9fRrIHXigbvIcmevHxRYBVfOKpg57wdMKxRKh6BX7NqKkQ0RbYwC5OFu9IMgWbtP4KXYK0aAVvqgoMT97ei*D!LhjMO87bp*UWFinYUgG6k1dQTyikAHujYTENExNy8*Rp4IqOGOcmLygbFNjuaYX3LBoguikm3bpswx1LbAbifBUeyADdI*vEd0deA9GRxxFdpI4nnnAWrcD3tB9NMqkKQVWhWh!LpzkU!u2GqW8qYwsopNtgefcFE9akTcOO1amMgTi*WSl880Zm4dp3wOSuMsxBrA104QyMnBAy*XSpqiLKh0g3TjqkF1xZ3WC5oLiyneJmtr0I*fTjha8wl0u5a3Q$$					
+Sent	MH	MSFT					
+Sent	NAP	V=1.9&E=bec&C=teTAwVhzIXEPpY044S8hT7JXAlnc0Vc0TQN2IMScnF_nVC2IKuaPqw&W=1					
+Sent	ANON	A=DE389D4D076BF47BCAE4DC05FFFFFFFF&E=c46&W=1					
+Sent	WLSSC	EgBnAQMAAAAEgAAACoAA4eLpYce7RQJbvEiXCnV/szxkDKSikGvrydtRltEbrK3a/jMaOSVJ4TPLkQpcAPtsGNJkyrmlT5ZynKzkcmdvlZQBi91MSWVQlwz82FJ1S6iVFjZ/j3Jb+3BeOnYYMOG6mBM8dEieMIZ712EMAtn7DzdvgJWOQ1deE0lBiLCxae7WAFwA1gD9vwYA7Vazl7NrNE+zazRPECcAAAoQoAAAFwBjcmlmYW4yMDAzQGhvdG1haWwuY29tAE8AABZjcmlmYW4yMDAzQGhvdG1haWwuY29tAAAACUNOAAYyMTM1OTIAAAZlCAQCAAB3F21AAARDAAR0aWFuAAR3YW5nBMgAAUkAAAAAAAAAAAAAAaOKNpqLi/UAALNrNE+z4EZPAAAAAAAAAAAAAAAADgA1OC4yNDAuMjM2LjE5AAUAAAAAAAAAAAAAAAABBAABAAABAAABAAAAAAAAAAA=					
+Sent	E	P:blATP6a1zog=:QRf4RiiqCgX3poZ48G7s1tJxUzNtOxbhP6zyS4lAySs=:F					
+Sent	wlp	A|eyJV-t:a*s7XZBQ._					
+Sent	wls	A|eyJV-t:a*nS					
+Sent	wlv	A|eyJV-d:s*M+m6Bw.2+1+0+3					
+Sent	SAToken	NAGJINWUYXGRWRXOUZLEDZQTYMZJWTAJYKVIXBODXYHJ					
+Sent	SLVersion	4.0.50401					
+Sent	SLSupportedAgent	true					
+Sent	BP	FR=&ST=&l=SDX.Skydrive					
+Sent	MUID	30F10EFE68C76D26347A0C4F69C46D13					
+Sent	pres	9a8b8bf501a38a36=1					
+Sent	wlxS	WebIM=1					
+Sent	HIC	9a8b8bf501a38a36|6|109|
+
+got:					
+Received	cookie27	RPSMaybe=	Thu, 30-Oct-1980 16:00:00 GMT	.live.com	/	No	No
+
+-------
+Chrome:
+for:
+https://cid-9a8b8bf501a38a36.users.storage.live.com/users/0x9A8B8BF501A38A36/LiveFolders/Microsoft%20Word%20-%20%E5%9C%A8Word2010%E6%96%87%E6%A1%A3%E4%B8%AD%E8%AE%BE%E7%BD%AE%E7%BA%B8%E5%BC%A0%E5%A4%A7%E5%B0%8F-2011-12-05_09.59.13.pdf
+all headers:
+
+POST /users/0x9A8B8BF501A38A36/LiveFolders/Microsoft%20Word%20-%20%E5%9C%A8Word2010%E6%96%87%E6%A1%A3%E4%B8%AD%E8%AE%BE%E7%BD%AE%E7%BA%B8%E5%BC%A0%E5%A4%A7%E5%B0%8F-2011-12-05_09.59.13.pdf HTTP/1.1
+
+Host: cid-9a8b8bf501a38a36.users.storage.live.com
+
+Connection: keep-alive
+
+Content-Length: 14
+
+x-photosizeconstraint: 2048x2048
+
+Origin: https://skydrive.live.com
+
+bits-packet-type: Create-Session
+
+x-requeststats: upType=sl,dragDrop=false
+
+overwrite: false
+
+application: LiveFolders
+
+x-http-method-override: BITS_POST
+
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.46 Safari/535.11
+
+Content-Type: application/x-www-form-urlencoded
+
+accept: application/wls-response-headers+json
+
+bits-supported-protocols: {7df0354d-249b-430f-820d-3d2a9bef4931}
+
+Referer: https://skydrive.live.com/
+
+Accept-Encoding: gzip,deflate,sdch
+
+Accept-Language: zh-CN,zh;q=0.8
+
+Accept-Charset: GBK,utf-8;q=0.7,*;q=0.3
+
+Cookie: PPLState=1; RPSTAuth=EwDoARAnAAAUWkziSC7RbDJKS1VkhugDegv7L0eAADg9NztQT/iZYdDsyjUYcoig0JMugyNDMLSmn5uNtDk9f5VlGUBTV125HmBYXcEzhL3XxLgW6Uj5W3lR4xiJ3dwu2ygdriXQgil651Co6nNh2Do2Lkjm/GbheNycYnlTHX+J/bkSYe/gw6IeXqRKZH8EUECwzvwNZQcj9DYODwUoA2YAAAgcZlIw273h6TgBd0/sFl7gASqQDnqlWNj0S2Wqo5QbX5gD56h1v53dARCJ7UQVX3cekOzL6zDpjZY3fubeoekEHooztdcRWake8/WFT8PDxQt+xHF1T5qqVnM9O78N86hAp3LvlhHb5UJ8CHUywGFBMzKpqE0OKrIA8zYzW/mIoHsED9OycX71SU/VvkIAzUn+qRpM22LG9PXE4rcw/NV5O+7oBCiOxMLMBaOEc8JUyedeOOK58fcqerqx0opa1g8Dvbr15TvS0g8gjPk3YN56NLddULdL2Q28wMM8nNqK9mZAX20KxTJKdeIXYts0Pw4QPxA6OfNXyTuRAii0ucg6jxtD3ric7lUHh1qmc3IcqJ6fJRYX964mvEuH2ZQPuGURN5wO1xZ/ljaU98ktBCkXZjdcH3Teq9IgUdCxN7A1XZxtZwE=; MSPAuth=2NjoWsOJODtD8voBeb7vPDI9s60fIQvjKq8JdappTU6hDBbZ!6JLWgPWuZhUjuLtXuXny8XYvSm!Fy6DerxlIIw0QZ0!BBblTXzmuTwu2OWZqLd053!0e6fPg!GCrAiOxs; MSPProf=2laNamYjdDlKoZ7PEGHUxRnB4qJTv6saU9QuVTRSHfewVmykDMqgpnbu1R6ofbkUo22elTZ797TliskyM16NUxNRS96RsHDo1HCwQDcptYmm!fPk7IXyF4!2cRhTl3!zfMgAkaNZNanRMpxibB9cmeAaKKXC3rsAvovI7j0oPwQUtP8mOkJq8fI8!PXt19r0BU; MSNPPAuth=Csv1YZWU48KTRXnD9OLS40N0X6xGoKB2hGbwRHvJvfjnms48Uot4DWf38rwMPxhS0GNoG9AXEQvhw1yIl*QVkvEfXT8O86tQ14ZfFgUHehe36OdbyROFhFMLYHYKJoIlA9SrXYNgh1jrcC*4j1wwlfKph8nexbuB5efbhzgAldyUVb1Kc*9ZmE6bzsJ!z0weuniF1VyRE8KI8mdyp!880JcMV3qybwDNIjvW6mGz!JJjO4ClhQY1nbpUSERttZ0DFC*0LrAsW1ABhwMg10wdH2!uJdYoD!BpRED7uGKEYhkBNlkRAV5TvzqqtiByasnGZNO8bQiziG4v6sJUSlqtp7esdF*ga9nVk5S6BD1OVLSm!ZQKIfvdM!k3ex9ZABZ5WCJpj1GcrCy!WhjoY5gVd0Uj2Y79vZn!pIfOrSkHvSzOWjulq4x39fEwFClDhkfa10vy1rMAkud7ltysS2b*X61iyt30TJOuYcgtuJYkrDpakhpNqC71df3i5lyLC6lWGg$$; MH=MSFT; NAP=V=1.9&E=bec&C=CRiEcg2uHVJ--eVvUpRcq3hOYiFOKSpXoxLiqBmebf5vApBnnHKrKQ&W=1; ANON=A=DE389D4D076BF47BCAE4DC05FFFFFFFF&E=c46&W=1; WLSSC=EgBnAQMAAAAEgAAACoAA6jaH/uIqT05NJLm0QP09vYJLWqwePld2XHKJdsD1SLKzMCu7d4XLrWKuKzFX/AWJ7i+7b7noHVvzi/niXi/kvflbYVVtdt2qQu4mpMljgOO6LwDqwQRGNNe2rJO4m/Ww1XcTacbc/PFjldKBUOueSAwW8J7mP/Q8OqQ7fRWjPybWAFwA1gD9vwYA7VazlzyINE88iDRPECcAAAoQoAAAFwBjcmlmYW4yMDAzQGhvdG1haWwuY29tAE8AABZjcmlmYW4yMDAzQGhvdG1haWwuY29tAAAACUNOAAYyMTM1OTIAAAZlCAQCAAB3F21AAARDAAR0aWFuAAR3YW5nBMgAAUkAAAAAAAAAAAAAAaOKNpqLi/UAADyINE88/UZPAAAAAAAAAAAAAAAADgA1OC4yNDAuMjM2LjE5AAUAAAAAAAAAAAAAAAABBAABAAABAAABAAAAAAAAAAA=; xid=17b0bff6-6bca-4d6b-aaaf-b286229eecf3&NK4bB&BAYxxxxxxC634&74; wlp=A|eyJV-t:a*PdLZBQ._; wlv=A|eyJV-d:s*vQW7Bw.2+1+0+3; SLVersion=4.0.50401; SLSupportedAgent=true; wls=A|eyJV-t:a*nS; BP=FR=&ST=&l=SDX.Skydrive; MUID=211EACFC5E3168480AF7AFFE5A31680B; SAToken=XKXYSJVPEKLMKZOWTKRFPRUVBBGRRFBGPVMNDAHIWGVJ; LD=17b0bff6-6bca-4d6b-aaaf-b286229eecf3_003257236dd_15217_1328842813173=E4613~ClickedSelected.Messaging.IMStart~IMMode:Full; xidseq=7; E=P:BLTcQbe1zog=:A821k3nGMWMrXEMqIKR01mSragjViqCSDbtuyOiBufs=:F; wla42=cHJveHktYmF5LnB2dC1jb250YWN0cy5tc24uY29tfGJ5MioxLDlBOEI4QkY1MDFBMzhBMzYsMSwwLDA=; wlidperf=latency=257&throughput=3; wlxS=WebIM=1&wpc=1; HIC=9a8b8bf501a38a36|10|109|; pres=9a8b8bf501a38a36=1; wl_preperf=req=87&com=87&cache=60
+
+
+
+cookie source view:
+PPLState=1; 
+RPSTAuth=EwDoARAnAAAUWkziSC7RbDJKS1VkhugDegv7L0eAADg9NztQT/iZYdDsyjUYcoig0JMugyNDMLSmn5uNtDk9f5VlGUBTV125HmBYXcEzhL3XxLgW6Uj5W3lR4xiJ3dwu2ygdriXQgil651Co6nNh2Do2Lkjm/GbheNycYnlTHX+J/bkSYe/gw6IeXqRKZH8EUECwzvwNZQcj9DYODwUoA2YAAAgcZlIw273h6TgBd0/sFl7gASqQDnqlWNj0S2Wqo5QbX5gD56h1v53dARCJ7UQVX3cekOzL6zDpjZY3fubeoekEHooztdcRWake8/WFT8PDxQt+xHF1T5qqVnM9O78N86hAp3LvlhHb5UJ8CHUywGFBMzKpqE0OKrIA8zYzW/mIoHsED9OycX71SU/VvkIAzUn+qRpM22LG9PXE4rcw/NV5O+7oBCiOxMLMBaOEc8JUyedeOOK58fcqerqx0opa1g8Dvbr15TvS0g8gjPk3YN56NLddULdL2Q28wMM8nNqK9mZAX20KxTJKdeIXYts0Pw4QPxA6OfNXyTuRAii0ucg6jxtD3ric7lUHh1qmc3IcqJ6fJRYX964mvEuH2ZQPuGURN5wO1xZ/ljaU98ktBCkXZjdcH3Teq9IgUdCxN7A1XZxtZwE=; 
+MSPAuth=2NjoWsOJODtD8voBeb7vPDI9s60fIQvjKq8JdappTU6hDBbZ!6JLWgPWuZhUjuLtXuXny8XYvSm!Fy6DerxlIIw0QZ0!BBblTXzmuTwu2OWZqLd053!0e6fPg!GCrAiOxs; MSPProf=2laNamYjdDlKoZ7PEGHUxRnB4qJTv6saU9QuVTRSHfewVmykDMqgpnbu1R6ofbkUo22elTZ797TliskyM16NUxNRS96RsHDo1HCwQDcptYmm!fPk7IXyF4!2cRhTl3!zfMgAkaNZNanRMpxibB9cmeAaKKXC3rsAvovI7j0oPwQUtP8mOkJq8fI8!PXt19r0BU; 
+MSNPPAuth=Csv1YZWU48KTRXnD9OLS40N0X6xGoKB2hGbwRHvJvfjnms48Uot4DWf38rwMPxhS0GNoG9AXEQvhw1yIl*QVkvEfXT8O86tQ14ZfFgUHehe36OdbyROFhFMLYHYKJoIlA9SrXYNgh1jrcC*4j1wwlfKph8nexbuB5efbhzgAldyUVb1Kc*9ZmE6bzsJ!z0weuniF1VyRE8KI8mdyp!880JcMV3qybwDNIjvW6mGz!JJjO4ClhQY1nbpUSERttZ0DFC*0LrAsW1ABhwMg10wdH2!uJdYoD!BpRED7uGKEYhkBNlkRAV5TvzqqtiByasnGZNO8bQiziG4v6sJUSlqtp7esdF*ga9nVk5S6BD1OVLSm!ZQKIfvdM!k3ex9ZABZ5WCJpj1GcrCy!WhjoY5gVd0Uj2Y79vZn!pIfOrSkHvSzOWjulq4x39fEwFClDhkfa10vy1rMAkud7ltysS2b*X61iyt30TJOuYcgtuJYkrDpakhpNqC71df3i5lyLC6lWGg$$;
+ MH=MSFT; 
+ NAP=V=1.9&E=bec&C=CRiEcg2uHVJ--eVvUpRcq3hOYiFOKSpXoxLiqBmebf5vApBnnHKrKQ&W=1; 
+ ANON=A=DE389D4D076BF47BCAE4DC05FFFFFFFF&E=c46&W=1; 
+WLSSC=EgBnAQMAAAAEgAAACoAA6jaH/uIqT05NJLm0QP09vYJLWqwePld2XHKJdsD1SLKzMCu7d4XLrWKuKzFX/AWJ7i+7b7noHVvzi/niXi/kvflbYVVtdt2qQu4mpMljgOO6LwDqwQRGNNe2rJO4m/Ww1XcTacbc/PFjldKBUOueSAwW8J7mP/Q8OqQ7fRWjPybWAFwA1gD9vwYA7VazlzyINE88iDRPECcAAAoQoAAAFwBjcmlmYW4yMDAzQGhvdG1haWwuY29tAE8AABZjcmlmYW4yMDAzQGhvdG1haWwuY29tAAAACUNOAAYyMTM1OTIAAAZlCAQCAAB3F21AAARDAAR0aWFuAAR3YW5nBMgAAUkAAAAAAAAAAAAAAaOKNpqLi/UAADyINE88/UZPAAAAAAAAAAAAAAAADgA1OC4yNDAuMjM2LjE5AAUAAAAAAAAAAAAAAAABBAABAAABAAABAAAAAAAAAAA=;
+ xid=17b0bff6-6bca-4d6b-aaaf-b286229eecf3&NK4bB&BAYxxxxxxC634&74;
+ wlp=A|eyJV-t:a*PdLZBQ._; 
+ wlv=A|eyJV-d:s*vQW7Bw.2+1+0+3; 
+ SLVersion=4.0.50401;
+ SLSupportedAgent=true; 
+ wls=A|eyJV-t:a*nS; 
+ BP=FR=&ST=&l=SDX.Skydrive;
+ MUID=211EACFC5E3168480AF7AFFE5A31680B; 
+ SAToken=XKXYSJVPEKLMKZOWTKRFPRUVBBGRRFBGPVMNDAHIWGVJ;
+ LD=17b0bff6-6bca-4d6b-aaaf-b286229eecf3_003257236dd_15217_1328842813173=E4613~ClickedSelected.Messaging.IMStart~IMMode:Full; 
+ xidseq=7; 
+ E=P:BLTcQbe1zog=:A821k3nGMWMrXEMqIKR01mSragjViqCSDbtuyOiBufs=:F; 
+ wla42=cHJveHktYmF5LnB2dC1jb250YWN0cy5tc24uY29tfGJ5MioxLDlBOEI4QkY1MDFBMzhBMzYsMSwwLDA=; 
+ wlidperf=latency=257&throughput=3; 
+ wlxS=WebIM=1&wpc=1; 
+ HIC=9a8b8bf501a38a36|10|109|; 
+ pres=9a8b8bf501a38a36=1; 
+ wl_preperf=req=87&com=87&cache=60
+
+ 
+ 2nd Chrome cookie:
+ PPLState=1; 
+ RPSTAuth=EwDoARAnAAAUWkziSC7RbDJKS1VkhugDegv7L0eAAHkDZFLuyAMmvzh2ph/Egr96yA8Qou2oDETENNApS1lX1A6bvlIQMXF0tVTzBKYWF8KFJ8xpgu4eEYs9P+tOcjw6A/cCshg2RHOT+B6jTCcvwyvbEVAWMUZKxGIagTq/a38wdttKyh43Qh6t3lIy/3jRIzHHDmMUTYO/8iy2ZWBCA2YAAAikAdAeNgM53zgB+hEivptF+CfvnbvR4WOG0YAIBxHbif2UffITVogw4MOqMxJ1A2cn1UdN5TNi1zKRfJM2lckyZ/gnJUSrIQrVor/n3AhfyjqzAbkdQnovQR/fS4xC0gpzZotZUpcL4p8PIyaP1xSTBPECEVyDhS3xqqsz7QGJbARgNuEjcLPZ1RB1ua4JRwkXsbJKNSXdm6KNvscBO/l+bZTdK/FbROrjnH5rVY7NTuucVet3K3jChtsnCfkT715HX8GlnhvGZ5n8BSIL1U24/Z8RY+bl98/i3Doy4pof2Kbco0PdTZWEGuBFlvYj7vtQVvxJe5mOcP79MGogZxDhE37cssDt9foCgq18y46yDcp6jt86CqJ2sApNPR57KgmHBcnkfbPgIW18yjHLErio5Vh+jGRXIK6SNN4Sfi3wOVg/ZwE=; 
+ MSPAuth=2ikmYBfQoDgDy1RGTSKMTy6osummQxwg1oWdOVa1*81wij4UPYSx6KQ8n!36b*4FDKBs!f*1MYaukz1YcX7KYBBM9Ge21MzBovI!K5FzI2uY2ReeaWe19mbeR*EoX7bbe8; 
+ MSPProf=2JX90!ZkdDlR!BW!kNFmqX!goB!ne2du0wv02V8*RKh848OaHCWWSCmPEcNmZMA5snyEqNjQODMuRz4wZ9ZNwHYiKPlkLMnCLVu*s1Wp!dsOOC2YsiK5XbZoSr51jbNEZXEwu9VrNbd5YhIvVtFnUI7qjhAH544j!HAnQOKQdqmrBQ0MRqngZGhoEGcKZnV*su; 
+ MSNPPAuth=CigwmPvZeLbXSDHElCInntWV1iU!2TOJWc2PMDJJsLQa9LtU4S0pvmFeWc*6hTvpP2hf0SLtHj0bKqqfzVmm8TICym3JhP1OouOVIM2hUMu!d25*LADM1PM4gUYpaXzh2!6jNPbxfafSA3fr8LB5RuMMl70IFvevgRkg4M*aRM7aKp1V1wN4SK574*NvgiW*SLp8vAN*GN2chEwRNEa0RDsWsTOTZFn5zB4Jzl7fKvAhbnA9bUW1UeGUCg!*V14Bq1axtWB5z2PTwNJF54D4H0JWdVkSMp6So0r4XJzh*BT747ufm1iEo6VKJKb4EjctVbSId8nuws93Cn1lAwcanjZbMsPFIODzn5H8kN4snJhzxBMM1iYplxx!6889zKbypXasLzMucgdIx9C!vj8YHWyveJLRWZis*KrJ2ASk1G1UxaIt0tdcCsOeFK!otXYwlMyiGqwtkYs*Is8BUj*5f3LsvpKgerOFw0l1b5HhuAez1YG5ZmvXCP!Rk2OSdbFPcw$$; 
+ MH=MSFT; 
+ NAP=V=1.9&E=bec&C=0x4hdjCOISFbtwb4ph3Vhy1FMr7DrgWQVeVVG-n2vgNqDYO6ZVNFhw&W=1; 
+ ANON=A=DE389D4D076BF47BCAE4DC05FFFFFFFF&E=c46&W=1;  
+ WLSSC=EgBnAQMAAAAEgAAACoAAMGwtadQvS63x9GqeHJgqbbZs15zz/blXTecgqiH8x981s7LSNagpeom9XXl2pKMk+cb3s6zwHJtxPMzuRZyO6P6e6k98EYGpNchglK/tWLpsJNb8rLmLsOZmgp47H1Z8H3JvmOoRbUg0KHGb86AGrZhq87en/Q5VgiYDnX76XM7WAFwA1gD9vwYA7Vazly+KNE8vijRPECcAAAoQoAAAFwBjcmlmYW4yMDAzQGhvdG1haWwuY29tAE8AABZjcmlmYW4yMDAzQGhvdG1haWwuY29tAAAACUNOAAYyMTM1OTIAAAZlCAQCAAB3F21AAARDAAR0aWFuAAR3YW5nBMgAAUkAAAAAAAAAAAAAAaOKNpqLi/UAAC+KNE8v/0ZPAAAAAAAAAAAAAAAADgA1OC4yNDAuMjM2LjE5AAUAAAAAAAAAAAAAAAABBAABAAABAAABAAAAAAAAAAA=; 
+ xid=b9495cc0-9a08-487b-9c7b-db2304d1a327&NK4bB&BAYxxxxxxC606&74; 
+ wlp=A|eyJV-t:a*L9TZBQ._; 
+ wlv=A|eyJV-d:s*rwe7Bw.2+1+0+3; 
+ wl_preperf=req=131&com=56&cache=19; 
+ SLVersion=4.0.50401; 
+ SLSupportedAgent=true; 
+ wls=A|eyJV-t:a*nS; 
+ BP=FR=&ST=&l=SDX.Skydrive; 
+ SAToken=NRLVKTPRSDNIIHAODZEVLPUWMPXZWNPUQRFQZOVORJHJ; 
+ MUID=0352BB42A7956B74013BB840A3956B95; 
+ LD=b9495cc0-9a08-487b-9c7b-db2304d1a327_003934c7b39_15217_1328843312751=E4433~ClickedSelected.Messaging.IMStart~IMMode:Full; 
+ wlxS=WebIM=1; 
+ pres=9a8b8bf501a38a36=4; 
+ xidseq=7; 
+ E=P:V8t2a7i1zog=:Cb9i3LylDnTFph0v/I4QagEANNpCotSB55OLoLtKKzg=:F; 
+ wla42=cHJveHktYmF5LnB2dC1jb250YWN0cy5tc24uY29tfGJ5MioxLDlBOEI4QkY1MDFBMzhBMzYsMSwwLDA=; 
+ wlidperf=latency=282&throughput=10; 
+ HIC=9a8b8bf501a38a36|10|109|
+ 
+ 
+ 
+-----------------------
+ cleared wla42, code cookie:
+-		m_list	Count = 35	System.Collections.ArrayList
++		[0]	{xid=c6a7ed02-c125-40b9-a75e-bcb2fee92644&NK4bB&SN2xxxxxxC626&74}	object {System.Net.Cookie}
++		[1]	{xidseq=3}	object {System.Net.Cookie}
++		[2]	{LD=}	object {System.Net.Cookie}
++		[3]	{wla42=}	object {System.Net.Cookie}
++		[4]	{$Version=1; MSPRequ=lt=1328842335&co=1&id=250206; $Path=/}	object {System.Net.Cookie}
++		[5]	{$Version=1; MSPOK=; $Path=/}	object {System.Net.Cookie}
++		[6]	{$Version=1; PPAuth=CufV2NP!uu9o4GRqbBh1*7wCFJcgAeZSVp4I1444nbsZFJWYNtkF6n0psUz7nI7VjsccXJN6lrxrhxBvC129n44IocJ*uHLqVH!wL7zS3XU3I6FlZ7HNh82gJsnpK8Tf6iWg49UzBnSNYYjvelkOkq9cb0Gzl1bqvZRi5qqUC5LypajTgKasG3GA5SFibo9ILeJX2v4g3HRMMSOTOMdjb54dwUi8dY5vmygdNIqPvaQNFrJaJyXz!4eNMs!LKTBpTKsEugNnOih8NB!L9h!jiNPsuWblAetgZpa4NLWSO2nW; $Path=/; $Domain=login.live.com}	object {System.Net.Cookie}
++		[7]	{$Version=1; PPLState=1; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[8]	{$Version=1; MSPShared=1; $Path=/; $Domain=login.live.com}	object {System.Net.Cookie}
++		[9]	{MSPPre=}	object {System.Net.Cookie}
++		[10]	{MSPCID=}	object {System.Net.Cookie}
++		[11]	{$Version=1; RPSTAuth=EwDoARAnAAAUWkziSC7RbDJKS1VkhugDegv7L0eAAJTNJYaroFLwZ/v36OP8pBcHrNs/btIgEx1LuVbzayQfHmTAPK3CjditKbajtexZSxVOUCGUUsFGuPGvcWee6dPlB7U9YAxrkU5NHn/BHJvNkIH0mvJ3eGquP54dC+yJ9m9qztpqadz+qGZ6qkbb8w7IDpi5bquNBhX5FJaKJSQPA2YAAAinfwcUAertvTgBju3SRxNv1AsNXX1Waj/lx7dr9tlnsxU1brAvA3y03ajkZvFD32A0CcwZ5bXC1wo3m5Q+z/zMg4HCShC5HsCBgYQ++jIF2vRnlYycyaMScshwsjXqCrdAcUoGJj/GvhH8nuUNZssjVYG13RHbT0gNvz77STy1PaMz6TNGvbzxiMLnpeBEohLerXY1m/lq6OjTcNJqOP47wN2wznWEinWd34blNvBI6mb91m/2aQCGCR/G5wDIPFZMwdbTTPFDRAuZ+vA4xVuhINk8cKXrn83p4Z+1FzZgOZ7KaUHi+rYw5wqKgi+CPPLem6HoqoMqtNRO4TEy5MoC2yRi9TdunLRjvawN0zj1+J4Fw5PmG7w7iZghAJ8V8+tW2su6nqBowwez03J5wBk/uoQHfkSx+SBX7L9JF8j2IP15ZwE=; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[12]	{$Version=1; RPSTAuthTime=1328842337; $Path=/; $Domain=login.live.com}	object {System.Net.Cookie}
++		[13]	{$Version=1; MSPAuth=2FqVjfeARDJ6qme2JBy0ihHKbzgLlgMW1ExJxjSqXSarW53L9IVwg!SQj6SGj*3G5kmFoLjUhIxJRgi3DsQFhsxidiUcRLSMuFzD2ubBSPNBmL0qHm0QWXhLweESwdqpd2; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[14]	{$Version=1; MSPProf=20wOYw1*4DQbDSfMHRjfPGLY6RnwtwCVC7biZ6Fvah2UxcJxw0Ebl9EtrkxUQjGevOMowH6MJ4h7a17KPwSEUdj9tYH4mD26A!ujuOo9RHYu8EVeeinxA2N2!PiSX7bOnyhxfXWHx2qR2fwm0imOeVJ5QPAzveOPtRUtAs5ZtIRHFxIPsCuuky60Xm8eggUMLm; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[15]	{$Version=1; MSNPPAuth=ClCs6vzCjPomCSy9fdfu!cKYycTsmsjuDTSL0wivjSyeI8oyicFQMb9a17Kgy1msawoh6kvv0py6NcREk*r1WL4xTJ2PUY9KzzDMD9KWgdgSpms7D9WuzScPMITOSsODwqNIr5oWlu8MfUoOCjEbAQ6kHsIFV*TLakRnZxQd29NHJNC65d166hSZJcLKAECUI6C8UudMVkgw0YZgDQ12F6PzVYRsowcva6iPFWp*2Y9ZmvTenWQ9G1Z*AZzIabgHeTcxjIonTplebNGbmmSVuUm!Bg0CzTMFQEcj!C0NEfEedKkrF5q!O*d4vrqfJL80dO!SXE!LTNMvHWocbOJS788ekhOukdDATvgryUdY2O0g4ZWnFTCiR6xvStdijUCYOd4XNgB5lvROW0ERmqi8p0OwvG4rAfjFLVxSwx7P42387Z!I333nAT9TSJWJq1V3f7XjaW5e!ji!7gdixXNv2oFloRuKwIYZLwSXy336LThQAOHszlbMXTteCBu1ak1h7Q$$; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[16]	{$Version=1; MH=MSFT; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[17]	{$Version=1; MHW=; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[18]	{$Version=1; MHList=; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[19]	{NAP=V=1.9&E=bec&C=v2HpoyG0KnsTPYMKJk279dky_JNIdEfnTHWdNIAVoRjkwcoOa0t1fA&W=1}	object {System.Net.Cookie}
++		[20]	{ANON=A=DE389D4D076BF47BCAE4DC05FFFFFFFF&E=c46&W=1}	object {System.Net.Cookie}
++		[21]	{$Version=1; MSPVis=$9; $Path=/; $Domain=login.live.com}	object {System.Net.Cookie}
++		[22]	{$Version=1; pres=; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[23]	{$Version=1; LOpt=0; $Path=/; $Domain=login.live.com}	object {System.Net.Cookie}
++		[24]	{$Version=1; WLSSC=EgBnAQMAAAAEgAAACoAAV/LyQ7owJvI5IgIcdO7eMydTwVRGjmtKZwf3rNjPNH88pXFcI4G93mLE0zibM7EzeMY6m/nsytwUVSp4H9lzuOOR//2JzVWeVDCHTkXnc2Jd/gtUhkn4vvJVdKwCJTYCu9Bsr/M3MYrtnChg2pJhiZW6kCzNhDLHQKG/g8YoKJDWAFwA1gD9vwYA7Vazl2GGNE9hhjRPECcAAAoQoAAAFwBjcmlmYW4yMDAzQGhvdG1haWwuY29tAE8AABZjcmlmYW4yMDAzQGhvdG1haWwuY29tAAAACUNOAAYyMTM1OTIAAAZlCAQCAAB3F21AAARDAAR0aWFuAAR3YW5nBMgAAUkAAAAAAAAAAAAAAaOKNpqLi/UAAGGGNE9h+0ZPAAAAAAAAAAAAAAAADgA1OC4yNDAuMjM2LjE5AAUAAAAAAAAAAAAAAAABBAABAAABAAABAAAAAAAAAAA=; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[25]	{$Version=1; MSPSoftVis=@72198325083833620@:@; $Path=/; $Domain=login.live.com}	object {System.Net.Cookie}
++		[26]	{RPSMaybe=}	object {System.Net.Cookie}
++		[27]	{E=P:hE44Jra1zog=:V02G6esZttRNqEkm0/ubHSlv5LcCg1qA8lMq+Z/OdJw=:F}	object {System.Net.Cookie}
++		[28]	{wlp=A|eyJV-t:a*YtDZBQ._}	object {System.Net.Cookie}
++		[29]	{wls=A|eyJV-t:a*n}	object {System.Net.Cookie}
++		[30]	{wlv=A|eyJV-d:s*4gO7Bw.2+1+0+3}	object {System.Net.Cookie}
++		[31]	{SAToken=SVVGPTIGCYEXFSCTCREMDOZTJTGRBWSFUXARNALOLHLJ}	object {System.Net.Cookie}
++		[32]	{$Version=1; MSPBack=1328842338; $Path=/; $Domain=login.live.com}	object {System.Net.Cookie}
++		[33]	{WLSRDAuth=FAAaARQL3KgEDBNbW84gMYrDN0fBab7xkQNmAAAEgAAACD5hK/IThtjO2AAb3NG5hrwEtWJ4ASzkpMdRd0tPVKwUg4BZpOyIfy9b3MMhOi4Wp0TB7/f96/Ic0ZOR9YZPpdKhW0rltUV//fVZg14C912yaXUsJw1Olhrar7jv%2BFU%2BmipfRxFGhZHoZFvkWYtCA9P5qFF7aC4mKsEtGUsN5wNqB0SLlPpkuxSPL1D1XTptYQsn4s5VlJLECBqr/jAazsP1mHuH4f3BaVyeFig6wELb664MhPcDLqjutnMsoiFg1MexPATvqxmHOaWZNg6xdcso%2BOqEusBGzlhkCRWbgTX8qTYUAEWHtrTYMCsChuqwo7MsIZRCB/bW}	object {System.Net.Cookie}
++		[34]	{WLSRDSecAuth=FAAaARQL3KgEDBNbW84gMYrDN0fBab7xkQNmAAAEgAAACCikQoRFtiXu2ACN6xfOE2ZdNWajlG%2B9EySZJnxn9gmzsgk1mPM2XVc9w/7oIev3h5ZzO1XfT%2BpXb71WTVTt5CdJ9rci6efYpE9qLU%2Bj/Nbm0ZbeOqnmdYw9lMmG5FRbHtvfWwmQTdrzUPqhAEZzknDs8yjPM4M8a/heMduoPjQoSu9qQ4iBrxLubbYvEyHv4yXEWXE766eR51RIwxu9nZqJgbmPiUig1v7Qo/Qo6pejCzHIKVy4gE8GlCxKDsMLg/e%2Bj2%2BRZd17UXulTd13%2B8wJ9o%2BSJF4js5ffHiRJquulhQEUABTpReKl5qxXknQr8OhsNZShPnG8}	object {System.Net.Cookie}
+
+
+
+this time:
+compare to IE9:
+not same value:
+wla42
+pres
+
+possible expires info is not same, need check:
+NAP
+ANON
+
+compare to Chrome:
+code not contain:
+SLVersion
+SLSupportedAgent
+BP
+MUID
+wlidperf
+wlxS
+HIC
+wl_preperf
+
+not same:
+wla42
+pres
+
+
+2nd compared with Chrome:
+
+----------------------
+for wla42,
+last for wla42 is null:
+before req:
+https://geo.messenger.services.live.com/actions/presignin?version=4.4.1382&eid=2e26842c-bac3-4cd1-8091-b4384b3a10bb&canary=M8KHxewWTltg%2bZ7%2bvfLLXZqgjzSx3dO32xstk8JLm14%3d0&requestedServices=3&mkt=en-US&presenceStatus=1&cb=WIMPcb
+
+first for wla42 is set value:
+before req:
+https://skydrive.live.com/API/2/GetGroups?cid=9A8B8BF501A38A36&v=0.21436000940809174
+
+
+
+response of
+https://geo.messenger.services.live.com/actions/presignin?version=4.4.1382&eid=2e26842c-bac3-4cd1-8091-b4384b3a10bb&canary=M8KHxewWTltg%2bZ7%2bvfLLXZqgjzSx3dO32xstk8JLm14%3d0&requestedServices=3&mkt=en-US&presenceStatus=1&cb=WIMPcb
+:
+
+WIMPcb({
+    "identity": {
+        "liveId": "crifan2003\u0040hotmail.com",
+        "endpointId": "\u007b840f8925-c729-4373-9a83-ca4248f9e033\u007d",
+        "puid": "",
+        "cid": "-7310595685695124938",
+        "appId": "0",
+        "experienceId": null,
+        "authenticationInfo": {
+            "authType": 1,
+            "ticket": ""
+        }
+    },
+    "signInStatus": {
+        "isAuthenticated": true,
+        "isAutoSignIn": false,
+        "isManualSignIn": false,
+        "isTrustedSignIn": true,
+        "isApplicationBlocked": false,
+        "isUnsupportedBrowser": false,
+        "isUserSignedInViaSpopClient": false,
+        "isUserSignedInViaMpopEndpoints": false,
+        "isMpopSettingEnabled": true,
+        "isUserBlocked": false,
+        "isTicketExpired": false,
+        "isAutoSignInEnabled": 0,
+        "isAudioEnabled": true,
+        "isFirstRunExperienceViewed": false,
+        "isContactsSignatureRequired": false,
+        "isUserSettingsKnown": true,
+        "isAppSettingsKnown": false,
+        "isServicesKnown": false,
+        "isSslOnly": false,
+        "lastStatus": 2,
+        "services": 0,
+        "uploadLogsPreference": 0
+    },
+    "duration": "16",
+    "reloaded": false,
+    "hostName": null,
+    "serverName": null
+});
+
+
+
+
+
+
+
+
+
+
+
+
+ ---------
+ not clear wla42, code cookie:
+ -		m_list	Count = 35	System.Collections.ArrayList
++		[0]	{xid=fd760695-67f2-4b85-b74e-a50a0a8f5c9d&NK4bB&BAYxxxxxxC532&74}	object {System.Net.Cookie}
++		[1]	{xidseq=2}	object {System.Net.Cookie}
++		[2]	{LD=}	object {System.Net.Cookie}
++		[3]	{wla42=cHJveHktYmF5LnB2dC1jb250YWN0cy5tc24uY29tfGJ5MioxLDlBOEI4QkY1MDFBMzhBMzYsMSwwLDA=}	object {System.Net.Cookie}
++		[4]	{$Version=1; MSPRequ=lt=1328859709&co=1&id=250206; $Path=/}	object {System.Net.Cookie}
++		[5]	{$Version=1; MSPOK=; $Path=/}	object {System.Net.Cookie}
++		[6]	{$Version=1; PPAuth=CveCXBDgH2X2XsIafp5LIRutv26P5F9K6BUR2z6DNYCOXEN864hBDXdDrYW5g4EPTwdXSZi5dYCpG512I1kt4zhWemnbQhPWYJ6BsfBFYWRBADlRU*4uBPMtoRsgK4Fv1*xwjfAslyh24kN*0knYt*uS3kJhzQKVUbsU779OWDVBPB!U*2EZWo!nPkq0Rs6ggNhGmEQgme9lupBI8CJ5USJZl5BePv2FMn4eb*FZhfF2zRpsI7xn9s0O8ZEkt80SS!sEhJ!sONg2ryiIInS0OKULFl1fnbRjYw39s8RXhb3a; $Path=/; $Domain=login.live.com}	object {System.Net.Cookie}
++		[7]	{$Version=1; PPLState=1; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[8]	{$Version=1; MSPShared=1; $Path=/; $Domain=login.live.com}	object {System.Net.Cookie}
++		[9]	{MSPPre=}	object {System.Net.Cookie}
++		[10]	{MSPCID=}	object {System.Net.Cookie}
++		[11]	{$Version=1; RPSTAuth=EwDoARAnAAAUWkziSC7RbDJKS1VkhugDegv7L0eAAJ46T/AICpLRPwktg0oxYzBgwydQYEPqztX1MNgGJ9ACeM48PcItrwdUOYEkybFuJP8rt+KOeUTTL/ujiaspF9NcPvreE9IEb4yI7Nhq+3OZo16HfbFqe4O3GwNUqPBChEf+ZaCBodIkQwg6M71KoEQ0A6DXZDMkZIjLMId5Ijw5A2YAAAhQUeLCvzDG7jgB9UScuHrI5D4NAjc3xB8RXv2dFzn5D6SmVNq73SRTrbBnYmPyoWnwoaw2dwuueSr6cOWPjozq7u93J2B9rwqUdsShXhVrlmRR8bXjQv1p8dLWxAnK9b1n4uiW4qtN8RQVxzGESmX1aVo38uiMVUXewcoNZ4f2EZlvGXpQkw9sSCJagFONBZGb3x/CMVQyFjA8Umg09S7EdCQeGvYCgKzJ2p4qqE2PIdfjcpRvvewPhY8FosoA4wwEGopal83cTHF739t1ikjIIx5o6OH/Jz/qLZ7+s7BgTNnK9SZaeohSLuP3LPZ8sF7IhIkMN6Az21lKcsFyApbar3LxT4oiHkZUlPax/aBNIhx0YZ9/bCT6N9xOtU/CB9n/YBCMWURn4oNVs1u+mySmN9+Veymu06+sz6pBSPjW6V2NZwE=; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[12]	{$Version=1; RPSTAuthTime=1328859711; $Path=/; $Domain=login.live.com}	object {System.Net.Cookie}
++		[13]	{$Version=1; MSPAuth=2qaagqeRHDllodf1gbKGgZpd0CCp!Us7mswYqeEx0NVazVEigDxccoHGcj03Sxjh49YdPsw1PNB*RYfkEzIGP6lshktZ4g3aiJgNYlGkY!ZpPPO8UOmz!WO!OT*5OYsofk; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[14]	{$Version=1; MSPProf=2TjvlS*1iDn47kEk1i1YjzZPykPb21dWqcxZfVTeX20wGN3bqiBwhhe3i!uu2xQZI2IjnOyOnizfFaCpZwxuwaF2WTPYOk8VVVw5tgcEbwxyquhdpuCU*1m9o4P3VaPXi3zQ*k90DXDVY91CSIXhv8t*P*atAqixWS4OZZu3wxs36joS7sXgGrTDvZdjFZzd5Y; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[15]	{MSNPPAuth=; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[16]	{$Version=1; MH=MSFT; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[17]	{$Version=1; MHW=; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[18]	{$Version=1; MHList=; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[19]	{NAP=V=1.9&E=bec&C=_gc6OzfTNe2SbBa2WSWGtU4gT_EpZMjl7IoKmf7-FjCCAUtQfD4lsQ&W=1}	object {System.Net.Cookie}
++		[20]	{ANON=A=DE389D4D076BF47BCAE4DC05FFFFFFFF&E=c46&W=1}	object {System.Net.Cookie}
++		[21]	{$Version=1; MSPVis=$9; $Path=/; $Domain=login.live.com}	object {System.Net.Cookie}
++		[22]	{$Version=1; pres=; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[23]	{$Version=1; LOpt=0; $Path=/; $Domain=login.live.com}	object {System.Net.Cookie}
++		[24]	{$Version=1; WLSSC=EgBnAQMAAAAEgAAACoAA5F1daBPk/W6DpzcATh1uJa0fvTOoe1jUWeLB4FJtSo68bprgbI1MVNBlbUKrPDjZEu/XjWn4qJRM0oHfYIXE+blUCGP0QoI9vvlKXTqZct71KkmOby+aJRT2LmrPotpn5+YoWH9Dxbksm3SJ6qo3GoDqynfyQ7uuz/qJAct/SW7WAFwA1gD9vwYA7Vazlz/KNE8/yjRPECcAAAoQoAAAFwBjcmlmYW4yMDAzQGhvdG1haWwuY29tAE8AABZjcmlmYW4yMDAzQGhvdG1haWwuY29tAAAACUNOAAYyMTM1OTIAAAZlCAQCAAB3F21AAARDAAR0aWFuAAR3YW5nBMgAAUkAAAAAAAAAAAAAAaOKNpqLi/UAAD/KNE8/P0dPAAAAAAAAAAAAAAAADgA1OC4yNDAuMjM2LjE5AAUAAAAAAAAAAAAAAAABBAABAAABAAABAAAAAAAAAAA=; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[25]	{$Version=1; MSPSoftVis=@72198325083833620@:@; $Path=/; $Domain=login.live.com}	object {System.Net.Cookie}
++		[26]	{RPSMaybe=}	object {System.Net.Cookie}
++		[27]	{E=P:+o5MmN61zog=:/WnTViKYZZ9pthNomJ1QGhEnF1BDBct7H/VED3yRXME=:F}	object {System.Net.Cookie}
++		[28]	{wlp=A|eyJV-t:a*QhTaBQ._}	object {System.Net.Cookie}
++		[29]	{wls=A|eyJV-t:a*nS}	object {System.Net.Cookie}
++		[30]	{wlv=A|eyJV-d:s*wke7Bw.2+1+0+3}	object {System.Net.Cookie}
++		[31]	{SAToken=ACGHQRHBCSJWPTSSPMPDIRKJAMAGNQUMEZAZZEEFOGDJ}	object {System.Net.Cookie}
++		[32]	{$Version=1; MSPBack=1328859714; $Path=/; $Domain=login.live.com}	object {System.Net.Cookie}
++		[33]	{WLSRDAuth=FAAaARQL3KgEDBNbW84gMYrDN0fBab7xkQNmAAAEgAAACC%2Bf4C20N%2BsK2AA/phfoB/uLFetCg4k5Eq9nxYpP5i/Yy2VWLOe2dJAx8bs1FGbwrvqwIVUZuWGwADjU3MW/RYKKZsOZJKc9wI2PY/dnIbsaUC4AdD3GdKv0KobnP9ixICPFIciHqp2M43ReLb7b7TSAlOTlp7ytQP43OgAeo9p9Q5HbOYRqt%2BfqP2EZWn0Gq%2BlWZTPeVQjk6pC0NIgw5q0fosBP8zFXVf2rOo3pn4WmoDLJn3R3uW3QaCrCKBxnHiltvCdnWZJusGn7Oq%2BeM2NMBGCw1lt6HhWPuX2BDiuGj6wUAGhqXI4AcCDEXTBRgrtFu6dG6pl%2B}	object {System.Net.Cookie}
++		[34]	{WLSRDSecAuth=FAAaARQL3KgEDBNbW84gMYrDN0fBab7xkQNmAAAEgAAACC14/jl3TPH12AAC9i%2BGpnFgTNY2NaFjlj0eqtZpyDPv2Fn23mACNGXbL9cBJhL1gfel9ZkykNqCGJcuWjXjerOqbtTeQcRI%2BrwiSx3spI1DHonO5B43C6VYxeRGGjxhCGbG0KauaSxwJRa6hPVcWukWdFs9pll%2BgxDNJ5joKYKubUwqaKnkvaEJSqwIs1DeRwNwZlnKzTFc56JhCoBOQE6aK0dslOR7X69zKR7mvwkNE/7iu61plUvmhuqdCDjrqZxNZhZcxHSgp5A/Ev5PPU8g/9Ahq//odGAzW6uFLUx3nqgUAEpI8TNC8okecjkwQyWddSSedq3w}	object {System.Net.Cookie}
+
+
+-----------
+still above IE9 cookie:
+Direction	Key	Value	Expires	Domain	Path	Secure	HTTP only
+Sent	xid	2e5ce6d0-c95f-4cff-a972-d4d4289d0ce7&NK4bB&BL2xxxxxxC509&73					
+Sent	xidseq	5					
+Sent	wla42	cHJveHktYmF5LnB2dC1jb250YWN0cy5tc24uY29tfGJ5MioxLDlBOEI4QkY1MDFBMzhBMzYsMSwwLDA=					
+Sent	wl_preperf	req=87&com=87&cache=87					
+Sent	wlidperf	latency=258&throughput=12					
+Sent	PPLState	1					
+Sent	RPSTAuth	EwDoARAnAAAUWkziSC7RbDJKS1VkhugDegv7L0eAABgsVnMtHPpBOfrFrxh7a60Px4HpE8esR4ORCoTioutYeH1sZCna+/cAU5Cz5F0ySjeWqParMjUU7V8M9PNiASvFe56Yr2KP88RaQPXWrN8/+HdDxxHiIc1qso+8goZ7KOgKwM4w2ePOSSOtCSJ3fBnW2VanAdIdg+WxN08Cb5YtA2YAAAj50Ms611k1+jgBJ+1VcE2aCqpbt2Dsgaluhbsr9G8JhHcFdLrvq0xfIVFL7QETqRQSR0CwdDzYhWhi64Gi8Ne6ywgsoEu6NvxptZN6jPH9ixsZRkmGuBc2XM+WIwXS4Adbh/+c831pGZypflmOdOEbf2f2ElmVqlJz/tVIJP2TYV9hQSAVT7WQZp+ajzw1cs+jtUp1PSY5HlBRe0VTscd5X2bsoFrqMZu6ufWRamE/1duthBIAw0VLvBijqQ0Pf7tFh2PWExfw7dPOJSizc0hfMjh9DoiKyi3fXHzAxD0F/XAFd4z4cfnKbt3akPPaV5VYrQigdM90ZEe+BfxmiPMn6jr8koQQfXi2RUkXvFEQW8vkQKHud6IPggTKTFutOjlofGZxfY9g+/pWRzOoLVdARts/vYH3AlAm9KY0Nn6AZl3VZwE=					
+Sent	MSPAuth	2Jh08pNNeD1uvnm0FToiOf92S3ggF4xOQ8lmJKg4TjGND1wPI6zbapdq5QtDjSD7iQ0gUhvNyPLHhiiljJTJAYOjIuW3rjUEq0EZmoK248APqGNscjfVsRyOHpJygnWWjo					
+Sent	MSPProf	2jf9EHjgHDozQXJ8wrNUiz3!CMBlGlYgmdeHWskWT*yEFzm9POnl!ThdJnRaIni0waUKD!FYXAmL!eyu!2LWPrfvif1MGPHXMRlTIdiVwzY48!5L95vnREqlcFq6*!ngL2316DXtIRFcC4Wa8NUKOTsLHNAIL*X!04vBHy8e*y8kC9K2ChqAtWWsrmkty5MeT7					
+Sent	MSNPPAuth	CkCCvVIrVDMZfKiNIj9zufeqmOhHDIT9qt9CXqxPsLfvUoV2YEEjCCasM3m9W7K3v79x83nriAKVeFJ6HHVarutkhPGXqaJRV5TeZXJqHyOlbHM6YAj0vDO5annNcf!zXlKXyjv*auoZoyttDOnzLpdgGyF3tBFItdOIA!*T3UhQz!4dvzM8bBMVwpZGgBiirSdG7GRJedrr8sfi65K7mSY4*!yP*nzEk0NKsMZw8x3wMSzqjA!hKkgZjAP3TzC8K!t!vdoYBsLCss*6juayvIV1dkF5qYlMUUddRTU7Ni3UUPV5mqu0FL9mivoNARDMhf0vS6oYOay30uCxOhskexdzaYsYoBeozQfOgu67O3uN7hyPzPj!qvatv7NO06aXdN1mg1XLq6ubE46wDQ4rsTFkQ1GgimSSQSkm2DvFYc6pkiq!QKJrBQHXIqU7x4Nlld8GRX30WHlVFI1io*NN5QXqsK9gvNjNFZQk7aZ8QBiOIC78jRGL5lLsJ8QpgaE75g$$					
+Sent	MH	MSFT					
+Sent	NAP	V=1.9&E=beb&C=XC26K3PldK2omn-AK6JSKww5IduiCFngBbcxS5r2CTR6w-KziWBeSA&W=1					
+Sent	ANON	A=DE389D4D076BF47BCAE4DC05FFFFFFFF&E=c45&W=1					
+Sent	WLSSC	EgBnAQMAAAAEgAAACoAA2Wg4XYGcPzjaXkEGXdNBEWCMMiAu6nQ+ZSzXoJLZ019Q8wewiDTDfg97OIT4+N5hs5gBd+JaVpFL766JDuEW+ePFgde44dG7JqxjF5pI2N81eyUGSQzqrrew6HuickQkInydG9CKxY6XZ4XFxBo4XEHppWU3ZIKNiaTs4puXZ5vWAFwA1gD9vwYA7Vazl8ibM0/ImzNPECcAAAoQoAAAFwBjcmlmYW4yMDAzQGhvdG1haWwuY29tAE8AABZjcmlmYW4yMDAzQGhvdG1haWwuY29tAAAACUNOAAYyMTM1OTIAAAZlCAQCAAB3F21AAARDAAR0aWFuAAR3YW5nBMgAAUkAAAAAAAAAAAAAAaOKNpqLi/UAAMibM0/IEEZPAAAAAAAAAAAAAAAADgA1OC4yNDAuMjM2LjE5AAUAAAAAAAAAAAAAAAABBAABAAABAAABAAAAAAAAAAA=					
+Sent	E	P:JGVuUSq1zog=:PXJ9aN2YNpqDLLLnxr+n/MyTFk+rEepdHse7/pwkcS8=:F					
+Sent	wlp	A|eyJV-t:a*yeXYBQ._					
+Sent	wls	A|eyJV-t:a*nS					
+Sent	wlv	A|eyJV-d:s*SRm6Bw.2+1+0+3					
+Sent	SAToken	WQEQENRZGNJDYINRYMCCKFCLBPELHPTGFXFVGNIDQKAJ					
+Sent	SLVersion	4.0.50401					
+Sent	SLSupportedAgent	true					
+Sent	BP	FR=&ST=&l=SDX.Skydrive					
+Sent	MUID	30F10EFE68C76D26347A0C4F69C46D13					
+Sent	pres	9a8b8bf501a38a36=1					
+Sent	LD	2e5ce6d0-c95f-4cff-a972-d4d4289d0ce7_0038e37824d_15346_1328782282522=E7021~ClickedSelected.Messaging.IMStart~IMMode:Full					
+Sent	wlxS	WebIM=1					
+Sent	HIC	9a8b8bf501a38a36|4|108|			
+
+
+compare to above still IE9:
+not equal:
+MSNPPAuth
+pres
+
+
+
+
+----------
+for LD,
+https://skydrive.live.com/Handlers/Plt.mvc?bicild=&v=16.2.3029
+req cookie contains:
+Sent	LD	25899fd5-597a-45dc-b93e-4ef2b252cd44_00391b4c6df_15346_1328860531244=E4809~ClickedSelected.Messaging.IMStart~IMMode:Full					
+
+
+---wlive.js:
+
+function pb(c,a){
+    if(m)m.lapse.push({
+        s:"auth",t:(new Date).getTime()
+    });
+    var b=a.get_resultCode();
+    if(b==i.AuthenticationResultCode.failure)if(a.get_isUnsupportedBrowser()){
+        ab=1;
+        p(-1,"Authentication Failed: unsuported browser")
+    }
+    else p(91,"Authentication Failed with status code: "+a.get_status());
+    else{
+        g.user=f=new i.User(c);
+        f.get_settings().set_autoReconnectEnabled(true);
+        f.get_settings().set_displayNameMode(Microsoft.Live.Messenger.DisplayNameMode.fullName);
+        f.get_localEndpoint().set_name(j.n);
+        if(f.get_services()!=i.SessionServices.normal){
+            q(f.get_status());
+            I=1
+        }
+        else if(a.get_multipleEndpointsNotSupported()||f.get_settings().get_signInPreference()==Microsoft.Live.Messenger.SignInPreference.manualSignIn){
+            q(0);
+            J()
+        }
+        else{
+            q(1);
+            f.set_services(i.SessionServices.full);
+            bb("Full")
+        }
+        jb();
+        f.signIn()
+    }
+    
+}
+function bb(a){
+    if(!I){
+        I=1;
+        $BSI.reportEvent("ClickedSelected.Messaging.IMStart",{
+            IMMode:a
+        })
+    }
+    
+}
+
+
+---for reportEvent():
+    a.reportEvent=function vb(inputString,dict){
+        var b=s+inputString+O(dict);
+        if(!r("E",b)){
+            a.flush();
+            r("E",b)
+        }
+        
+    };
+
+    
+---for O() func:
+    function O(dict){
+        //m=""
+        var c=m;
+        if(dict)for(var d in dict){
+            var a=dict[d];
+            a=a.encodeUrl?a.encodeUrl():a;
+            // here a is "Full"
+            //hb=":"
+            //s="~"
+            c+=s+d+hb+a
+            //c="~IMMode:Full"
+        }
+        return c
+    }
+    
+-->>
+    a.reportEvent=function vb(inputString,dict){
+        // O(dict) = "~IMMode:Full"
+        // inputString = "ClickedSelected.Messaging.IMStart"
+        // s="~"
+        var b=s+inputString+O(dict);
+        // b="~ClickedSelected.Messaging.IMStart~IMMode:Full"
+        if(!r("E",b)){
+            a.flush();
+            r("E",b)
+        }
+        
+    };
+
+    
+--- for func r(), seems is:
+    function r(l,g){
+        //l="E"
+        //g="~ClickedSelected.Messaging.IMStart~IMMode:Full"
+        var c;
+        try{
+            // in https://skydrive.live.com/ resp html:
+            //window["$BSI"]={headTime:(new Date).getTime()};
+            //window["$CSIPerf"]={lapse:[{},{s:"h",t:$BSI.headTime}],csd:{},_ttg:$BSI.headTime}
+            c=a.GetStack&&a.GetStack()
+        }
+        catch(o){}
+        
+        if(!c){
+            c=[];
+            var b=arguments.callee;
+            while(g>0){
+                b=b?b.caller:b;
+                g--
+            }
+            var h=0;
+            while(b&&h<i){
+                c.push(b);
+                b=b.caller;
+                h++
+            }
+            
+        }
+        var n=c.length,j=[];
+        for(var f=0; f<n&&f<i; f++){
+            var d=c[f],e="InvalidMethod()";
+            try{
+                e=d.toString()
+            }
+            catch(o){}
+            
+            //l="E"
+            var m=l?q(e,d.args||d.arguments):"";
+            e=e.replace(/\s\s*/ig," ");
+            j.push(k(d)+"("+m+")")
+        }
+        return j
+    }
+
+for q() func;
+    function q(b,g){
+        var c=b.substring(b.indexOf("(")+1,b.indexOf(")")),e=c?c.split(","):[],f=e.length,d=[];
+        for(var a=0;
+        a<f;
+        a++)d.push(e[a]+"="+p(g[a]));
+        return d.join(",")
+    }

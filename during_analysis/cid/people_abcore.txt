@@ -1,0 +1,201 @@
+[
+    ["2012-03-06T06:44:18.5130000-08:00", [2012, 3, 6, 6, 44, 18, 513], "W5.M2", [
+        ["9c95e549-0000-0000-0000-000000000000", [
+            [, 4, 13, "1", "WL", "1377976297293848569", "margenekelsey1955@hotmail.com"]
+        ], "margene", "kelsey", , , "1377976297293848569", "131F8E243D1B9FF9", , "2", , "https://cid-131F8E243D1B9FF9.users.storage.live.com/users/0x131F8E243D1B9FF9/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", , , , "margenekelsey1955@hotmail.com"],
+        ["84eded81-0000-0000-0000-000000000000", [
+            [, 3, 13, "1", "WL", "1267786182324831899"]
+        ], "ms114@mseen.com", , , , "1267786182324831899", "119814D0D89EC69B", , "2", , "https://cid-119814D0D89EC69B.users.storage.live.com/users/0x119814D0D89EC69B/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", , , , "ms114@mseen.com"],
+        ["c2e4d5a1-0000-0000-0000-000000000000", [
+            [, 4, 13, "1", "WL", "4677087354088964860", "yessi_marlene123@hotmail.com"]
+        ], "yesica
+    marlene", , , , "4677087354088964860", "40E85A2B13F1C2FC", , "2", , "http://blufiles.storage.msn.com/y1mvBJI1-3_evowpw9S3gQ3jaABQhfBxTMPsCldzO4Q-azypu1gwTBkJ9a1FSaXQjH3arq9xSXLwlMvdZ5tDsivIb1KhpYirSgg", , , , "yessi_marlene123@hotmail.com"],
+        ["c45f61ee-0000-0000-0000-000000000000", [
+            [, 3, 5, "1", "WL", "-8450945660930661337"]
+        ], , , , , "-8450945660930661337", "8AB835B248196427", , "2", , "https://cid-8AB835B248196427.users.storage.live.com/users/0x8AB835B248196427/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", , , , "rrxacdgsjilem0r@msn.cn"],
+        ["dc24fd10-7ca4-4c54-81b7-046901066ffb", [
+            [, 6, 5, "1", "WL", "-8488498713159945919"]
+        ], , , , , "-8488498713159945919", "8A32CB64F5BDB141", , "2", , "https://cid-8A32CB64F5BDB141.users.storage.live.com/users/0x8A32CB64F5BDB141/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", ["443097d3-6ea2-4900-bed9-479b9918144d"], , , "linux-noob@hotmail.com"],
+        ["3b4e11f9-0515-4f05-9ceb-08c8d206a990", [
+            [, 4, 5, "1", "WL", "-7786924984982217164", "WaSomebodyYe@hotmail.com"]
+        ], , , , , "-7786924984982217164", "93EF48FBA9855E34", , "2", , "https://cid-93EF48FBA9855E34.users.storage.live.com/users/0x93EF48FBA9855E34/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", ["a099f5a7-3591-4945-9b00-1383b7318203", "acf10533-a943-4d59-af08-c7a7e7fc7c5d"], 1, , "WaSomebodyYe@hotmail.com"],
+        ["82972b82-cfd2-422a-a653-0cb7d77a4422", [
+            [, 4, 131133, "1", "WL", "1929781620511647961", "rafe_chien@hotmail.com", , , [, , ], , , , [0, 0, 0],
+                ["0", , ]
+            ]
+        ], "Chien", "Rafe", ["rafe_chien@hotmail.com", , ], , "1929781620511647961", "1AC7F628D0ACA8D9", , "2", "ICBCSDC", "https://cid-1AC7F628D0ACA8D9.users.storage.live.com/users/0x1AC7F628D0ACA8D9/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", ["4167ef43-52b2-4f31-819b-d912b9b16a8c"], , , "rafe_chien@hotmail.com"],
+        ["79366e16-c032-44bd-90f7-105952f4547d", [
+            [, 4, 1245245, "1", "WL", "1275862073317261507", "david-yangzc@hotmail.com", , , [, , ], , , , [0, 0, 0],
+                ["0", , ]
+            ]
+        ], "David", "Yang", ["xcyang6@mail.ustc.edu.cn", , ], , "1275862073317261507", "11B4C5CBBE7800C3", , "2", "Marvell", "https://cid-11B4C5CBBE7800C3.users.storage.live.com/users/0x11B4C5CBBE7800C3/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", ["4167ef43-52b2-4f31-819b-d912b9b16a8c"], , , "david-yangzc@hotmail.com", , "杨仲唱"],
+        ["e771cfdd-febf-49f8-8bbd-131412d9fbe4", [
+            [, 5, 1, "0", "ABCH"]
+        ], , , , , , , , , , , ["acf10533-a943-4d59-af08-c7a7e7fc7c5d"]],
+        ["399574f2-8e09-45bd-91c8-1498c78371ea", [
+            [, 4, 13, "1", "WL", "2689563373793492027", "szjane2004@hotmail.com"]
+        ], "jane", "jane", , , "2689563373793492027", "25533FA377DCBC3B", , "2", , "https://cid-25533FA377DCBC3B.users.storage.live.com/users/0x25533FA377DCBC3B/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", , , , "szjane2004@hotmail.com"],
+        ["1ae976bf-c661-49a4-b1b1-1ba698048e13", [
+            [, 4, 13, "1", "WL", "1379089212014097789", "judys_too@hotmail.com"]
+        ], "lei", "Deng", , , "1379089212014097789", "13238254E3AC757D", , "2", , "https://cid-13238254E3AC757D.users.storage.live.com/users/0x13238254E3AC757D/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", ["acf10533-a943-4d59-af08-c7a7e7fc7c5d"], , , "judys_too@hotmail.com"],
+        ["5aa1272b-d23b-4488-8b88-21e15b049969", [
+            [, 4, 1114893, "1", "WL", "1540179560002985669", "xiao629mei@hotmail.com", , , , [, , , , , , , ]]
+        ], "Suzie", "Ju", , ["010******28", "010******28", , , , , , ], "1540179560002985669", "155FD1264C4B9EC5", , "2", , "https://cid-155FD1264C4B9EC5.users.storage.live.com/users/0x155FD1264C4B9EC5/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", ["acf10533-a943-4d59-af08-c7a7e7fc7c5d"], , , "xiao629mei@hotmail.com"],
+        ["e4491999-0c2a-4775-ab0e-22a8b4a04d66", [
+            [, 7, 131101, "1", "WL", "3120194538892690195", "tongxingfan@hotmail.com"]
+        ], "小帆", "佟", , , "3120194538892690195", "2B4D2866D0D00313", , "0", "招商银行", "https://cid-2B4D2866D0D00313.users.storage.live.com/users/0x2B4D2866D0D00313/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", ["acf10533-a943-4d59-af08-c7a7e7fc7c5d"], , , "tongxingfan@hotmail.com"],
+        ["cc669c99-1f4e-4d6d-93a9-243786ebb03d", [
+            [, 6, 13, "1", "WL", "6630710820700921971"]
+        ], "佳", "王", , , "6630710820700921971", "5C05045C4437A073", , "2", , "https://cid-5C05045C4437A073.users.storage.live.com/users/0x5C05045C4437A073/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", ["acf10533-a943-4d59-af08-c7a7e7fc7c5d"], , , "jiajiaqjia@live.cn"],
+        ["c5bd42a3-f949-46c3-ba24-295318cfb798", [
+            [, 1, 524301, "1", "WL", "-7310595685695124938", "crifan2003@hotmail.com"]
+        ], "tian", "wang", , , "-7310595685695124938", "9A8B8BF501A38A36", , "0", , "https://cid-9A8B8BF501A38A36.users.storage.live.com/users/0x9A8B8BF501A38A36/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", , , , "crifan2003@hotmail.com", [1983, 6, 20]],
+        ["25724290-6df4-4b23-9b02-3ac46327785a", [
+            [, 6, 5, "1", "WL", "-6646966873827577060"]
+        ], , , , , "-6646966873827577060", "A3C13AD86BB7F31C", , "0", , "https://cid-A3C13AD86BB7F31C.users.storage.live.com/users/0xA3C13AD86BB7F31C/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", ["acf10533-a943-4d59-af08-c7a7e7fc7c5d"], , , "groupadmin@xiaoi.com"],
+        ["f7daaacd-e782-4fc6-abcb-429d61440b21", [
+            [, 6, 5, "1", "WL", "2435645855193202365"]
+        ], , , , , "2435645855193202365", "21CD27002D717EBD", , "0", , "https://cid-21CD27002D717EBD.users.storage.live.com/users/0x21CD27002D717EBD/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", ["acf10533-a943-4d59-af08-c7a7e7fc7c5d"], , , "SeanGrilluaxaf@hotmail.com"],
+        ["537ee08e-c408-4fe2-959e-45dccbf94923", [
+            [, 4, 5, "1", "WL", "-7746520035522172917", "byronshycn@hotmail.com"]
+        ], , , , , "-7746520035522172917", "947ED5120D41280B", , "2", , "https://cid-947ED5120D41280B.users.storage.live.com/users/0x947ED5120D41280B/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", ["1049666b-fa03-49aa-b3a5-29c1fb61dcda"], , , "byronshycn@hotmail.com"],
+        ["2325b2d7-83ae-47e8-a0e6-4858be8b2083", [
+            [, 5, 257, "0", "ABCH", , , , , , [, , , , , , , ]]
+        ], , , , ["+8613771958797", , , , , , , ], , , , , , , ["acf10533-a943-4d59-af08-c7a7e7fc7c5d"]],
+        ["92a8550f-a89f-42e1-9b03-499ef12b19ce", [
+            [, 4, 13, "1", "WL", "-4276209947595591502", "clarkbimadoge21@hotmail.com"]
+        ], "Cheryl", "Taylor", , , "-4276209947595591502", "C4A7D9B58092B0B2", , "2", , "https://cid-C4A7D9B58092B0B2.users.storage.live.com/users/0xC4A7D9B58092B0B2/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", , , , "clarkbimadoge21@hotmail.com"],
+        ["2f8f5c71-ae22-4200-881c-4a48eec8be9b", [
+            [, 4, 29, "1", "WL", "325752233282366519", "gretchenyvdq@hotmail.com"]
+        ], "Gretchen", "Batta", , , "325752233282366519", "4854DEE2595EC37", , "2", , "https://cid-4854DEE2595EC37.users.storage.live.com/users/0x4854DEE2595EC37/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", , , , "gretchenyvdq@hotmail.com"],
+        ["b5d341bd-698f-4427-a7a8-4f14579a2b29", [
+            [, 3, 65549, "1", "WL", "4436536752458602550", "applememe@hotmail.com"]
+        ], "可", "陈", , , "4436536752458602550", "3D91BEABAB429836", , "2", , "https://cid-3D91BEABAB429836.users.storage.live.com/users/0x3D91BEABAB429836/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", ["acf10533-a943-4d59-af08-c7a7e7fc7c5d"], , , "applememe@hotmail.com"],
+        ["060ba393-de6b-40ec-b81f-4f51a5e0fc1f", [
+            [, 4, 13, "1", "WL", "-2570765154330268081", "mixue_i56@hotmail.com"]
+        ], "凌霏", "陈", , , "-2570765154330268081", "DC52CEB66F312E4F", , "2", , "https://cid-DC52CEB66F312E4F.users.storage.live.com/users/0xDC52CEB66F312E4F/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", , , , "mixue_i56@hotmail.com"],
+        ["65e1016a-c8e3-473b-b31e-66733b4290c5", [
+            [, 6, 5, "1", "WL", "4598028527256611462"]
+        ], , , , , "4598028527256611462", "3FCF7A958A3E2A86", , "0", , "https://cid-3FCF7A958A3E2A86.users.storage.live.com/users/0x3FCF7A958A3E2A86/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", ["acf10533-a943-4d59-af08-c7a7e7fc7c5d"], , , "christiavanderheyden16@hotmail.com"],
+        ["2b31c671-3447-4dc4-bdce-67d66eae9296", [
+            [, 5, 1, "0", "ABCH"]
+        ], , , , , , , , , , , ["acf10533-a943-4d59-af08-c7a7e7fc7c5d"]],
+        ["dc0189f3-b372-4df6-9122-6ba211015a5c", [
+            [, 4, 13, "1", "WL", "-7791455951249212166", "alypc@163.com"]
+        ], "jason", "chen", , , "-7791455951249212166", "93DF3017DEAFFCFA", , "2", , "https://cid-93DF3017DEAFFCFA.users.storage.live.com/users/0x93DF3017DEAFFCFA/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", ["4167ef43-52b2-4f31-819b-d912b9b16a8c"], , , "alypc@163.com", , "小强"],
+        ["6ece1379-9e3f-4cac-b2a9-6cfe606d5a2c", [
+            [, 5, 1, "0", "ABCH"]
+        ], , , , , , , , , , , ["acf10533-a943-4d59-af08-c7a7e7fc7c5d"]],
+        ["09ccc68b-6ef0-4968-a950-7eb411f140a3", [
+            [, 5, 1, "0", "ABCH"]
+        ], , , , , , , , , , , ["acf10533-a943-4d59-af08-c7a7e7fc7c5d", "4167ef43-52b2-4f31-819b-d912b9b16a8c"]],
+        ["0e4b5266-51d3-4482-b1a0-7fe5e932a624", [
+            [, 4, 13, "1", "WL", "-2012755865375420082", "baobaomiss0@hotmail.com"]
+        ], "JOJO", "XU", , , "-2012755865375420082", "E411413458B6D14E", , "2", , "https://cid-E411413458B6D14E.users.storage.live.com/users/0xE411413458B6D14E/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", ["acf10533-a943-4d59-af08-c7a7e7fc7c5d"], , , "baobaomiss0@hotmail.com"],
+        ["54732c76-5315-4400-ad84-83cf9be963cc", [
+            [, 5, 1, "0", "ABCH"]
+        ], , , , , , , , , , , ["acf10533-a943-4d59-af08-c7a7e7fc7c5d", "4167ef43-52b2-4f31-819b-d912b9b16a8c"]],
+        ["de06a643-ed4e-44aa-9add-8439cd8a1ddf", [
+            [, 4, 1638413, "1", "WL", "-3421912552907352587", "sunnie0512@hotmail.com"]
+        ], "娟", "钱", , , "-3421912552907352587", "D082ECA9C781D5F5", , "2", , "https://cid-D082ECA9C781D5F5.users.storage.live.com/users/0xD082ECA9C781D5F5/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", ["acf10533-a943-4d59-af08-c7a7e7fc7c5d"], , , "sunnie0512@hotmail.com", [1985, 10, 15], "sunnie
+    佳缘"],
+        ["589a3f38-486b-4736-a9a1-84f8cc91b073", [
+            [, 6, 13, "1", "WL", "-3090002739358863213"]
+        ], "洪平", "支", , , "-3090002739358863213", "D51E1AE14D87F093", , "2", , "https://cid-D51E1AE14D87F093.users.storage.live.com/users/0xD51E1AE14D87F093/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", ["acf10533-a943-4d59-af08-c7a7e7fc7c5d"], , , "zephyr_zhi@msn.com"],
+        ["5be9def6-a532-4763-b5ea-8ceb92e7c3a1", [
+            [, 5, 9, "0", "ABCH"]
+        ], "jsn.bourn", , , , , , , , , , ["acf10533-a943-4d59-af08-c7a7e7fc7c5d"]],
+        ["578415fe-5923-4383-9395-a46ce52f1729", [
+            [, 4, 1572877, "1", "WL", "-674525004164455837", "bobo_xiaoyao@hotmail.com"]
+        ], "可可西里", "妖", , , "-674525004164455837", "F6A39B151EA8A263", , "2", , "https://cid-F6A39B151EA8A263.users.storage.live.com/users/0xF6A39B151EA8A263/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", ["acf10533-a943-4d59-af08-c7a7e7fc7c5d"], , , "bobo_xiaoyao@hotmail.com", [, 11, 21]],
+        ["8ba8f512-2ec7-40d9-8d1c-ac285b642936", [
+            [, 4, 5, "1", "WL", "-4898365936430907468", "wenliang.ye@hotmail.com"]
+        ], , , , , "-4898365936430907468", "BC0582222B297FB4", , "2", , "https://cid-BC0582222B297FB4.users.storage.live.com/users/0xBC0582222B297FB4/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", ["acf10533-a943-4d59-af08-c7a7e7fc7c5d"], , , "wenliang.ye@hotmail.com"],
+        ["4a17084b-0c40-44f7-b00f-ae4c1bfbcd12", [
+            [, 4, 5, "1", "WL", "8386771743934280388", "jiegeng1103@163.com"]
+        ], , , , , "8386771743934280388", "7463CC77517C72C4", , "2", , "https://cid-7463CC77517C72C4.users.storage.live.com/users/0x7463CC77517C72C4/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", ["acf10533-a943-4d59-af08-c7a7e7fc7c5d"], , , "jiegeng1103@163.com"],
+        ["cc489646-f2ef-4ee0-84e1-b7b64a20448b", [
+            [, 4, 5, "1", "WL", "-1280864900162459043", "steprun@163.com"]
+        ], , , , , "-1280864900162459043", "EE397428DC8CEA5D", , "2", , "https://cid-EE397428DC8CEA5D.users.storage.live.com/users/0xEE397428DC8CEA5D/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", ["4167ef43-52b2-4f31-819b-d912b9b16a8c"], , , "steprun@163.com"],
+        ["4028a31a-c5ef-42bf-8820-bbb853072fa4", [
+            [, 4, 13, "1", "WL", "2187464536970319319", "vanny2008021@live.cn"]
+        ], "amy", "wang", , , "2187464536970319319", "1E5B6F681CE155D7", , "2", , "https://cid-1E5B6F681CE155D7.users.storage.live.com/users/0x1E5B6F681CE155D7/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", ["acf10533-a943-4d59-af08-c7a7e7fc7c5d"], , , "vanny2008021@live.cn", , "逸茶"],
+        ["975688d3-c7b7-4ce2-81ff-beb5086c0d0d", [
+            [, 6, 13, "1", "WL", "5812681159511891196"]
+        ], "lin", "kalin", , , "5812681159511891196", "50AACAB7B94FDCFC", , "2", , "https://cid-50AACAB7B94FDCFC.users.storage.live.com/users/0x50AACAB7B94FDCFC/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", ["acf10533-a943-4d59-af08-c7a7e7fc7c5d"], , , "kalin@live.cn"],
+        ["171291a5-be59-4c8c-a20e-bfc5fef0fca7", [
+            [, 6, 5, "1", "WL", "-1561358107787898270"]
+        ], , , , , "-1561358107787898270", "EA54F112CA205262", , "2", , "https://cid-EA54F112CA205262.users.storage.live.com/users/0xEA54F112CA205262/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", ["acf10533-a943-4d59-af08-c7a7e7fc7c5d"], , , "cissy1121@hotmail.com"],
+        ["a81db97c-1ce5-40ce-8822-c0620a0eef62", [
+            [, 4, 13, "1", "WL", "461160300360287466", "zjhzcsf@hotmail.com"]
+        ], "SF", "CHEN", , , "461160300360287466", "6665ED98F7CC4EA", , "3", , "https://cid-6665ED98F7CC4EA.users.storage.live.com/users/0x6665ED98F7CC4EA/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", ["2e2241d1-9db8-4057-b181-01e75c949d5a"], , , "zjhzcsf@hotmail.com"],
+        ["19beb82b-d88c-4cc9-825a-c76f96d11519", [
+            [, 3, 524301, "1", "WL", "-8533738020293256209", "Marisajj78@hotmail.com"]
+        ], "Marisa", "White", , , "-8533738020293256209", "8992127BF62CDBEF", , "2", , "https://cid-8992127BF62CDBEF.users.storage.live.com/users/0x8992127BF62CDBEF/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", ["acf10533-a943-4d59-af08-c7a7e7fc7c5d"], , , "Marisajj78@hotmail.com", [1988, 4, 22]],
+        ["27842524-37e7-44d4-a42e-c8524932ef66", [
+            [, 5, 1, "0", "ABCH"]
+        ], , , , , , , , , , , ["acf10533-a943-4d59-af08-c7a7e7fc7c5d"]],
+        ["da76222c-9c9c-4203-9a70-cae05761a8ee", [
+            [, 4, 524301, "1", "WL", "-7505740376344223383", "rain2004_9@hotmail.com"]
+        ], "雪", "零", , , "-7505740376344223383", "97D640E513B22169", , "2", , "https://cid-97D640E513B22169.users.storage.live.com/users/0x97D640E513B22169/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", ["a099f5a7-3591-4945-9b00-1383b7318203", "acf10533-a943-4d59-af08-c7a7e7fc7c5d"], 1, , "Rain2004_9@hotmail.com", [, 12, 26]],
+        ["e5d6e93b-6575-4f20-a264-d123d026152a", [
+            [, 7, 5, "1", "WL", "-8352184924764331929", "futurejjg@hotmail.com"]
+        ], , , , , "-8352184924764331929", "8C1714100D0CA067", , "2", , "https://cid-8C1714100D0CA067.users.storage.live.com/users/0x8C1714100D0CA067/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", ["acf10533-a943-4d59-af08-c7a7e7fc7c5d", "4167ef43-52b2-4f31-819b-d912b9b16a8c"], , , "futurejjg@hotmail.com"],
+        ["4a7c078c-41f6-4a02-b736-d4350d8e5da0", [
+            [, 5, 1, "0", "ABCH"]
+        ], , , , , , , , , , , ["acf10533-a943-4d59-af08-c7a7e7fc7c5d", "4167ef43-52b2-4f31-819b-d912b9b16a8c"]],
+        ["5bfce38a-2553-46db-a1f2-d62e9ea0b4c7", [
+            [, 4, 5, "1", "WL", "-2859833836836659657", "piggy688@hotmail.com"]
+        ], , , , , "-2859833836836659657", "D84FD44706B55E37", , "2", , "https://cid-D84FD44706B55E37.users.storage.live.com/users/0xD84FD44706B55E37/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", ["acf10533-a943-4d59-af08-c7a7e7fc7c5d"], , , "piggy688@hotmail.com"],
+        ["57d45865-3cac-4611-9247-d7ae9ae7f48a", [
+            [, 5, 1, "0", "ABCH"]
+        ], , , , , , , , , , , ["acf10533-a943-4d59-af08-c7a7e7fc7c5d"]],
+        ["385927f8-a437-4807-860d-d99394d108c2", [
+            [, 3, 13, "1", "WL", "865439935370031568", "vida-christine122cute8@hotmail.com"]
+        ], "Vida", "Depaola", , , "865439935370031568", "C02A909322AF1D0", , "2", , "https://cid-C02A909322AF1D0.users.storage.live.com/users/0xC02A909322AF1D0/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", , , , "vida-christine122cute8@hotmail.com"],
+        ["f5dbe9ee-d9a7-4b38-b397-e4ba32fd1ade", [
+            [, 3, 5, "1", "WL", "-4700775220435372328"]
+        ], , , , , "-4700775220435372328", "BEC37DD7C0FDB6D8", , "2", , "https://cid-BEC37DD7C0FDB6D8.users.storage.live.com/users/0xBEC37DD7C0FDB6D8/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", ["acf10533-a943-4d59-af08-c7a7e7fc7c5d"], , , "kl_ustc@hotmail.com"],
+        ["c0326332-d27e-43f6-a3c5-e6b3548eed7a", [
+            [, 4, 5, "1", "WL", "3173178269557278485", "Stone091201@hotmail.com"]
+        ], , , , , "3173178269557278485", "2C0964D2EDF34715", , "2", , "https://cid-2C0964D2EDF34715.users.storage.live.com/users/0x2C0964D2EDF34715/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", ["acf10533-a943-4d59-af08-c7a7e7fc7c5d"], , , "Stone091201@hotmail.com"],
+        ["1582ebe0-c109-46e9-8a47-e856db616c8a", [
+            [, 4, 5, "1", "WL", "2434335782785394933", "wzhen001@hotmail.com"]
+        ], , , , , "2434335782785394933", "21C87F7F2CF228F5", , "2", , "https://cid-21C87F7F2CF228F5.users.storage.live.com/users/0x21C87F7F2CF228F5/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", ["acf10533-a943-4d59-af08-c7a7e7fc7c5d"], , , "wzhen001@hotmail.com"],
+        ["ecab8dad-7e34-4055-a98f-eae2e2cff711", [
+            [, 4, 5, "1", "WL", "-6992301457595555522", "echo1982112@hotmail.com"]
+        ], , , , , "-6992301457595555522", "9EF65ADF0192213E", , "2", , "https://cid-9EF65ADF0192213E.users.storage.live.com/users/0x9EF65ADF0192213E/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", ["acf10533-a943-4d59-af08-c7a7e7fc7c5d"], , , "echo1982112@hotmail.com"],
+        ["90d2235d-b514-4939-8bff-1a947b7c1ad7", [
+            ["93b86e90-a1d0-491c-b6e7-f2eec731b697", 5, , "18", "ABCH", "-7310595685695124938:93B86E90-A1D0-491C-B6E7-F2EEC731B697"]
+        ], , , , , , , , , , , ["acf10533-a943-4d59-af08-c7a7e7fc7c5d", "4167ef43-52b2-4f31-819b-d912b9b16a8c"]],
+        ["91568407-c785-4966-80e8-f4e07a6de19d", [
+            [, 4, 1048589, "1", "WL", "2164838993249103245", "solobigfish@hotmail.com"]
+        ], "solo", "yu", , , "2164838993249103245", "1E0B0D983486ED8D", , "2", , "https://cid-1E0B0D983486ED8D.users.storage.live.com/users/0x1E0B0D983486ED8D/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", ["1049666b-fa03-49aa-b3a5-29c1fb61dcda"], , , "solobigfish@hotmail.com"],
+        ["51b86e2a-6725-49fc-aee3-f53694f119e9", [
+            [, 5, 1, "0", "ABCH"]
+        ], , , , , , , , , , , ["acf10533-a943-4d59-af08-c7a7e7fc7c5d", "4167ef43-52b2-4f31-819b-d912b9b16a8c"]],
+        ["04bf7f0a-e843-48de-a3cf-f6c35d8ce05e", [
+            [, 4, 13, "1", "WL", "-1713682279697639020", "Ss-sun@msn.com"]
+        ], "S", "sun", , , "-1713682279697639020", "E837C70BCCBD9994", , "2", , "https://cid-E837C70BCCBD9994.users.storage.live.com/users/0xE837C70BCCBD9994/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", ["acf10533-a943-4d59-af08-c7a7e7fc7c5d"], , , "SS-SUN@MSN.COM"],
+        ["79911540-404a-46d1-a18b-ff3e8fa862e7", [
+            [, 4, 5, "1", "WL", "-8547421603445783704", "Sinner_LoveLess@hotmail.com"]
+        ], , , , , "-8547421603445783704", "896175567D1D4368", , "2", , "https://cid-896175567D1D4368.users.storage.live.com/users/0x896175567D1D4368/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", ["acf10533-a943-4d59-af08-c7a7e7fc7c5d"], , , "sinner_loveless@hotmail.com"],
+        ["3ea39ef3-56d8-4fcd-97e7-ffcb09bfa257", [
+            [, 4, 5, "1", "WL", "8919360390746679110", "wangying518402@hotmail.com"]
+        ], , , , , "8919360390746679110", "7BC7EF04C2252746", , "2", , "https://cid-7BC7EF04C2252746.users.storage.live.com/users/0x7BC7EF04C2252746/myprofile/expressionprofile/profilephoto:usertilestatic/0?ck=1&ex=720&fofoff=1", ["acf10533-a943-4d59-af08-c7a7e7fc7c5d"], , , "wangying518402@hotmail.com"]
+    ],
+        [
+            ["2e2241d1-9db8-4057-b181-01e75c949d5a", "工作"],
+            ["a099f5a7-3591-4945-9b00-1383b7318203", "常用联系人", 1],
+            ["1049666b-fa03-49aa-b3a5-29c1fb61dcda", "同事"],
+            ["443097d3-6ea2-4900-bed9-479b9918144d", "技术网友"],
+            ["9e6355c5-04b7-40bf-b440-c0e5e3a55c3e", "家人"],
+            ["acf10533-a943-4d59-af08-c7a7e7fc7c5d", "朋友"],
+            ["4167ef43-52b2-4f31-819b-d912b9b16a8c", "05嵌入式"]
+        ],
+        [],
+        ["2"],
+        [
+            ["FB", "Facebook", "Reject", , , "http://secure.wlxrs.com/$live.controls.images/sn/PsaSmall/FBActive.gif", "http://secure.wlxrs.com/$live.controls.images/sn/PsaMedium/FBActive.gif", "http://secure.wlxrs.com/$live.controls.images/sn/PsaLarge/FBActive.gif", "http://www.facebook.com/profile.php?id={0}", "http://www.facebook.com/photos.php?id={0}", "http://www.facebook.com/inbox/?compose&id={0}", "http://www.facebook.com/profile.php?id={0}"]
+        ], 1]
+]

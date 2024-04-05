@@ -1,0 +1,152 @@
+
+-		Headers	{Pragma: no-cache
+X-XSS-Protection: 0
+X-Content-Type-Options: nosniff
+Content-Length: 0
+Cache-Control: no-cache
+Content-Type: text/html; charset=utf-8
+Expires: Wed, 08 Feb 2012 05:39:36 GMT
+Location: https://skydrive.live.com/
+P3P: CP="DSP CUR OTPi IND OTRi ONL FIN"
+Set-Cookie: MSPOK= ; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=login.live.com;path=/;HTTPOnly= ;version=1,PPAuth=Cuyf3Vp2wolkjba!TOr*0v22UMYz36ReuiwxZZBc8umHJYPlRe4qupywVFFcIpbJyvYZ5ZDLBwV4zRM1UCjXC4tUwNuKvh21iz6gQb0Tu5K7Z62!TYGfowB9VQpGA8esZ7iCRucC7d5LiP3ZAv*j4Z3MOecaJwmPHx7!wDFdAMuQUZURhHuZWJiLzHP1j8ppchB2LExnlHO6IGAdZo1f0qzSWsZ2hq*yYP6sdy*FdTTKo336Q1B0i5q8jUg1Yv6c2FoBiNxhZSzxpuU0WrNHqSytutP2k4!wNc6eSnFDeouX; domain=login.live.com;secure= ;path=/;HTTPOnly= ;version=1,PPLState=1; domain=.live.com;path=/;version=1,MSPShared=1; expires=Wed, 30-Dec-2037 16:00:00 GMT;domain=login.live.com;path=/;HTTPOnly= ;version=1,MSPPre= ;domain=login.live.com;path=/;Expires=Thu, 30-Oct-1980 16:00:00 GMT,MSPCID= ; HTTPOnly= ; domain=login.live.com;path=/;Expires=Thu, 30-Oct-1980 16:00:00 GMT,RPSTAuth=EwDoARAnAAAUWkziSC7RbDJKS1VkhugDegv7L0eAAOfCAY2+pKwbV5zUlu3XmBbgrQ8EdakmdSqK9OIKfMzAbnU8fuwwEi+FKtdGSuz/FpCYutqiHWdftd0YF21US7+1bPxuLJ0MO+wVXB8GtjLKZaA0xCXlU5u01r+DOsxSVM777DmplaUc0Q4O1+Pi9gX9cyzQLAgRKmC/QtlbVNKDA2YAAAhIwqiXOVR/DDgBocoO/n0u48RFGh79X2Q+gO4Fl5GMc9Vtpa7SUJjZCCfoaitOmcxhEjlVmR/2ppdfJx3Ykek9OFzFd+ijtn7K629yrVFt3O9q5L0lWoxfDh5/daLK7lqJGKxn1KvOew0SHlOqxuuhYRW57ezFyicxkxSI3aLxYFiqHSu9pq+TlITqiflyfcAcw4MWpvHxm9on8Y1dM2R4X3sxuwrLQBpvNsG4oIaldTYIhMEnKhmxrP6ZswxzteNqIRvMEKsxiksBzQDDK/Cnm6QYBZNsPawc6aAedZioeYwaV3Z/i3tNrAUwYTqLXve8oG6ZNXL6WLT/irKq1EMilK6Cw8lT3G13WYdk/U9a6YZPJC8LdqR0vAHYpsu/xRF39/On+xDNPE4keIThJBptweOeWQfsMDwvgrYnMBKAMjpLZwE=; domain=.live.com;path=/;HTTPOnly= ;version=1,RPSTAuthTime=1328679636; domain=login.live.com;path=/;HTTPOnly= ;version=1,MSPAuth=2OlAAMHXtDIFOtpaK1afG2n*AAxdfCnCBlJFn*gCF8gLnCa1YgXEfyVh2m9nZuF*M7npEwb4a7Erpb*!nH5G285k7AswJOrsr*gY29AVAbsiz2UscjIGHkXiKrTvIzkV2M; domain=.live.com;path=/;HTTPOnly= ;version=1,MSPProf=23ci9sti6DZRrkDXfTt1b3lHhMdheWIcTZU2zdJS9!zCloHzMKwX30MfEAcCyOjVt*5WeFSK3l2ZahtEaK7HPFMm3INMs3r!JxI8odP9PYRHivop5ryohtMYzWZzj3gVVurcEr5Bg6eJJws7rXOggo3cR4FuKLtXwz*FVX0VWuB5*aJhRkCT1GZn*L5Pxzsm9X; domain=.live.com;path=/;HTTPOnly= ;version=1,MSNPPAuth=CiGSMoUOx4gej8yQkdFBvN!gvffvAhCPeWydcrAbcg!O2lrhVb4gruWSX5NZCBPsyrtZKmHLhRLTUUIxxPA7LIhqW5TCV*YcInlG2f5hBzwzHt!PORYbg79nCkvw65LKG399gRGtJ4wvXdNlhHNldkBK1jVXD4PoqO1Xzdcpv4sj68U6!oGrNK5KgRSMXXpLJmCeehUcsRW1NmInqQXpyanjykpYOcZy0vq!6PIxkj3gMaAvm!1vO58gXM9HX9dA0GloNmCDnRv4qWDV2XKqEKp!A7jiIMWTmHup1DZ!*YCtDX3nUVQ1zAYSMjHmmbMDxRJECz!1XEwm070w16Y40TzuKAJVugo!pyF!V2OaCsLjZ9tdGxGwEQRyi0oWc*Z7M0FBn8Fz0Dh4DhCzl1NnGun9kOYjK5itrF1Wh17sT!62ipv1vI8omeu0cVRww2Kv!qM*LFgwGlPOnNHj3*VulQOuaoliN4MUUxTA4owDubYZoKAwF*yp7Mg3zq5Ds2!l9Q$$; domain=.live.com;path=/;HTTPOnly= ;version=1,MH=MSFT; domain=.live.com;path=/;version=1,MHW=; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=.live.com;path=/;version=1,MHList=; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=.live.com;path=/;version=1,NAP=V=1.9&E=bea&C=zfjCKKBD0TqjZlWGgRTp__NiK08Lme_0XFaiKPaWJ0HDuMi2uCXafQ&W=1;domain=.live.com;path=/,ANON=A=DE389D4D076BF47BCAE4DC05FFFFFFFF&E=c44&W=1;domain=.live.com;path=/,MSPVis=$9;domain=login.live.com;path=/,pres=; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=.live.com;path=/;version=1,LOpt=0; domain=login.live.com;path=/;version=1,WLSSC=EgBnAQMAAAAEgAAACoAASfCD+8dUptvK4kvFO0gS3mVG28SPT3Jo9Pz2k65r9c9KrN4ISvidiEhxXaPLCSpkfa6fxH3FbdP9UmWAa9KnzKFJu/lQNkZC3rzzMcVUMjbLUpSVVyscJHcfSXmpGGgZK4ZCxPqXaIl9EZ0xWackE4k5zWugX7GR5m/RzakyVIzWAFwA1gD9vwYA7Vazl9QKMk/UCjJPECcAAAoQoAAAFwBjcmlmYW4yMDAzQGhvdG1haWwuY29tAE8AABZjcmlmYW4yMDAzQGhvdG1haWwuY29tAAAACUNOAAYyMTM1OTIAAAZlCAQCAAB3F21AAARDAAR0aWFuAAR3YW5nBMgAAUkAAAAAAAAAAAAAAaOKNpqLi/UAANQKMk/Uf0RPAAAAAAAAAAAAAAAADgA1OC4yNDAuMjM2LjE5AAUAAAAAAAAAAAAAAAABBAABAAABAAABAAAAAAAAAAA=; domain=.live.com;secure= ;path=/;HTTPOnly= ;version=1,MSPSoftVis=@72198325083833620@:@; domain=login.live.com;path=/;version=1
+Server: Microsoft-IIS/7.5
+PPServer: PPV: 30 H: BAYIDSLGN1O57 V: 0
+Date: Wed, 08 Feb 2012 05:40:36 GMT
+Connection: close
+
+}	System.Net.WebHeaderCollection
+
+
+SetCookie	"MSPOK= ; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=login.live.com;path=/;HTTPOnly= ;version=1,PPAuth=Cuyf3Vp2wolkjba!TOr*0v22UMYz36ReuiwxZZBc8umHJYPlRe4qupywVFFcIpbJyvYZ5ZDLBwV4zRM1UCjXC4tUwNuKvh21iz6gQb0Tu5K7Z62!TYGfowB9VQpGA8esZ7iCRucC7d5LiP3ZAv*j4Z3MOecaJwmPHx7!wDFdAMuQUZURhHuZWJiLzHP1j8ppchB2LExnlHO6IGAdZo1f0qzSWsZ2hq*yYP6sdy*FdTTKo336Q1B0i5q8jUg1Yv6c2FoBiNxhZSzxpuU0WrNHqSytutP2k4!wNc6eSnFDeouX; domain=login.live.com;secure= ;path=/;HTTPOnly= ;version=1,PPLState=1; domain=.live.com;path=/;version=1,MSPShared=1; expires=Wed, 30-Dec-2037 16:00:00 GMT;domain=login.live.com;path=/;HTTPOnly= ;version=1,MSPPre= ;domain=login.live.com;path=/;Expires=Thu, 30-Oct-1980 16:00:00 GMT,MSPCID= ; HTTPOnly= ; domain=login.live.com;path=/;Expires=Thu, 30-Oct-1980 16:00:00 GMT,RPSTAuth=EwDoARAnAAAUWkziSC7RbDJKS1VkhugDegv7L0eAAOfCAY2+pKwbV5zUlu3XmBbgrQ8EdakmdSqK9OIKfMzAbnU8fuwwEi+FKtdGSuz/FpCYutqiHWdftd0YF21US7+1bPxuLJ0MO+wVXB8GtjLKZaA0xCXlU5u01r+DOsxSVM777DmplaUc0Q4O1+Pi9gX9cyzQLAgRKmC/QtlbVNKDA2YAAAhIwqiXOVR/DDgBocoO/n0u48RFGh79X2Q+gO4Fl5GMc9Vtpa7SUJjZCCfoaitOmcxhEjlVmR/2ppdfJx3Ykek9OFzFd+ijtn7K629yrVFt3O9q5L0lWoxfDh5/daLK7lqJGKxn1KvOew0SHlOqxuuhYRW57ezFyicxkxSI3aLxYFiqHSu9pq+TlITqiflyfcAcw4MWpvHxm9on8Y1dM2R4X3sxuwrLQBpvNsG4oIaldTYIhMEnKhmxrP6ZswxzteNqIRvMEKsxiksBzQDDK/Cnm6QYBZNsPawc6aAedZioeYwaV3Z/i3tNrAUwYTqLXve8oG6ZNXL6WLT/irKq1EMilK6Cw8lT3G13WYdk/U9a6YZPJC8LdqR0vAHYpsu/xRF39/On+xDNPE4keIThJBptweOeWQfsMDwvgrYnMBKAMjpLZwE=; domain=.live.com;path=/;HTTPOnly= ;version=1,RPSTAuthTime=1328679636; domain=login.live.com;path=/;HTTPOnly= ;version=1,MSPAuth=2OlAAMHXtDIFOtpaK1afG2n*AAxdfCnCBlJFn*gCF8gLnCa1YgXEfyVh2m9nZuF*M7npEwb4a7Erpb*!nH5G285k7AswJOrsr*gY29AVAbsiz2UscjIGHkXiKrTvIzkV2M; domain=.live.com;path=/;HTTPOnly= ;version=1,MSPProf=23ci9sti6DZRrkDXfTt1b3lHhMdheWIcTZU2zdJS9!zCloHzMKwX30MfEAcCyOjVt*5WeFSK3l2ZahtEaK7HPFMm3INMs3r!JxI8odP9PYRHivop5ryohtMYzWZzj3gVVurcEr5Bg6eJJws7rXOggo3cR4FuKLtXwz*FVX0VWuB5*aJhRkCT1GZn*L5Pxzsm9X; domain=.live.com;path=/;HTTPOnly= ;version=1,MSNPPAuth=CiGSMoUOx4gej8yQkdFBvN!gvffvAhCPeWydcrAbcg!O2lrhVb4gruWSX5NZCBPsyrtZKmHLhRLTUUIxxPA7LIhqW5TCV*YcInlG2f5hBzwzHt!PORYbg79nCkvw65LKG399gRGtJ4wvXdNlhHNldkBK1jVXD4PoqO1Xzdcpv4sj68U6!oGrNK5KgRSMXXpLJmCeehUcsRW1NmInqQXpyanjykpYOcZy0vq!6PIxkj3gMaAvm!1vO58gXM9HX9dA0GloNmCDnRv4qWDV2XKqEKp!A7jiIMWTmHup1DZ!*YCtDX3nUVQ1zAYSMjHmmbMDxRJECz!1XEwm070w16Y40TzuKAJVugo!pyF!V2OaCsLjZ9tdGxGwEQRyi0oWc*Z7M0FBn8Fz0Dh4DhCzl1NnGun9kOYjK5itrF1Wh17sT!62ipv1vI8omeu0cVRww2Kv!qM*LFgwGlPOnNHj3*VulQOuaoliN4MUUxTA4owDubYZoKAwF*yp7Mg3zq5Ds2!l9Q$$; domain=.live.com;path=/;HTTPOnly= ;version=1,MH=MSFT; domain=.live.com;path=/;version=1,MHW=; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=.live.com;path=/;version=1,MHList=; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=.live.com;path=/;version=1,NAP=V=1.9&E=bea&C=zfjCKKBD0TqjZlWGgRTp__NiK08Lme_0XFaiKPaWJ0HDuMi2uCXafQ&W=1;domain=.live.com;path=/,ANON=A=DE389D4D076BF47BCAE4DC05FFFFFFFF&E=c44&W=1;domain=.live.com;path=/,MSPVis=$9;domain=login.live.com;path=/,pres=; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=.live.com;path=/;version=1,LOpt=0; domain=login.live.com;path=/;version=1,WLSSC=EgBnAQMAAAAEgAAACoAASfCD+8dUptvK4kvFO0gS3mVG28SPT3Jo9Pz2k65r9c9KrN4ISvidiEhxXaPLCSpkfa6fxH3FbdP9UmWAa9KnzKFJu/lQNkZC3rzzMcVUMjbLUpSVVyscJHcfSXmpGGgZK4ZCxPqXaIl9EZ0xWackE4k5zWugX7GR5m/RzakyVIzWAFwA1gD9vwYA7Vazl9QKMk/UCjJPECcAAAoQoAAAFwBjcmlmYW4yMDAzQGhvdG1haWwuY29tAE8AABZjcmlmYW4yMDAzQGhvdG1haWwuY29tAAAACUNOAAYyMTM1OTIAAAZlCAQCAAB3F21AAARDAAR0aWFuAAR3YW5nBMgAAUkAAAAAAAAAAAAAAaOKNpqLi/UAANQKMk/Uf0RPAAAAAAAAAAAAAAAADgA1OC4yNDAuMjM2LjE5AAUAAAAAAAAAAAAAAAABBAABAAABAAABAAAAAAAAAAA=; domain=.live.com;secure= ;path=/;HTTPOnly= ;version=1,MSPSoftVis=@72198325083833620@:@; domain=login.live.com;path=/;version=1"	string
+
+
+
+
+
+
+MSPOK= ; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=login.live.com;path=/;HTTPOnly= ;version=1,
+PPAuth=Cuyf3Vp2wolkjba!TOr*0v22UMYz36ReuiwxZZBc8umHJYPlRe4qupywVFFcIpbJyvYZ5ZDLBwV4zRM1UCjXC4tUwNuKvh21iz6gQb0Tu5K7Z62!TYGfowB9VQpGA8esZ7iCRucC7d5LiP3ZAv*j4Z3MOecaJwmPHx7!wDFdAMuQUZURhHuZWJiLzHP1j8ppchB2LExnlHO6IGAdZo1f0qzSWsZ2hq*yYP6sdy*FdTTKo336Q1B0i5q8jUg1Yv6c2FoBiNxhZSzxpuU0WrNHqSytutP2k4!wNc6eSnFDeouX; domain=login.live.com;secure= ;path=/;HTTPOnly= ;version=1,
+PPLState=1; domain=.live.com;path=/;version=1,
+MSPShared=1; expires=Wed, 30-Dec-2037 16:00:00 GMT;domain=login.live.com;path=/;HTTPOnly= ;version=1,
+MSPPre= ;domain=login.live.com;path=/;Expires=Thu, 30-Oct-1980 16:00:00 GMT,
+MSPCID= ; HTTPOnly= ; domain=login.live.com;path=/;Expires=Thu, 30-Oct-1980 16:00:00 GMT,
+RPSTAuth=EwDoARAnAAAUWkziSC7RbDJKS1VkhugDegv7L0eAAOfCAY2+pKwbV5zUlu3XmBbgrQ8EdakmdSqK9OIKfMzAbnU8fuwwEi+FKtdGSuz/FpCYutqiHWdftd0YF21US7+1bPxuLJ0MO+wVXB8GtjLKZaA0xCXlU5u01r+DOsxSVM777DmplaUc0Q4O1+Pi9gX9cyzQLAgRKmC/QtlbVNKDA2YAAAhIwqiXOVR/DDgBocoO/n0u48RFGh79X2Q+gO4Fl5GMc9Vtpa7SUJjZCCfoaitOmcxhEjlVmR/2ppdfJx3Ykek9OFzFd+ijtn7K629yrVFt3O9q5L0lWoxfDh5/daLK7lqJGKxn1KvOew0SHlOqxuuhYRW57ezFyicxkxSI3aLxYFiqHSu9pq+TlITqiflyfcAcw4MWpvHxm9on8Y1dM2R4X3sxuwrLQBpvNsG4oIaldTYIhMEnKhmxrP6ZswxzteNqIRvMEKsxiksBzQDDK/Cnm6QYBZNsPawc6aAedZioeYwaV3Z/i3tNrAUwYTqLXve8oG6ZNXL6WLT/irKq1EMilK6Cw8lT3G13WYdk/U9a6YZPJC8LdqR0vAHYpsu/xRF39/On+xDNPE4keIThJBptweOeWQfsMDwvgrYnMBKAMjpLZwE=; domain=.live.com;path=/;HTTPOnly= ;version=1,
+RPSTAuthTime=1328679636; domain=login.live.com;path=/;HTTPOnly= ;version=1,
+MSPAuth=2OlAAMHXtDIFOtpaK1afG2n*AAxdfCnCBlJFn*gCF8gLnCa1YgXEfyVh2m9nZuF*M7npEwb4a7Erpb*!nH5G285k7AswJOrsr*gY29AVAbsiz2UscjIGHkXiKrTvIzkV2M; domain=.live.com;path=/;HTTPOnly= ;version=1,
+MSPProf=23ci9sti6DZRrkDXfTt1b3lHhMdheWIcTZU2zdJS9!zCloHzMKwX30MfEAcCyOjVt*5WeFSK3l2ZahtEaK7HPFMm3INMs3r!JxI8odP9PYRHivop5ryohtMYzWZzj3gVVurcEr5Bg6eJJws7rXOggo3cR4FuKLtXwz*FVX0VWuB5*aJhRkCT1GZn*L5Pxzsm9X; domain=.live.com;path=/;HTTPOnly= ;version=1,
+MSNPPAuth=CiGSMoUOx4gej8yQkdFBvN!gvffvAhCPeWydcrAbcg!O2lrhVb4gruWSX5NZCBPsyrtZKmHLhRLTUUIxxPA7LIhqW5TCV*YcInlG2f5hBzwzHt!PORYbg79nCkvw65LKG399gRGtJ4wvXdNlhHNldkBK1jVXD4PoqO1Xzdcpv4sj68U6!oGrNK5KgRSMXXpLJmCeehUcsRW1NmInqQXpyanjykpYOcZy0vq!6PIxkj3gMaAvm!1vO58gXM9HX9dA0GloNmCDnRv4qWDV2XKqEKp!A7jiIMWTmHup1DZ!*YCtDX3nUVQ1zAYSMjHmmbMDxRJECz!1XEwm070w16Y40TzuKAJVugo!pyF!V2OaCsLjZ9tdGxGwEQRyi0oWc*Z7M0FBn8Fz0Dh4DhCzl1NnGun9kOYjK5itrF1Wh17sT!62ipv1vI8omeu0cVRww2Kv!qM*LFgwGlPOnNHj3*VulQOuaoliN4MUUxTA4owDubYZoKAwF*yp7Mg3zq5Ds2!l9Q$$; domain=.live.com;path=/;HTTPOnly= ;version=1,
+MH=MSFT; domain=.live.com;path=/;version=1,
+MHW=; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=.live.com;path=/;version=1,
+MHList=; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=.live.com;path=/;version=1,
+NAP=V=1.9&E=bea&C=zfjCKKBD0TqjZlWGgRTp__NiK08Lme_0XFaiKPaWJ0HDuMi2uCXafQ&W=1;domain=.live.com;path=/,
+ANON=A=DE389D4D076BF47BCAE4DC05FFFFFFFF&E=c44&W=1;domain=.live.com;path=/,
+MSPVis=$9;domain=login.live.com;path=/,
+pres=; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=.live.com;path=/;version=1,
+LOpt=0; domain=login.live.com;path=/;version=1,
+WLSSC=EgBnAQMAAAAEgAAACoAASfCD+8dUptvK4kvFO0gS3mVG28SPT3Jo9Pz2k65r9c9KrN4ISvidiEhxXaPLCSpkfa6fxH3FbdP9UmWAa9KnzKFJu/lQNkZC3rzzMcVUMjbLUpSVVyscJHcfSXmpGGgZK4ZCxPqXaIl9EZ0xWackE4k5zWugX7GR5m/RzakyVIzWAFwA1gD9vwYA7Vazl9QKMk/UCjJPECcAAAoQoAAAFwBjcmlmYW4yMDAzQGhvdG1haWwuY29tAE8AABZjcmlmYW4yMDAzQGhvdG1haWwuY29tAAAACUNOAAYyMTM1OTIAAAZlCAQCAAB3F21AAARDAAR0aWFuAAR3YW5nBMgAAUkAAAAAAAAAAAAAAaOKNpqLi/UAANQKMk/Uf0RPAAAAAAAAAAAAAAAADgA1OC4yNDAuMjM2LjE5AAUAAAAAAAAAAAAAAAABBAABAAABAAABAAAAAAAAAAA=; domain=.live.com;secure= ;path=/;HTTPOnly= ;version=1,
+MSPSoftVis=@72198325083833620@:@; domain=login.live.com;path=/;version=1
+
+
+--------------------------------------------------------------------------------
+Chrome captrued:
+Set-Cookie: MSPOK= ; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=login.live.com;path=/;HTTPOnly= ;version=1
+
+Set-Cookie: PPAuth=CrUWRD2E8Kk76tKy1H*txP35RJjfNnxMbFM5Re6eNUGa2hTdB6dNWiHTAi7I93ftN7ruBqAnorvGZhdT7DbjyuIaCLDhDNaEEF6TXoBRI77GQF5sWPnXHTjWHuJ3bOtcGWgPF4HEKnsWL3SthrrIhHYseCQ*B2FjebRBmyu0nA4Ek!6ljJ7OIcd5D9kmpJwN1gp4b6x7WQZ!h52VvAxc9KoWUSASEVfGya*x6yVhISIkXseHNMJL1do8mhUjKXIkkd3gIq*1L2OdCD!TibY8Er4AQqybPcxt8pgiFywOlrTn; domain=login.live.com;secure= ;path=/;HTTPOnly= ;version=1
+
+Set-Cookie: PPLState=1; domain=.live.com;path=/;version=1
+
+Set-Cookie: MSPShared=1; expires=Wed, 30-Dec-2037 16:00:00 GMT;domain=login.live.com;path=/;HTTPOnly= ;version=1
+
+Set-Cookie: MSPPre= ;domain=login.live.com;path=/;Expires=Thu, 30-Oct-1980 16:00:00 GMT
+
+Set-Cookie: MSPCID= ; HTTPOnly= ; domain=login.live.com;path=/;Expires=Thu, 30-Oct-1980 16:00:00 GMT
+
+Set-Cookie: RPSTAuth=EwDoARAnAAAUWkziSC7RbDJKS1VkhugDegv7L0eAANOM+amE2I9apSiLZu8wM3M3whz6/sgGIeRPYke39YXfSmWdv0U9YzX5lvUo1xjWVspyqHq2euGGzMjdMYt3dwzm227nuHCqlmYjOpQsTo7hgfr24dI3Dso80wRQck/bf832uMEaTZ6H3Q1A6uZAel3juMe3bRjYmDj/tlby16IDA2YAAAjVacnT1LqQoDgBUvLyyTOZPbvYrBhZdULYO9hTFyjof1/LC4jAT4zxIX3dewZVJUmN/+bLFleDJUsERbGkxPZRTRW+AoZvZxjffyD4/KE7ag6UDD+I+MAgUXiHnozZWv90ZnZkHhMpTZqNWhB9GdCOdDAEEpfPSrvYhvk6YHZLUbQEI4NCIfk+1bvN9nVsN3XMHXqS8D5gPkiG2iXEgLb12k21+F7bcPi6EdPgtdDBGPkg87Jf1mawG5H1HFA5sU917XigyRO1ae/xeVMRwAmksD4CtHMvP0zee/XxAi+Z302yUuRVxxqDTmDW7ojhI+BmcaqButFWPHRBYMLmbMPLNgc7W/mom9PKSmLNKpLvONlA2PAg4KdlEaK7dxSKDNCJId1okqwT/Ro96vb8Q9DY53aNepwBJLneuw0r5btGG6ksZwE=; domain=.live.com;path=/;HTTPOnly= ;version=1
+
+Set-Cookie: RPSTAuthTime=1328661952; domain=login.live.com;path=/;HTTPOnly= ;version=1
+
+Set-Cookie: MSPAuth=26MgDFJINDs8gAQMxXSQKcLGGLbzSc3JiuIxwWoMzjkDPauR6EvBKoVZAiZVwLYAcV1I2gjVcd0F0KUUT2onh5rwsd7U99H!JQ!tqgex9Dq0zNyObtYsaZEOD6qmoDZIV0; domain=.live.com;path=/;HTTPOnly= ;version=1
+
+Set-Cookie: MSPProf=2quAIp4W8D6oOFCBFpZqSjMv!4jrKfRIvj41Wax8RWNemehMOJB74nUFFvaMcGPW4blqNudawYaOPM4ui7X5rHs6TvefU91toxMJYfS7j!T35UuhnjvZwr7nWG!akM9j5vCtJu2gszi9*9mSFrwfEtca0va4wApdp4xDQYsylpD62RtMBoUfxFVfG1TpUmMVCj; domain=.live.com;path=/;HTTPOnly= ;version=1
+
+Set-Cookie: MSNPPAuth=Cn6*lFnKrHFJRFu4lHJsVm*0LFevfzcrr!0OdbhOFqVLTjK9OtR9cz0rDHYNXBW!ve3YWj2zRcNnCN0WSqiov9YlBNQAsY2*KN76RNgJgis4ZBaqL2RRmAC8J0aGvyMtgx17VHMkeF629RQsvl4FUmgbgXkTacoqlHMSp!FLrr6fKvQJIhOU2XKu00jhKFXrAbTgaPNWSh0w5kCKBlYpj8cTtNY*4eJthzsmJlTKfPcm02k2tLrBi25od*Wxd268AdnoPma!Gpo0R4gZ0FELT2l3h4i7VMBPnjEBMwgr09*L2EEvCtmHrh*gCPDFtlVa896kKl4dGARDeYkUDQCfp9iZGPiaeEXENk*TNwbcPao5pMnfrIqT5ySAJSPfkvjkNaiqd1DFqXrMmZqMXFEaCM9WwPsMTxfrK3HbqEvn!UU3VrgD49htG3EnQjl3jSB6c4qTpkcFJKSKdKaYvTwheupmCpFdgTTL0bfpxSzQ5rApA6MuO7VxE50cB*vpjjiaTw$$; domain=.live.com;path=/;HTTPOnly= ;version=1
+
+Set-Cookie: MH=MSFT; domain=.live.com;path=/;version=1
+
+Set-Cookie: MHW=; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=.live.com;path=/;version=1
+
+Set-Cookie: MHList=; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=.live.com;path=/;version=1
+
+Set-Cookie: NAP=V=1.9&E=bea&C=vSE5H8aN_58c9OGFJttq-hP_vgo8Yy9YQD4r9BBNvrgKKn1o4WLTXg&W=1;domain=.live.com;path=/
+
+Set-Cookie: ANON=A=DE389D4D076BF47BCAE4DC05FFFFFFFF&E=c44&W=1;domain=.live.com;path=/
+
+Set-Cookie: MSPVis=$9;domain=login.live.com;path=/
+
+Set-Cookie: pres=; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=.live.com;path=/;version=1
+
+Set-Cookie: LOpt=0; domain=login.live.com;path=/;version=1
+
+Set-Cookie: WLSSC=EgBnAQMAAAAEgAAACoAAmfbBP/vh+IR5PgJzJ6lCCKM/1NSqBxmgwoRTzcELNJS/XlCjMNuZ4QjaKAkcIjZX/aGmxmoCqQXJcJZRnJa5CbY2/5G6XMIt0uybzcC6t/khebSsTYXqTukdYsbIz/r7YvaJDGOTKO7oeVZ2x5rTM/pQrupaWZdx6pSYOJ6YXhLWAFwA1gD9vwYA7Vazl8DFMU/AxTFPECcAAAoQoAAAFwBjcmlmYW4yMDAzQGhvdG1haWwuY29tAE8AABZjcmlmYW4yMDAzQGhvdG1haWwuY29tAAAACUNOAAYyMTM1OTIAAAZlCAQCAAB3F21AAARDAAR0aWFuAAR3YW5nBMgAAUkAAAAAAAAAAAAAAaOKNpqLi/UAAMDFMU/AOkRPAAAAAAAAAAAAAAAADgA1OC4yNDAuMjM2LjE5AAUAAAAAAAAAAAAAAAABBAQBAAABAAABAAAAAAAAAAA=; domain=.live.com;secure= ;path=/;HTTPOnly= ;version=1
+
+Set-Cookie: MSPSoftVis=@72198325083833620@:@; domain=login.live.com;path=/;version=1
+
+--------------------------------------------------------------------------------
+
++		[0]	{$Version=1; PPLState=1; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[1]	{MSPPre=}	object {System.Net.Cookie}
++		[2]	{MSPCID=}	object {System.Net.Cookie}
++		[3]	{$Version=1; RPSTAuth=EwDoARAnAAAUWkziSC7RbDJKS1VkhugDegv7L0eAAOfCAY2+pKwbV5zUlu3XmBbgrQ8EdakmdSqK9OIKfMzAbnU8fuwwEi+FKtdGSuz/FpCYutqiHWdftd0YF21US7+1bPxuLJ0MO+wVXB8GtjLKZaA0xCXlU5u01r+DOsxSVM777DmplaUc0Q4O1+Pi9gX9cyzQLAgRKmC/QtlbVNKDA2YAAAhIwqiXOVR/DDgBocoO/n0u48RFGh79X2Q+gO4Fl5GMc9Vtpa7SUJjZCCfoaitOmcxhEjlVmR/2ppdfJx3Ykek9OFzFd+ijtn7K629yrVFt3O9q5L0lWoxfDh5/daLK7lqJGKxn1KvOew0SHlOqxuuhYRW57ezFyicxkxSI3aLxYFiqHSu9pq+TlITqiflyfcAcw4MWpvHxm9on8Y1dM2R4X3sxuwrLQBpvNsG4oIaldTYIhMEnKhmxrP6ZswxzteNqIRvMEKsxiksBzQDDK/Cnm6QYBZNsPawc6aAedZioeYwaV3Z/i3tNrAUwYTqLXve8oG6ZNXL6WLT/irKq1EMilK6Cw8lT3G13WYdk/U9a6YZPJC8LdqR0vAHYpsu/xRF39/On+xDNPE4keIThJBptweOeWQfsMDwvgrYnMBKAMjpLZwE=; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[4]	{$Version=1; MSPAuth=2OlAAMHXtDIFOtpaK1afG2n*AAxdfCnCBlJFn*gCF8gLnCa1YgXEfyVh2m9nZuF*M7npEwb4a7Erpb*!nH5G285k7AswJOrsr*gY29AVAbsiz2UscjIGHkXiKrTvIzkV2M; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[5]	{$Version=1; MSPProf=23ci9sti6DZRrkDXfTt1b3lHhMdheWIcTZU2zdJS9!zCloHzMKwX30MfEAcCyOjVt*5WeFSK3l2ZahtEaK7HPFMm3INMs3r!JxI8odP9PYRHivop5ryohtMYzWZzj3gVVurcEr5Bg6eJJws7rXOggo3cR4FuKLtXwz*FVX0VWuB5*aJhRkCT1GZn*L5Pxzsm9X; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[6]	{$Version=1; MSNPPAuth=CiGSMoUOx4gej8yQkdFBvN!gvffvAhCPeWydcrAbcg!O2lrhVb4gruWSX5NZCBPsyrtZKmHLhRLTUUIxxPA7LIhqW5TCV*YcInlG2f5hBzwzHt!PORYbg79nCkvw65LKG399gRGtJ4wvXdNlhHNldkBK1jVXD4PoqO1Xzdcpv4sj68U6!oGrNK5KgRSMXXpLJmCeehUcsRW1NmInqQXpyanjykpYOcZy0vq!6PIxkj3gMaAvm!1vO58gXM9HX9dA0GloNmCDnRv4qWDV2XKqEKp!A7jiIMWTmHup1DZ!*YCtDX3nUVQ1zAYSMjHmmbMDxRJECz!1XEwm070w16Y40TzuKAJVugo!pyF!V2OaCsLjZ9tdGxGwEQRyi0oWc*Z7M0FBn8Fz0Dh4DhCzl1NnGun9kOYjK5itrF1Wh17sT!62ipv1vI8omeu0cVRww2Kv!qM*LFgwGlPOnNHj3*VulQOuaoliN4MUUxTA4owDubYZoKAwF*yp7Mg3zq5Ds2!l9Q$$; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[7]	{$Version=1; MH=MSFT; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[8]	{$Version=1; MHW=; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[9]	{$Version=1; MHList=; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[10]	{NAP=V=1.9&E=bea&C=zfjCKKBD0TqjZlWGgRTp__NiK08Lme_0XFaiKPaWJ0HDuMi2uCXafQ&W=1}	object {System.Net.Cookie}
++		[11]	{ANON=A=DE389D4D076BF47BCAE4DC05FFFFFFFF&E=c44&W=1}	object {System.Net.Cookie}
++		[12]	{MSPVis=$9}	object {System.Net.Cookie}
++		[13]	{$Version=1; pres=; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[14]	{$Version=1; WLSSC=EgBnAQMAAAAEgAAACoAASfCD+8dUptvK4kvFO0gS3mVG28SPT3Jo9Pz2k65r9c9KrN4ISvidiEhxXaPLCSpkfa6fxH3FbdP9UmWAa9KnzKFJu/lQNkZC3rzzMcVUMjbLUpSVVyscJHcfSXmpGGgZK4ZCxPqXaIl9EZ0xWackE4k5zWugX7GR5m/RzakyVIzWAFwA1gD9vwYA7Vazl9QKMk/UCjJPECcAAAoQoAAAFwBjcmlmYW4yMDAzQGhvdG1haWwuY29tAE8AABZjcmlmYW4yMDAzQGhvdG1haWwuY29tAAAACUNOAAYyMTM1OTIAAAZlCAQCAAB3F21AAARDAAR0aWFuAAR3YW5nBMgAAUkAAAAAAAAAAAAAAaOKNpqLi/UAANQKMk/Uf0RPAAAAAAAAAAAAAAAADgA1OC4yNDAuMjM2LjE5AAUAAAAAAAAAAAAAAAABBAABAAABAAABAAAAAAAAAAA=; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
+
+
+
+
+
+
+
+
+
+
+
+
+
+in code, replace ',' with '.':
+"MSPOK= ; expires=Thu_ 30-Oct-1980 16:00:00 GMT;domain=login.live.com;path=/;HTTPOnly= ;version=1,PPAuth=CsMPnfDJd8eGN9AoNq0FZb0axhLzLu8pjLoIfuEhKp5FX0I3rP8PLcl8jJT01emAFVA8jPVMfiSc9P0GSvlOsGtzl9mFw!btyvbP76fec6GCUsKRZ3szIvTRrJoE1Sh4EA4bSKbvGX7SkdoQkf2u7oUHkbSMUB1*B*DBisvi4TRRCemWmYU8xhQP9M6yMr9CuhaXDcqw3SMtEtw84KIouuCIFLH!l3F9Mf4BnPiIVgpTPJcYNMqbPY7sTom8LbaEsttTFrqPeqAPSpGP5oHzGHIdAXSdSDBlOE17l96pNGDx; domain=login.live.com;secure= ;path=/;HTTPOnly= ;version=1,PPLState=1; domain=.live.com;path=/;version=1,MSPShared=1; expires=Wed_ 30-Dec-2037 16:00:00 GMT;domain=login.live.com;path=/;HTTPOnly= ;version=1,MSPPre= ;domain=login.live.com;path=/;Expires=Thu_ 30-Oct-1980 16:00:00 GMT,MSPCID= ; HTTPOnly= ; domain=login.live.com;path=/;Expires=Thu_ 30-Oct-1980 16:00:00 GMT,RPSTAuth=EwDoARAnAAAUWkziSC7RbDJKS1VkhugDegv7L0eAAJ7mfKDqKefOfxDPZGovpG5YfZnkU2WGmiXNd1SkAqjfKdsvnzw+tYTJ2+YJkyO5akg14MHNxfnDhOFGkVm1YLbpySpL8q3Gj+4xJCFWOCrkXlxNKeZmAZz0b0V66fYD2zCyclrUalSSQ++fl3kH1em9dAnB0kvy+y/FjHSj7JmgA2YAAAjjEeJLovxnSTgBPmN6ObrkJqVwewJuOP+N/D1kbE6GWdHGUoP5tkR9gUbPPrV4R6Lw5Ce89fnIXCpbgnQx3/lwr3H3VGURyhwMor6eob2SFEpP2y/f+PSN9NaKNWsnz2FbOoxro+PanuBf0vMDt9Ll7kiKLv1JqcxhDEnFomwOtdq/uWsCwMR4zpr6bNwuR4v+esm7eADuymq3272ffDX5CI2By5b2AINCa6bnQcaDnXAXAZRNxKreSisi1JrIEJ2w2Qo4WW8iHYy0SNw5Uxzaqnvc5PtZ4X2YvdvBkpXRM50vvPY/L1JmHMI+2qWqRVDqvsGLv4ISznx/nzHR9OvZi0o6UftKQZp5Mok/Cn5YLacPl7JVRY68ONgnVyOOrehvszp0iVEq19kCmXOu2eseA2SUbUqUV8M/WY0ceHTEZtlOZwE=; domain=.live.com;path=/;HTTPOnly= ;version=1,RPSTAuthTime=1328692370; domain=login.live.com;path=/;HTTPOnly= ;version=1,MSPAuth=2FMEEx6chDNHIFR81X8eFZXodA7kI!3EUsD4xLyRiufx9TUki*bTOR90LOvjH4VwZbegQ2FK1NSyuc20XOq69FStaDm4Qg7Uc1ARSImolo5WBL3kcoCNBwyQwLV0PKkLE3; domain=.live.com;path=/;HTTPOnly= ;version=1,MSPProf=2B7D1SXQ6DEZ!urJOpEXuDLT5WjtHJUkpYE87CXHsC!3uQXV2O5borPOGccOZwoFFqmwSmqdLJtwf4LbLzCQt9pLyIh13ouScGAUC*Vlt0WHVDG1VeQyeDH9B!OrdbJG9O55Zh7qbuujhfKj7Qbo7fwbFtU6k2Z22qJY9I4om9xC4K1rgwHrhiSkVQWzkbV4Gs; domain=.live.com;path=/;HTTPOnly= ;version=1,MSNPPAuth=ChIXCIRB*xiz2sH7jPODluUKMvhTuSqqwt!d5h8NONB8ipqSO5rHRe7ksDS66Z8V8E7ks4PgHGv0BoZ7Tr8JYPZRvfBEVt7Uch!8ODqsrJt65KUxHPbewTJ9JJ9KsMm2hcXucV141UEibcZf3esPVxheuKqxX86vGQ9x9idX!cvYSwIYJUnWtT69ZGDZkzpB37gePDbluM7AHeuQdmdb93zL0j78Qdui3aW0Hetci6Gb11LFh7OUh5qxL!fuUdMBS3l0*gAx1F*HwB!SYoArg104pjaK6G6mX*lsxJQFKRGOTuRrflgVTS5xSwSPNnIDJH!EeM1AxZzr*Q8htiIl6uXsU7tgiWNGsq8obxNtr1AI83dvjwwQ!g5HeBIH20UW57kHVGRDqiLqRB4fJHAqsjS6DhfIg9RknwF6Fpncf5idY*zdDjhic!aND7NxHzzG9TCBdH*8pJ771hlYZpRUYUISGlS7hb9q8UenNCaPykn9HbCz7pve5I9usHPxWz8Mhw$$; domain=.live.com;path=/;HTTPOnly= ;version=1,MH=MSFT; domain=.live.com;path=/;version=1,MHW=; expires=Thu_ 30-Oct-1980 16:00:00 GMT;domain=.live.com;path=/;version=1,MHList=; expires=Thu_ 30-Oct-1980 16:00:00 GMT;domain=.live.com;path=/;version=1,NAP=V=1.9&E=bea&C=xWm6clQzqukU8cImrSLMEQkcyH13mLbWSUFi81BOcYdDhLNSkolVbw&W=1;domain=.live.com;path=/,ANON=A=DE389D4D076BF47BCAE4DC05FFFFFFFF&E=c44&W=1;domain=.live.com;path=/,MSPVis=$9;domain=login.live.com;path=/,pres=; expires=Thu_ 30-Oct-1980 16:00:00 GMT;domain=.live.com;path=/;version=1,LOpt=0; domain=login.live.com;path=/;version=1,WLSSC=EgBnAQMAAAAEgAAACoAApcHAzkq7p3FIHJJpWDDkYagLVV60j3JZqN1X0CObNGOa7TJh3yv2j/y44N+k2b70+lB9tyrJmN49y+zRtiHRYqJl746lWkpq6//SpYUxfV4DvwJgIPLI5blwpRJl52KZzm8Figwpwee+cOWNgEUivfVd0+oCiUHfdldjzysFhHjWAFwA1gD9vwYA7Vazl5I8Mk+SPDJPECcAAAoQoAAAFwBjcmlmYW4yMDAzQGhvdG1haWwuY29tAE8AABZjcmlmYW4yMDAzQGhvdG1haWwuY29tAAAACUNOAAYyMTM1OTIAAAZlCAQCAAB3F21AAARDAAR0aWFuAAR3YW5nBMgAAUkAAAAAAAAAAAAAAaOKNpqLi/UAAJI8Mk+SsURPAAAAAAAAAAAAAAAADgA1OC4yNDAuMjM2LjE5AAUAAAAAAAAAAAAAAAABBAABAAABAAABAAAAAAAAAAA=; domain=.live.com;secure= ;path=/;HTTPOnly= ;version=1,MSPSoftVis=@72198325083833620@:@; domain=login.live.com;path=/;version=1"
+
+
+-		cookiesList	{string[21]}	string[]
+[0]	"MSPOK= ; expires=Thu_ 30-Oct-1980 16:00:00 GMT;domain=login.live.com;path=/;HTTPOnly= ;version=1"	string
+[1]	"PPAuth=CsMPnfDJd8eGN9AoNq0FZb0axhLzLu8pjLoIfuEhKp5FX0I3rP8PLcl8jJT01emAFVA8jPVMfiSc9P0GSvlOsGtzl9mFw!btyvbP76fec6GCUsKRZ3szIvTRrJoE1Sh4EA4bSKbvGX7SkdoQkf2u7oUHkbSMUB1*B*DBisvi4TRRCemWmYU8xhQP9M6yMr9CuhaXDcqw3SMtEtw84KIouuCIFLH!l3F9Mf4BnPiIVgpTPJcYNMqbPY7sTom8LbaEsttTFrqPeqAPSpGP5oHzGHIdAXSdSDBlOE17l96pNGDx; domain=login.live.com;secure= ;path=/;HTTPOnly= ;version=1"	string
+[2]	"PPLState=1; domain=.live.com;path=/;version=1"	string
+[3]	"MSPShared=1; expires=Wed_ 30-Dec-2037 16:00:00 GMT;domain=login.live.com;path=/;HTTPOnly= ;version=1"	string
+[4]	"MSPPre= ;domain=login.live.com;path=/;Expires=Thu_ 30-Oct-1980 16:00:00 GMT"	string
+[5]	"MSPCID= ; HTTPOnly= ; domain=login.live.com;path=/;Expires=Thu_ 30-Oct-1980 16:00:00 GMT"	string
+[6]	"RPSTAuth=EwDoARAnAAAUWkziSC7RbDJKS1VkhugDegv7L0eAAJ7mfKDqKefOfxDPZGovpG5YfZnkU2WGmiXNd1SkAqjfKdsvnzw+tYTJ2+YJkyO5akg14MHNxfnDhOFGkVm1YLbpySpL8q3Gj+4xJCFWOCrkXlxNKeZmAZz0b0V66fYD2zCyclrUalSSQ++fl3kH1em9dAnB0kvy+y/FjHSj7JmgA2YAAAjjEeJLovxnSTgBPmN6ObrkJqVwewJuOP+N/D1kbE6GWdHGUoP5tkR9gUbPPrV4R6Lw5Ce89fnIXCpbgnQx3/lwr3H3VGURyhwMor6eob2SFEpP2y/f+PSN9NaKNWsnz2FbOoxro+PanuBf0vMDt9Ll7kiKLv1JqcxhDEnFomwOtdq/uWsCwMR4zpr6bNwuR4v+esm7eADuymq3272ffDX5CI2By5b2AINCa6bnQcaDnXAXAZRNxKreSisi1JrIEJ2w2Qo4WW8iHYy0SNw5Uxzaqnvc5PtZ4X2YvdvBkpXRM50vvPY/L1JmHMI+2qWqRVDqvsGLv4ISznx/nzHR9OvZi0o6UftKQZp5Mok/Cn5YLacPl7JVRY68ONgnVyOOrehvszp0iVEq19kCmXOu2eseA2SUbUqUV8M/WY0ceHTEZtlOZwE=; domain=.live.com;path=/;HTTPOnly= ;version=1"	string
+[7]	"RPSTAuthTime=1328692370; domain=login.live.com;path=/;HTTPOnly= ;version=1"	string
+[8]	"MSPAuth=2FMEEx6chDNHIFR81X8eFZXodA7kI!3EUsD4xLyRiufx9TUki*bTOR90LOvjH4VwZbegQ2FK1NSyuc20XOq69FStaDm4Qg7Uc1ARSImolo5WBL3kcoCNBwyQwLV0PKkLE3; domain=.live.com;path=/;HTTPOnly= ;version=1"	string
+[9]	"MSPProf=2B7D1SXQ6DEZ!urJOpEXuDLT5WjtHJUkpYE87CXHsC!3uQXV2O5borPOGccOZwoFFqmwSmqdLJtwf4LbLzCQt9pLyIh13ouScGAUC*Vlt0WHVDG1VeQyeDH9B!OrdbJG9O55Zh7qbuujhfKj7Qbo7fwbFtU6k2Z22qJY9I4om9xC4K1rgwHrhiSkVQWzkbV4Gs; domain=.live.com;path=/;HTTPOnly= ;version=1"	string
+[10]	"MSNPPAuth=ChIXCIRB*xiz2sH7jPODluUKMvhTuSqqwt!d5h8NONB8ipqSO5rHRe7ksDS66Z8V8E7ks4PgHGv0BoZ7Tr8JYPZRvfBEVt7Uch!8ODqsrJt65KUxHPbewTJ9JJ9KsMm2hcXucV141UEibcZf3esPVxheuKqxX86vGQ9x9idX!cvYSwIYJUnWtT69ZGDZkzpB37gePDbluM7AHeuQdmdb93zL0j78Qdui3aW0Hetci6Gb11LFh7OUh5qxL!fuUdMBS3l0*gAx1F*HwB!SYoArg104pjaK6G6mX*lsxJQFKRGOTuRrflgVTS5xSwSPNnIDJH!EeM1AxZzr*Q8htiIl6uXsU7tgiWNGsq8obxNtr1AI83dvjwwQ!g5HeBIH20UW57kHVGRDqiLqRB4fJHAqsjS6DhfIg9RknwF6Fpncf5idY*zdDjhic!aND7NxHzzG9TCBdH*8pJ771hlYZpRUYUISGlS7hb9q8UenNCaPykn9HbCz7pve5I9usHPxWz8Mhw$$; domain=.live.com;path=/;HTTPOnly= ;version=1"	string
+[11]	"MH=MSFT; domain=.live.com;path=/;version=1"	string
+[12]	"MHW=; expires=Thu_ 30-Oct-1980 16:00:00 GMT;domain=.live.com;path=/;version=1"	string
+[13]	"MHList=; expires=Thu_ 30-Oct-1980 16:00:00 GMT;domain=.live.com;path=/;version=1"	string
+[14]	"NAP=V=1.9&E=bea&C=xWm6clQzqukU8cImrSLMEQkcyH13mLbWSUFi81BOcYdDhLNSkolVbw&W=1;domain=.live.com;path=/"	string
+[15]	"ANON=A=DE389D4D076BF47BCAE4DC05FFFFFFFF&E=c44&W=1;domain=.live.com;path=/"	string
+[16]	"MSPVis=$9;domain=login.live.com;path=/"	string
+[17]	"pres=; expires=Thu_ 30-Oct-1980 16:00:00 GMT;domain=.live.com;path=/;version=1"	string
+[18]	"LOpt=0; domain=login.live.com;path=/;version=1"	string
+[19]	"WLSSC=EgBnAQMAAAAEgAAACoAApcHAzkq7p3FIHJJpWDDkYagLVV60j3JZqN1X0CObNGOa7TJh3yv2j/y44N+k2b70+lB9tyrJmN49y+zRtiHRYqJl746lWkpq6//SpYUxfV4DvwJgIPLI5blwpRJl52KZzm8Figwpwee+cOWNgEUivfVd0+oCiUHfdldjzysFhHjWAFwA1gD9vwYA7Vazl5I8Mk+SPDJPECcAAAoQoAAAFwBjcmlmYW4yMDAzQGhvdG1haWwuY29tAE8AABZjcmlmYW4yMDAzQGhvdG1haWwuY29tAAAACUNOAAYyMTM1OTIAAAZlCAQCAAB3F21AAARDAAR0aWFuAAR3YW5nBMgAAUkAAAAAAAAAAAAAAaOKNpqLi/UAAJI8Mk+SsURPAAAAAAAAAAAAAAAADgA1OC4yNDAuMjM2LjE5AAUAAAAAAAAAAAAAAAABBAABAAABAAABAAAAAAAAAAA=; domain=.live.com;secure= ;path=/;HTTPOnly= ;version=1"	string
+[20]	"MSPSoftVis=@72198325083833620@:@; domain=login.live.com;path=/;version=1"	string
+
+        
+        

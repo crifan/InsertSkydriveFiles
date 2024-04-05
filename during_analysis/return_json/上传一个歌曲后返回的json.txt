@@ -1,0 +1,16 @@
+{
+"StatusCode":"200",
+"StatusDescription":"OK",
+"P3P":"CP=\\"BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo\\"",
+"X-MSNSERVER":"BY2____4011532",
+"Set-Cookie":"RPSMaybe=; path=\\/; domain=.live.com; expires=Thu,
+ 30-Oct-1980 16:00:00 GMT;",
+"BITS-Packet-Type":"Ack",
+"X-SqlDataOrigin":"S",
+"X-Resource-Id":"9A8B8BF501A38A36!780",
+"X-Cid":"-7310595685695124938",
+"X-Last-Modified-ISO8601":"2012-02-23T05:21:22.96Z",
+"X-ItemVersion":"0",
+"Etag":"9A8B8BF501A38A36!780.0",
+"Content-Location":"http:\\/\\/oqhnea.bay.livefilestore.com\\/y1pMk2qMBco1ADx1a92GDIiO-ZAuDBfknMjFkOG5k3Ja79sR2TlO18skq-eWGcGaSANhTFnIMbULNWGOcsxfi5maQ"
+}

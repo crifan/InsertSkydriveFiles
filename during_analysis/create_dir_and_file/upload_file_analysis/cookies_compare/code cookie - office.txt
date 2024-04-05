@@ -1,0 +1,32 @@
+code cookie - office:
+
++		[0]	{xid=e86ab6c7-1fe5-4b0d-894b-3d5e855183c3&NK4bB&BAYxxxxxxC603&78}	object {System.Net.Cookie}
++		[1]	{xidseq=3}	object {System.Net.Cookie}
++		[2]	{LD=}	object {System.Net.Cookie}
++		[3]	{wla42=cHJveHktYmF5LnB2dC1jb250YWN0cy5tc24uY29tfGJ5MioxLDlBOEI4QkY1MDFBMzhBMzYsMSwwLDA=}	object {System.Net.Cookie}
++		[4]	{$Version=1; MSPRequ=lt=1329180193&co=1&id=250206; $Path=/; $Domain=login.live.com}	object {System.Net.Cookie}
++		[5]	{$Version=1; MSPOK=$uuid-19afe579-92be-4ac2-8293-3fb0700829df; $Path=/; $Domain=login.live.com}	object {System.Net.Cookie}
++		[6]	{$Version=1; PPAuth=Cr4JtPNiiI7uOriwfNuNu9A59HPOFs1yS!olBBQYyyKYb0sv8449J8PSOQ8lbn9nPVHcuMBeWzleMeoR2cV9NijYzmqNYLwFYAfML5mDxrDqe8Y!UjRRoXTeC5L87ZHE4dxt6cRRiZvPe78shy3RXCCTdfJM!TYRMcN9QS*!9vArDfh3lK0u2W0ec8A2RyGBW0oMf8OeYoWCWoF6KsbPOXMPBs*bTv2jBuJ9cT9GESXMwAOk3G0VzMzN2QbsYjAnow5KuqbV5aJ!TCbv1izfxvf!Hy!Ox2T2K0yaO!nHUIcy; $Path=/; $Domain=login.live.com}	object {System.Net.Cookie}
++		[7]	{$Version=1; PPLState=1; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[8]	{$Version=1; MSPShared=1; $Path=/; $Domain=login.live.com}	object {System.Net.Cookie}
++		[9]	{$Version=1; RPSTAuth=EwDoARAnAAAUWkziSC7RbDJKS1VkhugDegv7L0eAAIiLPxu9JMkPpUk8t1aUVZfFYLrFogUVKe54KwNn3p3xOfMW9l+nLj9z3RZlPwjPbbDvaerXrfjdkFRj1/KmH1kH4W59oKulzp7R8u21QxCUg4C3/CErdmbP9ZUlpnGuHVm7guXLfclgivhf7nBqR0VgSeUHvKRq7i1mEAkyQdeVA2YAAAjIUpJkwoljJzgBr+otVqBge50iODAdhGPtHDVRhBCLBsmdRywNEeZWjUJozLipPLuq+R0cTIpyqn1r42NoOe5Nt2qYHCtbO9RbS+gb7CwCI2Z/2U4+ncnuBGh6r0JJT4hd0XcdvUS8zYqWJXV7eswok8tltub62u36XWYcADoyZQE4tvF/95N5i3V8BZjDQodeYajQKeLtNJeXbxk66cQ9GbF3y9JqqmTPrQqgbYoRkejWZdUsJOMIbGJoVmRPQS+T9ON7O+08nrhYT1hTwWtOBzuN4CSVI+KTersEQ3OgC3IDo7sSoc7IZoLaLc+qXqOwp5DWiI0h6LXuT/Edura9/ONH3klyZ/SiMQb9tAa2QzYjxhRzmcvpOuDtJwAxqrYPwkZ+hheNBDkoaNA1wZdJ9fovpFJJW2PI5rnPYgHbQQzKZwE=; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[10]	{$Version=1; RPSTAuthTime=1329180198; $Path=/; $Domain=login.live.com}	object {System.Net.Cookie}
++		[11]	{$Version=1; MSPAuth=2Tj9QlM39D80kPff3tERDBAS7keGBSbo1ttw2dwzRnOufEATtpnPCwFeWkFOrqtCDa4EqZznKy!fnSWLllbXX9oZGcdnmCjUEYGzdcCtHNuXL*JCQrDZXRFrVzlbLab!*T; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[12]	{$Version=1; MSPProf=2YCibTImjDKvUu7aVWi!Mpm*w8OEkAgTyPYHXFDimcyxA7Svf*tdsG4XR4cV9iZV5VIXWkSKpKpahgR!JMGXau2B!cw0UdOYvffisNrdVYNoNDIMpDDRHWJL*XE3U78tXNvm4NkKyV1dvKwhYvXWMNzBdF20GYEJrAAygFsqpImopDMiYQEeFfN1HMKsvIJCeb; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[13]	{$Version=1; MSNPPAuth=CuInhedSuE5W2zGT1R0SeAMMP6tIO44u3c3YS7qmJOi!07LGjwUspmuJK8smz4T!NUQtvHxVw7MTTIMJzo1NfkQa3glz*nTfDvp2SLU0VK*aY*Vh2JpoedQpdvuGV*tGeGm6eyZvqepJ4Tm58xzasJhBKtFeFatrJcr6HYfnuqGDvbH9uDGFh2UZiFRyKGeeg55eoPS64V*N*EIdbNnPrKTQPIRILCe!AZA8yIzp8PAVFBe6F!D*OhRTpgynhtWGKSrMhAAP2rxXH50no6C!ypIkl*oHWW3yF8Ba8KD57A1iNFjJdqcwrsgXpdAcWWquqo9jj3w3xePJEKn71qSvjlMswQMpq!I4ksHlve71wCsUwnYxT3NK3MCDyXTEZGy!GmGEtG!2q9fvSrrRzZGWEh98ym!krgKxcspQhV31YjMx*C4o0ecvQLqcHD0au6K!lcYXkqHF*6yW6rt5ldhBl2hUTx3u6hlAxfojJVQRmvpVyxv4QmHoVOuOQgNZn5jIPw$$; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[14]	{$Version=1; MH=MSFT; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[15]	{NAP=V=1.9&E=bf0&C=u_4UTbVJ0TNKAGEiX9JdlPQ8P3YtztBXsxqJlN3NPGlrSL1XfD6EtQ&W=1}	object {System.Net.Cookie}
++		[16]	{ANON=A=DE389D4D076BF47BCAE4DC05FFFFFFFF&E=c4a&W=1}	object {System.Net.Cookie}
++		[17]	{$Version=1; MSPVis=$9; $Path=/; $Domain=login.live.com}	object {System.Net.Cookie}
++		[18]	{$Version=1; LOpt=0; $Path=/; $Domain=login.live.com}	object {System.Net.Cookie}
++		[19]	{$Version=1; WLSSC=EgBnAQMAAAAEgAAACoAAOu+TJ9RZ2LB66rbyDrCV045kD4YIncBO4H/9381exA7sq29AGBxo9g+XrV261DSZsYMqqyFxSW4+G5ndWT9i57eI/I3l9/3VpWEDhE1+CNex+OKI/gyY3rgNwfM6IDFxVZQ92s1KYplKwKy1Jzpxa8SRHaUz/hrfQAsocMMOT/bWAFwA1gD9vwYA7VazlyauOU8mrjlPECcAAAoQoAAAFwBjcmlmYW4yMDAzQGhvdG1haWwuY29tAE8AABZjcmlmYW4yMDAzQGhvdG1haWwuY29tAAAACUNOAAYyMTM1OTIAAAZlCAQCAAB3F21AAARDAAR0aWFuAAR3YW5nBMgAAUkAAAAAAAAAAAAAAaOKNpqLi/UAACauOU8mI0xPAAAAAAAAAAAAAAAADgA1OC4yNDAuMjM2LjE5AAUAAAAAAAAAAAAAAAABBAABAAABAAABAAAAAAAAAAA=; $Path=/; $Domain=.live.com}	object {System.Net.Cookie}
++		[20]	{$Version=1; MSPSoftVis=@72198325083833620@:@; $Path=/; $Domain=login.live.com}	object {System.Net.Cookie}
++		[21]	{E=P:P8VnR8m4zog=:RODP6fX1Ry53DXVPOJHZfZVsd+0zm9sSVCZ84i0D/q0=:F}	object {System.Net.Cookie}
++		[22]	{wlp=A|eyJV-t:a*J/jeBQ._}	object {System.Net.Cookie}
++		[23]	{wls=A|eyJV-t:a*nS}	object {System.Net.Cookie}
++		[24]	{wlv=A|eyJV-d:s*pyvABw.2+1+0+3}	object {System.Net.Cookie}
++		[25]	{SAToken=TBPICBABEJBKBXKLIVEZWEAVMYGNBABWCVKVVZROCWNJ}	object {System.Net.Cookie}
++		[26]	{$Version=1; MSPBack=1329180199; $Path=/; $Domain=login.live.com}	object {System.Net.Cookie}
++		[27]	{WLSRDAuth=FAAaARQL3KgEDBNbW84gMYrDN0fBab7xkQNmAAAEgAAACCy%2BnVHsV%2B1Q2ADrdNUt0N7NEqWRi8jc/%2BV9tPt6N34PmyASTRWTBOtL9/bnBVJHUZ9aD1ejC0FHzFhmc/u61i1ytzUTgbOVlIC90M07LYd84di340UIxLwV%2BGZYVNU5xxyhhBHL%2BSUay4o/IlClgXLYKyDa%2Bq5MXqSx%2Bn3jf/dmfUdfscHTTPd63BiohlfOqNcF4mcUdX/FXbdJijITwGQTDebERNgsOp4VUCUOlTR/dCWCBgCpvMHJ1pr0sq/XQWIVAiay3c15zjX2pjKBfHbKiHY/z/dIxsCfuafdhvH9r6gUAK6JYjWRtlCoVsMEIcukInW1Bb7M}	object {System.Net.Cookie}
++		[28]	{WLSRDSecAuth=FAAaARQL3KgEDBNbW84gMYrDN0fBab7xkQNmAAAEgAAACObjkvnxHfPf2ACp18l6XTLZqf8y2AWtIFT3TuHM9AvicyOTK3/yjhzjXRi4J/GDXXV8UcfmLTeSBE5hDisaZL4kBGCKB5lirodkL7gwFntJBfpw7OACTTRyP3k/bjiDjuhFK8dszYDymOLp7NhK2ZVfGZtUYpO/mvXtrBmrWOuntkQfOs70GWpxpeychW3zOh0pnEdiCxP0O1a3JN/DelzQSGxG4BsukQLnI8jCnX7Xqr1IparifiNXc2HvFcu9MPvh1G9ovurggWQH9Dp/6Jf/WIilgGGbjFblDGj2gLPjaHIUABOQ7jTiRgC4Q3P%2BHkEqsA%2BZepEF}	object {System.Net.Cookie}
++		[29]	{RPSShare=1}	object {System.Net.Cookie}

@@ -1,0 +1,92 @@
+{
+    "items": [{
+        "commands": "defc,1",
+        "displayModifiedDate": "1\\/9\\/2009",
+        "displaySize": "0 KB",
+        "folder": {
+            "childCount": 2,
+            "children": [{
+                "commands": "defc,1,pm,1",
+                "commentCount": 0,
+                "creationDate": 633671073132000000,
+                "creatorCid": "1AC7F628D0ACA8D9",
+                "creatorName": "Chien Rafe",
+                "displayCreationDate": "1\\/9\\/2009",
+                "displayModifiedDate": "1\\/9\\/2009",
+                "displaySize": "0 KB",
+                "folder": {
+                    "category": 0,
+                    "totalCount": 0
+                },
+                "group": 0,
+                "iconType": "EmptyDocumentFolder",
+                "id": "1AC7F628D0ACA8D9!326",
+                "lastModifierCid": "1AC7F628D0ACA8D9",
+                "lastModifierName": "Chien Rafe",
+                "modifiedDate": 633671089328200000,
+                "name": "“一年啦”",
+                "ownerCid": "1AC7F628D0ACA8D9",
+                "ownerDCid": "1929781620511647961",
+                "ownerName": "Chien Rafe",
+                "parentId": "root",
+                "sharingLevel": "Everyone (public)",
+                "sharingLevelValue": 0,
+                "size": "0",
+                "urls": {
+                    "viewInBrowser": "https:\\/\\/skydrive.live.com\\/redir.aspx?cid=1ac7f628d0aca8d9&page=view&resid=1AC7F628D0ACA8D9!326&parid=1AC7F628D0ACA8D9!314"
+                },
+                "userRole": 2
+            }, {
+                "commands": "defc,1,pm,1",
+                "commentCount": 0,
+                "creationDate": 633644886720230000,
+                "creatorCid": "1AC7F628D0ACA8D9",
+                "creatorName": "Chien Rafe",
+                "displayCreationDate": "12\\/10\\/2008",
+                "displayModifiedDate": "12\\/10\\/2008",
+                "displaySize": "0 KB",
+                "folder": {
+                    "category": 0,
+                    "totalCount": 0
+                },
+                "group": 0,
+                "iconType": "EmptyDocumentFolder",
+                "id": "1AC7F628D0ACA8D9!315",
+                "isSpecialFolder": 1,
+                "lastModifierCid": "1AC7F628D0ACA8D9",
+                "lastModifierName": "Chien Rafe",
+                "modifiedDate": 633644886720700000,
+                "name": "Public",
+                "ownerCid": "1AC7F628D0ACA8D9",
+                "ownerDCid": "1929781620511647961",
+                "ownerName": "Chien Rafe",
+                "parentId": "root",
+                "sharingLevel": "Everyone (public)",
+                "sharingLevelValue": 0,
+                "size": "0",
+                "urls": {
+                    "viewInBrowser": "https:\\/\\/skydrive.live.com\\/redir.aspx?cid=1ac7f628d0aca8d9&page=view&resid=1AC7F628D0ACA8D9!315&parid=1AC7F628D0ACA8D9!314"
+                },
+                "userRole": 2
+            }],
+            "documentCount": 0,
+            "folderCount": 2,
+            "hasSubfolders": 1,
+            "photoCount": 0,
+            "startIndex": 0,
+            "totalCount": 2
+        },
+        "group": 0,
+        "id": "root",
+        "modifiedDate": 633671089328200000,
+        "ownerCid": "1AC7F628D0ACA8D9",
+        "ownerDCid": "1929781620511647961",
+        "ownerName": "Chien Rafe",
+        "sharingLevel": "Just me",
+        "sharingLevelValue": 4,
+        "size": "0",
+        "urls": {
+            "viewInBrowser": "https:\\/\\/skydrive.live.com?cid=1ac7f628d0aca8d9"
+        }
+    }]
+}

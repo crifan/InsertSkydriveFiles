@@ -1,0 +1,672 @@
+
+
+https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=11&ct=1327974680&rver=6.1.6206.0&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fskydrive.live.com%2F&lc=2052&id=250206&mkt=zh-CN&cbcxt=sky
+
+https://login.live.com/login.srf
+?
+wa=wsignin1.0
+&rpsnv=11
+&ct=1327974680
+&rver=6.1.6206.0
+&wp=MBI_SSL_SHARED
+&wreply=https:%2F%2Fskydrive.live.com%2F
+&lc=2052
+&id=250206
+&mkt=zh-CN
+&cbcxt=sky
+
+
+------------------------------------------------------------------------------------
+
+https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=11&ct=1327974680&rver=6.1.6206.0&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fskydrive.live.com%2F&lc=2052&id=250206&mkt=zh-CN&cbcxt=sky&bk=1327974681
+
+
+--------------request header:
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Charset:GBK,utf-8;q=0.7,*;q=0.3
+Accept-Encoding:gzip,deflate,sdch
+Accept-Language:zh-CN,zh;q=0.8
+Cache-Control:max-age=0
+Connection:keep-alive
+Content-Length:488
+Content-Type:application/x-www-form-urlencoded
+Cookie:MSPShared=1; MH=MSFT; NAP=V=1.9&E=be2&C=0NNne1w3vSZnM6AfSQvFb_Z9HSmfqJe8IYeDBoxrHorRSQnb0aCAjw&W=1; ANON=A=DE389D4D076BF47BCAE4DC05FFFFFFFF&E=c3c&W=1; wlv=A|eyJV-d:s*tLutBw.2+1+0+3; SLVersion=4.0.50401; SLSupportedAgent=true; wls=A|eyJV-t:a*nS; MSPBack=1327971892; MUID=30E82AB4519A63E5396C286A559A637F; SAToken=MCHZVGKICFBJIARCRSONLHINWPBHFBTLKXLMCCUBMGLJ; pres=9a8b8bf501a38a36=1; E=P:P6enfcutzog=:IUCSG1d6mrKWmV/MDHDIkW069iBIqMxz0SNgjWCeoMA=:F; wlxS=WebIM=1&wpc=1; HIC=9a8b8bf501a38a36|6|107|; LN=x6fbr1327972107204%26d97e%2611; BP=FR=SDX.Skydrive%2AFiles.default.F.A&ST=1327972107206&l=SDX.Skydrive&p=0; IgnoreCAW=1; MSPSoftVis=@:@; xid=2c884ba7-6538-4bfc-ae71-f94488590142&&BAYxxxxxxC623&63; xidseq=9; wla42=cHJveHktYmF5LnB2dC1jb250YWN0cy5tc24uY29tfGJ5MioxLDlBOEI4QkY1MDFBMzhBMzYsMSwwLDA=; wl_preperf=req=131&com=131&cache=129; MSPRequ=lt=1327974878&co=1&id=N; MSPOK=$uuid-503a47e1-1008-4b31-aca6-86ca01d418ca$uuid-efa016cf-29fb-42c7-af5f-1d628d02417f$uuid-e1f4fe25-d6ac-4275-9e51-7d7867f4dfb5$uuid-29a24a74-e194-4c64-bd2b-123b76b9b7b4$uuid-43a5da55-ea95-40ee-baaf-a59301f010b4; CkTst=G1327974878469; wlidperf=throughput=4&latency=805&FR=L&ST=1327975298799
+Host:login.live.com
+Origin:https://login.live.com
+Referer:https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=11&ct=1327974680&rver=6.1.6206.0&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fskydrive.live.com%2F&lc=2052&id=250206&mkt=zh-CN&cbcxt=sky
+User-Agent:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.7 (KHTML, like Gecko) Chrome/16.0.912.77 Safari/535.7
+
+--------------query string paras:
+wa:wsignin1.0
+rpsnv:11
+ct:1327974680
+rver:6.1.6206.0
+wp:MBI_SSL_SHARED
+wreply:https://skydrive.live.com/
+lc:2052
+id:250206
+mkt:zh-CN
+cbcxt:sky
+bk:1327974681
+
+--------------form data:
+login:crifan2003@hotmail.com
+passwd:MyTruePassword
+SI:登录
+type:11
+LoginOptions:3
+NewUser:1
+MEST:
+PPSX:Passp
+PPFT:CqAfP!GnoRX8ALLmW80K0CQCqXBf2cMRg*etLkexUd6zxjWLov4DdyKA4lLobzNiS9bQ4klYEQfBBc987!mxYRajGNhBMG*dmY2tlZfHepxPa9K2dmOkZ1fDteo8HezP7se4!p5Ngu47eSqxYaeh7dxkpnFDNTmDHO*osw2Y5dJ1Wt*0iUigCTiBMR0s!ZdTXkPIIxkUwSd8qItI7XVlyjP0ot5LY2kx108PScO!xZ7VyM4ZiinNEKA7c1bsbGyGQQ$$
+idsbho:1
+PwdPad:
+sso:
+i1:
+i2:1
+i3:617226
+i4:
+i12:1
+i13:
+i14:104
+i15:907
+i16:1140
+i17:
+
+
+
+--->>>
+https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=11&ct=1327974680&rver=6.1.6206.0&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fskydrive.live.com%2F&lc=2052&id=250206&mkt=zh-CN&cbcxt=sky&bk=1327974681
+
+https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=11&ct=1327974680&rver=6.1.6206.0&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fskydrive.live.com%2F&lc=2052&id=250206&mkt=zh-CN&cbcxt=sky
+
+wa=wsignin1.0&rpsnv=11&ct=1327974680&rver=6.1.6206.0&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fskydrive.live.com%2F&lc=2052&id=250206&mkt=zh-CN&cbcxt=sky&bk=1327974681
+wa=wsignin1.0&rpsnv=11&ct=1327974680&rver=6.1.6206.0&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fskydrive.live.com%2F&lc=2052&id=250206&mkt=zh-CN&cbcxt=sky
+
+--->>> generated quary string:
+https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=11&ct=1327974680&rver=6.1.6206.0&wp=MBI_SSL_SHARED&wreply=https%3a%2f%2fskydrive.live.com%2f&lc=2052&id=250206&mkt=zh-CN&cbcxt=sky&bk=1327974681
+
+https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=11&ct=1327974680&rver=6.1.6206.0&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fskydrive.live.com%2F&lc=2052&id=250206&mkt=zh-CN&cbcxt=sky&bk=1327974681
+
+--->> UrlEncoded post data:
+"login=crifan2003%40hotmail.com&passwd=input+your+password&SI=%e7%99%bb%e5%bd%95&type=11&LoginOptions=3&NewUser=1&MEST=&PPSX=&PPFT=&idsbho=1&PwdPad=&sso=&i1=&i2=1&i3=617226&i4=&i12=1&i13=&i14=104&i15=907&i16=1140&i17="
+
+
+---> extracted real url:
+from:
+<meta http-equiv="refresh" content="2;url=https://login.live.com/login.srf?wa=wsignin1.0&amp;rpsnv=11&amp;ct=1327988927&amp;rver=6.1.6206.0&amp;wp=MBI_SSL_SHARED&amp;wreply=https:%2F%2Fskydrive.live.com%2F&amp;lc=1033&amp;id=250206&amp;mkt=en-US&amp;cbcxt=sky" />
+to:
+https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=11&ct=1327991316&rver=6.1.6206.0&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fskydrive.live.com%2F&lc=1033&id=250206&mkt=en-US&cbcxt=sky
+
+https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=11&ct=1327974680&rver=6.1.6206.0&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fskydrive.live.com%2F&lc=2052&id=250206&mkt=zh-CN&cbcxt=sky
+
+--->>> about PPSX:
+---in WLWorkflow.js:
+ function _d5(a)
+ {
+     a.setPostParam("PPSX", g_sRBlob);
+...
+ }
+
+  g_sRBlob = "undefined" != typeof srf_sRBlob ? srf_sRBlob : "",
+ 
+---in html:
+ var srf_sRBlob='Passpor';
+
+--->>> about PPFT:
+var srf_sFT='<input type="hidden" name="PPFT" id="i0327" value="ChhEDnixrcRgJQaCChErOs!j0qUCakWZbMYP6u8Ed98olpjEBXu*4ZaRd4XLNLofiY2tp7Z3tk*61SKPEiQu0Ubi!ePjD5MbDoteo5pBd5mDfpSfSlinqhz0IZLxZjW*vtMyT7VJbalhWRe7RX3ZGz5Jp*0qW!m7GbFybZWZsCJzueNSNkRz1qq82XsJvX8hfuP6jkr*2ZJE3hB8MQogL1FnGpnrAvQDas18jz3rJSuRoLj3qZ7PDlP8GO4ygt0CqQ$$">';
+
+--->>> IE9 captured login req url:
+https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=11&ct=1328023694&rver=6.1.6206.0&wp=MBI_SSL&wreply=https%3a%2f%2fauth.sn2.livefilestore.com%2fstorageservice%2fpassport%2flogin.aspx%3fcid%3d-7310595685695124938%26cru%3dhttps%253a%252f%252fskydrive.live.com%252fCookieToss%253fv%253d3&lc=2052&id=250915
+
+https://login.live.com/login.srf
+?
+wa=wsignin1.0
+&rpsnv=11
+&ct=1328023694
+&rver=6.1.6206.0
+&wp=MBI_SSL
+&wreply=https%3a%2f%2fauth.sn2.livefilestore.com%2fstorageservice%2fpassport%2flogin.aspx%3fcid%3d-7310595685695124938%26cru%3dhttps%253a%252f%252fskydrive.live.com%252fCookieToss%253fv%253d3
+(IE9 can see req url:
+https://auth.sn2.livefilestore.com/storageservice/passport/login.aspx?cid=-7310595685695124938&cru=https%3a%2f%2fskydrive.live.com%2fCookieToss%3fv%3d3&wa=wsignin1.0
+->
+https://auth.sn2.livefilestore.com/storageservice/passport/login.aspx?cid=-7310595685695124938&cru=https%3a%2f%2fskydrive.live.com%2fCookieToss%3fv%3d3
+&wa=wsignin1.0
+)
+&lc=2052
+&id=250915
+
+
+https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=11&ct=1327974680&rver=6.1.6206.0&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fskydrive.live.com%2F&lc=2052&id=250206&mkt=zh-CN&cbcxt=sky
+
+https://login.live.com/login.srf
+?
+wa=wsignin1.0
+&rpsnv=11
+&ct=1327974680
+&rver=6.1.6206.0
+&wp=MBI_SSL_SHARED
+&wreply=https:%2F%2Fskydrive.live.com%2F&lc=2052&id=250206
+&mkt=zh-CN
+&cbcxt=sky
+
+
+--->>> IE9 login:
+https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=11&ct=1328027232&rver=6.1.6206.0&wp=MBI_SSL&wreply=https%3a%2f%2fauth.sn2.livefilestore.com%2fstorageservice%2fpassport%2flogin.aspx%3fcid%3d-7310595685695124938%26cru%3dhttps%253a%252f%252fskydrive.live.com%252fCookieToss%253fv%253d3&lc=2052&id=250915
+and its return html src actually is:
+<html>
+<head>
+<noscript>登录需要启用 JavaScript
+<meta http-equiv="Refresh" content="0; URL=https://login.live.com/jsDisabled.srf?mkt=ZH-CN&lc=2052"/></noscript>
+<title>继续</title>
+<script type="text/javascript">function OnBack(){}function DoSubmit(){var subt=false;if(!subt){subt=true;document.fmHF.submit();}}</script>
+</head>
+<body onload="javascript:DoSubmit();">
+<form name="fmHF" id="fmHF" action="https://auth.sn2.livefilestore.com/storageservice/passport/login.aspx?cid=-7310595685695124938&cru=https%3a%2f%2fskydrive.live.com%2fCookieToss%3fv%3d3&wa=wsignin1.0" method="post" target="_self">
+<input type="hidden" name="NAP" id="NAP" value="V%3D1.9%26E%3Dbe2%26C%3DhKLKZcV1nfuYDwPjpeOcLAmBNgev38DOqKwfhlyCjXSHvXlnOss1TQ%26W%3D1">
+<input type="hidden" name="ANON" id="ANON" value="A%3DDE389D4D076BF47BCAE4DC05FFFFFFFF%26E%3Dc3c%26W%3D1">
+<input type="hidden" name="t" id="t" value="EgBnAQMAAAAEgAAACoAAfvSHiFIFMwJDVsP0jRUFqVWO/SM9JU8IRbsk5J7Sice+i+RLkrck9HwwW7MM5dOU2u7Kv0ZtSqx6bY6BMpQdUKb//8pyDZOQPciUAzwSoomju7B27SuSOPlBqlyfTdbYV/Z8n1vq41yKRtZfNwThJT3l7sM7JQfYF72htdhclGHWAFwA1gD9vwYA7Vazl4sIKE+LCChPI9QDAAoQIAAAFwBjcmlmYW4yMDAzQGhvdG1haWwuY29tAE8AABZjcmlmYW4yMDAzQGhvdG1haWwuY29tAAAACUNOAAYyMTM1OTIAAAZlCAQCAAB3F21AAARDAAR0aWFuAAR3YW5nBMgAAUkAAAAAAAAAAAAAAaOKNpqLi/UAAI4IKE+MfTpPAAAAAAAAAAAAAAAADgAxMjEuMjI3LjQ0LjIxAAUAAAAA/b8YAGjzGp8BBAABAAABAAABAAAAAAAAAAA=">
+</form>
+</body>
+</html>
+
+so, this is goto refresh to:
+https://auth.sn2.livefilestore.com/storageservice/passport/login.aspx?cid=-7310595685695124938&cru=https%3a%2f%2fskydrive.live.com%2fCookieToss%3fv%3d3&wa=wsignin1.0
+
+then later re-issue req to https://skydrive.live.com/, then the return content contains primedResponse.
+
+---->>>
+
+post data:
+IE9:
+NAP=V%253D1.9%2526E%253Dbe2%2526C%253DEMIJOpxKUxErQB3x5txVZ2NAaOZrfvPbnnriT-zUztdlc6NetxtyoQ%2526W%253D1&ANON=A%253DDE389D4D076BF47BCAE4DC05FFFFFFFF%2526E%253Dc3c%2526W%253D1&t=EgBnAQMAAAAEgAAACoAALL9uGlxIUKBS0C8%2B34W1vI63OEiE1V15gutJUJdQVnoytyW8AQiXqhMfqq36WpbOWEBl%2FFn7cQ9xUxIstFZsWh5pBrWwYBUgcxbYyJtfOZ2PtdTaFBQCSQxQ1K%2BtaYE9kuvfJfT0UZI6SfwtzcJHGuTtjqLLvBzQ0UjKCbG2FJPWAFwA1gD9vwYA7Vazl10WKE9dFihPI9QDAAoQIAAAFwBjcmlmYW4yMDAzQGhvdG1haWwuY29tAE8AABZjcmlmYW4yMDAzQGhvdG1haWwuY29tAAAACUNOAAYyMTM1OTIAAAZlCAQCAAB3F21AAARDAAR0aWFuAAR3YW5nBMgAAUkAAAAAAAAAAAAAAaOKNpqLi%2FUAAGAWKE9eizpPAAAAAAAAAAAAAAAADgAxMjEuMjI3LjQ0LjIxAAUAAAAA%2Fb8YAGjzGp8BBAABAAABAAABAAAAAAAAAAA%3D
+
+Chrome:
+NAP:V%3D1.9%26E%3Dbe2%26C%3DiGB2yEI-WaOIT_z5VJgwu3xtvXG0LKA2TyCF-iuhLqbKaPt7h8GNSQ%26W%3D1
+ANON:A%3DDE389D4D076BF47BCAE4DC05FFFFFFFF%26E%3Dc3c%26W%3D1
+t:EgBnAQMAAAAEgAAACoAAGQ8WVLC9RM47Su8ehPfi1v sKF7eV147gQHDl1O ZUOtu1Iw1rxFY7PnEgilpfS1YQ9IUVLeCz1GXa9Mf9FJgpZ5r9ShAa AXlbDpnMn f7TZejVHsB5IAKN/xtTWlvGGiTLXK/GoyvYdFYyAC9ax/6tcCBAAHzVZhdXmkxuuqTWAFwA1gD9vwYA7VazlwwTKE8MEyhPI9QDAAoQIAAAFwBjcmlmYW4yMDAzQGhvdG1haWwuY29tAE8AABZjcmlmYW4yMDAzQGhvdG1haWwuY29tAAAACUNOAAYyMTM1OTIAAAZlCAQCAAB3F21AAARDAAR0aWFuAAR3YW5nBMgAAUkAAAAAAAAAAAAAAaOKNpqLi/UAAA4TKE8OiDpPAAAAAAAAAAAAAAAADgAxMjEuMjI3LjQ0LjIxAAUAAAAAAAAAAAAAAAABBAABAAABAAABAAAAAAAAAAA=
+
+the "NAP", "ANON", "t", all get from the reponse of login :
+https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=11&ct=1328027232&rver=6.1.6206.0&wp=MBI_SSL&wreply=https%3a%2f%2fauth.sn2.livefilestore.com%2fstorageservice%2fpassport%2flogin.aspx%3fcid%3d-7310595685695124938%26cru%3dhttps%253a%252f%252fskydrive.live.com%252fCookieToss%253fv%253d3&lc=2052&id=250915
+
+and its no reponse data,
+but later access https://skydrive.live.com/, can OK to get reponse content.
+
+
+--->>> copy all headers to analysis:
+
+in Chrome:
+---copy all request headers for:
+https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=11&ct=1328061535&rver=6.1.6206.0&wp=MBI_SSL&wreply=https%3a%2f%2fauth.sn2.livefilestore.com%2fstorageservice%2fpassport%2flogin.aspx%3fcid%3d-7310595685695124938%26cru%3dhttps%253a%252f%252fskydrive.live.com%252fCookieToss%253fv%253d3&lc=2052&id=250915
+got:
+
+GET /login.srf?wa=wsignin1.0&rpsnv=11&ct=1328061535&rver=6.1.6206.0&wp=MBI_SSL&wreply=https%3a%2f%2fauth.sn2.livefilestore.com%2fstorageservice%2fpassport%2flogin.aspx%3fcid%3d-7310595685695124938%26cru%3dhttps%253a%252f%252fskydrive.live.com%252fCookieToss%253fv%253d3&lc=2052&id=250915 HTTP/1.1
+
+Host: login.live.com
+
+Connection: keep-alive
+
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.7 (KHTML, like Gecko) Chrome/16.0.912.77 Safari/535.7
+
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+Referer: https://skydrive.live.com/
+
+Accept-Encoding: gzip,deflate,sdch
+
+Accept-Language: zh-CN,zh;q=0.8
+
+Accept-Charset: GBK,utf-8;q=0.7,*;q=0.3
+
+Cookie: MUID=30E82AB4519A63E5396C286A559A637F; wlp=A|eyJV-t:a*hZXMBQ._; HIC=9a8b8bf501a38a36|7|107|; MSPRequ=lt=1328060338&co=1&id=250206; CkTst=G1328060338464; wlidperf=throughput=2&latency=1555&FR=L&ST=1328061515386; MSPOK=$uuid-4cd74f06-686d-4699-963d-0caebe0ba7f7; PPAuth=CnzwrsiPgNxv6KgE*5xRNP5K6Nn6YFH5QFVH5EUgrwZIqMjtTuTDVrkxUzuzW4WCzOhoo!AIIvqMunYN0ji9GBoFUYEGmju8OabS0HJ7AxGh6fVp9a0jMNB5su3*qw!y8DnpquCZ9EVLkUlmNe8bjXFwDR7Z7fJ2yMUiZg7sG0NIxqnMLCi4GokMy5irJXkt9zTlppbv1eoadvv86mUKF*qtr6YMU0aBdjBWmYqlcXDgJpcJicWhjvAwomSTTPze45dwGjcamgcAdQwlFJghnPXW2pUv1NYMzuLv*lxNr3BU; PPLState=1; MSPShared=1; RPSTAuth=EwDoARAnAAAUWkziSC7RbDJKS1VkhugDegv7L0eAAOtowm/xETMlWUz+FYUNtdFo8CiUugT8xSX0bjNxRNzoG6uA/wIz6cwlzug2Vxh59aziBAyzRs/3sbNaHkjFm8p/w6/7zz3KZMrf4m7rmNpr6AY4z0wnCpqUxsq/G4IIElfwqp2/X4XE3ulLbmxrKcX1HbLiZTy2Y3AL/Ww/YYsyA2YAAAj5TrSnzz2qgjgBvEtlGTorDINfRot3abh9G9XQ9NCqtnme/HPHSV9DEDId0ivforqPEPW6sABQVeUkDH6hbVpd5XdxcDtUmptuC0c2nRaNJi6KNpq0jKUV83TS1zc389+9cx0zImEBFK0OOL8YrZU8wo6qc6XfH1+J0xuQ6vjOF0zRfnRh1d3UeDChpUjgIt2ngn5Mpi5osNTE3qTEAOzL3Eqi5d2tilw+wOy652WQKsWRz7LYP1CKhjjWAgQZQGOEE747OK5fdJrPtRnUTDpqwp/nhkOlCn0Bf8M5Tk3sme6vGMW4OmxZmKbdMFkYSoF3elVRrq87AVv+1voLaTqEinm0zvZTtNauUc0jMJ4kJg/nmlWGYIa2GuY4FnlD4fpjnKe5bAE62p46ozYDwXGLsAEhEFuT5d1P0Eb4cmRBwhaoZwE=; RPSTAuthTime=1328061534; MSPAuth=2fBFBDmmeD9VA2*hJ8zinXRERzZRk2xVd9ETHs4jtrXNf1*HDKyE3Kuz4TL4yWxA5iYs9jVg5jjm9tMu8pD!rLx5wQ2Dj3rmEXfbEjz0W0DohWoaAT2Bf4CJNSlwnS5mVW; MSPProf=28qJlsY5mD2tzarU3zpRiM7IuZHZLk4*fl2saKc5ZdX5N!VE3EofTrB4KZ2jeSccI*92YcDUqErWj3edbFGbkn31Z5KUZ99ePP5*6p!8cTgzaU7uHrXrFXgxQUvIlmUkIb6PJZVsB7*48VAzNz4zivTiwti26bEHqzyAUi*EvZnfqSjMj1SkkODVy01FiCVA4P; MSNPPAuth=CoiIZMbUfjJ46cu4!X0NC87Dg0HW706yY5eUaFbwI4zpVzzemX5r1*GeA!dDCTIC58j7*03tPqN3D0J9EXIPIThWeySHb2jrQaZ9luAAFKFBIk!Ngptcdi78zey7S2tXueNVqfIK2Eml9xtBQEnkv8g6L8t4Fyjvko8vw5!afvVwgWl8e0Wv1lqBX6sL5v5uAj7DPD1T8AHxlQMybPmFVTmE8qK36rFE4VYWhLZ7SODMcWF9B5e9E1Q7ijyE4FO*bjLerkhJ9cqQUYx3605n!nvU7y!VJrzAC795aJ1le1VBroK!adjFmP0wsNTd49Z*inP8Fg!b499TwTUeDux7HhHQYAFoWKNy18l*qHXeQMBtY5GEkOQe6FgxGMEXgB6TUrYVoWWY9qj8ov*QGp95zOk9DLsZ2UvU5JeE8CqMhK9*7AHo4uHnZ700pO4p642MB*2KFTDIn8o6nwqPYkskdMUt4UMKau3GLDznKd83MhZE25l9kLC*hLH4dReq4mSBYg$$; MH=MSFT; NAP=V=1.9&E=be3&C=Yco11IxgN7h3nRPo0_faqsc2xDSuMfV9p1-0KscbAmRH16q14Qb1DA&W=1; ANON=A=DE389D4D076BF47BCAE4DC05FFFFFFFF&E=c3d&W=1; MSPVis=$9; LOpt=0; WLSSC=EgBnAQMAAAAEgAAACoAAcR+9JWRIbCR9Qi/6flYh7cgJNDS3zHo1TDbISuzhKcHOQCqvplAyOcoDwfO/5O6YEsuDPDwIjlpfdhdOePCfAQDs6LNTZS5Ds1/mRr+hJbdpzF9JkQYz2psvkyYHEe3eAPOJUww9L5Cz4ClJzTIHIHKzVx3M5WWZIVSvEgp2jHDWAFwA1gD9vwYA7Vazl16cKE9enChPECcAAAoQoAAAFwBjcmlmYW4yMDAzQGhvdG1haWwuY29tAE8AABZjcmlmYW4yMDAzQGhvdG1haWwuY29tAAAACUNOAAYyMTM1OTIAAAZlCAQCAAB3F21AAARDAAR0aWFuAAR3YW5nBMgAAUkAAAAAAAAAAAAAAaOKNpqLi/UAAF6cKE9eETtPAAAAAAAAAAAAAAAADgA1OC4yNDAuMjM2LjE5AAUAAAAAAAAAAAAAAAABBAABAAABAAABAAAAAAAAAAA=; MSPSoftVis=@72198325083833620@:@; xid=a0de2010-f0e8-4f43-9931-f99c0268cecd&NK4bB&SN2xxxxxxC634&65; xidseq=3; E=P:cyaQMJyuzog=:JmIVNo+rNpIcwamynRZe/2m7zL1wuCEdSRfQ42Z36wY=:F; wla42=Ymx1MXxwcm94eS1iYXkucHZ0LWNvbnRhY3RzLm1zbi5jb218YnkyKjEsRkFCREREQzVDQUQ5MzQ5NCwwLCwwfDEsOUE4QjhCRjUwMUEzOEEzNiwyLDEsMA==; wls=A|eyJV-t:a*n; wlv=A|eyJV-d:s*3xmvBw.2+1+0+3; SAToken=; wl_preperf=req=131&com=46&cache=44
+
+
+
+
+---copy all request headers for:
+https://skydrive.live.com/
+got:
+
+GET / HTTP/1.1
+
+Host: skydrive.live.com
+
+Connection: keep-alive
+
+Cache-Control: max-age=0
+
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.7 (KHTML, like Gecko) Chrome/16.0.912.77 Safari/535.7
+
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+Referer: https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=11&ct=1328060337&rver=6.1.6206.0&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fskydrive.live.com%2F&lc=2052&id=250206&mkt=zh-CN&cbcxt=sky&bk=1328060338
+
+Accept-Encoding: gzip,deflate,sdch
+
+Accept-Language: zh-CN,zh;q=0.8
+
+Accept-Charset: GBK,utf-8;q=0.7,*;q=0.3
+
+Cookie: MUID=30E82AB4519A63E5396C286A559A637F; wlp=A|eyJV-t:a*hZXMBQ._; HIC=9a8b8bf501a38a36|7|107|; xid=a0de2010-f0e8-4f43-9931-f99c0268cecd&&BL2xxxxxxC618&65; xidseq=2; wla42=cHJveHktYmF5LnB2dC1jb250YWN0cy5tc24uY29tfGJ5MnxibHUxKjEsOUE4QjhCRjUwMUEzOEEzNiwxLDAsMHwxLEZBQkREREM1Q0FEOTM0OTQsMiwsMA==; wlidperf=throughput=2&latency=1555&FR=L&ST=1328061515386; wl_preperf=req=131&com=131&cache=108; PPLState=1; RPSTAuth=EwDoARAnAAAUWkziSC7RbDJKS1VkhugDegv7L0eAAOtowm/xETMlWUz+FYUNtdFo8CiUugT8xSX0bjNxRNzoG6uA/wIz6cwlzug2Vxh59aziBAyzRs/3sbNaHkjFm8p/w6/7zz3KZMrf4m7rmNpr6AY4z0wnCpqUxsq/G4IIElfwqp2/X4XE3ulLbmxrKcX1HbLiZTy2Y3AL/Ww/YYsyA2YAAAj5TrSnzz2qgjgBvEtlGTorDINfRot3abh9G9XQ9NCqtnme/HPHSV9DEDId0ivforqPEPW6sABQVeUkDH6hbVpd5XdxcDtUmptuC0c2nRaNJi6KNpq0jKUV83TS1zc389+9cx0zImEBFK0OOL8YrZU8wo6qc6XfH1+J0xuQ6vjOF0zRfnRh1d3UeDChpUjgIt2ngn5Mpi5osNTE3qTEAOzL3Eqi5d2tilw+wOy652WQKsWRz7LYP1CKhjjWAgQZQGOEE747OK5fdJrPtRnUTDpqwp/nhkOlCn0Bf8M5Tk3sme6vGMW4OmxZmKbdMFkYSoF3elVRrq87AVv+1voLaTqEinm0zvZTtNauUc0jMJ4kJg/nmlWGYIa2GuY4FnlD4fpjnKe5bAE62p46ozYDwXGLsAEhEFuT5d1P0Eb4cmRBwhaoZwE=; MSPAuth=2fBFBDmmeD9VA2*hJ8zinXRERzZRk2xVd9ETHs4jtrXNf1*HDKyE3Kuz4TL4yWxA5iYs9jVg5jjm9tMu8pD!rLx5wQ2Dj3rmEXfbEjz0W0DohWoaAT2Bf4CJNSlwnS5mVW; MSPProf=28qJlsY5mD2tzarU3zpRiM7IuZHZLk4*fl2saKc5ZdX5N!VE3EofTrB4KZ2jeSccI*92YcDUqErWj3edbFGbkn31Z5KUZ99ePP5*6p!8cTgzaU7uHrXrFXgxQUvIlmUkIb6PJZVsB7*48VAzNz4zivTiwti26bEHqzyAUi*EvZnfqSjMj1SkkODVy01FiCVA4P; MSNPPAuth=CoiIZMbUfjJ46cu4!X0NC87Dg0HW706yY5eUaFbwI4zpVzzemX5r1*GeA!dDCTIC58j7*03tPqN3D0J9EXIPIThWeySHb2jrQaZ9luAAFKFBIk!Ngptcdi78zey7S2tXueNVqfIK2Eml9xtBQEnkv8g6L8t4Fyjvko8vw5!afvVwgWl8e0Wv1lqBX6sL5v5uAj7DPD1T8AHxlQMybPmFVTmE8qK36rFE4VYWhLZ7SODMcWF9B5e9E1Q7ijyE4FO*bjLerkhJ9cqQUYx3605n!nvU7y!VJrzAC795aJ1le1VBroK!adjFmP0wsNTd49Z*inP8Fg!b499TwTUeDux7HhHQYAFoWKNy18l*qHXeQMBtY5GEkOQe6FgxGMEXgB6TUrYVoWWY9qj8ov*QGp95zOk9DLsZ2UvU5JeE8CqMhK9*7AHo4uHnZ700pO4p642MB*2KFTDIn8o6nwqPYkskdMUt4UMKau3GLDznKd83MhZE25l9kLC*hLH4dReq4mSBYg$$; MH=MSFT; NAP=V=1.9&E=be3&C=Yco11IxgN7h3nRPo0_faqsc2xDSuMfV9p1-0KscbAmRH16q14Qb1DA&W=1; ANON=A=DE389D4D076BF47BCAE4DC05FFFFFFFF&E=c3d&W=1; WLSSC=EgBnAQMAAAAEgAAACoAAcR+9JWRIbCR9Qi/6flYh7cgJNDS3zHo1TDbISuzhKcHOQCqvplAyOcoDwfO/5O6YEsuDPDwIjlpfdhdOePCfAQDs6LNTZS5Ds1/mRr+hJbdpzF9JkQYz2psvkyYHEe3eAPOJUww9L5Cz4ClJzTIHIHKzVx3M5WWZIVSvEgp2jHDWAFwA1gD9vwYA7Vazl16cKE9enChPECcAAAoQoAAAFwBjcmlmYW4yMDAzQGhvdG1haWwuY29tAE8AABZjcmlmYW4yMDAzQGhvdG1haWwuY29tAAAACUNOAAYyMTM1OTIAAAZlCAQCAAB3F21AAARDAAR0aWFuAAR3YW5nBMgAAUkAAAAAAAAAAAAAAaOKNpqLi/UAAF6cKE9eETtPAAAAAAAAAAAAAAAADgA1OC4yNDAuMjM2LjE5AAUAAAAAAAAAAAAAAAABBAABAAABAAABAAAAAAAAAAA=
+
+
+
+
+
+
+---copy all request headers for:
+https://skydrive.live.com/CookieToss?v=3
+got:
+
+GET /CookieToss?v=3 HTTP/1.1
+
+Host: skydrive.live.com
+
+Connection: keep-alive
+
+Cache-Control: max-age=0
+
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.7 (KHTML, like Gecko) Chrome/16.0.912.77 Safari/535.7
+
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+Referer: https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=11&ct=1328061535&rver=6.1.6206.0&wp=MBI_SSL&wreply=https%3a%2f%2fauth.sn2.livefilestore.com%2fstorageservice%2fpassport%2flogin.aspx%3fcid%3d-7310595685695124938%26cru%3dhttps%253a%252f%252fskydrive.live.com%252fCookieToss%253fv%253d3&lc=2052&id=250915
+
+Accept-Encoding: gzip,deflate,sdch
+
+Accept-Language: zh-CN,zh;q=0.8
+
+Accept-Charset: GBK,utf-8;q=0.7,*;q=0.3
+
+Cookie: MUID=30E82AB4519A63E5396C286A559A637F; wlp=A|eyJV-t:a*hZXMBQ._; HIC=9a8b8bf501a38a36|7|107|; PPLState=1; RPSTAuth=EwDoARAnAAAUWkziSC7RbDJKS1VkhugDegv7L0eAAOtowm/xETMlWUz+FYUNtdFo8CiUugT8xSX0bjNxRNzoG6uA/wIz6cwlzug2Vxh59aziBAyzRs/3sbNaHkjFm8p/w6/7zz3KZMrf4m7rmNpr6AY4z0wnCpqUxsq/G4IIElfwqp2/X4XE3ulLbmxrKcX1HbLiZTy2Y3AL/Ww/YYsyA2YAAAj5TrSnzz2qgjgBvEtlGTorDINfRot3abh9G9XQ9NCqtnme/HPHSV9DEDId0ivforqPEPW6sABQVeUkDH6hbVpd5XdxcDtUmptuC0c2nRaNJi6KNpq0jKUV83TS1zc389+9cx0zImEBFK0OOL8YrZU8wo6qc6XfH1+J0xuQ6vjOF0zRfnRh1d3UeDChpUjgIt2ngn5Mpi5osNTE3qTEAOzL3Eqi5d2tilw+wOy652WQKsWRz7LYP1CKhjjWAgQZQGOEE747OK5fdJrPtRnUTDpqwp/nhkOlCn0Bf8M5Tk3sme6vGMW4OmxZmKbdMFkYSoF3elVRrq87AVv+1voLaTqEinm0zvZTtNauUc0jMJ4kJg/nmlWGYIa2GuY4FnlD4fpjnKe5bAE62p46ozYDwXGLsAEhEFuT5d1P0Eb4cmRBwhaoZwE=; MSPAuth=2fBFBDmmeD9VA2*hJ8zinXRERzZRk2xVd9ETHs4jtrXNf1*HDKyE3Kuz4TL4yWxA5iYs9jVg5jjm9tMu8pD!rLx5wQ2Dj3rmEXfbEjz0W0DohWoaAT2Bf4CJNSlwnS5mVW; MSPProf=28qJlsY5mD2tzarU3zpRiM7IuZHZLk4*fl2saKc5ZdX5N!VE3EofTrB4KZ2jeSccI*92YcDUqErWj3edbFGbkn31Z5KUZ99ePP5*6p!8cTgzaU7uHrXrFXgxQUvIlmUkIb6PJZVsB7*48VAzNz4zivTiwti26bEHqzyAUi*EvZnfqSjMj1SkkODVy01FiCVA4P; MSNPPAuth=CoiIZMbUfjJ46cu4!X0NC87Dg0HW706yY5eUaFbwI4zpVzzemX5r1*GeA!dDCTIC58j7*03tPqN3D0J9EXIPIThWeySHb2jrQaZ9luAAFKFBIk!Ngptcdi78zey7S2tXueNVqfIK2Eml9xtBQEnkv8g6L8t4Fyjvko8vw5!afvVwgWl8e0Wv1lqBX6sL5v5uAj7DPD1T8AHxlQMybPmFVTmE8qK36rFE4VYWhLZ7SODMcWF9B5e9E1Q7ijyE4FO*bjLerkhJ9cqQUYx3605n!nvU7y!VJrzAC795aJ1le1VBroK!adjFmP0wsNTd49Z*inP8Fg!b499TwTUeDux7HhHQYAFoWKNy18l*qHXeQMBtY5GEkOQe6FgxGMEXgB6TUrYVoWWY9qj8ov*QGp95zOk9DLsZ2UvU5JeE8CqMhK9*7AHo4uHnZ700pO4p642MB*2KFTDIn8o6nwqPYkskdMUt4UMKau3GLDznKd83MhZE25l9kLC*hLH4dReq4mSBYg$$; MH=MSFT; NAP=V=1.9&E=be3&C=Yco11IxgN7h3nRPo0_faqsc2xDSuMfV9p1-0KscbAmRH16q14Qb1DA&W=1; ANON=A=DE389D4D076BF47BCAE4DC05FFFFFFFF&E=c3d&W=1; WLSSC=EgBnAQMAAAAEgAAACoAAcR+9JWRIbCR9Qi/6flYh7cgJNDS3zHo1TDbISuzhKcHOQCqvplAyOcoDwfO/5O6YEsuDPDwIjlpfdhdOePCfAQDs6LNTZS5Ds1/mRr+hJbdpzF9JkQYz2psvkyYHEe3eAPOJUww9L5Cz4ClJzTIHIHKzVx3M5WWZIVSvEgp2jHDWAFwA1gD9vwYA7Vazl16cKE9enChPECcAAAoQoAAAFwBjcmlmYW4yMDAzQGhvdG1haWwuY29tAE8AABZjcmlmYW4yMDAzQGhvdG1haWwuY29tAAAACUNOAAYyMTM1OTIAAAZlCAQCAAB3F21AAARDAAR0aWFuAAR3YW5nBMgAAUkAAAAAAAAAAAAAAaOKNpqLi/UAAF6cKE9eETtPAAAAAAAAAAAAAAAADgA1OC4yNDAuMjM2LjE5AAUAAAAAAAAAAAAAAAABBAABAAABAAABAAAAAAAAAAA=; xid=a0de2010-f0e8-4f43-9931-f99c0268cecd&NK4bB&SN2xxxxxxC634&65; wlv=A|eyJV-d:s*3xmvBw.2+1+0+3; SAToken=; wl_preperf=req=131&com=46&cache=44; SLVersion=4.0.50401; SLSupportedAgent=true; wls=A|eyJV-t:a*nS; wlidperf=latency=1555&throughput=2; BP=FR=&ST=&l=SDX.Skydrive; E=P:0wt3MZyuzog=:jeV0xgMmHRt3vLhhZUDr6N/E4DibhIoPsQSPiYz34Wc=:F; xidseq=4; wla42=cHJveHktYmF5LnB2dC1jb250YWN0cy5tc24uY29tfGJ5MnxibHUxKjEsOUE4QjhCRjUwMUEzOEEzNiwxLDAsMHwxLEZBQkREREM1Q0FEOTM0OTQsMiwsMA==
+
+
+---copy all request headers for:
+https://auth.sn2.livefilestore.com/storageservice/passport/login.aspx?cid=-7310595685695124938&cru=https%3a%2f%2fskydrive.live.com%2fCookieToss%3fv%3d3&wa=wsignin1.0
+got:
+
+POST /storageservice/passport/login.aspx?cid=-7310595685695124938&cru=https%3a%2f%2fskydrive.live.com%2fCookieToss%3fv%3d3&wa=wsignin1.0 HTTP/1.1
+
+Host: auth.sn2.livefilestore.com
+
+Connection: keep-alive
+
+Content-Length: 665
+
+Cache-Control: max-age=0
+
+Origin: https://login.live.com
+
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.7 (KHTML, like Gecko) Chrome/16.0.912.77 Safari/535.7
+
+Content-Type: application/x-www-form-urlencoded
+
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+Referer: https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=11&ct=1328061535&rver=6.1.6206.0&wp=MBI_SSL&wreply=https%3a%2f%2fauth.sn2.livefilestore.com%2fstorageservice%2fpassport%2flogin.aspx%3fcid%3d-7310595685695124938%26cru%3dhttps%253a%252f%252fskydrive.live.com%252fCookieToss%253fv%253d3&lc=2052&id=250915
+
+Accept-Encoding: gzip,deflate,sdch
+
+Accept-Language: zh-CN,zh;q=0.8
+
+Accept-Charset: GBK,utf-8;q=0.7,*;q=0.3
+
+
+
+
+
+-- so whole process is:
+
+================================================================================
+[step function]
+use post.srf to set name and password to login, response authentification cookie
+
+from [Referer]:
+https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=11&ct=1328060337&rver=6.1.6206.0&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fskydrive.live.com%2F&lc=2052&id=250206&mkt=zh-CN&cbcxt=sky&bk=1328060338
+to [Request URL]:
+https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=11&ct=1328060337&rver=6.1.6206.0&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fskydrive.live.com%2F&lc=2052&id=250206&mkt=zh-CN&cbcxt=sky&bk=1328061516
+
+!!! this request should be :
+IE9:   Cache-Control	no-cache
+Chrome:Cache-Control:max-age=0
+
+
+[post data]:
+include name and password:
+login:crifan2003@hotmail.com
+passwd:XXX
+SI:登录
+
+[response body data]
+no
+
+[response headers]
+inclue cookies, contains authentification info:
+Set-Cookie:
+....
+PPAuth=CnzwrsiPgNxv6KgE*5xRNP5K6Nn6YFH5QFVH5EUgrwZIqMjtTuTDVrkxUzuzW4WCzOhoo!AIIvqMunYN0ji9GBoFUYEGmju8OabS0HJ7AxGh6fVp9a0jMNB5su3*qw!y8DnpquCZ9EVLkUlmNe8bjXFwDR7Z7fJ2yMUiZg7sG0NIxqnMLCi4GokMy5irJXkt9zTlppbv1eoadvv86mUKF*qtr6YMU0aBdjBWmYqlcXDgJpcJicWhjvAwomSTTPze45dwGjcamgcAdQwlFJghnPXW2pUv1NYMzuLv*lxNr3BU; domain=login.live.com;secure= ;path=/;HTTPOnly= ;version=1
+......
+RPSTAuth=EwDoARAnAAAUWkziSC7RbDJKS1VkhugDegv7L0eAAOtowm/xETMlWUz+FYUNtdFo8CiUugT8xSX0bjNxRNzoG6uA/wIz6cwlzug2Vxh59aziBAyzRs/3sbNaHkjFm8p/w6/7zz3KZMrf4m7rmNpr6AY4z0wnCpqUxsq/G4IIElfwqp2/X4XE3ulLbmxrKcX1HbLiZTy2Y3AL/Ww/YYsyA2YAAAj5TrSnzz2qgjgBvEtlGTorDINfRot3abh9G9XQ9NCqtnme/HPHSV9DEDId0ivforqPEPW6sABQVeUkDH6hbVpd5XdxcDtUmptuC0c2nRaNJi6KNpq0jKUV83TS1zc389+9cx0zImEBFK0OOL8YrZU8wo6qc6XfH1+J0xuQ6vjOF0zRfnRh1d3UeDChpUjgIt2ngn5Mpi5osNTE3qTEAOzL3Eqi5d2tilw+wOy652WQKsWRz7LYP1CKhjjWAgQZQGOEE747OK5fdJrPtRnUTDpqwp/nhkOlCn0Bf8M5Tk3sme6vGMW4OmxZmKbdMFkYSoF3elVRrq87AVv+1voLaTqEinm0zvZTtNauUc0jMJ4kJg/nmlWGYIa2GuY4FnlD4fpjnKe5bAE62p46ozYDwXGLsAEhEFuT5d1P0Eb4cmRBwhaoZwE=; domain=.live.com;path=/;HTTPOnly= ;version=1
+RPSTAuthTime=1328061534; domain=login.live.com;path=/;HTTPOnly= ;version=1
+MSPAuth=2fBFBDmmeD9VA2*hJ8zinXRERzZRk2xVd9ETHs4jtrXNf1*HDKyE3Kuz4TL4yWxA5iYs9jVg5jjm9tMu8pD!rLx5wQ2Dj3rmEXfbEjz0W0DohWoaAT2Bf4CJNSlwnS5mVW; domain=.live.com;path=/;HTTPOnly= ;version=1
+MSPProf=28qJlsY5mD2tzarU3zpRiM7IuZHZLk4*fl2saKc5ZdX5N!VE3EofTrB4KZ2jeSccI*92YcDUqErWj3edbFGbkn31Z5KUZ99ePP5*6p!8cTgzaU7uHrXrFXgxQUvIlmUkIb6PJZVsB7*48VAzNz4zivTiwti26bEHqzyAUi*EvZnfqSjMj1SkkODVy01FiCVA4P; domain=.live.com;path=/;HTTPOnly= ;version=1
+MSNPPAuth=CoiIZMbUfjJ46cu4!X0NC87Dg0HW706yY5eUaFbwI4zpVzzemX5r1*GeA!dDCTIC58j7*03tPqN3D0J9EXIPIThWeySHb2jrQaZ9luAAFKFBIk!Ngptcdi78zey7S2tXueNVqfIK2Eml9xtBQEnkv8g6L8t4Fyjvko8vw5!afvVwgWl8e0Wv1lqBX6sL5v5uAj7DPD1T8AHxlQMybPmFVTmE8qK36rFE4VYWhLZ7SODMcWF9B5e9E1Q7ijyE4FO*bjLerkhJ9cqQUYx3605n!nvU7y!VJrzAC795aJ1le1VBroK!adjFmP0wsNTd49Z*inP8Fg!b499TwTUeDux7HhHQYAFoWKNy18l*qHXeQMBtY5GEkOQe6FgxGMEXgB6TUrYVoWWY9qj8ov*QGp95zOk9DLsZ2UvU5JeE8CqMhK9*7AHo4uHnZ700pO4p642MB*2KFTDIn8o6nwqPYkskdMUt4UMKau3GLDznKd83MhZE25l9kLC*hLH4dReq4mSBYg$$; domain=.live.com;path=/;HTTPOnly= ;version=1
+.....
+WLSSC=EgBnAQMAAAAEgAAACoAAcR+9JWRIbCR9Qi/6flYh7cgJNDS3zHo1TDbISuzhKcHOQCqvplAyOcoDwfO/5O6YEsuDPDwIjlpfdhdOePCfAQDs6LNTZS5Ds1/mRr+hJbdpzF9JkQYz2psvkyYHEe3eAPOJUww9L5Cz4ClJzTIHIHKzVx3M5WWZIVSvEgp2jHDWAFwA1gD9vwYA7Vazl16cKE9enChPECcAAAoQoAAAFwBjcmlmYW4yMDAzQGhvdG1haWwuY29tAE8AABZjcmlmYW4yMDAzQGhvdG1haWwuY29tAAAACUNOAAYyMTM1OTIAAAZlCAQCAAB3F21AAARDAAR0aWFuAAR3YW5nBMgAAUkAAAAAAAAAAAAAAaOKNpqLi/UAAF6cKE9eETtPAAAAAAAAAAAAAAAADgA1OC4yNDAuMjM2LjE5AAUAAAAAAAAAAAAAAAABBAABAAABAAABAAAAAAAAAAA=; domain=.live.com;secure= ;path=/;HTTPOnly= ;version=1
+MSPSoftVis=@72198325083833620@:@; domain=login.live.com;path=/;version=1
+
+
+================================================================================
+[step function]
+again request https://skydrive.live.com/, to get response data: primedResponse
+
+from [Referer]:
+https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=11&ct=1328060337&rver=6.1.6206.0&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fskydrive.live.com%2F&lc=2052&id=250206&mkt=zh-CN&cbcxt=sky&bk=1328060338
+to [Request URL]:
+https://skydrive.live.com/
+
+[response body data]
+yes
+include our needed info "primedResponse".
+
+[response headers]
+also reponse some cookies.
+
+================================================================================
+[step function]
+continue to goto https://login.live.com/login.srf to get https://auth.sn2.livefilestore.com/ link
+
+from [Referer]:
+https://skydrive.live.com/
+to [Request URL]:
+https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=11&ct=1328061535&rver=6.1.6206.0&wp=MBI_SSL&wreply=https%3a%2f%2fauth.sn2.livefilestore.com%2fstorageservice%2fpassport%2flogin.aspx%3fcid%3d-7310595685695124938%26cru%3dhttps%253a%252f%252fskydrive.live.com%252fCookieToss%253fv%253d3&lc=2052&id=250915
+response content contains:
+action="https://auth.sn2.livefilestore.com/storageservice/passport/login.aspx?cid=-7310595685695124938&cru=https%3a%2f%2fskydrive.live.com%2fCookieToss%3fv%3d3&wa=wsignin1.0" method="post" target="_self"
+
+
+================================================================================
+[step function]
+goto https://auth.sn2.livefilestore.com/ to authenticate cookie
+
+from [Referer]:
+https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=11&ct=1328061535&rver=6.1.6206.0&wp=MBI_SSL&wreply=https%3a%2f%2fauth.sn2.livefilestore.com%2fstorageservice%2fpassport%2flogin.aspx%3fcid%3d-7310595685695124938%26cru%3dhttps%253a%252f%252fskydrive.live.com%252fCookieToss%253fv%253d3&lc=2052&id=250915
+to [Request URL]:
+https://auth.sn2.livefilestore.com/storageservice/passport/login.aspx?cid=-7310595685695124938&cru=https%3a%2f%2fskydrive.live.com%2fCookieToss%3fv%3d3&wa=wsignin1.0
+method = POST
+
+you can see, query para include:
+cru:https://skydrive.live.com/CookieToss?v=3
+
+no response body data
+but response headers include cookies, which contains authetification info:
+Set-Cookie:
+WLSRDAuth=FAAaARQL3KgEDBNbW84gMYrDN0fBab7xkQNmAAAEgAAACIenvmlQRqB32AAZeR0zXtVPFFhBdLXsuQlP9K0IeM0bnEPEV1PVC89EMXCFTMljCwNwOVjX%2B3MZvc/4Atpnm8oYJNX%2BO2/0hfDdf7fXYDlgGmivAQglu8dLrEuf0aDvURv74vZJYFtvajPUz%2Bxj0YrmNmfozyfhPq7Vpnsvu%2Bk6jx4eeJwUjuVJEHRF0mBGd6nWe6WjbjrheymXmeP8OTuLH9n11ZAg2VnN/0aXWiFYee/LxS9BKowzYmI0gwAXQgqPJK1OW1nPe8lkOnp7ZjZSBdDdy%2B8woPwS8Oi/MPjxBvAUACMC9muY56Ndqun3g%2BAMEOyaOwWc; path=/; domain=.livefilestore.com;  HttpOnly;
+WLSRDSecAuth=FAAaARQL3KgEDBNbW84gMYrDN0fBab7xkQNmAAAEgAAACMw0K5mhDCv52AAE5BwMXXNQLynX8%2B931HSDWSzXH8RYAnUfiWcGAU5fu6lHbjTlsAWf3WGI%2BoBtZkeO0IgjVPrdg7TdlbeWaFxtGnXZ7LFRg/OJYh6MY6MMYPdRqQbd8xYWCie2WuvuPRaXOuQvnYmzbYpUj2tS5BPNxAD/kJeFUYbEs5FD456QBe7ZR1%2Boh3i4Z8n%2B86sJseMccQ/RlSUB8CoC9UVfpyho8ABmNbSpcc4hD%2BdMbCx7VkSCCquDS4KtzQvKZm663Vy3SvUpVs5l1kOtOVeP2QiJXI/9B63zaQEUAIwcIaOn3ORiDHwiEa/%2Bt1A0/KIs; path=/; domain=.livefilestore.com;  HttpOnly; secure;
+RPSShare=1; path=/;
+ANON=A=DE389D4D076BF47BCAE4DC05FFFFFFFF&E=c3d&W=1; path=/; domain=.livefilestore.com;
+NAP=V=1.9&E=be3&C=Yco11IxgN7h3nRPo0_faqsc2xDSuMfV9p1-0KscbAmRH16q14Qb1DA&W=1; path=/; domain=.livefilestore.com;
+RPSMaybe=; path=/; domain=.livefilestore.com; expires=Thu, 30-Oct-1980 16:00:00 GMT;
+
+we can see the cookie WLSRDSecAuth's property is HttpOnly and secure, means only transfer this WLSRDSecAuth through SSL(https).
+note: HttpCookie.Secure related knowledge refer:http://technet.microsoft.com/zh-cn/magazine/system.web.httpcookie.secure(VS.80).aspx
+
+
+================================================================================
+from [Referer]:
+
+to [Request URL]:
+
+
+================================================================================
+from [Referer]:
+
+to [Request URL]:
+
+
+================================================================================
+from [Referer]:
+
+to [Request URL]:
+
+
+================================================================================
+from [Referer]:
+
+to [Request URL]:
+
+
+
+--->>>
+in the end to access https://skydrive.live.com/, then its refer is:
+IE9:
+https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=11&ct=1328028090&rver=6.1.6206.0&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fskydrive.live.com%2F&lc=2052&id=250206&mkt=zh-CN&cbcxt=sky&bk=1328028092
+
+Chrome:
+Referer:https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=11&ct=1328027928&rver=6.1.6206.0&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fskydrive.live.com%2F&lc=2052&id=250206&mkt=zh-CN&cbcxt=sky
+
+--->>>
+------------------re-analyze the whole process-----------------------------
+chrome:
+
+open:
+https://skydrive.live.com/
+
+response contains:
+https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=11&ct=1328070682&rver=6.1.6206.0&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fskydrive.live.com%2F&lc=2052&id=250206&mkt=zh-CN&cbcxt=sky
+
+then:
+from:
+https://skydrive.live.com/
+to:
+https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=11&ct=1328070682&rver=6.1.6206.0&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fskydrive.live.com%2F&lc=2052&id=250206&mkt=zh-CN&cbcxt=sky
+
+response contain:
+srf_uPost='https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=11&ct=1328070682&rver=6.1.6206.0&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fskydrive.live.com%2F&lc=2052&id=250206&mkt=zh-CN&cbcxt=sky&bk=1328070683';
+
+from:
+https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=11&ct=1328070682&rver=6.1.6206.0&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fskydrive.live.com%2F&lc=2052&id=250206&mkt=zh-CN&cbcxt=sky
+to:
+https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=11&ct=1328070682&rver=6.1.6206.0&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fskydrive.live.com%2F&lc=2052&id=250206&mkt=zh-CN&cbcxt=sky&bk=1328070683
+
+request contain name and password.
+response many set cookies.
+
+from:
+https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=11&ct=1328070682&rver=6.1.6206.0&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fskydrive.live.com%2F&lc=2052&id=250206&mkt=zh-CN&cbcxt=sky
+to:
+https://skydrive.live.com/
+
+response contain the data we want: primedResponse
+
+
+--->>>
+IE9 can not capture:
+https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=11&ct=1328148884&rver=6.1.6206.0&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fskydrive.live.com%2F&lc=2052&id=250206&mkt=zh-CN&cbcxt=sky&bk=1328148885
+
+here I try a input incorrect password 1111111111111111 then will fail, then can capture it:
+
+[request post data]
+login=crifan2003@hotmail.com&passwd=1111111111111111&type=11&LoginOptions=3&NewUser=1&MEST=&PPSX=P&PPFT=CtLWOpZpxO*AqOl0MhwOoldj%215NWgp7EYGf70ieKkcm3Pxm7*HjyYHhVBb4JPMFNItYcCqK1TZM3tpYcNmiugdGu2671HGqD3schwLHc*NhrBuoUJtD6lFNz8UngXfLySIrztLDJ82m7UvHPhAWVNHOybQN0MedGwiRuHf1Ys8pk1HN5nva2tLRW8OzXjYCyZ27LfuWt%21*it4ZZdLPfGYJIdP3VQRs05UNf8T%21ol0Wp7ifX5FkOt7poz1z%21xv*QRew%24%24&idsbho=1&PwdPad=&sso=&SysDIDToken=%3CEncryptedData%20xmlns%3D%22http://www.w3.org/2001/04/xmlenc%23%22%20Id%3D%22BinaryDAToken0%22%20Type%3D%22http://www.w3.org/2001/04/xmlenc%23Element%22%3E%3CEncryptionMethod%20Algorithm%3D%22http://www.w3.org/2001/04/xmlenc%23tripledes-cbc%22%3E%3C/EncryptionMethod%3E%3Cds:KeyInfo%20xmlns:ds%3D%22http://www.w3.org/2000/09/xmldsig%23%22%3E%3Cds:KeyName%3Ehttp://Passport.NET/STS%3C/ds:KeyName%3E%3C/ds:KeyInfo%3E%3CCipherData%3E%3CCipherValue%3ECvVCYUgejnpJnKTcm5u1o5he7tSF2Vg6tUZZ0H%2BaAIj1AvNVRsSwczVC4zzAlPT6akeAB5d%2B6L2nHi9ZH4XucULcB2iFXlqgNGP1nWo5MyaVgg4%2BgcAajPehVc/tdsoESrU1PqfOG/rcmQECWB1srKzM%2BZUFxQbYUJ7SlgFlA3l17t9kVFQdQkgUOF44H3RRItgGbWu%2B%2BY8gIzEcMCN72MhkGdvqwFBjbkzUlwo6o/Oc730VmZIp/qOqx0lE5kKd0kIuNOK2gqrMYBB41E4OVlrd0ErQ0IpWfdFA6MvoQyRKOsm8dIslPNMh5K67x9dr2gFWMn1K1Guy/Eple7OOIp9en2CAqkQaDJFN/W8DOfmgfFl5b49MNKcPed1zK7FYrWULNABVGAvfk3bqiMU3pBY2ATh0Kyq%2BH1zQsnm4M%2Bz6Aapg9vZ%2BFjrUWvZYRUJTXJaGGthDnfneunz7HpBCUK76YpxqN0NsHi9wsJVeA66eac1ry9evAKbKjct9OvNM13NLTQj52sHtQSjYKlUb9MS//sF0aBll7Ay5oUdirt9G2y5elI%2Bl7ZHPJCVD/By7Ns/KsM2BipOVktFz94wyLsSH3BGmqzf6ynHDtWE%2Bb%2BQD%3C/CipherValue%3E%3C/CipherData%3E%3C/EncryptedData%3E&i1=&i2=1&i3=11715&i4=&i12=1&i13=&i14=131&i15=1099&i16=423&i17=
+
+
+login=crifan2003@hotmail.com
+&passwd=1111111111111111
+&type=11
+&LoginOptions=3
+&NewUser=1
+&MEST=
+&PPSX=P
+&PPFT=CtLWOpZpxO*AqOl0MhwOoldj%215NWgp7EYGf70ieKkcm3Pxm7*HjyYHhVBb4JPMFNItYcCqK1TZM3tpYcNmiugdGu2671HGqD3schwLHc*NhrBuoUJtD6lFNz8UngXfLySIrztLDJ82m7UvHPhAWVNHOybQN0MedGwiRuHf1Ys8pk1HN5nva2tLRW8OzXjYCyZ27LfuWt%21*it4ZZdLPfGYJIdP3VQRs05UNf8T%21ol0Wp7ifX5FkOt7poz1z%21xv*QRew%24%24
+&idsbho=1
+&PwdPad=
+&sso=
+&SysDIDToken=%3CEncryptedData%20xmlns%3D%22http://www.w3.org/2001/04/xmlenc%23%22%20Id%3D%22BinaryDAToken0%22%20Type%3D%22http://www.w3.org/2001/04/xmlenc%23Element%22%3E%3CEncryptionMethod%20Algorithm%3D%22http://www.w3.org/2001/04/xmlenc%23tripledes-cbc%22%3E%3C/EncryptionMethod%3E%3Cds:KeyInfo%20xmlns:ds%3D%22http://www.w3.org/2000/09/xmldsig%23%22%3E%3Cds:KeyName%3Ehttp://Passport.NET/STS%3C/ds:KeyName%3E%3C/ds:KeyInfo%3E%3CCipherData%3E%3CCipherValue%3ECvVCYUgejnpJnKTcm5u1o5he7tSF2Vg6tUZZ0H%2BaAIj1AvNVRsSwczVC4zzAlPT6akeAB5d%2B6L2nHi9ZH4XucULcB2iFXlqgNGP1nWo5MyaVgg4%2BgcAajPehVc/tdsoESrU1PqfOG/rcmQECWB1srKzM%2BZUFxQbYUJ7SlgFlA3l17t9kVFQdQkgUOF44H3RRItgGbWu%2B%2BY8gIzEcMCN72MhkGdvqwFBjbkzUlwo6o/Oc730VmZIp/qOqx0lE5kKd0kIuNOK2gqrMYBB41E4OVlrd0ErQ0IpWfdFA6MvoQyRKOsm8dIslPNMh5K67x9dr2gFWMn1K1Guy/Eple7OOIp9en2CAqkQaDJFN/W8DOfmgfFl5b49MNKcPed1zK7FYrWULNABVGAvfk3bqiMU3pBY2ATh0Kyq%2BH1zQsnm4M%2Bz6Aapg9vZ%2BFjrUWvZYRUJTXJaGGthDnfneunz7HpBCUK76YpxqN0NsHi9wsJVeA66eac1ry9evAKbKjct9OvNM13NLTQj52sHtQSjYKlUb9MS//sF0aBll7Ay5oUdirt9G2y5elI%2Bl7ZHPJCVD/By7Ns/KsM2BipOVktFz94wyLsSH3BGmqzf6ynHDtWE%2Bb%2BQD%3C/CipherValue%3E%3C/CipherData%3E%3C/EncryptedData%3E
+&i1=
+&i2=1
+&i3=11715
+&i4=
+&i12=1
+&i13=
+&i14=131
+&i15=1099
+&i16=423
+&i17=
+
+--->>> IE9 can capture post.srf request:
+in the end, clear all live.com and skydrive related cookies, newly access
+
+can capture the post.srf request:
+[request post data]
+login=crifan2003@hotmail.com&passwd=MyTruePassword&type=11&LoginOptions=3&NewUser=1&MEST=&PPSX=PassportRN&PPFT=CuODlFv6*HKA0p3oyfLrAmN9Fal%2195drE6J7vO*FphiBB08ui5O8GuU*cSJTaOL0u6UP079sMHt6pl*843HaXVTrVEB%21KkiwN*gfOtGs6F1l*HRt2w2fj6gKY7gSrPDeSAE62UnVhscCWsFw9vEimiaDGUBmNPelH2OQ3L93pG81h82HcHtecyE5gCaW0E*YjKZuclVNRUB9AuuztnyxYPH3XeCzudAvwxcRNPvgkj6D33TMudPbTPzeahlyDYGRSw%24%24&idsbho=1&PwdPad=&sso=&i1=&i2=1&i3=68025&i4=&i12=1&i13=&i14=1033&i15=2042&i16=3344&i17=
+
+login=crifan2003@hotmail.com
+&passwd=MyTruePassword
+&type=11
+&LoginOptions=3
+&NewUser=1
+&MEST=
+&PPSX=PassportRN
+&PPFT=CuODlFv6*HKA0p3oyfLrAmN9Fal%2195drE6J7vO*FphiBB08ui5O8GuU*cSJTaOL0u6UP079sMHt6pl*843HaXVTrVEB%21KkiwN*gfOtGs6F1l*HRt2w2fj6gKY7gSrPDeSAE62UnVhscCWsFw9vEimiaDGUBmNPelH2OQ3L93pG81h82HcHtecyE5gCaW0E*YjKZuclVNRUB9AuuztnyxYPH3XeCzudAvwxcRNPvgkj6D33TMudPbTPzeahlyDYGRSw%24%24
+&idsbho=1
+&PwdPad=
+&sso=
+&i1=
+&i2=1
+&i3=68025
+&i4=
+&i12=1
+&i13=
+&i14=1033
+&i15=2042
+&i16=3344
+&i17=
+
+its request cookie is:
+Key	Value
+xid=4a3e2095-122f-42e1-9d58-fbcc61f62743&&SN2xxxxxxC524&66; 
+xidseq=2; 
+wla42=; 
+wl_preperf=req=131&com=131&cache=128; 
+wlidperf=throughput=14&latency=205&FR=L&ST=1328151022159; 
+MSPRequ=lt=1328150951&co=1&id=250206; 
+MSPOK=$uuid-93d1102b-6c0c-46bc-8be3-28333493606c; 
+CkTst=G1328150954073
+
+
+
+
+first cookie for 
+https://skydrive.live.com/:
++		[0]	{xid=32fe0627-2e63-4295-8a38-9ea2ab224cdd&&SN2xxxxxxC622&66}	object {System.Net.Cookie}
++		[1]	{xidseq=1}	object {System.Net.Cookie}
++		[2]	{LD=}	object {System.Net.Cookie}
++		[3]	{wla42=}	object {System.Net.Cookie}
+
+second cookie for 
+https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=11&ct=1328151416&rver=6.1.6206.0&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fskydrive.live.com%2F&lc=2052&id=250206&mkt=zh-CN&cbcxt=sky:
++		[0]	{$Version=1; MSPRequ=lt=1328151569&co=1&id=250206; $Path=/}	object {System.Net.Cookie}
++		[1]	{$Version=1; MSPOK=$uuid-dd842a2d-a1a2-4472-8f0a-96e3ab192533; $Path=/}	object {System.Net.Cookie}
+
+
+--->>> found who set the xidseq=2:
+use Chrome to find all request, and got(IE9 can not capture this response cookie!):
+https://skydrive.live.com/handlers/resourcespreload.mvc?view=Folders.All&id=250206&mkt=ZH-CN
+to response the xidseq=2:
+Set-Cookie: xidseq=2; domain=.live.com; path=/
+Set-Cookie: LD=; domain=.live.com; expires=Thu, 02-Feb-2012 00:59:54 GMT; path=/
+Set-Cookie: wla42=; domain=live.com; expires=Thu, 09-Feb-2012 02:39:54 GMT; path=/
+
+and also we can find the response for:
+https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=11&ct=1328151416&rver=6.1.6206.0&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fskydrive.live.com%2F&lc=2052&id=250206&mkt=zh-CN&cbcxt=sky
+contains the preload url:
+var srf_uPreload = 'https://skydrive.live.com/handlers/resourcespreload.mvc?view=Folders.All&id;=250206&mkt;=EN-US';
+
+
+
+now has known all from xidseq=1 to xidseq=4.
+
+
+third cookies for
+https://skydrive.live.com/handlers/resourcespreload.mvc?view=Folders.All&id=250206&mkt=ZH-CN:
++		[0]	{xidseq=2}	object {System.Net.Cookie}
++		[1]	{LD=}	object {System.Net.Cookie}
++		[2]	{wla42=}	object {System.Net.Cookie}
+
+
+--->>>
+IE9 captured true login post data:
+
+login=crifan2003@hotmail.com
+&passwd=MyTruePassword
+&type=11
+&LoginOptions=3
+&NewUser=1
+&MEST=
+&PPSX=Passp
+&PPFT=CjvdmKRwvOGkRK*v51WJDFrOca9wPSKFjYAm59bX5pdxRRcCe85HsB0RUGcC9wwmReM3b421p6hnehGz1d*nqiNvvbqzFL9Ksu1y1j7QI83E%21*X0hvpQ3gFz*9zJw4LGewJdR1aKxTOyRkBqTF3cz5yuqKLHSsd4%218ewy6ThcvvXb8vtr5zSqYqH389lMyrHxSczE08lyGR716Ix2yOpHORTMgBjTGpnkbBLvLrlhLaIkFtoyycenGNiJtGU*VCGdw%24%24
+&idsbho=1
+&PwdPad=
+&sso=
+&i1=
+&i2=1
+&i3=15768
+&i4=
+&i12=1
+&i13=
+&i14=125
+&i15=1520
+&i16=971
+&i17=
+
+code generate post data:
+"
+login=crifan2003%40hotmail.com
+&passwd=MyTruePassword
+&SI=%e7%99%bb%e5%bd%95
+&type=11
+&LoginOptions=3
+&NewUser=1
+&MEST=
+&PPSX=Pas
+&PPFT=Ck*NnyET17qHO1Qq9jpckSNZo*mwQKaqQyR30mx4!gYgSz2Vxlvcose*c6T3s7DjLSYNiXK5N2mFXsgL5eU9sA*gzUzXzt**SXrS7J82tSg3CnKw*uxUpUFXrVTNfTqXwaJOHJ0Y7p454D6Rq8EBOOkVAkgLzFiJZFGdGr7JF4wjk4*xGZNznIrYeb1tC1bOZ*xOWjGtMwrvMH5AYwuLf6FIJXqDYaRqYZ3T0dv76TQQTzc49O9RxeD8d8ZRONdIEg%24%24
+&idsbho=1
+&PwdPad=
+&sso=
+&i1=
+&i2=1
+&i3=17020
+&i4=
+&i12=1
+&i13=
+&i14=107
+&i15=931
+&i16=1143
+&i17=
+"
+
+--->>> found still lack some cookie: wl_preperf
+in chrome and IE9, both can see:
+wl_preperf	req=131&com=131&cache=129					
+
+so go to chrome and IE9 to search it.
+in IE9 found wl_preperf in response body data of https://skydrive.live.com/handlers/resourcespreload.mvc?view=Folders.All&id=250206&mkt=ZH-CN
+
+var a = [];
+a.push("req=" + p);
+a.push("com=" + d);
+a.push("cache=" + e);
+b.cookie = "wl_preperf=" + a.join("&") + ";domain=" + g.sd + ";path=/;"
+-> 
+var a = g.sd.substr(1);
+->
+g = window["$Config"] || {},
+->
+can see in chrome its g.sd = domain = ".live.com"
+
+p:
+p = d.length
+->
+d = (a.Resources || []).reverse(),
+->
+a = g.Preload
+ 

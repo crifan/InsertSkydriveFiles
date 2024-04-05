@@ -1,0 +1,17 @@
+		respJson	"{"StatusCode":"200","StatusDescription":"OK","P3P":"CP=\"BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo\"","X-MSNSERVER":"BY2____4011924","Set-Cookie":"RPSMaybe=; path=\/; domain=.live.com; expires=Thu, 30-Oct-1980 16:00:00 GMT;","BITS-Packet-Type":"Ack","X-SqlDataOrigin":"S","X-Resource-Id":"9A8B8BF501A38A36!756","X-Cid":"-7310595685695124938","X-Last-Modified-ISO8601":"2012-02-20T11:32:04.79Z","X-ItemVersion":"0","Etag":"9A8B8BF501A38A36!756.0","Content-Location":"http:\/\/ns94ka.bay.livefilestore.com\/y1pMIVzOyx_luMD5A6x3wU04bn5oyvMdrYerB3r1naHr43RHVb68GEtonMI9bIXkmILGwYHiJx-Z3NhXSrVxh5n-EIxCiEN5SLY"}"	string
+
+{
+    "StatusCode": "200",
+    "StatusDescription": "OK",
+    "P3P": "CP=\"BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo\"",
+    "X-MSNSERVER": "BY2____4011924",
+    "Set-Cookie": "RPSMaybe=; path=\/; domain=.live.com; expires=Thu, 30-Oct-1980 16:00:00 GMT;",
+    "BITS-Packet-Type": "Ack",
+    "X-SqlDataOrigin": "S",
+    "X-Resource-Id": "9A8B8BF501A38A36!756",
+    "X-Cid": "-7310595685695124938",
+    "X-Last-Modified-ISO8601": "2012-02-20T11:32:04.79Z",
+    "X-ItemVersion": "0",
+    "Etag": "9A8B8BF501A38A36!756.0",
+    "Content-Location": "http:\/\/ns94ka.bay.livefilestore.com\/y1pMIVzOyx_luMD5A6x3wU04bn5oyvMdrYerB3r1naHr43RHVb68GEtonMI9bIXkmILGwYHiJx-Z3NhXSrVxh5n-EIxCiEN5SLY"
+}

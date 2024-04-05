@@ -1,0 +1,220 @@
+/* Copyright (C) 2012 Microsoft Corporation */
+ function _du()
+ {
+     return document.URL.startsWith("https://", true)
+ }
+ function _cw(a, c)
+ {
+     var b = "&";
+     if (a.indexOf("?") ==- 1) {
+         b = "?";
+     }
+     return a + b + c
+ }
+ function _cv(b, a)
+ {
+     if (_l7(b))
+     {
+         var e = b.indexOf("?") ==- 1;
+         if (_lp(a))
+         {
+             var d = b, f = e ? 1 : 0;
+             if (e) {
+                 d += "?" + a[0][0] + "=" + a[0][1];
+             }
+             for (var c = f; c < a.length; c++) {
+                 d += "&" + a[c][0] + "=" + a[c][1];
+             }
+             return d;
+         }
+     }
+     return b
+ }
+ function _sa(a, c, d)
+ {
+     var b = c.toLowerCase() + "=" + d.toLowerCase();
+     if (a.toLowerCase().indexOf(b) ==- 1) {
+         a = _cw(a, b);
+     }
+     return a
+ }
+ function setQSValue(a, f, h, d)
+ {
+     var b = a, e = "&" + f.toLowerCase() + "=", c = a.toLowerCase().indexOf(e);
+     if (c ==- 1)
+     {
+         e = "?" + f.toLowerCase() + "=";
+         c = a.toLowerCase().indexOf(e);
+         if (c ==- 1) {
+             b = _cw(a, f + "=" + h);
+             if (exists(d) && b.length > d) {
+                 b = a;
+             }
+             return b;
+         }
+     }
+     var g = a.indexOf("&", c + 1);
+     if (g ==- 1) {
+         g = a.length;
+     }
+     b = a.substring(0, c) + e + h + a.substring(g);
+     if (exists(d) && b.length > d) {
+         b = a;
+     }
+     return b
+ }
+ function ExtractQSParam(b)
+ {
+     var a = document.location.search.toLowerCase();
+     if (a) {
+         a = a.substr(1);
+     }
+     return _se(a, b.toLowerCase(), "&", "=", "")
+ }
+ function _oe(a)
+ {
+     return _se(document.cookie, a, k_sCookieDelim)
+ }
+ function WriteCookie(e, d, c, b)
+ {
+     var a = _jo(b, false);
+     _ry(e, d, c, a)
+ }
+ function _jo(c, d)
+ {
+     var a = "";
+     if (c && IsSafari()) {
+         a += ".";
+     }
+     if (d) {
+         var b = document.domain.split(".");
+         b.splice(0, Math.max(0, b.length - 2));
+         a += b.join(".")
+     }
+     else {
+         a += document.domain;
+     }
+     return a
+ }
+ function _ry(e, b, c, d)
+ {
+     var a = e + "=" + b + ";domain=" + d + ";path=/";
+     if (c) {
+         a += ";expires=Wed, 30-Dec-2037 16:00:00 GMT";
+     }
+     else if (b == " ") {
+         a += ";expires=Thu, 30-Oct-1980 16:00:00 GMT";
+     }
+     document.cookie = a
+ }
+ function _kz(c, a)
+ {
+     var b = _oe(k_sWLOptCookieName);
+     return _se(b, c, k_sWLOptCookieDelim, null, a)
+ }
+ function _pw(c, b)
+ {
+     var a = _oe(k_sWLOptCookieName);
+     a = _sc(a, c, b, k_sWLOptCookieDelim);
+     WriteCookie(k_sWLOptCookieName, a, true)
+ }
+ function _q1(b)
+ {
+     var a = _oe(k_sWLOptCookieName);
+     if (null == a) {
+         return;
+     }
+     var c = _kz(b);
+     if (null == c) {
+         return;
+     }
+     a = a.replace(k_sWLOptCookieDelim + b + "=" + c, "");
+     a = a.replace(b + "=" + c + k_sWLOptCookieDelim, "");
+     a = a.replace(b + "=" + c, "");
+     if (0 == a.length) {
+         a = " ";
+     }
+     WriteCookie(k_sWLOptCookieName, a, " " != a ? true : false)
+ }
+ function GetPresCookie()
+ {
+     var d = null, c = null, a = _oe(k_sPresCookieName);
+     if (null != a) {
+         var b = a.indexOf("=");
+         if (-1 != b) {
+             c = a.substring(0, b);
+             d = a.substring(b + 1, a.length);
+         }
+     }
+     return {
+         CID : c, Status : d
+     }
+ }
+ function getPropFromMSPPre(b)
+ {
+     var d = null, c = _oe(k_sMSPPreCookieName);
+     if (null != c)
+     {
+         var a = c.match(/([^\|]+)\|([A-Fa-f0-9]{16})\|([^\|]*)\|([^\|]*)$/i);
+         if (exists(a) && _lp(a) && _ls(a[b])) {
+             d = a[b];
+         }
+     }
+     return d
+ }
+ function setPropFromMSPPre(d, f)
+ {
+     var a = "", e = _oe(k_sMSPPreCookieName);
+     if (null != e)
+     {
+         var b = e.match(/([^\|]+)\|([A-Fa-f0-9]{16})\|([^\|]*)\|([^\|]*)$/i);
+         if (exists(b) && _lp(b)) for (var g = d + 1 > b.length ? d + 1 : b.length, c = 1;
+         c < g;
+         c++) {
+             if (c != 1) {
+                 a += "|";
+             }
+             if (d == c) {
+                 a += f;
+             }
+             else {
+                 a += b[c];
+             }
+         }
+     }
+     a != "" && WriteCookie(k_sMSPPreCookieName, a, true)
+ }
+ function _pq(a)
+ {
+     a != null && _bz("[" + a + "]")
+ }
+ function _bz(b)
+ {
+     var a = _kz(k_sWLOpt_ACT);
+     if (!a) {
+         a = "";
+     }
+     if (a.indexOf(b) ==- 1) {
+         a = a + b;
+     }
+     _pw(k_sWLOpt_ACT, a)
+ }
+ function DoHelp(C, y, v, B, z, x, p)
+ {
+     var k = "_help", r = "netscape", m = ",left=", j = ",height=", d =- 1, f, g, c = "toolbar=1,location=1,status=1,menubar=1,resizable=1,scrollbars=1,width=", 
+     i = screen.width, q = screen.height, a = navigator.userAgent.toLowerCase(), t = navigator.appName.toLowerCase(), 
+     u = navigator.appVersion, n = a.indexOf("mac") > d, s = a.indexOf("msie") > d && parseInt(u.substring(0, 
+     1)) >= 4, b = null == p ? "" : p, o = document.location, e = z == "" ? "http://" + o.hostname + "/hp.srf?lc=" + v + "&vv=" + x : z + "?lc=" + v + "&vv=" + x;
+     if (p == "&linktype=3") {
+         e = "http://explore.live.com/windows-live-sign-in-single-use-code-faq?";
+     }
+     else if (p == "&linktype=4") {
+         e = "http://explore.live.com/windows-live-sign-up-characters-picture-verify-faq?";
+     }
+     else {
+         e = "http://explore.live.com/windows-live-sign-in-help-center?";
+     }
+     var l = true, h = false, w = a.indexOf("msn "), A = false;
+     if (w > d) {
+         h = a.substring(w + 4);
+         h = parseFloat(h.substring(0, h.indexOf

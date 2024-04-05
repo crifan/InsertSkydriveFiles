@@ -1,0 +1,54 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="InsertSkydriveFiles.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="photoInsertPattern" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;a href="${permaLink}" target="_blank"&gt;&lt;img title="${name}" alt="${name}" src="${permaLink}" /&gt;&lt;/a&gt;</Value>
+    </Setting>
+    <Setting Name="audioInsertPattern" Type="System.String" Scope="User">
+      <Value Profile="(Default)">[audio:${permaLink}|titles=${name}]</Value>
+    </Setting>
+    <Setting Name="previewPhoto" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="liveId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">crifan2003@hotmail.com</Value>
+    </Setting>
+    <Setting Name="skydriveFolderUrl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://skydrive.live.com/?cid=9a8b8bf501a38a36</Value>
+    </Setting>
+    <Setting Name="insertFolder" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="uploadAutoHandleFilename" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="uploadOverwrite" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="isKeepLogin" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="loginInfoStr" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="videoInsertPattern" Type="System.String" Scope="User">
+      <Value Profile="(Default)">${permaLink}</Value>
+    </Setting>
+    <Setting Name="otherInsertPattern" Type="System.String" Scope="User">
+      <Value Profile="(Default)">${permaLink}</Value>
+    </Setting>
+    <Setting Name="openInNewWin" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="addSufPhoto" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="addSufAudio" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="addSufVideo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">rmvb;mkv;f4v;xv;</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

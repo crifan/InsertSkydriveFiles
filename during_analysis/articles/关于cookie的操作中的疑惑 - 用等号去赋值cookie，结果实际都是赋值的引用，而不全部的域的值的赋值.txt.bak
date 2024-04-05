@@ -1,0 +1,46 @@
+如下代码：
+//extract cookies for upload file
+cookiesForUploadFile = new CookieCollection();
+foreach (Cookie ck in skydriveCookies)
+{
+    if ((ck.Domain == constDomainLiveCom) && (!commLib.isCookieExpired(ck)))
+    {
+        Cookie ckToAdd = new Cookie();
+        ckToAdd = ck;
+        cookiesForUploadFile.Add(ckToAdd);
+    }
+}
+
+//!!! if not seperatly set new domain value, then will overwirtten the original domain of cookie in skydriveCookies
+foreach (Cookie ckNew in cookiesForUploadFile)
+{
+    ckNew.Domain = constDomainStorageLive; //此处修改某cookie的domain，会同时修改掉原先skydriveCookies中对应cookie的domain
+}
+
+其中skydriveCookies是一个CookieCollection，存放了很多cookie，其中有些domain是".live.com",
+此处想要将其中domain是".live.com"的cookie都提取出来，放到cookiesForUploadFile中，然后把对应的domain都改为".users.storage.live.com"。
+
+但是此处很奇怪的是，如果只是单独的像上述ckToAdd = ck;的方式赋值，实际上只是相当于引用，
+所以，后面的修改cookiesForUploadFile中的cookie的domain值，也会同时修改掉skydriveCookies中对应cookie的domain值。
+
+试了半天，只有这样的代码：
+cookiesForUploadFile = new CookieCollection();
+foreach (Cookie ck in skydriveCookies)
+{
+    if ((ck.Domain == constDomainLiveCom) && (!commLib.isCookieExpired(ck)))
+    {
+        Cookie ckToAdd = new Cookie(ck.Name, ck.Value, ck.Path, ck.Domain);
+        ckToAdd.HttpOnly = ck.HttpOnly;
+        ckToAdd.Expires = ck.Expires;
+        ckToAdd.Secure = ck.Secure;
+        ckToAdd.Version = ck.Version;
+        cookiesForUploadFile.Add(ckToAdd);
+    }
+}
+
+//!!! if not seperatly set new domain value, then will overwirtten the original domain of cookie in skydriveCookies
+foreach (Cookie ckNew in cookiesForUploadFile)
+{
+    ckNew.Domain = constDomainStorageLive;
+}
+才可以避免掉将原先cookie的domain覆盖掉。

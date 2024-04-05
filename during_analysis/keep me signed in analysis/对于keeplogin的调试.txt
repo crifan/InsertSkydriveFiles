@@ -1,0 +1,134 @@
+对于keeplogin的调试
+
+上一次，生成loginInfo的时间是：
+createdTime = {2012/3/27 21:22:09}
+对于现在2012/3/28 19:07的时候，还是可以恢复回来，还是可以正常初始化rootNode，可以列出skydrive上面的文件的。
+
+
+难道是正好需要过24小时，然后才失效？
+那就等到 {2012/3/28 21:22:09}的时间点之后，再来试试，看看restore回来的cookie，是否可以正常初始化RootNode。
+
+
+上述能工作的cookie，恢复出来后，通过代码：
+txbInfo.Text = "";
+foreach (Cookie ck in loginInfo.cookies)
+{
+	txbInfo.Text += "name=" + ck.Name + ",\t";
+	txbInfo.Text += "Expires=" + ck.Expires.ToString() + ",\t";
+	txbInfo.Text += "Value=" + ck.Value + ",\t";
+	txbInfo.Text += "Domain=" + ck.Domain + ",\t";
+	txbInfo.Text += "Path=" + ck.Path + ",\t";
+	txbInfo.Text += "Secure=" + ck.Secure.ToString() + ",\t";
+	txbInfo.Text += "HttpOnly=" + ck.HttpOnly.ToString() + ",\t";
+	txbInfo.Text += Environment.NewLine;
+}
+
+打印出来如下：
+name=vv,	Expires=0001/1/1 0:00:00,	Value=1200,	Domain=login.live.com,	Path=/,	Secure=False,	HttpOnly=True,	
+name=MSPRequ,	Expires=0001/1/1 0:00:00,	Value=lt=1332854485&co=1&id=250206,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=MSPOK,	Expires=0001/1/1 0:00:00,	Value=$uuid-c6b0fad6-2bc1-40f4-87e5-81224c4e8d96,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=xid,	Expires=0001/1/1 0:00:00,	Value=8ea176e6-307e-473e-9ceb-31a442c0bcf7&NK4bB&BAYxxxxxxxxW043&123,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=xidseq,	Expires=0001/1/1 0:00:00,	Value=2,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=mkt,	Expires=0001/1/1 0:00:00,	Value=ep=en-US,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=LD,	Expires=2012/3/27 19:41:39,	Value=,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=wla42,	Expires=2012/4/3 21:21:39,	Value=,	Domain=live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=MSPOK,	Expires=2012/3/27 21:21:59,	Value=,	Domain=login.live.com,	Path=/,	Secure=False,	HttpOnly=True,	
+name=PPAuth,	Expires=2037/12/31 0:00:00,	Value=Cv5J*nZi!C8NkK2Wkv1tJs4mlUBarc6c1!ttpbLvZMQGAi1iJYUIXZRsrCIHAQ*5ivgdZZy4ym6Ctna2rBu6V9Ii7HrHWeoQzbVN1VG6LL1q4Iat4RLvtPPrBZoLr89n8gecjsY2mUT!j8INfCPHH1PvS6!9UCv7JHU2A*UemeMo87HT0u1z2YJndB1LOTg*UUCO3QhQ6B7XPjIGzBRzMM2MnwMBwIlNJcop7z1Ri7KR07oZXva*vkWXb7gkV4oexVXUbzKLRf18ufgy4QGgGFfiwKh!YGoVXBYYmV*Uw0Zd,	Domain=login.live.com,	Path=/,	Secure=True,	HttpOnly=True,	
+name=PPLState,	Expires=2037/12/31 0:00:00,	Value=1,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=MSPShared,	Expires=2012/3/27 21:21:59,	Value=,	Domain=login.live.com,	Path=/,	Secure=False,	HttpOnly=True,	
+name=MSPPre,	Expires=2037/12/31 0:00:00,	Value=crifan2003@hotmail.com|9a8b8bf501a38a36||,	Domain=login.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=MSPCID,	Expires=2037/12/31 0:00:00,	Value=9a8b8bf501a38a36,	Domain=login.live.com,	Path=/,	Secure=False,	HttpOnly=True,	
+name=WLOpt,	Expires=2037/12/31 0:00:00,	Value=credtype=1&act=[1],	Domain=login.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=RPSTAuth,	Expires=2037/12/31 0:00:00,	Value=EwDoARAnAAAUDNyoPUQbnUfY4iXyVq63PSybAlKAAP8I90u4TszPqbK5vZlNBb/avUAHhRjsGqWScdSMyyDfqBUkFUpGF9o8nf2gjiiqzOA2TC2ZWg2UGC7g2JBXks0QNFtDQyDvN+ePcYBnFfKKgRcr68LH8ctY45EbAUtw+tPVvd8GlZf18Vjd9fSzq3XhPy8GPIQz0LmmSN02TW25A2YAAAgyx4aE4uRUJjgBSSN4ryr2I7VeFUuuf+IjyQAPcLQr+Kvj3RfKgm39SpS0guOlI+hJcyZFyoZu8TTm0dT7dikg+vhiCP3wpHizgmM76z8Fg1fqL5tHyow/i35DPpQNl8N+/AdxOITgQ+hQ52+yJ6fECNinq8ZM/tFCJ5cuaZ0ZK3X9wMrSVClJr0B1SRR1w3QnBx/k7Ti9zHSfgEJO14UsrCB4L8b7QrL5wrXuvZ6xs/2zeFZj9ss+JG96P/5q/OdPy8SCJvAfMr9hJv7sj7wiTFkBzDrpUz8UT1B3RzzIUYmtnQI0l6KmlUN2DInFVRLXHcQDGze8uDephiqSF6yXHCtayBLjBKNh/dXxf2RifY1VCr6hYUYOq3IDQc2jLTJSENvfWYmOGho/I7nq5aRpV8RK3Rv7nX6VXA94KkNMxvyUZwE=,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=True,	
+name=RPSTAuthTime,	Expires=2037/12/31 0:00:00,	Value=1332854496,	Domain=login.live.com,	Path=/,	Secure=False,	HttpOnly=True,	
+name=MSPAuth,	Expires=2037/12/31 0:00:00,	Value=2LAwcb4pSDCWOUr249Q8HUIUMpNf7Z4jraYP73EZgHJphgHvJzw3lOcX1R!dnv8qq25sZyOb9ahNvRaE0nyyg9LxeHdAYew0yCTQ4rbZvXvnc7fSyMrFefNzQz!slR!1uX,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=True,	
+name=MSPProf,	Expires=2037/12/31 0:00:00,	Value=2Iey4mQ4kDJBtP790Wd1Xy15tvaF49tDI78VBoejEmOR*H6Z9M*oe3M6CbN8IHOEImId9SWF24SFyA0ICsi86yh9CT3wr2WhmgU92*wduZlqSyIwigYLMMwPUmUM8QgxyNTOPAl9z8LvwdAxjMi7x2q2Y9sdIKrcSBYI*nk6NZlM*zR!tQUTELNPlp*CMwyj0x,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=True,	
+name=MSNPPAuth,	Expires=2037/12/31 0:00:00,	Value=Cn4w3I*vzfNRRLUlQeseDBf39Pl*fjS6SR9LLE*OojS8Yf*T*1hx3fCIAWdu!kAI1eC3tNr3BYG*a1j!Y4Js!8D8hgRS0DOcQUmLg2v5zy8Yr!3Xzvk4xM46Hw*oU!6S7CPEc7tjduRNNfSYCLoefKlIGY5M9u5TLoGtDIWhnlmevZGf45IdlgKLETsOwHTMw*hkJcBRa!tgO9a1r6T3HZ3wNoZ6PHKUnKhfU4nRjR0IR23*yaZUk0PNSuMEa16Hnvpfq0kPj!t4*RzxvEMt1n3tnjAPG4sF9plSLmzVp0Z*G2vMf31WUQ9O98XQkOJgHfVtnT*QVF9al03c9fYeF02DDVdXtNPQmPIUT1esaSEvTBM34MY3vHS8v8KXaQv!wzNrxJabWGCgftktueOJgoalhA2Nc56QqYr0DWx!NJcfObG2ZlTuGtePmteUADs7MhBaoHtLsejFS8ZyNYdXAjHFkMx3i0b3ECPpFUn!dVTEzWpJSfs8wxKVSFOs0ULTbg$$,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=True,	
+name=MH,	Expires=2037/12/31 0:00:00,	Value=MSFT,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=MHW,	Expires=2012/3/27 21:21:59,	Value=,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=MHList,	Expires=2012/3/27 21:21:59,	Value=,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=NAP,	Expires=2012/7/6 4:21:36,	Value=V=1.9&E=c1a&C=B5Akbcr6b557oPnWqgaKN4iHhmI_KqzbjTE7s4HpUyNgw3l9U4febQ&W=1,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=ANON,	Expires=2012/10/14 4:21:36,	Value=A=DE389D4D076BF47BCAE4DC05FFFFFFFF&E=c74&W=1,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=MSPVis,	Expires=2037/12/31 0:00:00,	Value=$9,	Domain=login.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=pres,	Expires=2012/3/27 21:21:59,	Value=,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=LOpt,	Expires=0001/1/1 0:00:00,	Value=3,	Domain=login.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=WLSSC,	Expires=0001/1/1 0:00:00,	Value=EgBnAQMAAAAEgAAACoAAozGYS5YG41p8glFkN/yNd5u+pDqnFdjhoPH+BX2nvT0w8/Cm1TbheSXrK2AzZepwywHg5u+RVXxwq6PRngOnL2BkgmJJIfwGr4BC5wDDvKQsX9h5QFrgiTqbhZC/b5uF0loR96RdMCcJ9eU70ZBDpSoGfPWALjhNKzfCoplVsyTWAFwA1gD9vwYA7Vazl+C+cU/gvnFPECcAAAoToAAAFwBjcmlmYW4yMDAzQGhvdG1haWwuY29tAE8AABZjcmlmYW4yMDAzQGhvdG1haWwuY29tAAAACkNOAAYyMTM1OTIAAAZlCAQCAAB3F21AAARDAAR0aWFuAAR3YW5nBMgAAUkAAAAAAAAAAAAAAaOKNpqLi/UAAOC+cU/gM4RPAAAAAAAAAAAAAAAADgAxMTQuMjE3LjYuMTY0AAUAAAAAAAAAAAAAAAABBAABAAABAAABAAAAAAAAAAA=,	Domain=.live.com,	Path=/,	Secure=True,	HttpOnly=True,	
+name=MSPSoftVis,	Expires=2037/12/31 0:00:00,	Value=@72198325083833620@:@,	Domain=login.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=RPSMaybe,	Expires=1980/10/31 0:00:00,	Value=,	Domain=skydrive.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=E,	Expires=0001/1/1 0:00:00,	Value=P:SjWYrTPazog=:YoEnl4mE9x45Nv3QcXibrLzGb3b8ybQkupx+Vh/4zqM=:F,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=wlp,	Expires=2012/7/27 21:21:39,	Value=A|eyJV-t:a*Y7cVBg._,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=wls,	Expires=0001/1/1 0:00:00,	Value=A|eyJV-t:a*n,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=wlv,	Expires=0001/1/1 0:00:00,	Value=A|eyJV-d:s*Yzz4Bw.2+1+0+3,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=SAToken,	Expires=0001/1/1 0:00:00,	Value=,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+
+好像多出一个vv的cookie。
+然后多数cookie，都是之前就知道的，设置为2037年的。
+余下的cookie中，其中一些是2012/3/27，是已经过期的。
+另一些是0001/1/1，即当前session有效的。
+还有NAP，wlp是2012/7月的。即4个月后失效。
+还有RPSMaybe是1980年，之前就已经失效的。
+
+反正是，等到 {2012/3/28 21:22:09}的时间点之后再试试，
+如果cookie仍有效，那么就再等接下来的1,2，再试试。
+
+后来清除掉login.live.com和skydrive.live.com的cookie和F12中的所有cookie后，
+重新登陆skydrive，发现跳转到：
+https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=11&ct=1332935804&rver=6.1.6206.0&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fskydrive.live.com%2F&lc=2052&id=250206&mkt=zh-CN&cbcxt=sky
+之后返回的cookie中，就有vv的cookie。
+所以看起来好像是最近skydrive中新添加的cookie，之前是没有看到这个vv的。
+不过貌似对分析keep login，也没啥影响。只是知道这个vv是skydrive系统新添加的即可。
+
+
+这个是28-office，restore 之前的09-home的2012/03/07的cookie，打印出来后的内容：
+name=vv,	Expires=0001/1/1 0:00:00,	Value=1200,	Domain=login.live.com,	Path=/,	Secure=False,	HttpOnly=True,	
+name=MSPRequ,	Expires=0001/1/1 0:00:00,	Value=lt=1332854485&co=1&id=250206,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=MSPOK,	Expires=0001/1/1 0:00:00,	Value=$uuid-c6b0fad6-2bc1-40f4-87e5-81224c4e8d96,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=xid,	Expires=0001/1/1 0:00:00,	Value=8ea176e6-307e-473e-9ceb-31a442c0bcf7&NK4bB&BAYxxxxxxxxW043&123,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=xidseq,	Expires=0001/1/1 0:00:00,	Value=2,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=mkt,	Expires=0001/1/1 0:00:00,	Value=ep=en-US,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=LD,	Expires=2012/3/27 19:41:39,	Value=,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=wla42,	Expires=2012/4/3 21:21:39,	Value=,	Domain=live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=MSPOK,	Expires=2012/3/27 21:21:59,	Value=,	Domain=login.live.com,	Path=/,	Secure=False,	HttpOnly=True,	
+name=PPAuth,	Expires=2037/12/31 0:00:00,	Value=Cv5J*nZi!C8NkK2Wkv1tJs4mlUBarc6c1!ttpbLvZMQGAi1iJYUIXZRsrCIHAQ*5ivgdZZy4ym6Ctna2rBu6V9Ii7HrHWeoQzbVN1VG6LL1q4Iat4RLvtPPrBZoLr89n8gecjsY2mUT!j8INfCPHH1PvS6!9UCv7JHU2A*UemeMo87HT0u1z2YJndB1LOTg*UUCO3QhQ6B7XPjIGzBRzMM2MnwMBwIlNJcop7z1Ri7KR07oZXva*vkWXb7gkV4oexVXUbzKLRf18ufgy4QGgGFfiwKh!YGoVXBYYmV*Uw0Zd,	Domain=login.live.com,	Path=/,	Secure=True,	HttpOnly=True,	
+name=PPLState,	Expires=2037/12/31 0:00:00,	Value=1,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=MSPShared,	Expires=2012/3/27 21:21:59,	Value=,	Domain=login.live.com,	Path=/,	Secure=False,	HttpOnly=True,	
+name=MSPPre,	Expires=2037/12/31 0:00:00,	Value=crifan2003@hotmail.com|9a8b8bf501a38a36||,	Domain=login.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=MSPCID,	Expires=2037/12/31 0:00:00,	Value=9a8b8bf501a38a36,	Domain=login.live.com,	Path=/,	Secure=False,	HttpOnly=True,	
+name=WLOpt,	Expires=2037/12/31 0:00:00,	Value=credtype=1&act=[1],	Domain=login.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=RPSTAuth,	Expires=2037/12/31 0:00:00,	Value=EwDoARAnAAAUDNyoPUQbnUfY4iXyVq63PSybAlKAAP8I90u4TszPqbK5vZlNBb/avUAHhRjsGqWScdSMyyDfqBUkFUpGF9o8nf2gjiiqzOA2TC2ZWg2UGC7g2JBXks0QNFtDQyDvN+ePcYBnFfKKgRcr68LH8ctY45EbAUtw+tPVvd8GlZf18Vjd9fSzq3XhPy8GPIQz0LmmSN02TW25A2YAAAgyx4aE4uRUJjgBSSN4ryr2I7VeFUuuf+IjyQAPcLQr+Kvj3RfKgm39SpS0guOlI+hJcyZFyoZu8TTm0dT7dikg+vhiCP3wpHizgmM76z8Fg1fqL5tHyow/i35DPpQNl8N+/AdxOITgQ+hQ52+yJ6fECNinq8ZM/tFCJ5cuaZ0ZK3X9wMrSVClJr0B1SRR1w3QnBx/k7Ti9zHSfgEJO14UsrCB4L8b7QrL5wrXuvZ6xs/2zeFZj9ss+JG96P/5q/OdPy8SCJvAfMr9hJv7sj7wiTFkBzDrpUz8UT1B3RzzIUYmtnQI0l6KmlUN2DInFVRLXHcQDGze8uDephiqSF6yXHCtayBLjBKNh/dXxf2RifY1VCr6hYUYOq3IDQc2jLTJSENvfWYmOGho/I7nq5aRpV8RK3Rv7nX6VXA94KkNMxvyUZwE=,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=True,	
+name=RPSTAuthTime,	Expires=2037/12/31 0:00:00,	Value=1332854496,	Domain=login.live.com,	Path=/,	Secure=False,	HttpOnly=True,	
+name=MSPAuth,	Expires=2037/12/31 0:00:00,	Value=2LAwcb4pSDCWOUr249Q8HUIUMpNf7Z4jraYP73EZgHJphgHvJzw3lOcX1R!dnv8qq25sZyOb9ahNvRaE0nyyg9LxeHdAYew0yCTQ4rbZvXvnc7fSyMrFefNzQz!slR!1uX,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=True,	
+name=MSPProf,	Expires=2037/12/31 0:00:00,	Value=2Iey4mQ4kDJBtP790Wd1Xy15tvaF49tDI78VBoejEmOR*H6Z9M*oe3M6CbN8IHOEImId9SWF24SFyA0ICsi86yh9CT3wr2WhmgU92*wduZlqSyIwigYLMMwPUmUM8QgxyNTOPAl9z8LvwdAxjMi7x2q2Y9sdIKrcSBYI*nk6NZlM*zR!tQUTELNPlp*CMwyj0x,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=True,	
+name=MSNPPAuth,	Expires=2037/12/31 0:00:00,	Value=Cn4w3I*vzfNRRLUlQeseDBf39Pl*fjS6SR9LLE*OojS8Yf*T*1hx3fCIAWdu!kAI1eC3tNr3BYG*a1j!Y4Js!8D8hgRS0DOcQUmLg2v5zy8Yr!3Xzvk4xM46Hw*oU!6S7CPEc7tjduRNNfSYCLoefKlIGY5M9u5TLoGtDIWhnlmevZGf45IdlgKLETsOwHTMw*hkJcBRa!tgO9a1r6T3HZ3wNoZ6PHKUnKhfU4nRjR0IR23*yaZUk0PNSuMEa16Hnvpfq0kPj!t4*RzxvEMt1n3tnjAPG4sF9plSLmzVp0Z*G2vMf31WUQ9O98XQkOJgHfVtnT*QVF9al03c9fYeF02DDVdXtNPQmPIUT1esaSEvTBM34MY3vHS8v8KXaQv!wzNrxJabWGCgftktueOJgoalhA2Nc56QqYr0DWx!NJcfObG2ZlTuGtePmteUADs7MhBaoHtLsejFS8ZyNYdXAjHFkMx3i0b3ECPpFUn!dVTEzWpJSfs8wxKVSFOs0ULTbg$$,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=True,	
+name=MH,	Expires=2037/12/31 0:00:00,	Value=MSFT,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=MHW,	Expires=2012/3/27 21:21:59,	Value=,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=MHList,	Expires=2012/3/27 21:21:59,	Value=,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=NAP,	Expires=2012/7/6 4:21:36,	Value=V=1.9&E=c1a&C=B5Akbcr6b557oPnWqgaKN4iHhmI_KqzbjTE7s4HpUyNgw3l9U4febQ&W=1,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=ANON,	Expires=2012/10/14 4:21:36,	Value=A=DE389D4D076BF47BCAE4DC05FFFFFFFF&E=c74&W=1,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=MSPVis,	Expires=2037/12/31 0:00:00,	Value=$9,	Domain=login.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=pres,	Expires=2012/3/27 21:21:59,	Value=,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=LOpt,	Expires=0001/1/1 0:00:00,	Value=3,	Domain=login.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=WLSSC,	Expires=0001/1/1 0:00:00,	Value=EgBnAQMAAAAEgAAACoAAozGYS5YG41p8glFkN/yNd5u+pDqnFdjhoPH+BX2nvT0w8/Cm1TbheSXrK2AzZepwywHg5u+RVXxwq6PRngOnL2BkgmJJIfwGr4BC5wDDvKQsX9h5QFrgiTqbhZC/b5uF0loR96RdMCcJ9eU70ZBDpSoGfPWALjhNKzfCoplVsyTWAFwA1gD9vwYA7Vazl+C+cU/gvnFPECcAAAoToAAAFwBjcmlmYW4yMDAzQGhvdG1haWwuY29tAE8AABZjcmlmYW4yMDAzQGhvdG1haWwuY29tAAAACkNOAAYyMTM1OTIAAAZlCAQCAAB3F21AAARDAAR0aWFuAAR3YW5nBMgAAUkAAAAAAAAAAAAAAaOKNpqLi/UAAOC+cU/gM4RPAAAAAAAAAAAAAAAADgAxMTQuMjE3LjYuMTY0AAUAAAAAAAAAAAAAAAABBAABAAABAAABAAAAAAAAAAA=,	Domain=.live.com,	Path=/,	Secure=True,	HttpOnly=True,	
+name=MSPSoftVis,	Expires=2037/12/31 0:00:00,	Value=@72198325083833620@:@,	Domain=login.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=RPSMaybe,	Expires=1980/10/31 0:00:00,	Value=,	Domain=skydrive.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=E,	Expires=0001/1/1 0:00:00,	Value=P:SjWYrTPazog=:YoEnl4mE9x45Nv3QcXibrLzGb3b8ybQkupx+Vh/4zqM=:F,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=wlp,	Expires=2012/7/27 21:21:39,	Value=A|eyJV-t:a*Y7cVBg._,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=wls,	Expires=0001/1/1 0:00:00,	Value=A|eyJV-t:a*n,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=wlv,	Expires=0001/1/1 0:00:00,	Value=A|eyJV-d:s*Yzz4Bw.2+1+0+3,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+name=SAToken,	Expires=0001/1/1 0:00:00,	Value=,	Domain=.live.com,	Path=/,	Secure=False,	HttpOnly=False,	
+
+比较了一下，上面和下面这个cookie打印出来的内容，都是一样的。
+
+后来又尝试了，在每次logout以及窗体关闭之前，都更新对应的cookie为最新的cookie值，
+这样保存下来的登陆的cookie，就都是最新的值了，尤其是那个E,wla42等cookie。
+本以为这样可以使得下一次，当createTime超过了24小时，但最新updateTime没超过24小时，的时候，可以正常initRootNode的，
+但是实际结果表明，还是会失败的。
+
+后来又想到，每次网页中keep login的时候，再次登陆，是先访问对应的主页
+http://www.skydrive.com
+的，然后估计也许会更新一些cookie，后来调试了一下，也还是上述的那几个cookie，
+然后自己程序中去模拟此操作，这样使得在InitRootNode之前，也可以是最新的cookie。
+但是调试出来的结果，用restore出来的（createTime超过了24小时，但最新updateTime没超过24小时）cookie，去访问skydrive，
+没有返回对应的primeResponse，即cookie还是无效的。
+
+看来，程序里面到底如何真正模拟keep login，还是没有解决啊。

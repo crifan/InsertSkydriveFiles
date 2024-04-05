@@ -1,0 +1,101 @@
+
+C#中对于提交一个网页请求，已经设置好了对应的request的各个参数，
+其中Header中的Accept的设置，包含了application/javascript：
+req.Accept = "text/html, application/xhtml+xml, application/javascript, */*";
+最后结果导致执行：
+resp = (HttpWebResponse)req.GetResponse();
+会死掉，无响应，最后过了足够长时间，出现对应的超时错误：
+用户代码未处理 System.Net.WebException
+  Message=操作超时
+  Source=System
+  StackTrace:
+       在 System.Net.HttpWebRequest.GetResponse()
+       在 InsertSkydriveFiles.skydrive.getSkydrivePrimeresponse(String username, String password)
+       在 InsertSkydriveFiles.frmInsertSkydriveFile.btnLogin_Click(Object sender, EventArgs e)
+       在 System.Windows.Forms.Control.OnClick(EventArgs e)
+       在 System.Windows.Forms.Button.OnClick(EventArgs e)
+       在 System.Windows.Forms.Button.PerformClick()
+       在 System.Windows.Forms.Form.ProcessDialogKey(Keys keyData)
+       在 System.Windows.Forms.Control.ProcessDialogKey(Keys keyData)
+       在 System.Windows.Forms.TextBoxBase.ProcessDialogKey(Keys keyData)
+       在 System.Windows.Forms.Control.PreProcessMessage(Message& msg)
+       在 System.Windows.Forms.Control.PreProcessControlMessageInternal(Control target, Message& msg)
+       在 System.Windows.Forms.Application.ThreadContext.PreTranslateMessage(MSG& msg)
+  InnerException: 
+而如果将Header中的Accept设置为，没哟包含application/javascript：
+req.Accept = "text/html, application/xhtml+xml, */*";
+则程序执行就是正常的，执行：
+resp = (HttpWebResponse)req.GetResponse();
+就可以很快的得到对应的响应，然后用：
+StreamReader sr = new StreamReader(resp.GetResponseStream());
+respHtml = sr.ReadToEnd();
+就可以读取我想要的HTML源码。
+
+此处之所以记录此问题，因为是觉得此问题很诡异。
+因为，对应我的Accept设置为
+text/html, application/xhtml+xml, application/javascript, */*
+意思是，对于返回的网页内容，如果是普通的html源码，那么就符合text/html，即可。
+如果不符合text/html，那么再去看看是否是application/xhtml+xml，如果是，也是可以的，
+如果不符合application/xhtml+xml，那么再去看看是否是application/javascript，如果还不符合，就是*/*，即所有类型的内容，都接受，都是可以的。
+而我此处的http请求，本身也就只是想要获取普通的html源码而已，
+而且对应的IE9中抓取的response信息中，也验证了这点：
+Content-Type	text/html; charset=utf-8
+以及程序正常执行后，所返回的response中，也验证了此点：
+Content-Type: text/html; charset=utf-8
+所以，不论设置为：
+text/html, application/xhtml+xml, application/javascript, */*
+还是
+text/html, application/xhtml+xml, */*
+也都是对于返回内容，匹配到第一个text/html，就找到了，符合我们所要求返回内容的类型，
+也就可以了，是正常的http的响应。
+
+但是，此处，对于设置Accept为：
+text/html, application/xhtml+xml, application/javascript, */*
+竟然会导致程序执行
+resp = (HttpWebResponse)req.GetResponse();
+会死掉，因此导致最终的超时错误。
+所以觉得很是异怪。
+
+期待高手的解释。。。
+
+此处贴上程序正常执行所获得的response的header信息：
+Headers	{Pragma: no-cache
+Transfer-Encoding: chunked
+X-UA-Compatible: IE=7, IE=9, IE=10,IE=7, IE=9, IE=10
+Cache-Control: no-cache, no-store
+Content-Type: text/html; charset=utf-8
+Expires: -1
+Set-Cookie: RPSMaybe=; expires=Thu, 30-Oct-1980 16:00:00 GMT; path=/,xid=c2b539ef-83e2-4dd6-b9f6-94d5f33a88bd&NK4bB&SN2xxxxxxC505&79; domain=.live.com; path=/,xidseq=3; domain=.live.com; path=/,LD=; domain=.live.com; expires=Wed, 15-Feb-2012 14:03:20 GMT; path=/,E=P:xgtbrQ+6zog=:vIjd5IQjI7PXJYZqRi3gUPEcKyNLrKCmehSlV7H3+No=:F; domain=.live.com; path=/,wla42=; domain=live.com; expires=Wed, 22-Feb-2012 15:43:20 GMT; path=/,wlp=A|eyJV-t:a*mBzhBQ._; domain=.live.com; expires=Fri, 15-Jun-2012 14:43:20 GMT; path=/,wls=A|eyJV-t:a*n; domain=.live.com; path=/,wlv=A|eyJV-d:s*GFDCBw.2+1+0+3; domain=.live.com; path=/,SAToken=; domain=.live.com; path=/
+Server: Microsoft-IIS/7.5
+X-AspNet-Version: 4.0.30319
+X-MSNServer: SNC505
+Date: Wed, 15 Feb 2012 15:43:19 GMT
+
+}	System.Net.WebHeaderCollection
+
+以及IE9所抓取出来的对应的response的header信息：
+键	值
+响应	HTTP/1.1 200 OK
+Cache-Control	no-cache, no-store
+Pragma	no-cache
+Transfer-Encoding	chunked
+Content-Type	text/html; charset=utf-8
+Expires	-1
+Server	Microsoft-IIS/7.5
+X-UA-Compatible	IE=7, IE=9, IE=10
+X-UA-Compatible	IE=7, IE=9, IE=10
+X-AspNet-Version	4.0.30319
+Set-Cookie	RPSMaybe=; expires=Thu, 30-Oct-1980 16:00:00 GMT; path=/
+Set-Cookie	xid=0408ded1-7615-4efc-8cf0-defce4630124&NK4bB&BL2xxxxxxC528&79; domain=.live.com; path=/
+Set-Cookie	xidseq=2; domain=.live.com; path=/
+Set-Cookie	LD=; domain=.live.com; expires=Wed, 15-Feb-2012 13:39:01 GMT; path=/
+Set-Cookie	E=P:icbbRwy6zog=:56LZAKjZIsEqdBnDdW1yal9goTvWAvVZI4fhMx1PbcU=:F; domain=.live.com; path=/
+Set-Cookie	wla42=; domain=live.com; expires=Wed, 22-Feb-2012 15:19:01 GMT; path=/
+Set-Cookie	wlp=A|eyJV-t:a*5RbhBQ._; domain=.live.com; expires=Fri, 15-Jun-2012 14:19:01 GMT; path=/
+Set-Cookie	wls=A|eyJV-t:a*n; domain=.live.com; path=/
+Set-Cookie	wlv=A|eyJV-d:s*ZUrCBw.2+1+0+3; domain=.live.com; path=/
+Set-Cookie	SAToken=; domain=.live.com; path=/
+X-MSNServer	BLC528
+Date	Wed, 15 Feb 2012 15:19:00 GMT
+
+  

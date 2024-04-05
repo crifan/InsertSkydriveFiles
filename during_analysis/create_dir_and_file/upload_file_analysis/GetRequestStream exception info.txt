@@ -1,0 +1,36 @@
+ex	{"Unable to connect to the remote server"}	System.Net.WebException
+base	{"Unable to connect to the remote server"}	System.InvalidOperationException {System.Net.WebException}
+base	{"Unable to connect to the remote server"}	System.SystemException {System.Net.WebException}
+base	{"Unable to connect to the remote server"}	System.Exception {System.Net.WebException}
+_className	null	string
+_data	null	System.Collections.IDictionary
+_dynamicMethods	null	object
+_exceptionMethod	null	System.Reflection.MethodBase
+_exceptionMethodString	null	string
+_helpURL	null	string
+_HResult	-2146233079	int
+_innerException	{"A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 65.55.254.42:443"}	System.Exception {System.Net.Sockets.SocketException}
+_message	"Unable to connect to the remote server"	string
+_remoteStackIndex	0	int
+_remoteStackTraceString	null	string
+_source	null	string
+_stackTrace	{sbyte[96]}	object {sbyte[]}
+_stackTraceString	null	string
+_xcode	-532459699	int
+_xptrs	0	System.IntPtr
+Data	{System.Collections.ListDictionaryInternal}	System.Collections.IDictionary {System.Collections.ListDictionaryInternal}
+HelpLink	null	string
+HResult	-2146233079	int
+InnerException	{"A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 65.55.254.42:443"}	System.Exception {System.Net.Sockets.SocketException}
+IsTransient	false	bool
+Message	"Unable to connect to the remote server"	string
+Source	"System"	string
+StackTrace	"   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)\r\n   at System.Net.HttpWebRequest.GetRequestStream()\r\n   at InsertSkydriveFiles.skydrive.beforeUploadFile()"	string
+TargetSite	{System.IO.Stream GetRequestStream(System.Net.TransportContext ByRef)}	System.Reflection.MethodBase {System.Reflection.RuntimeMethodInfo}
+Static members		
+InternalStatus	ServicePointFatal	System.Net.WebExceptionInternalStatus
+m_InternalStatus	ServicePointFatal	System.Net.WebExceptionInternalStatus
+m_Response	null	System.Net.WebResponse
+m_Status	ConnectFailure	System.Net.WebExceptionStatus
+Response	null	System.Net.WebResponse
+Status	ConnectFailure	System.Net.WebExceptionStatus

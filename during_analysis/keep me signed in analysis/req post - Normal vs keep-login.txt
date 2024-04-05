@@ -1,0 +1,18 @@
+req post - Normal vs keep-login
+
+login=crifan2003@hotmail.com&passwd=xxx&type=11&LoginOptions=3&NewUser=1&MEST=&PPSX=Pas&PPFT=Cup3qxWyphruPhI7d*FR7MTY2qDoXoI8tF10haKMZHBxOMW8BnUFeA15pD0N6HspCgZ2s6RxvCQHM4FNDFkljexHltsImiJJQyodgg8CJzAvRIssVG0Dk3sPc%21KMjtZ1RxQaCRfyq6wHEBCbKITUCCBn2pTYIYS9DTM1HXSpxwW2*M8iqMdij3ir9bHiu5Wyk2AyzyMdgw6XPXkFpHGE3JveCntvojs4cTEMysX3rfUrIY3pWUlJvTj*SeDY*E1mrg%24%24&idsbho=1&PwdPad=&sso=&i1=&i2=1&i3=11733&i4=&i12=1&i13=&i14=155&i15=524&i16=1180&i17=
+
+login=crifan2003@hotmail.com&passwd=xxx&KMSI=1&type=11&LoginOptions=1&NewUser=1&MEST=&PPSX=Pa&PPFT=Cjn6Qxi7biOoiWGoM**p2RjSIhn6bSRiXyP4jjPuqY0n3WcwWLXzIhJMwsAreoaIr1q%21U0O5yp1rZGy4TtAAvRHqrENgIu0TDTVUDnsyzT7FDHI4JWNyEKiKDSinm8VWfQUE69WkFy49E9oX*othDdgWrzKlA6ig5e696xOHSvrnAljAa81xPitklAWC2ordnO8tprnQIdRoUWyufdHeGfWrNq0U4CJwXvC71QMrLYXrT7cJeXqM3nm1%21aAc*e608A%24%24&idsbho=1&PwdPad=&sso=&SysDIDToken=ThisIsASysDIDDummyToken&i1=&i2=1&i3=570887&i4=&i12=1&i13=1&i14=508&i15=3461&i16=2025&i17=
+
+
+
+--------------------
+login=crifan2003@hotmail.com&passwd=xxx&type=11&NewUser=1&MEST=&PPSX=Pas&PPFT=Cup3qxWyphruPhI7d*FR7MTY2qDoXoI8tF10haKMZHBxOMW8BnUFeA15pD0N6HspCgZ2s6RxvCQHM4FNDFkljexHltsImiJJQyodgg8CJzAvRIssVG0Dk3sPc%21KMjtZ1RxQaCRfyq6wHEBCbKITUCCBn2pTYIYS9DTM1HXSpxwW2*M8iqMdij3ir9bHiu5Wyk2AyzyMdgw6XPXkFpHGE3JveCntvojs4cTEMysX3rfUrIY3pWUlJvTj*SeDY*E1mrg%24%24&idsbho=1&PwdPad=&sso=&i1=&i2=1&i3=11733&i4=&i12=1&i13=&i14=155&i15=524&i16=1180&i17=
+
+&LoginOptions=3
+
+login=crifan2003@hotmail.com&passwd=xxx&type=11&NewUser=1&MEST=&PPSX=Pa&PPFT=Cjn6Qxi7biOoiWGoM**p2RjSIhn6bSRiXyP4jjPuqY0n3WcwWLXzIhJMwsAreoaIr1q%21U0O5yp1rZGy4TtAAvRHqrENgIu0TDTVUDnsyzT7FDHI4JWNyEKiKDSinm8VWfQUE69WkFy49E9oX*othDdgWrzKlA6ig5e696xOHSvrnAljAa81xPitklAWC2ordnO8tprnQIdRoUWyufdHeGfWrNq0U4CJwXvC71QMrLYXrT7cJeXqM3nm1%21aAc*e608A%24%24&idsbho=1&PwdPad=&sso=&i1=&i2=1&i3=570887&i4=&i12=1&i13=1&i14=508&i15=3461&i16=2025&i17=
+
+&KMSI=1
+&LoginOptions=1
+&SysDIDToken=ThisIsASysDIDDummyToken

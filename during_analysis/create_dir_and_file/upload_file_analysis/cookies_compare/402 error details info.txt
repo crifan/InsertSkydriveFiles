@@ -1,0 +1,39 @@
+﻿{X-MSNSERVER: BY2____4011527
+BITS-Packet-Type: Ack
+X-ClientErrorCode: AccessDenied
+Content-Length: 379
+Content-Type: application/wls-response-headers+json
+Date: Mon, 13 Feb 2012 12:24:32 GMT
+P3P: CP="BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo"
+WWW-Authenticate: WLID1.1 realm="WindowsLive", fault="BadContextToken", policy="MBI_SSL", ver="6.1.6206.0", target="cid-9a8b8bf501a38a36.users.storage.live.com"
+
+}
+
+用户代码未处理 System.Net.WebException
+  Message=远程服务器返回错误: (401) 未经授权。
+  Source=System
+.............
+  
+  
+  {X-MSNSERVER: BY2____4011218
+BITS-Packet-Type: Ack
+X-ClientErrorCode: AccessDenied
+Content-Length: 379
+Content-Type: application/wls-response-headers+json
+Date: Mon, 13 Feb 2012 15:23:09 GMT
+P3P: CP="BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo"
+WWW-Authenticate: WLID1.1 realm="WindowsLive", fault="BadContextToken", policy="MBI_SSL", ver="6.1.6206.0", target="cid-9a8b8bf501a38a36.users.storage.live.com"
+
+}
+
+
+{X-MSNSERVER: BY2____4011902
+BITS-Packet-Type: Ack
+X-ClientErrorCode: AccessDenied
+Content-Length: 379
+Content-Type: application/wls-response-headers+json
+Date: Mon, 13 Feb 2012 16:09:57 GMT
+P3P: CP="BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo"
+WWW-Authenticate: WLID1.1 realm="WindowsLive", fault="BadContextToken", policy="MBI_SSL", ver="6.1.6206.0", target="cid-9a8b8bf501a38a36.users.storage.live.com"
+
+}

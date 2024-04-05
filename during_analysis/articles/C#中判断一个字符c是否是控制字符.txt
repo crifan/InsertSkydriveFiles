@@ -1,0 +1,2 @@
+C#中判断一个字符c是否是控制字符
+用：if (Char.IsControl(c))

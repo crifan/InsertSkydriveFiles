@@ -1,0 +1,52 @@
+
+https://cid-9a8b8bf501a38a36.users.storage.live.com/users/0x9A8B8BF501A38A36/LiveFolders/3694359069327649935.gif
+的所有req cookie：
+
+方向	键	值	截止期限	域	路径	安全	仅 HTTP
+已发送	xid	d6eefa50-8f84-432d-98d1-2bd18fdc2797&NK4bB&BL2xxxxxxC618&80					
+已发送	xidseq	8					
+已发送	wla42	cHJveHktYmF5LnB2dC1jb250YWN0cy5tc24uY29tfGJ5MioxLDlBOEI4QkY1MDFBMzhBMzYsMSwwLDA=					
+已发送	wl_preperf	req=87&com=87&cache=87					
+已发送	wlidperf	latency=219&throughput=14					
+已发送	PPLState	1					
+已发送	RPSTAuth	EwDoARAnAAAUWkziSC7RbDJKS1VkhugDegv7L0eAAM3y2TPMs3WNtoaTOzlcYW2sKeyzEMp+lCMSOGgEFgDPQkEhMdwPo3IyMH4OAC/IZvnIOGzINKaNn3GsrOGiHAhsgETWf85UIaI/cXdu6lJDsuOYjPjL96CfUsNI7O5gPtoG1BJe1z362UDqxTypRDOJpKX4fRIeF1ikz3l62c6HA2YAAAhacIzWwVwN7TgB06g0R5ePuNRfsJGgk/ioyNkqSCdTUM/5+APWiNwujfx5bRszy37O/PMz/n0Y9mxzn89uTx2Qb27BTIv8B3a/x2aW74AnZzbniUIrUNjsE2+CIfRW6SZY7guF+MwMeEOw0gFmmhWxw1er73IZi1hEKnJ95qiz0wtd3o5qUChUBLydyQZekvBfaaP9//WEwVYLaFUg8TJ4XRC9L9xNzUeVeuKjGd8+XXbcggs4WlqL38+Pg5PxFwYNbhXS+z8arLpaRvdvipo1mx2b1YNt2uY6YX/F3iU0dw6mj1fyLrp3ewDlmmUFq2YmA/thk2TjKnjDZvNRWIDbeO5dTyQwZ1lW4HkMzwifF+8YxdvhEr5zqWsdHjtq+C3kTxYxgt2RCQ/LeBKek70PzI4bGCE/4LWu9rMtE1s6/c6ZZgE=					
+已发送	MSPAuth	2sE1XGCIADnLD9Xc!K0ZxAOp6kp!eMK*WHI*yROywnMg5sHGaHZR98CZmnhgwM!6Ds79C5*MZjKGFVJ9Mh3FPbDqKAwFQP0SUickmU6nO9QksceeIJ2cWEStwGg6C5BtuM					
+已发送	MSPProf	2!Sx5Ky54Dyh!Gi2!aWb9X!3EP*CUDxrYZawLEVynCW40f80RNHSOR3E*LKjsE1C3MQftJO2PopjRX!tMBUkdqyto7T*HXrM0cDydqxd9FdZgInTGvDpz8Y6zyNtY*8BrgUApK7ygBo0UkCChEwphRXb*0p2JV!DVlrYB2EO76ZfjVGMqfCVtlib4BB1H9C502					
+已发送	MSNPPAuth	CvoHUKB6DiX!LrOXGgA*g9Ha1Lnt8wnzzHwTLcHWNHCsLR1Y1VuQ7rjxJPQ!DACe5QFIRlUfNsvOfFsiPwPFJ9h2J92idZv5RgdnLVcap5w8ljsocREfNICjhOTxv1mACYCN48Iuy8JvPwKZ!z4!x6uUTeALewWSRrBbesS5ETZEwxhs0arbB8mUTmNzpT*XgYJDjibilrVVaCbeUC0mPDwzOyhbVVVd!mbwvdpgC4HGowbL8vRzQ0DVmORyKQRp5U3xcr0qYRCFd!rcQpbipD7sTbgLuLY93ibItOVPui9fWixThPvbNHi3btUZ6xM5jkO3wsuSh7XgDZCLsIvrjKdGstj!QxcHEv9tkPMbkHiXl1TW9nKAR!IWjFZXWOP8yTfCr7rj41c9Ys*1tEwWpuga*3jWnYyIYEFp3Sa*A!wfxV7k7q2KskmqY8e2S20S2WmHYFsxJgAV!rwieAAJNCFMZzIvWiYSNh*66jlQ!ytaSsv2pffvP!XjO1IoxMwXBA$$					
+已发送	MH	MSFT					
+已发送	NAP	V=1.9&E=bf2&C=Gps1sugutlcEkBy7t6KxjIRB5YxlbQfAOkSSCFLWj39caHoMnbJ32g&W=1					
+已发送	ANON	A=DE389D4D076BF47BCAE4DC05FFFFFFFF&E=c4c&W=1					
+已发送	WLSSC	EgBmAQMAAAAEgAAACoAADcs6AR023qP9m6/cW+j42t8QwP3KnZJkrdlWGdM+aHemMGLkz7khiCeUtAVad+5zamWNOlddbyqQo70eQK61Pd8dFs8VpLjNLY84Qktzyi1pLpFRd5rPcgEyzSf0PZBqLdnVePyJ5Q1+B7nYfE94mQJlRI9l8ydeNe4sH0AjRY3VAFwA1QD9vwYA7Vazl7AIPU+wCD1PECcAAAoQoAAAFwBjcmlmYW4yMDAzQGhvdG1haWwuY29tAE8AABZjcmlmYW4yMDAzQGhvdG1haWwuY29tAAAACUNOAAYyMTM1OTIAAAZlCAQCAAB3F21AAARDAAR0aWFuAAR3YW5nBMgAAUkAAAAAAAAAAAAAAaOKNpqLi/UAALAIPU+wfU9PAAAAAAAAAAAAAAAADQAxMTQuMjE2LjUwLjkABQAAAAAAAAAAAAAAAAEEAAEAAAEAAAEAAAAAAAAAAA==					
+已发送	E	P:n3Fwkda6zog=:yFXSArGQ3DeIPoR8Vojz2W47vaS82tigURaJjVICcWc=:F					
+已发送	wlp	A|eyJV-t:a*sVLiBQ._					
+已发送	wls	A|eyJV-t:a*nS					
+已发送	wlv	A|eyJV-d:s*MYbDBw.2+1+0+3					
+已发送	SAToken	OKDPADCFTAIXEOWANDEADDYCAZGWCFTTBEMECSDRRALJ					
+已发送	SLVersion	4.0.50401					
+已发送	SLSupportedAgent	true					
+已发送	BP	FR=&ST=&l=SDX.Skydrive					
+已发送	MUID	11A3D8C2FA3E68583231DBCAFE3E6852&TUID=1					
+已发送	pres	9a8b8bf501a38a36=1					
+已发送	wlxS	WebIM=1					
+已发送	HIC	9a8b8bf501a38a36|5|111|					
+
+
+--------------------------------------------------------------------------------
+对于
+WLSSC
+
+https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=11&ct=1329399965&rver=6.1.6206.0&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fskydrive.live.com%2F&lc=2052&id=250206&mkt=zh-CN&cbcxt=sky&bk=1329399969
+返回的
+方向	键	值	截止期限	域	路径	安全	仅 HTTP
+已接收	WLSSC	EgBmAQMAAAAEgAAACoAADcs6AR023qP9m6/cW+j42t8QwP3KnZJkrdlWGdM+aHemMGLkz7khiCeUtAVad+5zamWNOlddbyqQo70eQK61Pd8dFs8VpLjNLY84Qktzyi1pLpFRd5rPcgEyzSf0PZBqLdnVePyJ5Q1+B7nYfE94mQJlRI9l8ydeNe4sH0AjRY3VAFwA1QD9vwYA7Vazl7AIPU+wCD1PECcAAAoQoAAAFwBjcmlmYW4yMDAzQGhvdG1haWwuY29tAE8AABZjcmlmYW4yMDAzQGhvdG1haWwuY29tAAAACUNOAAYyMTM1OTIAAAZlCAQCAAB3F21AAARDAAR0aWFuAAR3YW5nBMgAAUkAAAAAAAAAAAAAAaOKNpqLi/UAALAIPU+wfU9PAAAAAAAAAAAAAAAADQAxMTQuMjE2LjUwLjkABQAAAAAAAAAAAAAAAAEEAAEAAAEAAAEAAAAAAAAAAA==	在会话结束时	.live.com	/	是	是
+
+--------------------------------------------------------------------------------
+对于
+NAP
+
+也是：
+https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=11&ct=1329399965&rver=6.1.6206.0&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fskydrive.live.com%2F&lc=2052&id=250206&mkt=zh-CN&cbcxt=sky&bk=1329399969
+返回的
+方向	键	值	截止期限	域	路径	安全	仅 HTTP
+已接收	NAP	V=1.9&E=bf2&C=Gps1sugutlcEkBy7t6KxjIRB5YxlbQfAOkSSCFLWj39caHoMnbJ32g&W=1	在会话结束时	.live.com	/	否	否
+

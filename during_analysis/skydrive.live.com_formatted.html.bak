@@ -1,0 +1,24 @@
+<html>
+ <head>
+  <title>
+   Microsoft SkyDrive - Access files anywhere. Create docs with free Office Web Apps.
+  </title>
+  <meta name="title" content="Microsoft SkyDrive - Access files anywhere. Create docs with free Office Web Apps." />
+  <meta name="description" content="Store photos and docs online. Access them from any PC, Mac or phone. Create and work together on Word, Excel or PowerPoint documents." />
+  <noscript>
+   <meta http-equiv="refresh" content="2;url=https://login.live.com/login.srf?wa=wsignin1.0&amp;rpsnv=11&amp;ct=1327988927&amp;rver=6.1.6206.0&amp;wp=MBI_SSL_SHARED&amp;wreply=https:%2F%2Fskydrive.live.com%2F&amp;lc=1033&amp;id=250206&amp;mkt=en-US&amp;cbcxt=sky" />
+  </noscript>
+  <script type="text/javascript">
+   //<![CDATA[
+var _d=document,_dh=_d.getElementsByTagName("head")[0];function _ge(a){return _d.getElementById(a)}var $U={a:"^((ftp|http|https):)?//",isAbsoluteUrl:function(b){var a=new RegExp($U.a,"i");return a.test(b)},doesMatchHost:function(b,d){var f="^(mailto|tel|sms):",h=new RegExp(f,"i"),e=$U.a+"([^:/]*([:][^@/]*)?[@])?([-.a-z0-9]*)[^-.a-z0-9]?",g=new RegExp(e,"i"),k=$U.isAbsoluteUrl(b),a=(String(b).search(g)<0?"":RegExp.$5).toLowerCase(),j=h.test(b),c="."+d,i=a.substr(a.length-c.length)==c||a==""||a.charAt(0)=="#"||a==d;return (!k||i)&&!j},isLinkABookmark:function(a){var c=_d.createElement("span");c.innerHTML='<a href="#"></a>';var e=c.firstChild.href,b=a.indexOf("#"),d=a.indexOf("javascript:");if(b>-1)if(b==0||a.indexOf(e)==0)return 1;if(d==0)return 1;return 0},getUrlFragment:function(c){var a="",b=c.indexOf("#");if(b>-1)a=c.substr(b+1);return a}}
+//]]>
+  </script>
+  <script type="text/javascript">
+   //<![CDATA[
+var $PF={"d":"live.com","ru":"https\u003a\u002f\u002flogin.live.com\u002flogin.srf\u003fwa\u003dwsignin1.0\u0026rpsnv\u003d11\u0026ct\u003d1327988927\u0026rver\u003d6.1.6206.0\u0026wp\u003dMBI_SSL_SHARED\u0026wreply\u003dhttps\u003a\u00252F\u00252Fskydrive.live.com\u00252F\u0026lc\u003d1033\u0026id\u003d250206\u0026mkt\u003den-US\u0026cbcxt\u003dsky"};
+    (function(){var b=window,a=b.$PF=b.$PF||{},l=":",g="&",d="=",f="?",e="#",j="!",k="!";a.isProtocolAllowed=function p(b){b=(b||"").toLowerCase();var c=b.indexOf(l),a=b.substr(0,c+1),d=new RegExp("^[a-zA-Z0-9-.+]+:","i"),e=d.test(a);return !e||a=="http:"||a=="https:"||a=="ftp:"};a.isInternalUrl=function s(b){try{return !!b&&$U.doesMatchHost(b,a.d)&&a.isProtocolAllowed(b)}catch(c){return false}};a.getHashUrl=function t(){var c,g=b.location,d=g.href,i=d.indexOf(e),f=i==-1?"":d.substr(i+1);if(f){var h=e;c=d;if(f.indexOf(k)==0){c=d.substr(d.indexOf(f)+1);h=j}if(c.indexOf("/")==0)c=[g.protocol,"//",g.host,c].join("");c=a.getNormalizedUrl(c,h)}return c};a.getCurrentUrl=function r(){var c=a.getHashUrl();return a.isInternalUrl(c)?c:b.location.href};function m(a,e){var k=-1,c=a.indexOf(e);while(c!=-1){var b=c+1,h=a.indexOf(e,b),m=a.indexOf(g,b),n=a.indexOf(f,b),j=a.indexOf(d,b),l=[h,m,n,j].sort(function(a,b){return a==-1?1:b==-1?-1:a-b}),i=l[0];if(i==-1)break;else if(i==j){k=c;break}else c=h}return k}a.getNormalizedUrl=function q(a,c){c=c||e;var h="",g=m(a,c);if(g>-1){h=a.substr(g+1);a=a.substr(0,g)}var b="",d=a.indexOf(f);if(d>-1){b=a.substr(d+1);a=a.substr(0,d)}b=o(n(h?h:b));if(b)a=[a,f,b].join("");a=a.replace(/[!]/g,"%21");return a};function n(f){var e={};if(f){var c=f.split(g),h=c.length,a=0;for(;a<h;a++){var k=c[a],b=k.split(d),j=b[0];b.splice(0,1);var i=b.join(d);e[j]=decodeURIComponent(i)}}return e}function o(e){var a=[];for(var c in e){var b=e[c];b=b?b:"";a.push(c,d,encodeURIComponent(b).replace(/[^\w.%-]/g,function(b){var a=b.charCodeAt(0).toString(16);return "%"+(a.length==1?"0"+a:a).toUpperCase()}),g)}if(a.length>0)a.pop();return a.join("")}if(!a.f)try{var c=a.getHashUrl()||a.ru;if(c){var h=document.location;try{if(b!=b.top){document.domain=a.d;if(c.indexOf("login."+a.d)>-1||c.indexOf(b.top.document.location.protocol)!=0)h=b.top.document.location}}catch(i){}if(a.isInternalUrl(c))h.replace(c)}}catch(i){}})();
+
+//]]>
+  </script>
+ </head>
+</html>

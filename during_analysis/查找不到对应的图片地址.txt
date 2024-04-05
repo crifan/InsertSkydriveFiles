@@ -1,0 +1,33 @@
+"
+<P><A 
+href="http://storage.live.com/items/9A8B8BF501A38A36!790?filename=10636341_021606.jpg"><IMG 
+style="BACKGROUND-IMAGE: none; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px" 
+title=10636341_021606 border=0 alt=10636341_021606 
+src="http://storage.live.com/items/9A8B8BF501A38A36!790?filename=10636341_021606.jpg" 
+width=164 height=244></A><A 
+href="http://storage.live.com/items/9A8B8BF501A38A36!791?filename=200842412536269.jpg"><IMG 
+style="BACKGROUND-IMAGE: none; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px" 
+title=200842412536269 border=0 alt=200842412536269 
+src="http://storage.live.com/items/9A8B8BF501A38A36!791?filename=200842412536269.jpg" 
+width=164 height=244></A></P><A 
+href="file:///C:/Users/Administrator/AppData/Local/Temp/WindowsLiveWriter1088699037/supfiles6639972/wangluodan   333[3].jpg"><IMG 
+style="BACKGROUND-IMAGE: none; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px" 
+title="wangluodan   333" border=0 alt="wangluodan   333" 
+src="file:///C:/Users/Administrator/AppData/Local/Temp/WindowsLiveWriter1088699037/supfiles6639972/wangluodan   333_thumb[1].jpg" 
+width=276 height=351></A>"
+
+
+对于字符串：
+href="file:///C:/Users/Administrator/AppData/Local/Temp/WindowsLiveWriter1088699037/supfiles6639972/wangluodan   333[3].jpg"><IMG 
+style="BACKGROUND-IMAGE: none; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px" 
+title="wangluodan   333" border=0 alt="wangluodan   333" 
+src="file:///C:/Users/Administrator/AppData/Local/Temp/WindowsLiveWriter1088699037/supfiles6639972/wangluodan   333_thumb[1].jpg" 
+
+为何下面的不匹配：
+
+href=""
+(
+	file:///(?<localAddr>(?<localAddrPref>.+?WindowsLiveWriter.+?/supfile[^/]+?)/(?<realName>[^""]+?)\[\d+\]
+	(?<pointSuf>\.(?<suffix>\w{3,4})))
+)
+"".+?title=""?(\k<realName>)?""?.+?alt=""?(\k<realName>)?""?.+?src=""(file:///(?<thumbAddr>\k<localAddrPref>/\k<realName>_thumb\k<pointSuf>))""

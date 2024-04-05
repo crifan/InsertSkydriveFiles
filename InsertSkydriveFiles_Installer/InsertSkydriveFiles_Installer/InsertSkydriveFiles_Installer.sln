@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "InsertSkydriveFiles_Installer", "InsertSkydriveFiles_Installer\InsertSkydriveFiles_Installer.vdproj", "{83190F36-1135-4449-AAE2-6D55F08FB126}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83190F36-1135-4449-AAE2-6D55F08FB126}.Debug|Default.ActiveCfg = Debug
+		{83190F36-1135-4449-AAE2-6D55F08FB126}.Debug|Default.Build.0 = Debug
+		{83190F36-1135-4449-AAE2-6D55F08FB126}.Release|Default.ActiveCfg = Release
+		{83190F36-1135-4449-AAE2-6D55F08FB126}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

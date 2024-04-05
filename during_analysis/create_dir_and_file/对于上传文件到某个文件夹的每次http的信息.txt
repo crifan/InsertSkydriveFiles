@@ -1,0 +1,303 @@
+--------------对于上传文件到某个文件夹-----------------------------------------
+地址是：
+https://cid-9a8b8bf501a38a36.users.storage.live.com/items/9A8B8BF501A38A36!661/%E9%9C%80%E8%A6%81%E5%AE%89%E8%A3%85axsafecontrols.cab.jpg
+
+
+第一次：
+req：
+键	值
+请求	POST /items/9A8B8BF501A38A36!661/%E9%9C%80%E8%A6%81%E5%AE%89%E8%A3%85axsafecontrols.cab.jpg HTTP/1.1
+X-Http-Method-Override	BITS_POST
+Referer	https://secure.wlxrs.com/9ZVb-b4dJVtB6O3DvKbQvbbC-aZwNER1DNzO4VCKNftHGUVerxKsn3E8ad4wwDHF/Microsoft.Live.SkyDrive.SkyDriveUploaderV2.xap
+Accept-Language	zh-CN
+Content-Length	14
+BITS-Packet-Type	Create-Session
+BITS-Supported-Protocols	{7df0354d-249b-430f-820d-3d2a9bef4931}
+Application	LiveFolders
+Accept	application/wls-response-headers+json
+Overwrite	false
+X-PhotoSizeConstraint	2048x2048
+X-RequestStats	upType=sl,dragDrop=false
+Accept-Encoding	gzip, deflate
+User-Agent	Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
+Host	cid-9a8b8bf501a38a36.users.storage.live.com
+Connection	Keep-Alive
+Cache-Control	no-cache
+
+req post：
+Create-Session
+
+resp：
+键	值
+响应	HTTP/1.1 200 Created
+Content-Length	409
+Content-Type	application/wls-response-headers+json
+P3P	CP="BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo"
+X-MSNSERVER	BY2____4011429
+Set-Cookie	RPSMaybe=; path=/; domain=.live.com; expires=Thu, 30-Oct-1980 16:00:00 GMT;
+BITS-Packet-Type	Ack
+BITS-Protocol	{7df0354d-249b-430f-820d-3d2a9bef4931}
+BITS-Session-Id	1mt6-A3ETOXIh1RC4BcPDegWopto6rPIOp390ho6OPSQU
+Accept-Encoding	Identity
+Date	Mon, 20 Feb 2012 10:44:05 GMT
+
+resp body：
+{
+    "StatusCode": "201",
+    "StatusDescription": "Created",
+    "P3P": "CP=\"BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo\"",
+    "X-MSNSERVER": "BY2____4011429",
+    "Set-Cookie": "RPSMaybe=; path=\/; domain=.live.com; expires=Thu, 30-Oct-1980 16:00:00 GMT;",
+    "BITS-Packet-Type": "Ack",
+    "BITS-Protocol": "{7df0354d-249b-430f-820d-3d2a9bef4931}",
+    "BITS-Session-Id": "1mt6-A3ETOXIh1RC4BcPDegWopto6rPIOp390ho6OPSQU",
+    "Accept-Encoding": "Identity"
+}
+
+第二次：
+req：
+键	值
+请求	POST /items/9A8B8BF501A38A36!661/%E9%9C%80%E8%A6%81%E5%AE%89%E8%A3%85axsafecontrols.cab.jpg HTTP/1.1
+Accept	application/wls-response-headers+json
+Referer	https://secure.wlxrs.com/9ZVb-b4dJVtB6O3DvKbQvbbC-aZwNER1DNzO4VCKNftHGUVerxKsn3E8ad4wwDHF/Microsoft.Live.SkyDrive.SkyDriveUploaderV2.xap
+Accept-Language	zh-CN
+Content-Length	10240
+BITS-Packet-Type	Fragment
+X-Content-Range	bytes 0-10239/116487
+BITS-Session-Id	1mt6-A3ETOXIh1RC4BcPDegWopto6rPIOp390ho6OPSQU
+Application	LiveFolders
+X-Http-Method-Override	BITS_POST
+Overwrite	false
+X-PhotoSizeConstraint	2048x2048
+X-RequestStats	upType=sl,dragDrop=false
+Accept-Encoding	gzip, deflate
+User-Agent	Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
+Host	cid-9a8b8bf501a38a36.users.storage.live.com
+Connection	Keep-Alive
+Cache-Control	no-cache
+
+resp ：
+键	值
+响应	HTTP/1.1 200 OK
+Content-Length	356
+Content-Type	application/wls-response-headers+json
+P3P	CP="BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo"
+X-MSNSERVER	BY2____4011432
+Set-Cookie	RPSMaybe=; path=/; domain=.live.com; expires=Thu, 30-Oct-1980 16:00:00 GMT;
+BITS-Packet-Type	Ack
+BITS-Session-Id	1mt6-A3ETOXIh1RC4BcPDegWopto6rPIOp390ho6OPSQU
+BITS-Received-Content-Range	10240
+Date	Mon, 20 Feb 2012 10:44:05 GMT
+
+resp body：
+{
+    "StatusCode": "200",
+    "StatusDescription": "OK",
+    "P3P": "CP=\"BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo\"",
+    "X-MSNSERVER": "BY2____4011432",
+    "Set-Cookie": "RPSMaybe=; path=\/; domain=.live.com; expires=Thu, 30-Oct-1980 16:00:00 GMT;",
+    "BITS-Packet-Type": "Ack",
+    "BITS-Session-Id": "1mt6-A3ETOXIh1RC4BcPDegWopto6rPIOp390ho6OPSQU",
+    "BITS-Received-Content-Range": "10240"
+}
+
+
+第三次：
+req：
+键	值
+请求	POST /items/9A8B8BF501A38A36!661/%E9%9C%80%E8%A6%81%E5%AE%89%E8%A3%85axsafecontrols.cab.jpg HTTP/1.1
+Accept	application/wls-response-headers+json
+Referer	https://secure.wlxrs.com/9ZVb-b4dJVtB6O3DvKbQvbbC-aZwNER1DNzO4VCKNftHGUVerxKsn3E8ad4wwDHF/Microsoft.Live.SkyDrive.SkyDriveUploaderV2.xap
+Accept-Language	zh-CN
+Content-Length	20480
+BITS-Packet-Type	Fragment
+X-Content-Range	bytes 10240-30719/116487
+BITS-Session-Id	1mt6-A3ETOXIh1RC4BcPDegWopto6rPIOp390ho6OPSQU
+Application	LiveFolders
+X-Http-Method-Override	BITS_POST
+Overwrite	false
+X-PhotoSizeConstraint	2048x2048
+X-RequestStats	upType=sl,dragDrop=false
+Accept-Encoding	gzip, deflate
+User-Agent	Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
+Host	cid-9a8b8bf501a38a36.users.storage.live.com
+Connection	Keep-Alive
+Cache-Control	no-cache
+
+resp：
+键	值
+响应	HTTP/1.1 200 OK
+Content-Length	356
+Content-Type	application/wls-response-headers+json
+P3P	CP="BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo"
+X-MSNSERVER	BY2____4011429
+Set-Cookie	RPSMaybe=; path=/; domain=.live.com; expires=Thu, 30-Oct-1980 16:00:00 GMT;
+BITS-Packet-Type	Ack
+BITS-Session-Id	1mt6-A3ETOXIh1RC4BcPDegWopto6rPIOp390ho6OPSQU
+BITS-Received-Content-Range	30720
+Date	Mon, 20 Feb 2012 10:44:07 GMT
+
+resp body：
+{
+    "StatusCode": "200",
+    "StatusDescription": "OK",
+    "P3P": "CP=\"BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo\"",
+    "X-MSNSERVER": "BY2____4011429",
+    "Set-Cookie": "RPSMaybe=; path=\/; domain=.live.com; expires=Thu, 30-Oct-1980 16:00:00 GMT;",
+    "BITS-Packet-Type": "Ack",
+    "BITS-Session-Id": "1mt6-A3ETOXIh1RC4BcPDegWopto6rPIOp390ho6OPSQU",
+    "BITS-Received-Content-Range": "30720"
+}
+
+第四次：
+req：
+键	值
+请求	POST /items/9A8B8BF501A38A36!661/%E9%9C%80%E8%A6%81%E5%AE%89%E8%A3%85axsafecontrols.cab.jpg HTTP/1.1
+Accept	application/wls-response-headers+json
+Referer	https://secure.wlxrs.com/9ZVb-b4dJVtB6O3DvKbQvbbC-aZwNER1DNzO4VCKNftHGUVerxKsn3E8ad4wwDHF/Microsoft.Live.SkyDrive.SkyDriveUploaderV2.xap
+Accept-Language	zh-CN
+Content-Length	40960
+BITS-Packet-Type	Fragment
+X-Content-Range	bytes 30720-71679/116487
+BITS-Session-Id	1mt6-A3ETOXIh1RC4BcPDegWopto6rPIOp390ho6OPSQU
+Application	LiveFolders
+X-Http-Method-Override	BITS_POST
+Overwrite	false
+X-PhotoSizeConstraint	2048x2048
+X-RequestStats	upType=sl,dragDrop=false
+Accept-Encoding	gzip, deflate
+User-Agent	Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
+Host	cid-9a8b8bf501a38a36.users.storage.live.com
+Connection	Keep-Alive
+Cache-Control	no-cache
+
+resp：
+键	值
+响应	HTTP/1.1 200 OK
+Content-Length	356
+Content-Type	application/wls-response-headers+json
+P3P	CP="BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo"
+X-MSNSERVER	BY2____4011432
+Set-Cookie	RPSMaybe=; path=/; domain=.live.com; expires=Thu, 30-Oct-1980 16:00:00 GMT;
+BITS-Packet-Type	Ack
+BITS-Session-Id	1mt6-A3ETOXIh1RC4BcPDegWopto6rPIOp390ho6OPSQU
+BITS-Received-Content-Range	71680
+Date	Mon, 20 Feb 2012 10:44:09 GMT
+
+resp body：
+{
+    "StatusCode": "200",
+    "StatusDescription": "OK",
+    "P3P": "CP=\"BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo\"",
+    "X-MSNSERVER": "BY2____4011432",
+    "Set-Cookie": "RPSMaybe=; path=\/; domain=.live.com; expires=Thu, 30-Oct-1980 16:00:00 GMT;",
+    "BITS-Packet-Type": "Ack",
+    "BITS-Session-Id": "1mt6-A3ETOXIh1RC4BcPDegWopto6rPIOp390ho6OPSQU",
+    "BITS-Received-Content-Range": "71680"
+}
+
+第五次：
+req：
+键	值
+请求	POST /items/9A8B8BF501A38A36!661/%E9%9C%80%E8%A6%81%E5%AE%89%E8%A3%85axsafecontrols.cab.jpg HTTP/1.1
+Accept	application/wls-response-headers+json
+Referer	https://secure.wlxrs.com/9ZVb-b4dJVtB6O3DvKbQvbbC-aZwNER1DNzO4VCKNftHGUVerxKsn3E8ad4wwDHF/Microsoft.Live.SkyDrive.SkyDriveUploaderV2.xap
+Accept-Language	zh-CN
+Content-Length	44807
+BITS-Packet-Type	Fragment
+X-Content-Range	bytes 71680-116486/116487
+BITS-Session-Id	1mt6-A3ETOXIh1RC4BcPDegWopto6rPIOp390ho6OPSQU
+Application	LiveFolders
+X-Http-Method-Override	BITS_POST
+Overwrite	false
+X-PhotoSizeConstraint	2048x2048
+X-RequestStats	upType=sl,dragDrop=false
+Accept-Encoding	gzip, deflate
+User-Agent	Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
+Host	cid-9a8b8bf501a38a36.users.storage.live.com
+Connection	Keep-Alive
+Cache-Control	no-cache
+
+resp：
+键	值
+响应	HTTP/1.1 200 OK
+Content-Length	357
+Content-Type	application/wls-response-headers+json
+P3P	CP="BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo"
+X-MSNSERVER	BY2____4011429
+Set-Cookie	RPSMaybe=; path=/; domain=.live.com; expires=Thu, 30-Oct-1980 16:00:00 GMT;
+BITS-Packet-Type	Ack
+BITS-Session-Id	1mt6-A3ETOXIh1RC4BcPDegWopto6rPIOp390ho6OPSQU
+BITS-Received-Content-Range	116487
+Date	Mon, 20 Feb 2012 10:44:11 GMT
+
+resp body：
+{
+    "StatusCode": "200",
+    "StatusDescription": "OK",
+    "P3P": "CP=\"BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo\"",
+    "X-MSNSERVER": "BY2____4011429",
+    "Set-Cookie": "RPSMaybe=; path=\/; domain=.live.com; expires=Thu, 30-Oct-1980 16:00:00 GMT;",
+    "BITS-Packet-Type": "Ack",
+    "BITS-Session-Id": "1mt6-A3ETOXIh1RC4BcPDegWopto6rPIOp390ho6OPSQU",
+    "BITS-Received-Content-Range": "116487"
+}
+
+第六次：
+req：
+键	值
+请求	POST /items/9A8B8BF501A38A36!661/%E9%9C%80%E8%A6%81%E5%AE%89%E8%A3%85axsafecontrols.cab.jpg HTTP/1.1
+X-Http-Method-Override	BITS_POST
+Referer	https://secure.wlxrs.com/9ZVb-b4dJVtB6O3DvKbQvbbC-aZwNER1DNzO4VCKNftHGUVerxKsn3E8ad4wwDHF/Microsoft.Live.SkyDrive.SkyDriveUploaderV2.xap
+Accept-Language	zh-CN
+Content-Length	13
+BITS-Packet-Type	Close-Session
+BITS-Session-Id	1mt6-A3ETOXIh1RC4BcPDegWopto6rPIOp390ho6OPSQU
+Application	LiveFolders
+Accept	application/wls-response-headers+json
+Overwrite	false
+X-PhotoSizeConstraint	2048x2048
+X-RequestStats	upType=sl,dragDrop=false
+Accept-Encoding	gzip, deflate
+User-Agent	Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
+Host	cid-9a8b8bf501a38a36.users.storage.live.com
+Connection	Keep-Alive
+Cache-Control	no-cache
+
+req post：
+Close-Session
+
+resp：
+键	值
+响应	HTTP/1.1 200 OK
+Content-Length	608
+Content-Type	application/wls-response-headers+json
+Content-Location	http://by2myq.bay.livefilestore.com/y1p4CZTMwsSjfJY0LPyH3xJxQFvOiyzmxzcVwJVK2naZgSWlD-rCZxHlNutWjwznw2lN8AO4C_9aUqHIzCmWr6CmJvpQT8RXtfa
+P3P	CP="BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo"
+X-MSNSERVER	BY2____4011432
+Set-Cookie	RPSMaybe=; path=/; domain=.live.com; expires=Thu, 30-Oct-1980 16:00:00 GMT;
+BITS-Packet-Type	Ack
+X-SqlDataOrigin	S
+X-Resource-Id	9A8B8BF501A38A36!755
+X-Cid	-7310595685695124938
+X-Last-Modified-ISO8601	2012-02-20T10:44:10.48Z
+X-ItemVersion	0
+Etag	9A8B8BF501A38A36!755.0
+Date	Mon, 20 Feb 2012 10:44:11 GMT
+
+resp body：
+{
+    "StatusCode": "200",
+    "StatusDescription": "OK",
+    "P3P": "CP=\"BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo\"",
+    "X-MSNSERVER": "BY2____4011432",
+    "Set-Cookie": "RPSMaybe=; path=\/; domain=.live.com; expires=Thu, 30-Oct-1980 16:00:00 GMT;",
+    "BITS-Packet-Type": "Ack",
+    "X-SqlDataOrigin": "S",
+    "X-Resource-Id": "9A8B8BF501A38A36!755",
+    "X-Cid": "-7310595685695124938",
+    "X-Last-Modified-ISO8601": "2012-02-20T10:44:10.48Z",
+    "X-ItemVersion": "0",
+    "Etag": "9A8B8BF501A38A36!755.0",
+    "Content-Location": "http:\/\/by2myq.bay.livefilestore.com\/y1p4CZTMwsSjfJY0LPyH3xJxQFvOiyzmxzcVwJVK2naZgSWlD-rCZxHlNutWjwznw2lN8AO4C_9aUqHIzCmWr6CmJvpQT8RXtfa"
+}

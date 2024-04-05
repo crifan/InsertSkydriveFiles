@@ -1,0 +1,358 @@
+
+<P><FONT color=#000000>下面的内容，是关于在VirtualBox中使用mac的心得。</FONT></P>
+<P><FONT color=#000000>多数和Mac本身相关的，少数是和VirtualBox下使用Mac相关的。</FONT></P>
+<HR>
+
+<P><STRONG><FONT color=#0000ff>1.第一次进入系统后的桌面背景叫 Andromeda 
+Galaxy</FONT></STRONG></P>
+<P>第一次进入Mac系统，桌面背景是那个星云的界面：</P>
+<P><A 
+href="http://storage.live.com/items/9A8B8BF501A38A36!2171?filename=Andromeda%20Galaxy[1].png" 
+target=_blank><IMG 
+style="BACKGROUND-IMAGE: none; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px" 
+title="Andromeda Galaxy" border=0 alt="Andromeda Galaxy" 
+src="http://storage.live.com/items/9A8B8BF501A38A36!2171?filename=Andromeda%20Galaxy[1].png" 
+width=644 height=469></A></P>
+<P>这个背景桌面：Andromeda Galaxy，中文译为：仙女座星系；仙女座星云。</P>
+<P>对应的，可以在桌面右击选择更改背景看到：</P>
+<P><A 
+href="http://storage.live.com/items/9A8B8BF501A38A36!2172?filename=%e6%a1%8c%e9%9d%a2%20%e8%ae%be%e7%bd%ae[1].png" 
+target=_blank><IMG 
+style="BACKGROUND-IMAGE: none; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px" 
+title="桌面 设置" border=0 alt="桌面 设置" 
+src="http://storage.live.com/items/9A8B8BF501A38A36!2172?filename=%e6%a1%8c%e9%9d%a2%20%e8%ae%be%e7%bd%ae[1].png" 
+width=551 height=484></A></P>
+<P>所以，可以理解为：</P>
+<P><FONT style="BACKGROUND-COLOR: #ffff00" color=#ff0000>Mac的仙女座星云桌面，等价于 
+Windows中经典的蓝天白云的桌面。</FONT></P>
+<P><STRONG><FONT color=#0000ff>2. 桌面最下边那一行放图标的东西叫Dock</FONT></STRONG></P>
+<P>桌面下面那一行放各种图标的东西：</P>
+<P><A 
+href="http://storage.live.com/items/9A8B8BF501A38A36!2173?filename=whatis%20dock[2].png" 
+target=_blank><IMG 
+style="BACKGROUND-IMAGE: none; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px" 
+title="whatis dock" border=0 alt="whatis dock" 
+src="http://storage.live.com/items/9A8B8BF501A38A36!2173?filename=whatis%20dock[2].png" 
+width=644 height=74></A></P>
+<P>叫做Dock。</P>
+<P><STRONG><FONT color=#0000ff>3. Mac中一些常用的快捷键</FONT></STRONG></P>
+<P>（1）F11 == 显示桌面 == Windows中的Win+D</P>
+<P>（2）F12 == 显示Dashboard：</P>
+<P><A 
+href="http://storage.live.com/items/9A8B8BF501A38A36!2174?filename=dashboard[1].png" 
+target=_blank><IMG 
+style="BACKGROUND-IMAGE: none; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px" 
+title=dashboard border=0 alt=dashboard 
+src="http://storage.live.com/items/9A8B8BF501A38A36!2174?filename=dashboard[1].png" 
+width=644 height=367></A></P>
+<P>（3）F9 == Mission Control== 任务管理==Windows中的Alt-Tab切换任务或窗口</P>
+<P><A 
+href="http://storage.live.com/items/9A8B8BF501A38A36!2175?filename=F9%20%20mission%20control[1].png" 
+target=_blank><IMG 
+style="BACKGROUND-IMAGE: none; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px" 
+title="F9  mission control" border=0 alt="F9  mission control" 
+src="http://storage.live.com/items/9A8B8BF501A38A36!2175?filename=F9%20%20mission%20control[1].png" 
+width=644 height=453></A></P>
+<P>（4）F10 == 应用程序窗口 == 只显示当前程序的窗口</P>
+<P><A 
+href="http://storage.live.com/items/9A8B8BF501A38A36!2176?filename=F10%20%e5%ba%94%e7%94%a8%e7%a8%8b%e5%ba%8f%e7%aa%97%e5%8f%a3[1].png" 
+target=_blank><IMG 
+style="BACKGROUND-IMAGE: none; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px" 
+title="F10 应用程序窗口" border=0 alt="F10 应用程序窗口" 
+src="http://storage.live.com/items/9A8B8BF501A38A36!2176?filename=F10%20%e5%ba%94%e7%94%a8%e7%a8%8b%e5%ba%8f%e7%aa%97%e5%8f%a3[1].png" 
+width=637 height=484></A></P>
+<P>返回原先界面的话，按ESC即可。</P>
+<P>（5）Control+<B>⇠和Control+<B>⇢，可以在多个桌面之间切换</B></B></P>
+<P><STRONG></STRONG>&nbsp;</P>
+<P>更多快捷键，可以去：<STRONG>Dock中的系统偏好设置 -&gt; 键盘 -&gt; 键盘快捷键</STRONG>，中找到：</P>
+<P><A 
+href="http://storage.live.com/items/9A8B8BF501A38A36!2177?filename=%e7%b3%bb%e7%bb%9f%e5%81%8f%e5%a5%bd%e8%ae%be%e7%bd%ae.png" 
+target=_blank><IMG 
+style="BACKGROUND-IMAGE: none; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px" 
+title=系统偏好设置 border=0 alt=系统偏好设置 
+src="http://storage.live.com/items/9A8B8BF501A38A36!2177?filename=%e7%b3%bb%e7%bb%9f%e5%81%8f%e5%a5%bd%e8%ae%be%e7%bd%ae.png" 
+width=93 height=120></A></P>
+<P><A 
+href="http://storage.live.com/items/9A8B8BF501A38A36!2178?filename=%e9%94%ae%e7%9b%98[1].png" 
+target=_blank><IMG 
+style="BACKGROUND-IMAGE: none; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px" 
+title=键盘 border=0 alt=键盘 
+src="http://storage.live.com/items/9A8B8BF501A38A36!2178?filename=%e9%94%ae%e7%9b%98[1].png" 
+width=465 height=484></A></P>
+<P><A 
+href="http://storage.live.com/items/9A8B8BF501A38A36!2179?filename=%e9%94%ae%e7%9b%98%e5%bf%ab%e6%8d%b7%e9%94%ae[1].png" 
+target=_blank><IMG 
+style="BACKGROUND-IMAGE: none; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px" 
+title=键盘快捷键 border=0 alt=键盘快捷键 
+src="http://storage.live.com/items/9A8B8BF501A38A36!2179?filename=%e9%94%ae%e7%9b%98%e5%bf%ab%e6%8d%b7%e9%94%ae[1].png" 
+width=543 height=484></A></P>
+<P><FONT color=#0000ff size=2><STRONG>4. Mac中的键盘上的按键</STRONG></FONT></P>
+<P>Mac的物理键盘，和Windows中的不太一样，有些需要特殊说明一下的：</P>
+<P>先上图：</P>
+<P><A 
+href="http://storage.live.com/items/9A8B8BF501A38A36!2180?filename=Apple_Keyboard[1].jpg" 
+target=_blank><IMG 
+style="BACKGROUND-IMAGE: none; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px" 
+title=Apple_Keyboard border=0 alt=Apple_Keyboard 
+src="http://storage.live.com/items/9A8B8BF501A38A36!2180?filename=Apple_Keyboard[1].jpg" 
+width=644 height=294></A></P>
+<P>（1）Command键</P>
+<P>有个Command键，也叫做Apple键，花键，对应的（字符）形状为：<FONT style="BACKGROUND-COLOR: #ffff00" 
+color=#ff0000 size=5><A href="http://en.wikipedia.org/wiki/Command_key" 
+target=_blank><U><STRONG>⌘</STRONG></U></A></FONT></P>
+<P>对应的，在VirtualBox中，已自动映射到Windows键盘中的Win键了。</P>
+<P>Mac系统中，很多功能的快捷键，都是Command键和其他键组合来实现的：</P>
+<P><A 
+href="http://storage.live.com/items/9A8B8BF501A38A36!2181?filename=command%20shortcut[2].png" 
+target=_blank><IMG 
+style="BACKGROUND-IMAGE: none; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px" 
+title="command shortcut" border=0 alt="command shortcut" 
+src="http://storage.live.com/items/9A8B8BF501A38A36!2181?filename=command%20shortcut[2].png" 
+width=540 height=484></A></P>
+<P>（2）Option键</P>
+<P>Mac中的Option键，就是Windows中常说的Alt键。</P>
+<P>&nbsp;</P>
+<P>=&gt;所以，当你想要通过快捷键（其中包含Command键）的时候，就可以用Win键+对应其他键，来实现了：</P>
+<P>比如：</P>
+<P><A 
+href="http://storage.live.com/items/9A8B8BF501A38A36!2182?filename=option%20command%20D[1].png" 
+target=_blank><IMG 
+style="BACKGROUND-IMAGE: none; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px" 
+title="option command D" border=0 alt="option command D" 
+src="http://storage.live.com/items/9A8B8BF501A38A36!2182?filename=option%20command%20D[1].png" 
+width=578 height=484></A></P>
+<P>可以原先是Option-Command-D，是对应的 打开或关闭Dock隐藏 的快捷键，可以实现打开或隐藏Dock。</P>
+<P>所以你就可以在VirtualBox下，对于Mac系统中，按Win+Alt+D，实现对应的Option-Command+D的功能，打开或隐藏Dock了。</P>
+<P>&nbsp;</P>
+<P><STRONG><FONT color=#0000ff>5. 固定某程序到Dock中</FONT></STRONG></P>
+<P>想要把某个已经打开的程序的图标固定到Dock中：</P>
+<P>对着Dock中该程序的图标 右键 -&gt; 选项 -&gt; 在Dock中保留：</P>
+<P><A 
+href="http://storage.live.com/items/9A8B8BF501A38A36!2183?filename=pin%20app%20to%20dock[2].png" 
+target=_blank><IMG 
+style="BACKGROUND-IMAGE: none; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px" 
+title="pin app to dock" border=0 alt="pin app to dock" 
+src="http://storage.live.com/items/9A8B8BF501A38A36!2183?filename=pin%20app%20to%20dock[2].png" 
+width=602 height=363></A></P>
+<P>&nbsp;</P>
+<P><STRONG><FONT color=#0000ff>6.鼠标滚轮方向相反的问题</FONT></STRONG></P>
+<P>在最开始在VirtualBox中安装完毕Mac开始，就发现了，对于鼠标滚轮，滚轮滚动的前后滚动方向，和真正的滚动条的滚动方向，是相反的，之前一直没有去理会此问题。</P>
+<P>现在实在受不了了，所以就去尝试解决。结果很轻松，搞定此问题：</P>
+<P>Dock-&gt;系统偏好设置-&gt;硬件-&gt;鼠标-&gt;取消选择“滚动或导航时，使内容按照手指方向移动”：</P>
+<P><A 
+href="http://storage.live.com/items/9A8B8BF501A38A36!2195?filename=%e7%b3%bb%e7%bb%9f%e5%81%8f%e5%a5%bd%e8%ae%be%e7%bd%ae%20%e9%bc%a0%e6%a0%87[1].png" 
+target=_blank><IMG 
+style="BACKGROUND-IMAGE: none; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px" 
+title="系统偏好设置 鼠标" border=0 alt="系统偏好设置 鼠标" 
+src="http://storage.live.com/items/9A8B8BF501A38A36!2195?filename=%e7%b3%bb%e7%bb%9f%e5%81%8f%e5%a5%bd%e8%ae%be%e7%bd%ae%20%e9%bc%a0%e6%a0%87[1].png" 
+width=460 height=484></A></P>
+<P><A 
+href="http://storage.live.com/items/9A8B8BF501A38A36!2196?filename=%e5%8f%96%e6%b6%88%e9%80%89%e6%8b%a9%20%e6%bb%9a%e5%8a%a8%e6%88%96%e5%af%bc%e8%88%aa%e6%97%b6%ef%bc%8c%e4%bd%bf%e5%86%85%e5%ae%b9%e6%8c%89%e7%85%a7%e6%89%8b%e6%8c%87%e6%96%b9%e5%90%91%e7%a7%bb%e5%8a%a8[2].png" 
+target=_blank><IMG 
+style="BACKGROUND-IMAGE: none; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px" 
+title="取消选择 滚动或导航时，使内容按照手指方向移动" border=0 alt="取消选择 滚动或导航时，使内容按照手指方向移动" 
+src="http://storage.live.com/items/9A8B8BF501A38A36!2196?filename=%e5%8f%96%e6%b6%88%e9%80%89%e6%8b%a9%20%e6%bb%9a%e5%8a%a8%e6%88%96%e5%af%bc%e8%88%aa%e6%97%b6%ef%bc%8c%e4%bd%bf%e5%86%85%e5%ae%b9%e6%8c%89%e7%85%a7%e6%89%8b%e6%8c%87%e6%96%b9%e5%90%91%e7%a7%bb%e5%8a%a8[2].png" 
+width=644 height=374></A></P>
+<P><STRONG><FONT color=#0000ff>7.类似于Win7中的Alt+tab实现多个（程序）窗口之间的切换：</FONT><FONT 
+color=#ff0000>Win+Tab</FONT></STRONG></P>
+<P><A 
+href="http://storage.live.com/items/9A8B8BF501A38A36!2245?filename=mac%20win+tab[1].png" 
+target=_blank><IMG 
+style="BACKGROUND-IMAGE: none; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px" 
+title="mac win tab" border=0 alt="mac win tab" 
+src="http://storage.live.com/items/9A8B8BF501A38A36!2245?filename=mac%20win+tab[1].png" 
+width=593 height=484></A></P>
+<P><STRONG><FONT 
+color=#0000ff>8.类似于Win7中的Control+Tab实现单个程序内，多个页面之间的切换：</FONT><FONT 
+color=#ff0000>Control+Tab</FONT></STRONG></P>
+<P><A 
+href="http://storage.live.com/items/9A8B8BF501A38A36!2246?filename=mac%20control+tab[1].png" 
+target=_blank><IMG 
+style="BACKGROUND-IMAGE: none; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px" 
+title="mac control tab" border=0 alt="mac control tab" 
+src="http://storage.live.com/items/9A8B8BF501A38A36!2246?filename=mac%20control+tab[1].png" 
+width=644 height=442></A></P>
+<P><STRONG><FONT color=#0000ff>9.强制关闭（当前）程序</FONT></STRONG></P>
+<P>之前遇到Xcode中点击Organizer中的Projects结果就死掉了，很久很久都没反应。</P>
+<P>所以就想要强制关闭当前程序Xcode，最后找到了快捷键为：</P>
+<P>Command+Option+ESC：</P>
+<P><A 
+href="http://storage.live.com/items/9A8B8BF501A38A36!2393?filename=command%20option%20esc.png" 
+target=_blank><IMG 
+style="BACKGROUND-IMAGE: none; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px" 
+title="command option esc" border=0 alt="command option esc" 
+src="http://storage.live.com/items/9A8B8BF501A38A36!2393?filename=command%20option%20esc.png" 
+width=376 height=320></A></P>
+<P>对应的直接关闭当前的程序的快捷键为：</P>
+<P>Command+Option+Shift+ESC</P>
+<P>长按2,3秒左右，即可直接强制关闭当前程序了。</P>
+<P>&nbsp;</P>
+<P>更多办法可参考：<A href="http://www.westgoo.com/Apple/38.html" 
+target=_blank>六种方法强制关闭Mac程序</A></P>
+<P>&nbsp;</P>
+<P><FONT color=#0000ff><STRONG>10.如何关闭/退出 iTunes</STRONG></FONT></P>
+<P>双击音乐，用iTunes打开并播放了，界面如下：</P>
+<P><A 
+href="http://storage.live.com/items/9A8B8BF501A38A36!2394?filename=iTunes%20playing%20music.png" 
+target=_blank><IMG 
+style="BACKGROUND-IMAGE: none; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px" 
+title="iTunes playing music" border=0 alt="iTunes playing music" 
+src="http://storage.live.com/items/9A8B8BF501A38A36!2394?filename=iTunes%20playing%20music.png" 
+width=644 height=161></A></P>
+<P>后来才知道，当鼠标移动到顶端，会自动出现iTunes的工具栏：</P>
+<P><A 
+href="http://storage.live.com/items/9A8B8BF501A38A36!2395?filename=show%20iTunes%20toolbar.png" 
+target=_blank><IMG 
+style="BACKGROUND-IMAGE: none; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px" 
+title="show iTunes toolbar" border=0 alt="show iTunes toolbar" 
+src="http://storage.live.com/items/9A8B8BF501A38A36!2395?filename=show%20iTunes%20toolbar.png" 
+width=644 height=161></A></P>
+<P>其就像QQ等软件的靠边自动隐藏一样。</P>
+<P>此时，就可以通过iTunes-&gt;退出iTunes：</P>
+<P><A 
+href="http://storage.live.com/items/9A8B8BF501A38A36!2396?filename=quit%20iTunes.png" 
+target=_blank><IMG 
+style="BACKGROUND-IMAGE: none; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px" 
+title="quit iTunes" border=0 alt="quit iTunes" 
+src="http://storage.live.com/items/9A8B8BF501A38A36!2396?filename=quit%20iTunes.png" 
+width=644 height=227></A></P>
+<P>来实现退出iTunes了，否则，就像刚开始，还真的不知道如何退出iTunes呢。</P>
+<P>因为就算按了F9，也只能看到iTunes，而无法关闭它。</P>
+<P>&nbsp;</P>
+<P><STRONG><FONT 
+color=#0000ff>11.如何查看当前Mac版本信息，以及其他系统信息，和当前已安装了哪些软件</FONT></STRONG></P>
+<P>由于virtualBox中安装mac后，<A 
+href="http://www.crifan.com/click_about_this_mac_will_rest_on_virtualbox/" 
+target=_blank><U><FONT 
+color=#0000ff>无法点击左上角的苹果图标查看“关于本机”</FONT></U></A>，所以，一直不知道如何查看当前Mac的版本以及相关的其他系统信息。</P>
+<P>后来无意间折腾出来了：</P>
+<P>Launch-&gt;实用工具-&gt;系统信息-&gt;软件-&gt;系统软件概览，即可看到Mac的版本信息：</P>
+<P><A 
+href="file:///C:/Users/CLi/AppData/Local/Temp/WindowsLiveWriter-1313852349/supfiles138BBD5/Launchpad-2.png"><IMG 
+style="BACKGROUND-IMAGE: none; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px" 
+title="Launchpad 实用工具" border=0 alt="Launchpad 实用工具" 
+src="file:///C:/Users/CLi/AppData/Local/Temp/WindowsLiveWriter-1313852349/supfiles138BBD5/Launchpad-_thumb.png" 
+width=641 height=484></A></P>
+<P><A 
+href="file:///C:/Users/CLi/AppData/Local/Temp/WindowsLiveWriter-1313852349/supfiles138BBD5/6.png"><IMG 
+style="BACKGROUND-IMAGE: none; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px" 
+title=系统信息 border=0 alt=系统信息 
+src="file:///C:/Users/CLi/AppData/Local/Temp/WindowsLiveWriter-1313852349/supfiles138BBD5/_thumb1.png" 
+width=641 height=484></A></P>
+<P><A 
+href="file:///C:/Users/CLi/AppData/Local/Temp/WindowsLiveWriter-1313852349/supfiles138BBD5/-21.png"><IMG 
+style="BACKGROUND-IMAGE: none; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px" 
+title="软件 系统软件概览" border=0 alt="软件 系统软件概览" 
+src="file:///C:/Users/CLi/AppData/Local/Temp/WindowsLiveWriter-1313852349/supfiles138BBD5/-_thumb1%5B1%5D.png" 
+width=606 height=484></A></P>
+<P>而对于系统信息，也可以点击菜单中的 文件-&gt;导出为文本：</P>
+<P><A 
+href="file:///C:/Users/CLi/AppData/Local/Temp/WindowsLiveWriter-1313852349/supfiles138BBD5/-3.png"><IMG 
+style="BACKGROUND-IMAGE: none; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px" 
+title="文件 导出为文本" border=0 alt="文件 导出为文本" 
+src="file:///C:/Users/CLi/AppData/Local/Temp/WindowsLiveWriter-1313852349/supfiles138BBD5/-_thumb1.png" 
+width=557 height=334></A></P>
+<P>将其导出为RTF文件，然后在<A 
+href="http://www.crifan.com/virtualbox_mac_and_win7_share_folder_and_file/" 
+target=_blank><U><FONT color=#0000ff>用smb复制到win7共享文件夹</FONT></U></A>中。</P>
+<P>我此时看到的信息，已经更新之后的了，此处贴出导出的rtf中，和系统相关一些信息：</P>
+<P>&nbsp;</P>
+<BLOCKQUOTE>
+<P>&nbsp;</P>
+<P>Developer：</P>
+<P>Developer Information：</P>
+<P>&nbsp; Version：&nbsp;&nbsp;&nbsp; <STRONG><FONT color=#ff0000>4.4.1 (4F1003) 
+<BR></FONT></STRONG>&nbsp; Location：&nbsp;&nbsp;&nbsp; <STRONG><FONT 
+color=#ff0000>/Applications/Xcode.app <BR></FONT></STRONG>&nbsp; Applications： 
+<BR>&nbsp; Xcode：&nbsp;&nbsp;&nbsp; <FONT color=#ff0000>4.4.1 (1488)</FONT> 
+<BR>&nbsp; Instruments：&nbsp;&nbsp;&nbsp; <FONT color=#ff0000>4.4 (4445) 
+<BR></FONT>&nbsp; SDKs： <BR><FONT color=#ff0000>&nbsp; Mac OS X： <BR>&nbsp; 
+10.7：&nbsp;&nbsp;&nbsp; (11E52) <BR>&nbsp; 10.8：&nbsp;&nbsp;&nbsp; (12A264) 
+<BR>&nbsp; iPhone OS： <BR>&nbsp; 5.1：&nbsp;&nbsp;&nbsp; (9B176) <BR>&nbsp; 
+iPhone Simulator： <BR>&nbsp; 5.1：&nbsp;&nbsp;&nbsp; (9B176)</FONT></P>
+<P>串行 ATA：</P>
+<P>Intel ICH8-M AHCI：</P>
+<P>&nbsp; 供应商：&nbsp;&nbsp;&nbsp; Intel <BR>&nbsp; 产品：&nbsp;&nbsp;&nbsp; ICH8-M 
+AHCI <BR>&nbsp; 链接速度：&nbsp;&nbsp;&nbsp; 3 千兆位 <BR>&nbsp; 
+协商的链接速度：&nbsp;&nbsp;&nbsp; 3 千兆位 <BR>&nbsp; 描述：&nbsp;&nbsp;&nbsp; AHCI Version 
+1.10 Supported</P>
+<P>VBOX HARDDISK：</P>
+<P>&nbsp; 容量：&nbsp;&nbsp;&nbsp; 42.95 GB（42,949,672,960 字节） <BR>&nbsp; 
+型号：&nbsp;&nbsp;&nbsp; VBOX 
+HARDDISK&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<BR>&nbsp; 修正版：&nbsp;&nbsp;&nbsp; 1.000000 <BR>&nbsp; 序列号：&nbsp;&nbsp;&nbsp; 
+VB76c10308-b76cc054 <BR>&nbsp; 原生命令队列：&nbsp;&nbsp;&nbsp; 是 <BR>&nbsp; 
+队列深度：&nbsp;&nbsp;&nbsp; 32 <BR>&nbsp; 活动盘片：&nbsp;&nbsp;&nbsp; 否 <BR>&nbsp; 
+可拆卸的驱动器：&nbsp;&nbsp;&nbsp; 否 <BR>&nbsp; BSD 名称：&nbsp;&nbsp;&nbsp; disk0 
+<BR>&nbsp; 介质类型：&nbsp;&nbsp;&nbsp; 旋转 <BR>&nbsp; 分区图类型：&nbsp;&nbsp;&nbsp; 
+GPT（GUID 分区表） <BR>&nbsp; S.M.A.R.T. 状态：&nbsp;&nbsp;&nbsp; 不支持 <BR>&nbsp; 宗卷： 
+<BR>disk0s1： <BR>&nbsp; 容量：&nbsp;&nbsp;&nbsp; 209.7 MB（209,715,200 字节） 
+<BR>&nbsp; BSD 名称：&nbsp;&nbsp;&nbsp; disk0s1 <BR>&nbsp; 内容：&nbsp;&nbsp;&nbsp; 
+EFI <BR>Mac OS X Lion Multi CPU： <BR>&nbsp; 容量：&nbsp;&nbsp;&nbsp; 42.61 
+GB（42,605,699,072 字节） <BR>&nbsp; 可用：&nbsp;&nbsp;&nbsp; 28.44 GB（28,440,154,112 
+字节） <BR>&nbsp; 可写：&nbsp;&nbsp;&nbsp; 是 <BR>&nbsp; 文件系统：&nbsp;&nbsp;&nbsp; 日志式 
+HFS+ <BR>&nbsp; BSD 名称：&nbsp;&nbsp;&nbsp; disk0s2 <BR>&nbsp; 
+装载点：&nbsp;&nbsp;&nbsp; / <BR>&nbsp; 内容：&nbsp;&nbsp;&nbsp; Apple_HFS</P>
+<P>以太网卡：</P>
+<P>ethernet：</P>
+<P>&nbsp; 类型：&nbsp;&nbsp;&nbsp; 以太网控制器 <BR>&nbsp; 总线：&nbsp;&nbsp;&nbsp; PCI 
+<BR>&nbsp; 供应商 ID：&nbsp;&nbsp;&nbsp; 0x8086 <BR>&nbsp; 设备 ID：&nbsp;&nbsp;&nbsp; 
+0x1004 <BR>&nbsp; 子系统供应商 ID：&nbsp;&nbsp;&nbsp; 0x8086 <BR>&nbsp; 子系统 
+ID：&nbsp;&nbsp;&nbsp; 0x1004 <BR>&nbsp; 修正版 ID：&nbsp;&nbsp;&nbsp; 0x0002 
+<BR>&nbsp; BSD 名称：&nbsp;&nbsp;&nbsp; en0 <BR>&nbsp; Kext 名称：&nbsp;&nbsp;&nbsp; 
+AppleIntel8254XEthernet.kext <BR>&nbsp; 位置：&nbsp;&nbsp;&nbsp; 
+/System/Library/Extensions/IONetworkingFamily.kext/Contents/PlugIns/AppleIntel8254XEthernet.kext 
+<BR>&nbsp; 版本：&nbsp;&nbsp;&nbsp; 2.1.3b1</P>
+<P>位置：</P>
+<P>自动：</P>
+<P>&nbsp; 活跃位置：&nbsp;&nbsp;&nbsp; 是 <BR>&nbsp; 服务： <BR>以太网： <BR>&nbsp; 
+类型：&nbsp;&nbsp;&nbsp; 以太网 <BR>&nbsp; BSD 设备名称：&nbsp;&nbsp;&nbsp; en0 <BR>&nbsp; 
+硬件 (MAC) 地址：&nbsp;&nbsp;&nbsp; 08:00:27:43:b9:47 <BR>&nbsp; IPv4： <BR>&nbsp; 
+配置方法：&nbsp;&nbsp;&nbsp; DHCP <BR>&nbsp; IPv6： <BR>&nbsp; 配置方法：&nbsp;&nbsp;&nbsp; 
+自动 <BR>&nbsp; 代理： <BR>&nbsp; 异常列表：&nbsp;&nbsp;&nbsp; *.local, 169.254/16 
+<BR>&nbsp; FTP 被动模式：&nbsp;&nbsp;&nbsp; 是</P>
+<P>网络：</P>
+<P>以太网：</P>
+<P>&nbsp; 类型：&nbsp;&nbsp;&nbsp; 以太网 <BR>&nbsp; 硬件：&nbsp;&nbsp;&nbsp; 以太网 
+<BR>&nbsp; BSD 设备名称：&nbsp;&nbsp;&nbsp; en0 <BR>&nbsp; IPv4 地址：&nbsp;&nbsp;&nbsp; 
+192.168.3.102 <BR>&nbsp; IPv4： <BR>&nbsp; 地址：&nbsp;&nbsp;&nbsp; 192.168.3.102 
+<BR>&nbsp; 配置方法：&nbsp;&nbsp;&nbsp; DHCP <BR>&nbsp; 接口名称：&nbsp;&nbsp;&nbsp; en0 
+<BR>&nbsp; （此处省略。。。。。。。）</P>
+<P>诊断：</P>
+<P>开机自检：</P>
+<P>&nbsp; 上一次运行：&nbsp;&nbsp;&nbsp; 12-8-15 上午10:24 <BR>&nbsp; 
+结果：&nbsp;&nbsp;&nbsp; 已通过</P>
+<P>软件：</P>
+<P>系统软件概览：</P>
+<P>&nbsp; 系统版本：&nbsp;&nbsp;&nbsp; <STRONG><FONT color=#ff0000>Mac OS X 10.7.4 
+(11E53) <BR></FONT></STRONG>&nbsp; 内核版本：&nbsp;&nbsp;&nbsp; <STRONG><FONT 
+color=#ff0000>Darwin 11.4.0</FONT></STRONG> <BR>&nbsp; 启动宗卷：&nbsp;&nbsp;&nbsp; 
+Mac OS X Lion Multi CPU <BR>&nbsp; 启动模式：&nbsp;&nbsp;&nbsp; 正常 <BR>&nbsp; 
+电脑名称：&nbsp;&nbsp;&nbsp; “li”的“iMac” <BR>&nbsp; 用户名：&nbsp;&nbsp;&nbsp; li crifan 
+(crifan) <BR>&nbsp; 安全虚拟内存：&nbsp;&nbsp;&nbsp; 已启用 <BR>&nbsp; 64 
+位内核和功能扩展：&nbsp;&nbsp;&nbsp; 否 <BR>&nbsp; 启动后的时间长度：&nbsp;&nbsp;&nbsp; 3 分钟</P>
+<P>防火墙：</P>
+<P>防火墙设置：</P>
+<P>&nbsp; 模式：&nbsp;&nbsp;&nbsp; 允许所有传入连接 <BR>&nbsp; 防火墙记录：&nbsp;&nbsp;&nbsp; 是 
+<BR>&nbsp; 秘密行动模式：&nbsp;&nbsp;&nbsp; 否</P>
+<P>音频（内建）：</P>
+<P><FONT color=#ff0000><STRONG>Intel 高清晰度音频 (HDA)：</STRONG></FONT></P>
+<P>&nbsp; 音频 ID：&nbsp;&nbsp;&nbsp; 7</P>
+<P>耳机：</P>
+<P>&nbsp; 连接：&nbsp;&nbsp;&nbsp; 组合输出</P>
+<P>内置麦克风：</P>
+<P>&nbsp; 连接：&nbsp;&nbsp;&nbsp; 内部</P>
+<P>扬声器：</P>
+<P>&nbsp; 连接：&nbsp;&nbsp;&nbsp; 内部</P>
+<P>线路输入：</P>
+<P>&nbsp; 连接：&nbsp;&nbsp;&nbsp; 组合输入</P>
+<P>S/PDIF 光数码音频输出：</P>
+<P>&nbsp; 连接：&nbsp;&nbsp;&nbsp; 组合输出</P></BLOCKQUOTE>
+<P>&nbsp;</P>
+<P>类似地，也可以在 软件-&gt;应用程序 中查看当前系统所安装了哪些软件（类似于Windows中的 程序）：</P>
+<P><A 
+href="file:///C:/Users/CLi/AppData/Local/Temp/WindowsLiveWriter-1313852349/supfiles138BBD5/-2.png"><IMG 
+style="BACKGROUND-IMAGE: none; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px" 
+title="软件 应用程序" border=0 alt="软件 应用程序" 
+src="file:///C:/Users/CLi/AppData/Local/Temp/WindowsLiveWriter-1313852349/supfiles138BBD5/-_thumb.png" 
+width=576 height=484></A></P>

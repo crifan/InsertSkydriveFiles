@@ -1,0 +1,40 @@
+C#中动态刷新Treeview的TreeNode节点的图标
+
+【背景】
+想要实现类似于windows XP资源管理器中的树形列表中的，点击加号，可以展开文件夹的同时，对应节点的图标也变成打开的文件夹的图标。
+功能上，节点的展开Expand和闭合Collapse已经实现，现在需要实现对应打开的文件夹图标和关闭的文件夹图标的动态更新。
+
+【解决过程】
+1.先去网上找了对应的打开和关闭的文件夹的图标。
+从这里下载了对应的图标：
+http://www.icosky.com/icon/folder-open-13-icon/
+下载后，添加到对应的ImageList中，该ImageList是之前就已经绑定到对应的TreeView中的。
+
+2.刚开始就已经知道节点有ImageIndex，所以，在TreeView的AfterExpand事件中添加了对应的代码：
+clickedNode.ImageIndex = folderOpenIconIdx;
+结果未生效，图标还是默认的关闭的文件夹的图标，没有变成对应的打开的文件夹所对应的图标。
+
+3.然后在该行代码后面添加了对应的refresh：
+trvFolder.Refresh();
+也还是没用，图标还是没变。
+
+4.后来终于突然想起来了，其实此处图标没变的原因，是因为此时我测试的节点，是出于选中Selected的状态的某个文件夹节点，
+而对应的图标是由SelectedImageIndex所指定的，而ImageIndex是对应该节点未选中时候的图标。
+所以只是去改ImageIndex而不改SelectedImageIndex，对于当前该选中的节点来说，图标肯定不会变化的了。
+所以解决办法很简单，就是同时也给SelectedImageIndex赋值，即：
+clickedNode.ImageIndex = folderOpenIconIdx;
+clickedNode.SelectedImageIndex = folderOpenIconIdx;
+即可实现对应的图标的变化。
+
+效果如图：
+
+文件夹未展开时候的状态：
+
+
+
+文件夹展开时候的状态：
+
+
+【总结】
+对于TreeView中的TreeNode，对应的图标，是分选中时候的SelectedImageIndex，和未选中时候的ImageIndex。
+在改为自己要的图标的时候，千万记得别忘了都要考虑进去，而别只用了一个，忽略了另外一个。

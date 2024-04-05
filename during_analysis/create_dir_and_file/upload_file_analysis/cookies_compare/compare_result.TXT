@@ -1,0 +1,17 @@
+比较的结果，需要处理的cookie：
+MSNPPAuth=CssT4!AAtyQiyrtvCJ*r4uPFgngAl8KaLR3LIPFAVLNn7kpUrMAUAbUrvPe5wb5OUDz9hXT!ze8isPzyCF325AhkWLs2nxmmBzXo9Oi!KD0FSd51qJntlVFkvgRPnpatqFS0z5lRvdXhOpeY0ZmkwxRpZ3dYUaDpI8lGwA1tqVbDaRUkEBlqg65kFcwLEqaJAXx5FReVvWCMEs46Pc!cIiBKwb*iR4auv7NodKQzddU*ARNrA4iqhcY4WhQBhxwVAi5CGTQUQnfDNhNiBeLrZ!RViZPjNEb*xy3GIDGMc1OmOdPvqnWnGgA5xYbnFGeLHrlaPGr45pNcRGpCFhe5YfIxRt!rfwXwMUuypglbpOGHfLRs0V1pcEf7p93LeeoHFCLXv3OjTS!mRAGH5WBEqQvVNK90QPK3CPOxwLaYG2bb8Jncn5DQForcLOTl3tK8oP9tylnMdpyZsZBpVk4Es696f0WVMpCHFQVRCGg3!u6Ns*1SH0eEwtCpy6WUhE823A$$;
+是需要验证生成的。
+ SLVersion=0.0;             Chrome和Firefox是的0.0，IE是4.0.50401，经过debug分析，得知只有window MSIE才可能有SLVersion，否则Chrome和Firefox，的确是不支持SliverLight的，所以也就是0.0版本了。
+ SLSupportedAgent=true;     固定的值
+ BP=FR=&ST=&l=SDX.Skydrive; 固定的值
+ MUID=051CDA040EEF6E8C0ECFD9070AEF6E52&TUID=1; 看看是否是代码生成的，或者是根本不需要考虑这个cookie
+ wlxS=wpc=1&WebIM=1;        固定的值
+ pres=9a8b8bf501a38a36=1;   固定的值
+ LD=9a2a64c8-0fce-4195-8fc4-17174b9fb774_003eac0f968_15217_1328970832185=E14589~ClickedSelected.Messaging.IMStart~IMMode:Full;
+9a2a64c8-0fce-4195-8fc4-17174b9fb774的部分是xid的值；003eac0f968部分的003是固定的，eac0f968是每个都不一样；15217都一样；1328970832185好像是时间millisec；E14589中的数值，都一样；~ClickedSelected.Messaging.IMStart~IMMode:Full部分是固定的。
+
+ HIC=9a8b8bf501a38a36|4|110| ： 4最好，或者是3
+ 
+ 
+
+http://code.google.com/p/duplicati/source/browse/trunk/Duplicati/Library/Backend/SkyDrive/SkyDriveSession.cs?r=820
